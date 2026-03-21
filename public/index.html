@@ -313,6 +313,7 @@
       <a href="#object">Mosque object</a>
     </div>
     <div class="aside-footer">
+      <button onclick="openContact()" style="width:100%;background:var(--gold);color:var(--ink);border:none;border-radius:2px;padding:10px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:500;cursor:pointer;margin-bottom:14px;" onmouseover="this.style.opacity='.85'" onmouseout="this.style.opacity='1'">Request API Key</button>
       <p>Balkan Mosques API<br>by Ervis Cela<br>v2.0 · 2025</p>
     </div>
   </aside>
@@ -518,5 +519,34 @@ x-api-key: xhamia_live_your_key_here</code></pre>
 
   </main>
 </div>
+
+<!-- CONTACT POPUP -->
+<div id="contact-overlay" onclick="if(event.target===this)closeContact()" style="display:none;position:fixed;inset:0;background:rgba(15,14,12,0.6);z-index:300;align-items:center;justify-content:center;backdrop-filter:blur(2px);">
+  <div style="background:var(--paper);border:1px solid var(--border);border-radius:4px;padding:40px;width:420px;max-width:95vw;">
+    <div style="font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">API Access</div>
+    <div style="font-family:var(--serif);font-size:26px;margin-bottom:12px;">Request a key</div>
+    <p style="color:var(--muted);font-size:13px;font-weight:300;margin-bottom:28px;line-height:1.7;">To get an API key for the Balkan Mosques API, send an email with your name, your app or project name, and a short description of how you plan to use the data.</p>
+    <div style="background:var(--paper2);border:1px solid var(--border);border-radius:3px;padding:16px 20px;margin-bottom:24px;">
+      <div style="font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;">Contact</div>
+      <a href="mailto:celaervis22@gmail.com" style="font-family:var(--mono);font-size:14px;color:var(--gold);text-decoration:none;font-weight:500;">celaervis22@gmail.com</a>
+    </div>
+    <div style="display:flex;gap:10px;justify-content:flex-end;">
+      <button onclick="closeContact()" style="background:transparent;border:1px solid var(--border);border-radius:2px;padding:9px 20px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;cursor:pointer;color:var(--muted);">Close</button>
+      <a href="mailto:celaervis22@gmail.com?subject=API Key Request — Balkan Mosques&body=Hello Ervis,%0D%0A%0D%0AMy name is: %0D%0AApp / Project name: %0D%0AHow I plan to use the API: %0D%0A" style="background:var(--ink);color:var(--paper);border:none;border-radius:2px;padding:9px 20px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;">Open Email</a>
+    </div>
+  </div>
+</div>
+<script>
+  function openContact() {
+    var el = document.getElementById('contact-overlay');
+    el.style.display = 'flex';
+  }
+  function closeContact() {
+    document.getElementById('contact-overlay').style.display = 'none';
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeContact();
+  });
+</script>
 </body>
 </html>
