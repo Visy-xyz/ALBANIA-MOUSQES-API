@@ -195,7 +195,7 @@
   async function login() {
     const pwd = document.getElementById('pwd-input').value.trim();
     if (!pwd) return;
-    const res = await fetch(`${BASE}/api/admin?action=stats`, {
+    const res = await fetch(`${BASE}/api/admin?action=ping`, {
       headers: { 'x-admin-password': pwd }
     });
     if (res.ok) {

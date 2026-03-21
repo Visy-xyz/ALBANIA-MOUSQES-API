@@ -18,8 +18,14 @@ module.exports = async (req, res) => {
   if (req.method === "OPTIONS") return res.status(200).end();
   if (!isAdminAuthorized(req)) return sendError(res, 401, "Invalid admin password");
 
-  const db = getDB();
   const { action, id } = req.query;
+
+  // ── ping ── just checks password, no Firebase needed
+  if (action === "ping") {
+    return res.status(200).json({ success: true, message: "Authorized" });
+  }
+
+  const db = getDB();
 
   // ── GET keys ── List all API keys
   if (req.method === "GET" && action === "keys") {
@@ -31,7 +37,6 @@ module.exports = async (req, res) => {
     const data = snap.docs.map((doc) => ({
       id: doc.id,
       ...doc.data(),
-      // Convert Firestore timestamps to ISO strings for JSON
       created_at: doc.data().created_at?.toDate?.().toISOString(),
       last_used_at: doc.data().last_used_at?.toDate?.().toISOString() || null,
     }));
@@ -51,7 +56,6 @@ module.exports = async (req, res) => {
       db.collection("request_logs").where("created_at", ">=", oneHourAgo).count().get(),
     ]);
 
-    // Usage per key in last 24h
     const keyUsage = {};
     daySnap.docs.forEach((doc) => {
       const k = doc.data().api_key;
@@ -85,7 +89,6 @@ module.exports = async (req, res) => {
       last_used_at: null,
     };
 
-    // The key itself is the document ID — makes lookups O(1)
     await db.collection("api_keys").doc(newKey).set(keyData);
 
     return res.status(201).json({
@@ -106,10 +109,7 @@ module.exports = async (req, res) => {
     const newStatus = !snap.data().is_active;
     await docRef.update({ is_active: newStatus });
 
-    return res.status(200).json({
-      success: true,
-      data: { id, is_active: newStatus },
-    });
+    return res.status(200).json({ success: true, data: { id, is_active: newStatus } });
   }
 
   // ── DELETE ── Permanently delete a key
@@ -117,7 +117,6 @@ module.exports = async (req, res) => {
     if (!id) return sendError(res, 400, "id is required");
 
     await db.collection("api_keys").doc(id).delete();
-
     return res.status(200).json({ success: true, message: "Key deleted" });
   }
 
