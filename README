@@ -1,0 +1,90 @@
+# 🕌 Xhamia API
+
+REST API for mosque locations across Albania — **869 records** with name, city, address, and GPS coordinates.
+
+## Quick start
+
+### 1. Clone and set up the project
+
+```bash
+git clone https://github.com/YOUR_USERNAME/xhamia-api.git
+cd xhamia-api
+npm install -g vercel
+```
+
+### 2. Add your data
+
+Copy your `mosques.json` file into the `data/` folder:
+
+```
+xhamia-api/
+├── api/
+│   └── mosques.js      ← API handler
+├── data/
+│   └── mosques.json    ← your JSON data (add this)
+├── public/
+│   └── index.html      ← API documentation page
+├── vercel.json
+├── package.json
+└── README.md
+```
+
+### 3. Deploy to Vercel
+
+```bash
+vercel
+```
+
+Follow the prompts. When asked about settings, press Enter to accept defaults.
+
+### 4. Set your secret API key
+
+After deploy, go to your [Vercel dashboard](https://vercel.com) → Project → Settings → Environment Variables.
+
+Add:
+
+| Key | Value |
+|-----|-------|
+| `API_KEY` | `any-strong-secret-you-choose` |
+
+Then redeploy:
+
+```bash
+vercel --prod
+```
+
+---
+
+## API reference
+
+See the full docs at `https://your-project.vercel.app` after deploying.
+
+### Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/api/mosques` | List all (paginated) |
+| GET | `/api/mosques?id=007` | Get by ID |
+| GET | `/api/mosques?city=Tiranë` | Filter by city |
+| GET | `/api/mosques?name=Ethem` | Filter by name |
+
+### Authentication
+
+Pass your key in the request header:
+
+```
+x-api-key: YOUR_SECRET_KEY
+```
+
+### Example
+
+```bash
+curl "https://your-project.vercel.app/api/mosques?city=Shkodër&limit=10" \
+  -H "x-api-key: YOUR_SECRET_KEY"
+```
+
+---
+
+## Why the repo can be public
+
+Your API key **never appears in the code**. It lives only in Vercel's encrypted environment variables. Even if someone reads the source, they cannot call the API without the key.

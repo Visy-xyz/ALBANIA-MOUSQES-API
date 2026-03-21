@@ -1,0 +1,10 @@
+{
+  "name": "xhamia-api",
+  "version": "1.0.0",
+  "description": "REST API for mosque locations across Albania",
+  "main": "api/mosques.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "license": "MIT"
+}

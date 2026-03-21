@@ -1,0 +1,6955 @@
+ [
+    {
+        "id": "001",
+        "name": "Xhamia Ahmetaq",
+        "city": "Ahmetaq, Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.433916,
+        "lng": 19.682254
+    },
+    {
+        "id": "002",
+        "name": "Xhamia Alarup",
+        "city": "Alarup, Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.865739,
+        "lng": 20.795885
+    },
+    {
+        "id": "003",
+        "name": "Xhamia Aliaj",
+        "city": "Aliaj, Malësi e Madhe",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.264375,
+        "lng": 19.421232
+    },
+    {
+        "id": "004",
+        "name": "Xhamia Allgjate",
+        "city": "Allgjate, Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.320026,
+        "lng": 19.705063
+    },
+    {
+        "id": "005",
+        "name": "Xhamia Ana e Malit",
+        "city": "Ana e Malit, Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.030977,
+        "lng": 19.415421
+    },
+    {
+        "id": "006",
+        "name": "Xhamia Arapaj",
+        "city": "Arapaj, Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.303783,
+        "lng": 19.504447
+    },
+    {
+        "id": "007",
+        "name": "Xhamia e Vjeter Arren",
+        "city": "Arren, Kukës",
+        "address": "Rruge Kukës–Peshkopi, tek varrezat e fshatit",
+        "lat": 41.915146,
+        "lng": 20.288659
+    },
+    {
+        "id": "008",
+        "name": "Xhamia Arrze",
+        "city": "Arrze, Devoll",
+        "address": "Rruge fshati, qender",
+        "lat": 40.500432,
+        "lng": 20.841836
+    },
+    {
+        "id": "009",
+        "name": "Xhamia Baban",
+        "city": "Baban, Devoll",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.633762,
+        "lng": 20.920918
+    },
+    {
+        "id": "010",
+        "name": "Xhamia Babine",
+        "city": "Babine, Tropojë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.388302,
+        "lng": 20.124982
+    },
+    {
+        "id": "011",
+        "name": "Xhamia Babje",
+        "city": "Babje, Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.160533,
+        "lng": 20.300598
+    },
+    {
+        "id": "012",
+        "name": "Xhamia Babunje",
+        "city": "Babunje, Lushnjë",
+        "address": "Rruge fshati, ne koder",
+        "lat": 40.883939,
+        "lng": 19.546985
+    },
+    {
+        "id": "013",
+        "name": "Xhamia Bago",
+        "city": "Bago, Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.159891,
+        "lng": 19.500896
+    },
+    {
+        "id": "014",
+        "name": "Xhamia Bago 2",
+        "city": "Bago, Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.153309,
+        "lng": 19.494378
+    },
+    {
+        "id": "015",
+        "name": "Xhamia Bahcallek",
+        "city": "Bahcallek, Shkodër",
+        "address": "Rruge fshati, tek Ura e Bahcallekut, buze Drinit",
+        "lat": 42.040770,
+        "lng": 19.493053
+    },
+    {
+        "id": "016",
+        "name": "Xhamia Bahute",
+        "city": "Bahute, Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.722926,
+        "lng": 20.437143
+    },
+    {
+        "id": "017",
+        "name": "Xhamia Bajkaj",
+        "city": "Bajkaj, Delvinë",
+        "address": "Rruge fshati, Jug",
+        "lat": 39.946511,
+        "lng": 20.042893
+    },
+    {
+        "id": "018",
+        "name": "Xhamia Bajram Curri",
+        "city": "Bajram Curri, Tropojë",
+        "address": "Rruga Mic Sokoli",
+        "lat": 42.355014,
+        "lng": 20.078978
+    },
+    {
+        "id": "019",
+        "name": "Xhamia Baldushk",
+        "city": "Baldushk, Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.198383,
+        "lng": 19.823443
+    },
+    {
+        "id": "020",
+        "name": "Xhamia Balez",
+        "city": "Balez, Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.144946,
+        "lng": 20.036714
+    },
+    {
+        "id": "021",
+        "name": "Xhamia Ballaban",
+        "city": "Ballaban, Përmet",
+        "address": "Rruga Nacionale SH74",
+        "lat": 40.413060,
+        "lng": 20.124489
+    },
+    {
+        "id": "022",
+        "name": "Xhamia Ballaj Emigrant",
+        "city": "Ballaj, Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.055445,
+        "lng": 19.539490
+    },
+    {
+        "id": "023",
+        "name": "Xhamia Ballaj Vendas",
+        "city": "Ballaj, Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.054925,
+        "lng": 19.554585
+    },
+    {
+        "id": "024",
+        "name": "Xhamia Ballsh",
+        "city": "Ballsh, Mallakastër",
+        "address": "Rruga Ramiz Aranitasi",
+        "lat": 40.599392,
+        "lng": 19.732495
+    },
+    {
+        "id": "025",
+        "name": "Xhamia Balshaj",
+        "city": "Balshaj, Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.161851,
+        "lng": 19.460482
+    },
+    {
+        "id": "026",
+        "name": "Xhamia Bamatat",
+        "city": "Bamatat, Delvinë",
+        "address": "Qender, Rruga Nacionale SH98",
+        "lat": 39.940355,
+        "lng": 20.065368
+    },
+    {
+        "id": "027",
+        "name": "Xhamia Banaj",
+        "city": "Banaj, Berat",
+        "address": "Rruge fshati",
+        "lat": 40.826929,
+        "lng": 19.837428
+    },
+    {
+        "id": "028",
+        "name": "Xhamia Barbullush",
+        "city": "Barbullush, Shkodër",
+        "address": "Rruga Barbullush - Bushat",
+        "lat": 41.929485,
+        "lng": 19.550187
+    },
+    {
+        "id": "029",
+        "name": "Xhamia Barç",
+        "city": "Barç, Korçë",
+        "address": "Rruge fshati",
+        "lat": 40.630129,
+        "lng": 20.801483
+    },
+    {
+        "id": "030",
+        "name": "Xhamia Bardhaj",
+        "city": "Bardhaj, Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.091166,
+        "lng": 19.549811
+    },
+    {
+        "id": "031",
+        "name": "Xhamia Bardhaj - Skenderbej",
+        "city": "Bardhaj - Skenderbej, Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.133637,
+        "lng": 20.552572
+    },
+    {
+        "id": "032",
+        "name": "Xhamia Bardhoc i Ri",
+        "city": "Bardhoc, Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.119579,
+        "lng": 20.517166
+    },
+    {
+        "id": "033",
+        "name": "Xhamia e Re Bardhoc",
+        "city": "Bardhoc, Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.110435,
+        "lng": 20.496372
+    },
+    {
+        "id": "034",
+        "name": "Xhamia Bastar i Mesem",
+        "city": "Bastar i Mesem, Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.442036,
+        "lng": 19.973277
+    },
+    {
+        "id": "035",
+        "name": "Xhamia Bastar Murrize",
+        "city": "Bastar Murrize, Tiranë",
+        "address": "Rruga e Arbrit",
+        "lat": 41.428608,
+        "lng": 19.997510
+    },
+    {
+        "id": "036",
+        "name": "Xhamia Ibn Tejmije Bathore",
+        "city": "Bathore, Kamëz, Tiranë",
+        "address": "Rruga Hotolisht",
+        "lat": 41.368473,
+        "lng": 19.779142
+    },
+    {
+        "id": "037",
+        "name": "Xhamia Vllezerit Baja",
+        "city": "Bathore, Kamëz, Tiranë",
+        "address": "Rruga Beselidhja",
+        "lat": 41.375724,
+        "lng": 19.785269
+    },
+    {
+        "id": "038",
+        "name": "Xhamia Bathore",
+        "city": "Bathore, Kamëz, Tiranë",
+        "address": "Rruga Demokracia",
+        "lat": 41.378898,
+        "lng": 19.801755
+    },
+    {
+        "id": "039",
+        "name": "Xhamia Begaj",
+        "city": "Begaj, Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.390677,
+        "lng": 20.103090
+    },
+    {
+        "id": "040",
+        "name": "Xhamia Begjunec",
+        "city": "Begjunec, Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.680214,
+        "lng": 20.448589
+    },
+    {
+        "id": "041",
+        "name": "Xhamia e vjeter Bejne",
+        "city": "Bejne, Mat",
+        "address": "Rruge fshati",
+        "lat": 41.509072,
+        "lng": 20.123088
+    },
+    {
+        "id": "042",
+        "name": "Xhamia Bele",
+        "city": "Bele, Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.050917,
+        "lng": 20.525722
+    },
+    {
+        "id": "043",
+        "name": "Xhamia Bellove",
+        "city": "Bellove, Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.696803,
+        "lng": 20.474151
+    },
+    {
+        "id": "044",
+        "name": "Xhamia Belorta",
+        "city": "Belorta, Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.667208,
+        "lng": 20.832183
+    },
+    {
+        "id": "045",
+        "name": "Xhamia Belsh",
+        "city": "Belsh, Elbasan",
+        "address": "Rruga Cezma e Vjeter",
+        "lat": 40.977812,
+        "lng": 19.889078
+    },
+    {
+        "id": "046",
+        "name": "Xhamia Belsh 2",
+        "city": "Belsh, Elbasan",
+        "address": "Rruga Xhamia",
+        "lat": 40.983724,
+        "lng": 19.894991
+    },
+    {
+        "id": "047",
+        "name": "Xhamia Bena",
+        "city": "Bena, Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.252300,
+        "lng": 20.135591
+    },
+    {
+        "id": "048",
+        "name": "Xhamia Beragozhde",
+        "city": "Beragozhde, Pogradec",
+        "address": "Rruge fshati",
+        "lat": 40.845716,
+        "lng": 20.657233
+    },
+    {
+        "id": "049",
+        "name": "Xhamia Mbret",
+        "city": "Berat",
+        "address": "Rruga Mihal Komnena",
+        "lat": 40.705679,
+        "lng": 19.952055
+    },
+    {
+        "id": "050",
+        "name": "Xhamia e Plumbit Berat",
+        "city": "Berat",
+        "address": "Rruga Gaqi Gjika",
+        "lat": 40.704522,
+        "lng": 19.955447
+    },
+    {
+        "id": "051",
+        "name": "Xhamia e Beqareve Berat",
+        "city": "Berat",
+        "address": "Rruga Antipatrea (tek ura e varur)",
+        "lat": 40.704707,
+        "lng": 19.950039
+    },
+    {
+        "id": "052",
+        "name": "Xhamia e Sahatit \"Hysen Pashes\"",
+        "city": "Berat",
+        "address": "Rruga Xhamia e Sahatit",
+        "lat": 40.706235,
+        "lng": 19.940317
+    },
+    {
+        "id": "053",
+        "name": "Xhamia Telekave Berat",
+        "city": "Berat",
+        "address": "Rruga Veri Zaloshnja",
+        "lat": 40.704785,
+        "lng": 19.954473
+    },
+    {
+        "id": "054",
+        "name": "Xhamia e Kuqe ne Kalane e Beratit",
+        "city": "Berat",
+        "address": "Rrugica Mbrica, Kalaja e Beratit",
+        "lat": 40.707042,
+        "lng": 19.945864
+    },
+    {
+        "id": "055",
+        "name": "Xhamia e Bardhe ne Kalane e Beratit",
+        "city": "Berat",
+        "address": "Kalaja e Beratit",
+        "lat": 40.708380,
+        "lng": 19.945079
+    },
+    {
+        "id": "056",
+        "name": "Xhamia Uznovë",
+        "city": "Berat",
+        "address": "Lagjja Uznovë",
+        "lat": 40.696635,
+        "lng": 19.978613
+    },
+    {
+        "id": "057",
+        "name": "Xhamia Berdice e mesme",
+        "city": "Berdice e Mesme, Shkodër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.021788,
+        "lng": 19.486348
+    },
+    {
+        "id": "058",
+        "name": "Xhamia Berdice e Siperme",
+        "city": "Berdice e Siperme, Shkodër",
+        "address": "Rruga Shkoder - Tirane",
+        "lat": 42.031192,
+        "lng": 19.504285
+    },
+    {
+        "id": "059",
+        "name": "Xhamia Berxull",
+        "city": "Berxull, Tiranë",
+        "address": "Rruga Pëllumbat e Paqes",
+        "lat": 41.378871,
+        "lng": 19.696559
+    },
+    {
+        "id": "060",
+        "name": "Xhamia Ebu bekr",
+        "city": "Berxull, Tiranë",
+        "address": "Rruga Industriale",
+        "lat": 41.372638,
+        "lng": 19.682555
+    },
+    {
+        "id": "061",
+        "name": "Xhamia Berzeshte",
+        "city": "Berzeshte, Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.053158,
+        "lng": 20.456138
+    },
+    {
+        "id": "062",
+        "name": "Xhamia Berzhite",
+        "city": "Berzhite, Tiranë",
+        "address": "Rruga Nacionale SH3, tek varrezat e fshatit",
+        "lat": 41.246610,
+        "lng": 19.901716
+    },
+    {
+        "id": "063",
+        "name": "Xhamia Besh",
+        "city": "Besh, Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.416495,
+        "lng": 19.910493
+    },
+    {
+        "id": "064",
+        "name": "Xhamia Halilaj - Bicaj",
+        "city": "Bicaj, Kukës",
+        "address": "Rruge fshati, veri",
+        "lat": 41.996840,
+        "lng": 20.415576
+    },
+    {
+        "id": "065",
+        "name": "Xhamia Bicaj",
+        "city": "Bicaj, Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.995024,
+        "lng": 20.411402
+    },
+    {
+        "id": "066",
+        "name": "Xhamia Osmanaj - Bicaj",
+        "city": "Bicaj, Kukës",
+        "address": "Rruge fshati, jug",
+        "lat": 41.989784,
+        "lng": 20.413971
+    },
+    {
+        "id": "067",
+        "name": "Xhamia Bilisht",
+        "city": "Bilishtit, Devoll",
+        "address": "Rruga Sami Frasheri",
+        "lat": 40.629745,
+        "lng": 20.988210
+    },
+    {
+        "id": "068",
+        "name": "Musala Bilisht",
+        "city": "Bilishtit, Devoll",
+        "address": "Shetitorja Fuat Babani",
+        "lat": 40.625426,
+        "lng": 20.985362
+    },
+    {
+        "id": "069",
+        "name": "Xhamia Bitincke",
+        "city": "Bitincke, Devoll",
+        "address": "Rruge fshati, qender",
+        "lat": 40.646321,
+        "lng": 20.984048
+    },
+    {
+        "id": "070",
+        "name": "Xhamia Bixellenje",
+        "city": "Bixellenje, Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.157495,
+        "lng": 20.068816
+    },
+    {
+        "id": "071",
+        "name": "Xhamia Blace",
+        "city": "Blace, Pogradec",
+        "address": "Rruge fshati",
+        "lat": 40.845223,
+        "lng": 20.765791
+    },
+    {
+        "id": "072",
+        "name": "Xhamia Blerimaj",
+        "city": "Blerimaj, Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.153296,
+        "lng": 19.555487
+    },
+    {
+        "id": "073",
+        "name": "Xhamia Bletas",
+        "city": "Bletas, Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.847347,
+        "lng": 20.796646
+    },
+    {
+        "id": "074",
+        "name": "Xhamia Bllate e eperme",
+        "city": "Bllate e eperme Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.563627,
+        "lng": 20.489496
+    },
+    {
+        "id": "075",
+        "name": "Xhamia Bllate e poshteme",
+        "city": "Bllate e poshteme Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.561353,
+        "lng": 20.476704
+    },
+    {
+        "id": "076",
+        "name": "Xhamia Bllice e Eperme",
+        "city": "Bllice e Eperme Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.744871,
+        "lng": 20.366828
+    },
+    {
+        "id": "077",
+        "name": "Xhamia Bllice e Poshtme",
+        "city": "Bllice e Poshtme Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.747753,
+        "lng": 20.362925
+    },
+    {
+        "id": "078",
+        "name": "Xhamia Bobot",
+        "city": "Bobot Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.055504,
+        "lng": 19.392888
+    },
+    {
+        "id": "079",
+        "name": "Xhamia Boks",
+        "city": "Boks Shkodër",
+        "address": "Rruga e Madhe",
+        "lat": 42.119824,
+        "lng": 19.572073
+    },
+    {
+        "id": "080",
+        "name": "Xhamia Borake - Koxhas",
+        "city": "Borake - Koxhas Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.361232,
+        "lng": 19.569414
+    },
+    {
+        "id": "081",
+        "name": "Xhamia Boric i Madh",
+        "city": "Boric i Madh Malësi e Madhe",
+        "address": "Rruga Hava Aliaj, qender",
+        "lat": 42.130948,
+        "lng": 19.499454
+    },
+    {
+        "id": "082",
+        "name": "Xhamia Borizanë",
+        "city": "Borizanë Krujë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.533156,
+        "lng": 19.720323
+    },
+    {
+        "id": "083",
+        "name": "Xhamia Borje",
+        "city": "Borje Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.013660,
+        "lng": 20.587499
+    },
+    {
+        "id": "084",
+        "name": "Xhamia Borove",
+        "city": "Borove Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.350396,
+        "lng": 20.429549
+    },
+    {
+        "id": "085",
+        "name": "Xhamia Borovjan",
+        "city": "Borovjan Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.709625,
+        "lng": 20.405220
+    },
+    {
+        "id": "086",
+        "name": "Xhamia ne Kalane e Borshit",
+        "city": "Borsh Sarandë",
+        "address": "Kalaja e Borshit",
+        "lat": 40.069677,
+        "lng": 19.856813
+    },
+    {
+        "id": "087",
+        "name": "Xhamia Boville",
+        "city": "Boville, Kamez Tiranë",
+        "address": "Rruga Besnik Hidri",
+        "lat": 41.365689,
+        "lng": 19.764411
+    },
+    {
+        "id": "088",
+        "name": "Xhamia Bradashesh",
+        "city": "Bradashesh Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.101577,
+        "lng": 20.022347
+    },
+    {
+        "id": "089",
+        "name": "Xhamia Brar 2",
+        "city": "Brar Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.375831,
+        "lng": 19.854138
+    },
+    {
+        "id": "090",
+        "name": "Xhamia Brar",
+        "city": "Brar Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.395566,
+        "lng": 19.867376
+    },
+    {
+        "id": "091",
+        "name": "Xhamia Brekije",
+        "city": "Brekije Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.992609,
+        "lng": 20.511350
+    },
+    {
+        "id": "092",
+        "name": "Xhamia Brest i Eperm",
+        "city": "Brest i Eperm Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.721040,
+        "lng": 20.378258
+    },
+    {
+        "id": "093",
+        "name": "Xhamia Brezhdan",
+        "city": "Brezhdan Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.684823,
+        "lng": 20.384957
+    },
+    {
+        "id": "094",
+        "name": "Xhamia Broshke",
+        "city": "Broshke Elbasan",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.060724,
+        "lng": 19.921200
+    },
+    {
+        "id": "095",
+        "name": "Xhamia Bruke",
+        "city": "Bruke Tiranë",
+        "address": "Rruga Shkëndija",
+        "lat": 41.384598,
+        "lng": 19.719200
+    },
+    {
+        "id": "096",
+        "name": "Xhamia Bruz Mal",
+        "city": "Bruz Mal Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.483115,
+        "lng": 19.893042
+    },
+    {
+        "id": "097",
+        "name": "Xhamia Bubq",
+        "city": "Bubq Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.469436,
+        "lng": 19.658286
+    },
+    {
+        "id": "098",
+        "name": "Xhamia Bucaj",
+        "city": "Bucaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.426106,
+        "lng": 20.166381
+    },
+    {
+        "id": "099",
+        "name": "Xhamia Buçimas",
+        "city": "Buçimas Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.892334,
+        "lng": 20.682077
+    },
+    {
+        "id": "100",
+        "name": "Xhamia Budan - Llukaxhiu",
+        "city": "Budan Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.253560,
+        "lng": 20.191648
+    },
+    {
+        "id": "101",
+        "name": "Xhamia Budull",
+        "city": "Budull Krujë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.450356,
+        "lng": 19.670411
+    },
+    {
+        "id": "102",
+        "name": "Xhamia Bujqes",
+        "city": "Bujqes Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.071070,
+        "lng": 20.037698
+    },
+    {
+        "id": "103",
+        "name": "Xhamia Bulcesh i ri",
+        "city": "Bulcesh i Ri, Kamez Tiranë",
+        "address": "Rruga Farke",
+        "lat": 41.370211,
+        "lng": 19.794206
+    },
+    {
+        "id": "104",
+        "name": "Xhamia Bulgarec",
+        "city": "Bulgarec Korçë",
+        "address": "Rruge fshati",
+        "lat": 40.658484,
+        "lng": 20.755315
+    },
+    {
+        "id": "105",
+        "name": "Xhamia Bulo",
+        "city": "Bulo Gjirokastër",
+        "address": "Rruge fshati, ne hyrje te fshatit, jug.",
+        "lat": 40.035538,
+        "lng": 20.220011
+    },
+    {
+        "id": "106",
+        "name": "Xhamia Bulqize",
+        "city": "Bulqize Bulqizë",
+        "address": "Rruga Qytet i Ri",
+        "lat": 41.500366,
+        "lng": 20.214166
+    },
+    {
+        "id": "107",
+        "name": "Xhamia Kraste",
+        "city": "Bulqize Bulqizë",
+        "address": "Rruge Lagjeje",
+        "lat": 41.422035,
+        "lng": 20.205028
+    },
+    {
+        "id": "108",
+        "name": "Xhamia e vjeter Burgajet",
+        "city": "Burgajet Mat",
+        "address": "Rruge fshati",
+        "lat": 41.632265,
+        "lng": 20.067293
+    },
+    {
+        "id": "109",
+        "name": "Xhamia Allajbegie Burim",
+        "city": "Burim Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.578253,
+        "lng": 20.465731
+    },
+    {
+        "id": "110",
+        "name": "Xhamia Burimas",
+        "city": "Burimas Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.339827,
+        "lng": 20.063236
+    },
+    {
+        "id": "111",
+        "name": "Xhamia Burrel",
+        "city": "Burrel Mat",
+        "address": "Parku Geraldinë",
+        "lat": 41.611573,
+        "lng": 20.015361
+    },
+    {
+        "id": "112",
+        "name": "Xhamia Bushat",
+        "city": "Bushat Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.011613,
+        "lng": 20.398274
+    },
+    {
+        "id": "113",
+        "name": "Xhamia Bushat",
+        "city": "Bushat Shkodër",
+        "address": "Rruga Kryesore, veri",
+        "lat": 41.965547,
+        "lng": 19.537595
+    },
+    {
+        "id": "114",
+        "name": "Xhamia Bushnesh",
+        "city": "Bushnesh Krujë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.558875,
+        "lng": 19.666876
+    },
+    {
+        "id": "115",
+        "name": "Xhamia Bushtrice",
+        "city": "Bushtrice Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.880152,
+        "lng": 20.418195
+    },
+    {
+        "id": "116",
+        "name": "Xhamia Buzemadhe",
+        "city": "Buzemadhe Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.931262,
+        "lng": 20.469306
+    },
+    {
+        "id": "117",
+        "name": "Xhamia Cangonj",
+        "city": "Cangonj Devoll",
+        "address": "Rruge fshati, jug ne koder",
+        "lat": 40.692168,
+        "lng": 20.909088
+    },
+    {
+        "id": "118",
+        "name": "Xhamia Cekreze",
+        "city": "Cekreze Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.402483,
+        "lng": 19.782755
+    },
+    {
+        "id": "119",
+        "name": "Xhamia Ceren",
+        "city": "Ceren Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.833169,
+        "lng": 20.459459
+    },
+    {
+        "id": "120",
+        "name": "Xhamia Cerenec",
+        "city": "Cerenec Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.509740,
+        "lng": 20.434349
+    },
+    {
+        "id": "121",
+        "name": "Xhamia Cerjan",
+        "city": "Cerjan Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.713163,
+        "lng": 20.481992
+    },
+    {
+        "id": "122",
+        "name": "Xhamia Cerkovine",
+        "city": "Cerkovine Vlorë",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.567452,
+        "lng": 19.485733
+    },
+    {
+        "id": "123",
+        "name": "Xhamia Çerme e Siperme",
+        "city": "Çerme e Siperme Lushnjë",
+        "address": "Rruge fshati, prane varrezave",
+        "lat": 40.567452,
+        "lng": 19.485733
+    },
+    {
+        "id": "124",
+        "name": "Xhamia Çerme Pasha",
+        "city": "Çerme Pasha Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 41.052559,
+        "lng": 19.638094
+    },
+    {
+        "id": "125",
+        "name": "Xhamia Çerme Sektor",
+        "city": "Çerme Sektor Lushnjë",
+        "address": "Rruga e Xhamis",
+        "lat": 41.039199,
+        "lng": 19.620253
+    },
+    {
+        "id": "126",
+        "name": "Xhamia Cernaleve",
+        "city": "Cernaleve Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.026868,
+        "lng": 20.549660
+    },
+    {
+        "id": "127",
+        "name": "Xhamia Cernene",
+        "city": "Cernene Dibër",
+        "address": "Rruge fshati, veri",
+        "lat": 41.587530,
+        "lng": 20.468606
+    },
+    {
+        "id": "128",
+        "name": "Xhamia Cernjeve",
+        "city": "Cernjeve Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.824306,
+        "lng": 20.455425
+    },
+    {
+        "id": "129",
+        "name": "Xhamia Cerpat",
+        "city": "Cerpat Vlorë",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.509312,
+        "lng": 19.528999
+    },
+    {
+        "id": "130",
+        "name": "Xhamia Cerrave",
+        "city": "Cerrave Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.851295,
+        "lng": 20.726831
+    },
+    {
+        "id": "131",
+        "name": "Xhamia Cerrik",
+        "city": "Cerrik Elbasan",
+        "address": "Rruga Rinia",
+        "lat": 41.027604,
+        "lng": 19.988598
+    },
+    {
+        "id": "132",
+        "name": "Xhamia Cerrik e re",
+        "city": "Cerrik Elbasan",
+        "address": "Rruga Egnatia",
+        "lat": 41.028736,
+        "lng": 19.983640
+    },
+    {
+        "id": "133",
+        "name": "Xhamia Cete",
+        "city": "Cete Kavajë",
+        "address": "Rruga Unaza Cete",
+        "lat": 41.194519,
+        "lng": 19.571169
+    },
+    {
+        "id": "134",
+        "name": "Xhamia Cetushe",
+        "city": "Cetushe Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.670995,
+        "lng": 20.399271
+    },
+    {
+        "id": "135",
+        "name": "Xhamia Cidhen",
+        "city": "Cidhen Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.753581,
+        "lng": 20.271791
+    },
+    {
+        "id": "136",
+        "name": "Xhamia Corum",
+        "city": "Corum Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.113785,
+        "lng": 19.546308
+    },
+    {
+        "id": "137",
+        "name": "Xhamia Cudhi kamp",
+        "city": "Cudhi kamp Krujë",
+        "address": "Rruga Qafë Shtamë",
+        "lat": 41.517173,
+        "lng": 19.866569
+    },
+    {
+        "id": "138",
+        "name": "Xhamia Çukas i ri",
+        "city": "Çukas i ri Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.866344,
+        "lng": 19.763219
+    },
+    {
+        "id": "139",
+        "name": "Xhamia Daias",
+        "city": "Daias Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.280085,
+        "lng": 19.890126
+    },
+    {
+        "id": "140",
+        "name": "Xhamia Damjan-Fortuzaj",
+        "city": "Damjan-Fortuzaj Tiranë",
+        "address": "Rruge fshati,tek Ura",
+        "lat": 41.287515,
+        "lng": 19.744838
+    },
+    {
+        "id": "141",
+        "name": "Xhamia e vjeter Dars",
+        "city": "Dars Mat",
+        "address": "Rruge fshati",
+        "lat": 41.497513,
+        "lng": 20.068137
+    },
+    {
+        "id": "142",
+        "name": "Xhamia Darshen",
+        "city": "Darshen Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.290564,
+        "lng": 19.981499
+    },
+    {
+        "id": "143",
+        "name": "Xhamia Dege",
+        "city": "Dege Tropojë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.269908,
+        "lng": 20.130657
+    },
+    {
+        "id": "144",
+        "name": "Xhamia Delvine",
+        "city": "Delvine Delvinë",
+        "address": "Rruga Hasan Tasini",
+        "lat": 39.950186,
+        "lng": 20.098603
+    },
+    {
+        "id": "145",
+        "name": "Xhamia Mukersit Delvine",
+        "city": "Delvine Delvinë",
+        "address": "Rruga e Vakefit",
+        "lat": 39.944516,
+        "lng": 20.102160
+    },
+    {
+        "id": "146",
+        "name": "Xhamia Ne Kalane e Delvines",
+        "city": "Delvine Delvinë",
+        "address": "Rruga Ali Pashe Tepelena, Lagja Xhermehalle",
+        "lat": 39.946806,
+        "lng": 20.091474
+    },
+    {
+        "id": "147",
+        "name": "Xhamia Mbret Delvine",
+        "city": "Delvine Delvinë",
+        "address": "Rruga Ali Pashe Tepelena, Lagja Xhermehalle",
+        "lat": 39.945069,
+        "lng": 20.091384
+    },
+    {
+        "id": "148",
+        "name": "Xhamia Demiraj",
+        "city": "Demiraj Malësi e Madhe",
+        "address": "Rruge fshati",
+        "lat": 42.177320,
+        "lng": 19.475975
+    },
+    {
+        "id": "149",
+        "name": "Xhamia Dermenas",
+        "city": "Dermenas Fier",
+        "address": "Rruge fshati, qender",
+        "lat": 40.745275,
+        "lng": 19.492525
+    },
+    {
+        "id": "150",
+        "name": "Xhamia Dersnik",
+        "city": "Dersnik Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.565524,
+        "lng": 20.673429
+    },
+    {
+        "id": "151",
+        "name": "Xhamia Deshat",
+        "city": "Deshat Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.712380,
+        "lng": 20.414678
+    },
+    {
+        "id": "152",
+        "name": "Xhamia Dipjake",
+        "city": "Dipjake Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.761470,
+        "lng": 20.410191
+    },
+    {
+        "id": "153",
+        "name": "Xhamia Dishnicë",
+        "city": "Dishnicë Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.651181,
+        "lng": 20.815551
+    },
+    {
+        "id": "154",
+        "name": "Xhamia Dober",
+        "city": "Dober Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.182631,
+        "lng": 19.458709
+    },
+    {
+        "id": "155",
+        "name": "Xhamia Dobran",
+        "city": "Dobran Devoll",
+        "address": "Rruge fshati",
+        "lat": 40.556699,
+        "lng": 20.966583
+    },
+    {
+        "id": "156",
+        "name": "Xhamia Dohoshisht",
+        "city": "Dohoshisht Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.671440,
+        "lng": 20.418268
+    },
+    {
+        "id": "157",
+        "name": "Xhamia Dojan",
+        "city": "Dojan Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.345508,
+        "lng": 20.076870
+    },
+    {
+        "id": "158",
+        "name": "Xhamia Dom",
+        "city": "Dom Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.564611,
+        "lng": 20.047734
+    },
+    {
+        "id": "159",
+        "name": "Xhamia Domen",
+        "city": "Domen Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.138575,
+        "lng": 19.601412
+    },
+    {
+        "id": "160",
+        "name": "Xhamia Domje",
+        "city": "Domje Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.366139,
+        "lng": 19.723104
+    },
+    {
+        "id": "161",
+        "name": "Xhamia Dopaj",
+        "city": "Dopaj Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.178926,
+        "lng": 20.003449
+    },
+    {
+        "id": "162",
+        "name": "Xhamia Dorez",
+        "city": "Dorez Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.217285,
+        "lng": 20.326665
+    },
+    {
+        "id": "163",
+        "name": "Xhamia Dovolan",
+        "city": "Dovolan Dibër",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.622206,
+        "lng": 20.450250
+    },
+    {
+        "id": "164",
+        "name": "Xhamia Dragobi",
+        "city": "Dragobi Tropojë",
+        "address": "Rruga Azem Hajdari, buze Lumit Valbona",
+        "lat": 42.431572,
+        "lng": 19.991183
+    },
+    {
+        "id": "165",
+        "name": "Xhamia e Vjeter Dragobi",
+        "city": "Dragobi Tropojë",
+        "address": "Rruga Azem Hajdari,tek varrezat e fshatit",
+        "lat": 42.431048,
+        "lng": 19.991138
+    },
+    {
+        "id": "166",
+        "name": "Xhamia Dragoc",
+        "city": "Dragoc Shkodër",
+        "address": "Rruge fshati, qender, prane shkolles",
+        "lat": 42.121040,
+        "lng": 19.560225
+    },
+    {
+        "id": "167",
+        "name": "Xhamia Dragostunje",
+        "city": "Dragostunje Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.180407,
+        "lng": 20.364753
+    },
+    {
+        "id": "168",
+        "name": "Xhamia Drisht",
+        "city": "Drisht Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.121752,
+        "lng": 19.595932
+    },
+    {
+        "id": "169",
+        "name": "Xhamia Drisht Kala",
+        "city": "Drisht Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.123291,
+        "lng": 19.610906
+    },
+    {
+        "id": "170",
+        "name": "Xhamia Dukagjin",
+        "city": "Dukagjin Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.111339,
+        "lng": 20.273521
+    },
+    {
+        "id": "171",
+        "name": "Xhamia Dukat",
+        "city": "Dukat Vlorë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.250547,
+        "lng": 19.564014
+    },
+    {
+        "id": "172",
+        "name": "Xhamia Dunice",
+        "city": "Dunice Pogradec",
+        "address": "Rruge fshati, qender, pran shkolles",
+        "lat": 40.892863,
+        "lng": 20.555601
+    },
+    {
+        "id": "173",
+        "name": "Xhamia Bardhë",
+        "city": "Durrës",
+        "address": "Rruge lagjeje",
+        "lat": 41.335462,
+        "lng": 19.495268
+    },
+    {
+        "id": "174",
+        "name": "Xhamia e Madhe",
+        "city": "Durrës",
+        "address": "Rruga Aleksander Goga",
+        "lat": 41.313175,
+        "lng": 19.445465
+    },
+    {
+        "id": "175",
+        "name": "Xhamia Nur",
+        "city": "Durrës",
+        "address": "Rruga Porta e Detit",
+        "lat": 41.331113,
+        "lng": 19.466523
+    },
+    {
+        "id": "176",
+        "name": "Xhamia Fatih",
+        "city": "Durrës",
+        "address": "Rruga Xhamia",
+        "lat": 41.311084,
+        "lng": 19.445791
+    },
+    {
+        "id": "177",
+        "name": "Xhamia Kenete",
+        "city": "Durrës",
+        "address": "Rruga Shenjtoret",
+        "lat": 41.336141,
+        "lng": 19.470731
+    },
+    {
+        "id": "178",
+        "name": "Xhamia Vrinas",
+        "city": "Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.358363,
+        "lng": 19.482465
+    },
+    {
+        "id": "179",
+        "name": "Xhamia Riza Bajrami",
+        "city": "Durrës",
+        "address": "Rruga e Shqipeve",
+        "lat": 41.315159,
+        "lng": 19.495650
+    },
+    {
+        "id": "180",
+        "name": "Xhamia Jonus Haredini",
+        "city": "Durrës",
+        "address": "Rruga Mikpritja",
+        "lat": 41.313784,
+        "lng": 19.501490
+    },
+    {
+        "id": "181",
+        "name": "Xhamia Dushaj",
+        "city": "Dushaj Tropojë",
+        "address": "Rruge fshati, koder",
+        "lat": 42.279870,
+        "lng": 20.031087
+    },
+    {
+        "id": "182",
+        "name": "Xhamia Dushk",
+        "city": "Dushk Elbasan",
+        "address": "Rruga Elezaj, tek varrezat e fshatit",
+        "lat": 40.963248,
+        "lng": 19.940603
+    },
+    {
+        "id": "183",
+        "name": "Xhamia Dushk",
+        "city": "Dushk Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.994467,
+        "lng": 19.670749
+    },
+    {
+        "id": "184",
+        "name": "Xhamia Naziresha",
+        "city": "Elbasan",
+        "address": "Rruga Kadri Hyshmeri",
+        "lat": 41.105244,
+        "lng": 20.086557
+    },
+    {
+        "id": "185",
+        "name": "Xhamia Mbret Elbasan",
+        "city": "Elbasan",
+        "address": "Rruga Xhaferr Kongoli, Kalaja e Elbasanit",
+        "lat": 41.114002,
+        "lng": 20.081251
+    },
+    {
+        "id": "186",
+        "name": "Xhamia Ballie",
+        "city": "Elbasan",
+        "address": "Bulevardi Qemal Stafa",
+        "lat": 41.112702,
+        "lng": 20.083488
+    },
+    {
+        "id": "187",
+        "name": "Xhamia Sulejman Pashes",
+        "city": "Elbasan",
+        "address": "Rruga Sul Papri",
+        "lat": 41.110055,
+        "lng": 20.079757
+    },
+    {
+        "id": "188",
+        "name": "Xhamia Universitare",
+        "city": "Elbasan",
+        "address": "Rruga Lemsha Stafa",
+        "lat": 41.121442,
+        "lng": 20.082495
+    },
+    {
+        "id": "189",
+        "name": "Xhamia Selim",
+        "city": "Elbasan",
+        "address": "Rruga 11",
+        "lat": 41.126532,
+        "lng": 20.087718
+    },
+    {
+        "id": "190",
+        "name": "Xhamia Fush Mbret",
+        "city": "Elbasan",
+        "address": "Rruga Belul Berisha",
+        "lat": 41.097127,
+        "lng": 20.066732
+    },
+    {
+        "id": "191",
+        "name": "Xhamia Habibullah ",
+        "city": "Elbasan",
+        "address": "Rruge Lagjeje",
+        "lat": 41.132496,
+        "lng": 20.091635
+    },
+    {
+        "id": "192",
+        "name": "Xhamia Erebare",
+        "city": "Erebare Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.627490,
+        "lng": 20.470614
+    },
+    {
+        "id": "193",
+        "name": "Xhamia Fatish",
+        "city": "Fatish Peqin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.051225,
+        "lng": 19.773925
+    },
+    {
+        "id": "194",
+        "name": "Xhamia Favesh",
+        "city": "Favesh Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.256375,
+        "lng": 20.006065
+    },
+    {
+        "id": "195",
+        "name": "Xhamia Ferraj",
+        "city": "Ferraj Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.385160,
+        "lng": 19.858472
+    },
+    {
+        "id": "196",
+        "name": "Xhamia Fier",
+        "city": "Fier",
+        "address": "Rr. Muharrem Agalliu",
+        "lat": 40.726205,
+        "lng": 19.557144
+    },
+    {
+        "id": "197",
+        "name": "Xhamia Fier Shegan",
+        "city": "Fier Shegan Lushnjë",
+        "address": "Rruge fshati, ne koder",
+        "lat": 40.870650,
+        "lng": 19.781805
+    },
+    {
+        "id": "198",
+        "name": "Xhamia Fllake",
+        "city": "Fllake - Bisht Kamez Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.389785,
+        "lng": 19.477324
+    },
+    {
+        "id": "199",
+        "name": "Xhamia Floq",
+        "city": "Floq Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.261483,
+        "lng": 20.236903
+    },
+    {
+        "id": "200",
+        "name": "Xhamia Floq",
+        "city": "Floq Korçë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 40.508106,
+        "lng": 20.715064
+    },
+    {
+        "id": "201",
+        "name": "Xhamia Frakull i Vogel",
+        "city": "Frakull i Vogel Fier",
+        "address": "Rruge fshati",
+        "lat": 40.614459,
+        "lng": 19.554223
+    },
+    {
+        "id": "202",
+        "name": "Xhamia Fshat",
+        "city": "Fshat Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.903804,
+        "lng": 20.449207
+    },
+    {
+        "id": "203",
+        "name": "Xhamia Fullqet",
+        "city": "Fullqet Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.516963,
+        "lng": 20.073583
+    },
+    {
+        "id": "204",
+        "name": "Xhamia e vjeter Fullqet",
+        "city": "Fullqet Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.516566,
+        "lng": 20.075077
+    },
+    {
+        "id": "205",
+        "name": "Xhamia Funar",
+        "city": "Funar Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.198233,
+        "lng": 20.061820
+    },
+    {
+        "id": "206",
+        "name": "Xhamia Funares",
+        "city": "Funares Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.266048,
+        "lng": 20.291544
+    },
+    {
+        "id": "207",
+        "name": "Xhamia Fush prez",
+        "city": "Fush Prez Tiranë",
+        "address": "Rruga Fushë - Prezë",
+        "lat": 41.408512,
+        "lng": 19.694543
+    },
+    {
+        "id": "208",
+        "name": "Xhamia Fushe Buall",
+        "city": "Fushe Buall Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.110064,
+        "lng": 20.186094
+    },
+    {
+        "id": "209",
+        "name": "Xhamia Fushe Bulqize",
+        "city": "Fushe Bulqize Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.516419,
+        "lng": 20.283125
+    },
+    {
+        "id": "210",
+        "name": "Xhamia Fushe Cidhen",
+        "city": "Fushe Cidhen Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.753355,
+        "lng": 20.334490
+    },
+    {
+        "id": "211",
+        "name": "Xhamia Fushe Labinot",
+        "city": "Fushe Labinot Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.148803,
+        "lng": 20.161619
+    },
+    {
+        "id": "212",
+        "name": "Xhamia Fushë Milot",
+        "city": "Fushë Milot Kurbin",
+        "address": "Rruge fshati",
+        "lat": 41.672097,
+        "lng": 19.669886
+    },
+    {
+        "id": "213",
+        "name": "Xhamia Fushe Stude",
+        "city": "Fushe Stude Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.323000,
+        "lng": 20.397004
+    },
+    {
+        "id": "214",
+        "name": "Xhamia Galine",
+        "city": "Galine Berat",
+        "address": "Rruge fshati, qender",
+        "lat": 40.702687,
+        "lng": 19.872051
+    },
+    {
+        "id": "215",
+        "name": "Xhamia Ganjolle",
+        "city": "Ganjolle Shkodër",
+        "address": "Rruga Shkoder- Mjede, tek varrezat e fshatit",
+        "lat": 42.012979,
+        "lng": 19.585731
+    },
+    {
+        "id": "216",
+        "name": "Xhamia Germenj",
+        "city": "Germenj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.139908,
+        "lng": 19.632665
+    },
+    {
+        "id": "217",
+        "name": "Xhamia Geshtenjas",
+        "city": "Geshtenjas Pogradec",
+        "address": "Rruge fshati, Perendim",
+        "lat": 40.874073,
+        "lng": 20.671050
+    },
+    {
+        "id": "218",
+        "name": "Xhamia e Vjeter Geshtenje - Kalis",
+        "city": "Geshtenje Kalis Kukës",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 41.828708,
+        "lng": 20.378330
+    },
+    {
+        "id": "219",
+        "name": "Xhamia Gizavesh",
+        "city": "Gizavesh Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.221487,
+        "lng": 20.342565
+    },
+    {
+        "id": "220",
+        "name": "Xhamia Gjaze",
+        "city": "Gjaze Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.840855,
+        "lng": 19.706289
+    },
+    {
+        "id": "221",
+        "name": "Xhamia Gjegje",
+        "city": "Gjegje Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.873245,
+        "lng": 20.433670
+    },
+    {
+        "id": "222",
+        "name": "Xhamia Gjepalaj",
+        "city": "Gjepalaj Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.337119,
+        "lng": 19.576830
+    },
+    {
+        "id": "223",
+        "name": "Xhamia Gjergjan",
+        "city": "Gjergjan Elbasan",
+        "address": "Rruga Shtermen-Koder Bujaras - Gjergjan",
+        "lat": 41.046384,
+        "lng": 20.027382
+    },
+    {
+        "id": "224",
+        "name": "Xhamia e Vjeter Gjinaj",
+        "city": "Gjinaj Has",
+        "address": "Rruge fshati",
+        "lat": 42.116238,
+        "lng": 20.431392
+    },
+    {
+        "id": "225",
+        "name": "Xhamia e Pazarit",
+        "city": "Gjirokastër",
+        "address": "Rruga Ismail Kadare",
+        "lat": 40.073895,
+        "lng": 20.138020
+    },
+    {
+        "id": "226",
+        "name": "Xhamia Palorto",
+        "city": "Gjirokastër",
+        "address": "Rruga Pertef Kokona",
+        "lat": 40.075159,
+        "lng": 20.134736
+    },
+    {
+        "id": "227",
+        "name": "Xhamia Dunavat",
+        "city": "Gjirokastër",
+        "address": "Rruga Bule Naipi",
+        "lat": 40.068794,
+        "lng": 20.138189
+    },
+    {
+        "id": "228",
+        "name": "Xhamia e Cfakes",
+        "city": "Gjirokastër",
+        "address": "Rruga Hasan Xhiku",
+        "lat": 40.073337,
+        "lng": 20.144824
+    },
+    {
+        "id": "229",
+        "name": "Xhamia Gjocaj",
+        "city": "Gjocaj Peqin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.023728,
+        "lng": 19.735403
+    },
+    {
+        "id": "230",
+        "name": "Xhamia Gjonomadh",
+        "city": "Gjonomadh Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.626471,
+        "lng": 20.649367
+    },
+    {
+        "id": "231",
+        "name": "Xhamia E Drites Gjorice",
+        "city": "Gjorice Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.535798,
+        "lng": 20.438450
+    },
+    {
+        "id": "232",
+        "name": "Xhamia Selam, Gjorice e siperme",
+        "city": "Gjorice Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.530076,
+        "lng": 20.445977
+    },
+    {
+        "id": "233",
+        "name": "Xhamia Gjormë",
+        "city": "Gjormë Kurbin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.611346,
+        "lng": 19.719585
+    },
+    {
+        "id": "234",
+        "name": "Xhamia Gjuras",
+        "city": "Gjuras Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.606279,
+        "lng": 20.360863
+    },
+    {
+        "id": "235",
+        "name": "Xhamia Gjuricaj",
+        "city": "Gjuricaj Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.524074,
+        "lng": 19.606988
+    },
+    {
+        "id": "236",
+        "name": "Xhamia Gjurre Rec",
+        "city": "Gjurre Rec Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.874088,
+        "lng": 20.271350
+    },
+    {
+        "id": "237",
+        "name": "Xhamia Gjyrale",
+        "city": "Gjyrale Elbasan",
+        "address": "Rruga Gostime Gjyrale Deshiran, buze liqenit",
+        "lat": 40.966169,
+        "lng": 19.971669
+    },
+    {
+        "id": "238",
+        "name": "Xhamia Godolesh",
+        "city": "Godolesh Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.149832,
+        "lng": 20.094492
+    },
+    {
+        "id": "239",
+        "name": "Xhamia Golaj",
+        "city": "Golaj Has",
+        "address": "Rruga nacionale SH23",
+        "lat": 42.245874,
+        "lng": 20.374590
+    },
+    {
+        "id": "240",
+        "name": "Xhamia Golem",
+        "city": "Golem Shkodër",
+        "address": "Rruge fshati, qender, prane shkolles",
+        "lat": 42.093848,
+        "lng": 19.526524
+    },
+    {
+        "id": "241",
+        "name": "Xhamia Golem",
+        "city": "Golem Kavajë",
+        "address": "Bulevardi i Palmave",
+        "lat": 41.247923,
+        "lng": 19.532848
+    },
+    {
+        "id": "242",
+        "name": "Xhamia Golem",
+        "city": "Golem Lushnjë",
+        "address": "Rruge fshati, veriperendim, prane rruges SH4",
+        "lat": 40.972273,
+        "lng": 19.675317
+    },
+    {
+        "id": "243",
+        "name": "Xhamia Golemas",
+        "city": "Golemas Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.241293,
+        "lng": 19.586426
+    },
+    {
+        "id": "244",
+        "name": "Xhamia Gos e Madhe",
+        "city": "Gose Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.089623,
+        "lng": 19.623200
+    },
+    {
+        "id": "245",
+        "name": "Xhamia Gos e Vogel",
+        "city": "Gose Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.087120,
+        "lng": 19.636445
+    },
+    {
+        "id": "246",
+        "name": "Xhamia Gose Kercukaj",
+        "city": "Gose Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.093409,
+        "lng": 19.611627
+    },
+    {
+        "id": "247",
+        "name": "Xhamia Goskovë e Poshtme",
+        "city": "Goskovë e Poshtme Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.627095,
+        "lng": 20.699226
+    },
+    {
+        "id": "248",
+        "name": "Xhamia Gostime",
+        "city": "Gostime Elbasan",
+        "address": "Rruge fshati",
+        "lat": 40.993310,
+        "lng": 20.013338
+    },
+    {
+        "id": "249",
+        "name": "Xhamia Gostivishte",
+        "city": "Gostivishte Kolonjë",
+        "address": "Rruge fshati",
+        "lat": 40.367105,
+        "lng": 20.627510
+    },
+    {
+        "id": "250",
+        "name": "Xhamia Grabjan",
+        "city": "Grabjan Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.950981,
+        "lng": 19.585278
+    },
+    {
+        "id": "251",
+        "name": "Xhamia Grabovice",
+        "city": "Grabovice Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.832639,
+        "lng": 20.727174
+    },
+    {
+        "id": "252",
+        "name": "Xhamia Gradec- Marshej",
+        "city": "Gradec - Marshej Malësi e Madhe",
+        "address": "Rruga Marshej, tek varrezat e fshatit",
+        "lat": 42.252501,
+        "lng": 19.471410
+    },
+    {
+        "id": "253",
+        "name": "Xhamia Gradiskie",
+        "city": "Gradiskie Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.243945,
+        "lng": 19.506946
+    },
+    {
+        "id": "254",
+        "name": "Xhamia Gramëz",
+        "city": "Gramëz Krujë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.523466,
+        "lng": 19.651601
+    },
+    {
+        "id": "255",
+        "name": "Xhamia Gramsh",
+        "city": "Gramsh",
+        "address": "Rruga 10 Korriku",
+        "lat": 40.864762,
+        "lng": 20.186328
+    },
+    {
+        "id": "256",
+        "name": "Xhamia Gramsh",
+        "city": "Gramsh Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 41.025640,
+        "lng": 19.674970
+    },
+    {
+        "id": "257",
+        "name": "Xhamia Grekan",
+        "city": "Grekan Elbasan",
+        "address": "Rruge fshati, buze liqenit",
+        "lat": 40.919891,
+        "lng": 19.951038
+    },
+    {
+        "id": "258",
+        "name": "Xhamia Greps",
+        "city": "Greps Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.443216,
+        "lng": 19.784364
+    },
+    {
+        "id": "259",
+        "name": "Xhamia Greve",
+        "city": "Greve Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.665160,
+        "lng": 20.458012
+    },
+    {
+        "id": "260",
+        "name": "Xhamia Grezhdan",
+        "city": "Grezhdan Dibër",
+        "address": "Rruge fshati, jug",
+        "lat": 41.610164,
+        "lng": 20.474973
+    },
+    {
+        "id": "261",
+        "name": "Xhamia Griqan",
+        "city": "Griqan Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.145947,
+        "lng": 20.139953
+    },
+    {
+        "id": "262",
+        "name": "Xhamia Griqan i siperm",
+        "city": "Griqan i Siperm Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.158681,
+        "lng": 20.133470
+    },
+    {
+        "id": "263",
+        "name": "Xhamia Grizh Ktosh",
+        "city": "Grizh - Ktosh Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.168596,
+        "lng": 19.481785
+    },
+    {
+        "id": "264",
+        "name": "Xhamia Grude Fushe 1",
+        "city": "Grude Fushe Malësi e Madhe",
+        "address": "Rruga Silvan Hasanaj tek varrezat e fshatit",
+        "lat": 42.159785,
+        "lng": 19.498350
+    },
+    {
+        "id": "265",
+        "name": "Xhamia Grude Fushe 2",
+        "city": "Grude Fushe Malësi e Madhe",
+        "address": "Rruga Grude Fushe, qender",
+        "lat": 42.157218,
+        "lng": 19.480482
+    },
+    {
+        "id": "266",
+        "name": "Xhamia Gruemirë",
+        "city": "Gruemirë Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.157296,
+        "lng": 19.515595
+    },
+    {
+        "id": "267",
+        "name": "Xhamia Gryk Caje",
+        "city": "Gryk Caje Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.878106,
+        "lng": 20.507578
+    },
+    {
+        "id": "268",
+        "name": "Xhamia Gryke Noke",
+        "city": "Gryke Noke Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.769084,
+        "lng": 20.283921
+    },
+    {
+        "id": "269",
+        "name": "Xhamia Guci e re",
+        "city": "Guci e Re Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.128033,
+        "lng": 19.531761
+    },
+    {
+        "id": "270",
+        "name": "Xhamia Gur i Bardhe",
+        "city": "Gur i Bardhe Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.451974,
+        "lng": 20.071485
+    },
+    {
+        "id": "271",
+        "name": "Xhamia e lagjes Petralb Gur i Bardh",
+        "city": "Gur i Bardhe Mat",
+        "address": "Rruge fshati",
+        "lat": 41.458573,
+        "lng": 20.076980
+    },
+    {
+        "id": "272",
+        "name": "Xhamia Gur i zi",
+        "city": "Gur i zi Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.204092,
+        "lng": 20.113271
+    },
+    {
+        "id": "273",
+        "name": "Xhamia Gur i zi 2 (kroi i bardhe)",
+        "city": "Gur i zi / Kroi i Bardhe Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.212560,
+        "lng": 20.121662
+    },
+    {
+        "id": "274",
+        "name": "Xhamia Gur Lure",
+        "city": "Gur Lure Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.757969,
+        "lng": 20.223653
+    },
+    {
+        "id": "275",
+        "name": "Xhamia Gurakuq",
+        "city": "Gurakuq Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.291768,
+        "lng": 20.185731
+    },
+    {
+        "id": "276",
+        "name": "Xhamia Guri i Zi",
+        "city": "Guri i Zi Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.043124,
+        "lng": 19.574114
+    },
+    {
+        "id": "277",
+        "name": "Xhamia e vjeter Gurr e Madhe",
+        "city": "Gurr e Madhe Mat",
+        "address": "Rruge fshati",
+        "lat": 41.525027,
+        "lng": 20.017821
+    },
+    {
+        "id": "278",
+        "name": "Xhamia Gurras",
+        "city": "Gurras Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.887021,
+        "lng": 20.713744
+    },
+    {
+        "id": "279",
+        "name": "Xhamia Gurre",
+        "city": "Gurre Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.288568,
+        "lng": 19.924420
+    },
+    {
+        "id": "280",
+        "name": "Xhamia e Vjeter Gurre Kalis",
+        "city": "Gurre Kalis Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.855140,
+        "lng": 20.357102
+    },
+    {
+        "id": "281",
+        "name": "Xhamia Hajdaraj",
+        "city": "Hajdaraj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.138195,
+        "lng": 19.514888
+    },
+    {
+        "id": "282",
+        "name": "Xhamia Hajdaran",
+        "city": "Hajdaran Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.092358,
+        "lng": 20.091002
+    },
+    {
+        "id": "283",
+        "name": "Xhamia Halil",
+        "city": "Halil Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.473104,
+        "lng": 19.767148
+    },
+    {
+        "id": "284",
+        "name": "Xhamia Hardhishte",
+        "city": "Hardhishte Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.306143,
+        "lng": 19.578532
+    },
+    {
+        "id": "285",
+        "name": "Xhamia Hekal",
+        "city": "Hekal Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.249946,
+        "lng": 19.933832
+    },
+    {
+        "id": "286",
+        "name": "Xhamia Helmas",
+        "city": "Helmas Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.176990,
+        "lng": 19.595812
+    },
+    {
+        "id": "287",
+        "name": "Xhamia Helshan",
+        "city": "Helshan Has",
+        "address": "Rruge fshati",
+        "lat": 42.213515,
+        "lng": 20.279608
+    },
+    {
+        "id": "288",
+        "name": "Xhamia Herebel",
+        "city": "Herebel Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.620244,
+        "lng": 20.469083
+    },
+    {
+        "id": "289",
+        "name": "Xhamia Hocisht",
+        "city": "Hocisht Devoll",
+        "address": "Rruge fshati, Juglindje",
+        "lat": 40.606770,
+        "lng": 20.917777
+    },
+    {
+        "id": "290",
+        "name": "Xhamia Hoshtime",
+        "city": "Hoshtime Vlorë",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.541395,
+        "lng": 19.489896
+    },
+    {
+        "id": "291",
+        "name": "Xhamia Hosmashaj",
+        "city": "Hosmashaj Peqin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.031985,
+        "lng": 19.710122
+    },
+    {
+        "id": "292",
+        "name": "Xhamia Hotesh",
+        "city": "Hotesh Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.630967,
+        "lng": 20.403473
+    },
+    {
+        "id": "293",
+        "name": "Xhamia Hotolishte",
+        "city": "Hotolishte Librazhd",
+        "address": "Rruge fshati, veri",
+        "lat": 41.157570,
+        "lng": 20.397137
+    },
+    {
+        "id": "294",
+        "name": "Xhamia Hotolishte 2",
+        "city": "Hotolishte Librazhd",
+        "address": "Rruge fshati, jug",
+        "lat": 41.137120,
+        "lng": 20.382986
+    },
+    {
+        "id": "295",
+        "name": "Xhamia Hoxhaj",
+        "city": "Hoxhaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.416123,
+        "lng": 20.135722
+    },
+    {
+        "id": "296",
+        "name": "Xhamia Hudenisht",
+        "city": "Hudenisht Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.963647,
+        "lng": 20.639700
+    },
+    {
+        "id": "297",
+        "name": "Xhamia Shijak",
+        "city": "i Shijakut Durrës",
+        "address": "Bulevardi i Qytetit",
+        "lat": 41.345507,
+        "lng": 19.561176
+    },
+    {
+        "id": 298,
+        "name": "Xhamia Iballe",
+        "city": "Iballe Pukë",
+        "address": "Rruge fshati, jug",
+        "lat": 42.181292,
+        "lng": 20.004294
+    },
+    {
+        "id": 299,
+        "name": "Xhamia Ibe e re",
+        "city": "Ibe Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.237607,
+        "lng": 19.926927
+    },
+    {
+        "id": 300,
+        "name": "Xhamia Ibe",
+        "city": "Ibe Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.225442,
+        "lng": 19.930983
+    },
+    {
+        "id": 301,
+        "name": "Xhamia Ibe 2",
+        "city": "Ibe Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.236158,
+        "lng": 19.933487
+    },
+    {
+        "id": 302,
+        "name": "Xhamia e Ibës së Sipërme",
+        "city": "Ibë e Sipërme Tiranë",
+        "address": "Fshati Ibë e Sipërme",
+        "lat": 41.225263,
+        "lng": 19.931131
+    },
+    {
+        "id": 303,
+        "name": "Xhamia Ilnice",
+        "city": "Ilnice Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.656320,
+        "lng": 20.483862
+    },
+    {
+        "id": 304,
+        "name": "Xhamia Ishem",
+        "city": "Ishem Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.540605,
+        "lng": 19.591194
+    },
+    {
+        "id": 305,
+        "name": "Xhamia Jazexhije",
+        "city": "Jazexhije Lushnjë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.002097,
+        "lng": 19.760945
+    },
+    {
+        "id": 306,
+        "name": "Xhamia Jube",
+        "city": "Jube Durrës",
+        "address": "Rruge fshati, buze lumit",
+        "lat": 41.422273,
+        "lng": 19.516923
+    },
+    {
+        "id": 307,
+        "name": "Xhamia Jubice",
+        "city": "Jubice Malësi e Madhe",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.217484,
+        "lng": 19.391056
+    },
+    {
+        "id": 308,
+        "name": "Xhamia e vjeter Kabash",
+        "city": "Kabash Pukë",
+        "address": "Rruge fshati",
+        "lat": 42.068918,
+        "lng": 19.916791
+    },
+    {
+        "id": 309,
+        "name": "Xhamia Kajan",
+        "city": "Kajan Elbasan",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 40.913957,
+        "lng": 19.887369
+    },
+    {
+        "id": 310,
+        "name": "Xhamia Kakunj",
+        "city": "Kakunj Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.180730,
+        "lng": 19.845567
+    },
+    {
+        "id": 311,
+        "name": "Xhamia Kalimash",
+        "city": "Kalimash Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.079968,
+        "lng": 20.307397
+    },
+    {
+        "id": 312,
+        "name": "Xhamia Kalis",
+        "city": "Kalis Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.838453,
+        "lng": 20.366609
+    },
+    {
+        "id": 313,
+        "name": "Xhamia Kalldrun",
+        "city": "Kalldrun Malësi e Madhe",
+        "address": "Rruga Rudin Hoxhaj, qender",
+        "lat": 42.204120,
+        "lng": 19.409677
+    },
+    {
+        "id": 314,
+        "name": "Xhamia Kalush",
+        "city": "Kalush Kavajë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.073924,
+        "lng": 19.597060
+    },
+    {
+        "id": 315,
+        "name": "Xhamia Kamenicë",
+        "city": "Kamenicë Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.533724,
+        "lng": 20.724730
+    },
+    {
+        "id": 316,
+        "name": "Xhamia Shejh albani Kamez",
+        "city": "Kamez Tiranë",
+        "address": "Rruga Miqësia",
+        "lat": 41.380951,
+        "lng": 19.775479
+    },
+    {
+        "id": 317,
+        "name": "Xhamia Kamez",
+        "city": "Kamez Tiranë",
+        "address": "Rruga Venecia",
+        "lat": 41.385083,
+        "lng": 19.760828
+    },
+    {
+        "id": 318,
+        "name": "Xhamia Kander",
+        "city": "Kander Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.711296,
+        "lng": 20.366284
+    },
+    {
+        "id": 319,
+        "name": "Xhamia Kanine",
+        "city": "Kanine Vlorë",
+        "address": "Rruga Vlore - Kanine, Perendim",
+        "lat": 40.443083,
+        "lng": 19.519282
+    },
+    {
+        "id": 320,
+        "name": "Xhamia Kapshtice",
+        "city": "Kapshtice Devoll",
+        "address": "Rruge fshati",
+        "lat": 40.604235,
+        "lng": 21.012520
+    },
+    {
+        "id": 321,
+        "name": "Xhamia Karice",
+        "city": "Karice Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.620777,
+        "lng": 19.957641
+    },
+    {
+        "id": 322,
+        "name": "Xhamia Karinë",
+        "city": "Karinë Peqin",
+        "address": "Rruge fshati, prane Shkolles",
+        "lat": 41.063472,
+        "lng": 19.714938
+    },
+    {
+        "id": 323,
+        "name": "Xhamia Karkavec",
+        "city": "Karkavec Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.058233,
+        "lng": 20.482204
+    },
+    {
+        "id": 324,
+        "name": "Xhamia Karpen 2",
+        "city": "Karpen Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.176564,
+        "lng": 19.487664
+    },
+    {
+        "id": 325,
+        "name": "Xhamia Karpen Vendas",
+        "city": "Karpen Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.167418,
+        "lng": 19.491520
+    },
+    {
+        "id": 326,
+        "name": "Xhamia Karpen 3 / e vjetër",
+        "city": "Karpen Kavajë",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 41.176472,
+        "lng": 19.487730
+    },
+    {
+        "id": 327,
+        "name": "Xhamia Kasaj",
+        "city": "Kasaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.410590,
+        "lng": 20.192802
+    },
+    {
+        "id": 328,
+        "name": "Xhamia Kasalle",
+        "city": "Kasalle Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.403584,
+        "lng": 19.766649
+    },
+    {
+        "id": 329,
+        "name": "Xhamia Kashar",
+        "city": "Kashar Tiranë",
+        "address": "Rruga e Serave",
+        "lat": 41.374373,
+        "lng": 19.671881
+    },
+    {
+        "id": 330,
+        "name": "Xhamia Kashar 2",
+        "city": "Kashar Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.351825,
+        "lng": 19.700643
+    },
+    {
+        "id": 331,
+        "name": "Xhamia Kashar - Valis",
+        "city": "Kashar - Valis Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.358754,
+        "lng": 19.706906
+    },
+    {
+        "id": 332,
+        "name": "Xhamia Kastriot",
+        "city": "Kastriot Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.728827,
+        "lng": 20.376078
+    },
+    {
+        "id": 333,
+        "name": "Xhamia Katjel",
+        "city": "Katjel Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.045381,
+        "lng": 20.551880
+    },
+    {
+        "id": 334,
+        "name": "Xhamia Katrrec",
+        "city": "Katrrec Durrës",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.380514,
+        "lng": 19.612564
+    },
+    {
+        "id": 335,
+        "name": "Xhamia Katund i madh, Bastar",
+        "city": "Katund i Madh, Bastar Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.437190,
+        "lng": 19.965143
+    },
+    {
+        "id": 336,
+        "name": "Xhamia Katund i ri",
+        "city": "Katund i ri Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.402083,
+        "lng": 19.517625
+    },
+    {
+        "id": 337,
+        "name": "Xhamia Katund i Ri, Luzni",
+        "city": "Katund i Ri, Luzni Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.653801,
+        "lng": 20.376184
+    },
+    {
+        "id": 338,
+        "name": "Xhamia Katund i Vogel",
+        "city": "Katund i Vogel Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.599080,
+        "lng": 20.501499
+    },
+    {
+        "id": 339,
+        "name": "Xhamia Katundishte",
+        "city": "Katundishte Përmet",
+        "address": "Rruga e fshatit Katundishtë",
+        "lat": 40.332331,
+        "lng": 20.158643
+    },
+    {
+        "id": 340,
+        "name": "Xhamia Kubelie Kavaje",
+        "city": "Kavajë",
+        "address": "Sheshi Demokracia",
+        "lat": 41.183751,
+        "lng": 19.562285
+    },
+    {
+        "id": 341,
+        "name": "Xhamia El-Hidayah Lagja 2",
+        "city": "Kavajë",
+        "address": "Rruga Skuraj",
+        "lat": 41.181246,
+        "lng": 19.556543
+    },
+    {
+        "id": 342,
+        "name": "Xhamia Lagja Nr. 2",
+        "city": "Kavajë",
+        "address": "Rruga Ceno Kavaja",
+        "lat": 41.183965,
+        "lng": 19.548119
+    },
+    {
+        "id": 343,
+        "name": "Xhamia Takwa Lagja nr. 6",
+        "city": "Kavajë",
+        "address": "Rruga Skuraj",
+        "lat": 41.177390,
+        "lng": 19.549821
+    },
+    {
+        "id": 344,
+        "name": "Xhamia Letres",
+        "city": "Kavajë",
+        "address": "Rruga Fabrika e Letres",
+        "lat": 41.197474,
+        "lng": 19.554484
+    },
+    {
+        "id": 345,
+        "name": "Xhamia Kaziaj",
+        "city": "Kaziaj Peqin",
+        "address": "Rruge fshati",
+        "lat": 41.080504,
+        "lng": 19.749496
+    },
+    {
+        "id": 346,
+        "name": "Xhamia Kçar i Poshtem",
+        "city": "Kçar i Poshtem Malësi e Madhe",
+        "address": "Rruge fshati",
+        "lat": 42.171905,
+        "lng": 19.460949
+    },
+    {
+        "id": 347,
+        "name": "Xhamia Kelcyre",
+        "city": "Kelcyrë Përmet",
+        "address": "Rruga Myslim Kule",
+        "lat": 40.311714,
+        "lng": 20.195654
+    },
+    {
+        "id": 348,
+        "name": "Xhamia Kenete Shijak",
+        "city": "Kenete Shijak Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.332407,
+        "lng": 19.614802
+    },
+    {
+        "id": 349,
+        "name": "Xhamia Kercisht i Eperm",
+        "city": "Kercisht i Eperm Dibër",
+        "address": "Rruge fshati, perendim",
+        "lat": 41.582996,
+        "lng": 20.516014
+    },
+    {
+        "id": 350,
+        "name": "Xhamia Kercisht i Poshtem",
+        "city": "Kercisht i Poshtem Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.586577,
+        "lng": 20.505834
+    },
+    {
+        "id": 351,
+        "name": "Xhamia Kerkove",
+        "city": "Kerkove Vlorë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.531858,
+        "lng": 19.502808
+    },
+    {
+        "id": 352,
+        "name": "Xhamia Ketë",
+        "city": "Ketë Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.484822,
+        "lng": 20.009326
+    },
+    {
+        "id": 353,
+        "name": "Xhamia Kice",
+        "city": "Kice Dibër",
+        "address": "Rruge fshati, perendim",
+        "lat": 41.645552,
+        "lng": 20.442206
+    },
+    {
+        "id": 354,
+        "name": "Xhamia Klenje",
+        "city": "Klenje Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.367107,
+        "lng": 20.468275
+    },
+    {
+        "id": 355,
+        "name": "Xhamia Kllojke",
+        "city": "Kllojke Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.268980,
+        "lng": 20.023796
+    },
+    {
+        "id": 356,
+        "name": "Xhamia Kllopcisht",
+        "city": "Kllopcisht Dibër",
+        "address": "Rruge fshati, jug",
+        "lat": 41.567205,
+        "lng": 20.511139
+    },
+    {
+        "id": 357,
+        "name": "Xhamia Klos",
+        "city": "Klos Mat",
+        "address": "Unaza e Qytetit",
+        "lat": 41.504368,
+        "lng": 20.089809
+    },
+    {
+        "id": 358,
+        "name": "Xhamia Klos - Mollas",
+        "city": "Klos - Mollas Elbasan",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 40.955483,
+        "lng": 20.012767
+    },
+    {
+        "id": 359,
+        "name": "Xhamia Koçanaj",
+        "city": "Koçanaj Tropojë",
+        "address": "Rruga Azem Hajdari",
+        "lat": 42.384549,
+        "lng": 20.077432
+    },
+    {
+        "id": 360,
+        "name": "Xhamia Koder Berxull",
+        "city": "Koder Berxull Tiranë",
+        "address": "Rruga Qershijave",
+        "lat": 41.388086,
+        "lng": 19.690146
+    },
+    {
+        "id": 361,
+        "name": "Xhamia e vjeter Koder Boks",
+        "city": "Koder Boks Shkodër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.129730,
+        "lng": 19.566835
+    },
+    {
+        "id": 362,
+        "name": "Xhamia Koder Kashar",
+        "city": "Koder Kashar Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.348877,
+        "lng": 19.717453
+    },
+    {
+        "id": 363,
+        "name": "Xhamia Kodra e Danit",
+        "city": "Kodra e Danit Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.532619,
+        "lng": 20.290416
+    },
+    {
+        "id": 364,
+        "name": "Xhamia Kokreve",
+        "city": "Kokreve Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.144635,
+        "lng": 20.403751
+    },
+    {
+        "id": 365,
+        "name": "Xhamia Kolesjan",
+        "city": "Kolesjan Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.966551,
+        "lng": 20.409351
+    },
+    {
+        "id": 366,
+        "name": "Xhamia e Re Kolesjan",
+        "city": "Kolesjan Kukës",
+        "address": "Rruge Kukës Peshkopi, tek varrezat e fshatit",
+        "lat": 41.973264,
+        "lng": 20.402997
+    },
+    {
+        "id": 367,
+        "name": "Xhamia Kolonje",
+        "city": "Kolonje Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.827081,
+        "lng": 19.606049
+    },
+    {
+        "id": 368,
+        "name": "Xhamia Kolonje",
+        "city": "Kolonje Gjirokastër",
+        "address": "Rruge fshati, qender",
+        "lat": 40.160722,
+        "lng": 20.013122
+    },
+    {
+        "id": 369,
+        "name": "Xhamia Kolsh",
+        "city": "Kolsh Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.078056,
+        "lng": 20.341327
+    },
+    {
+        "id": 370,
+        "name": "Xhamia Komsi",
+        "city": "Komsi Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.585244,
+        "lng": 19.977685
+    },
+    {
+        "id": 371,
+        "name": "Xhamia Konispol",
+        "city": "Konispol Sarandë",
+        "address": "Rruge fshati, prane Gjimnazit",
+        "lat": 39.660002,
+        "lng": 20.177262
+    },
+    {
+        "id": 372,
+        "name": "Xhamia Kopacez",
+        "city": "Kopacez Delvinë",
+        "address": "Rruge fshati, qender",
+        "lat": 39.988104,
+        "lng": 20.036898
+    },
+    {
+        "id": 373,
+        "name": "Xhamia Koplik",
+        "city": "Koplik Malësi e Madhe",
+        "address": "Rruga Xhamisë, tek varrezat",
+        "lat": 42.210196,
+        "lng": 19.440221
+    },
+    {
+        "id": 374,
+        "name": "Xhamia Mehaj",
+        "city": "Koplik Malësi e Madhe",
+        "address": "Rruga Kryesore, Lagja Mehaj",
+        "lat": 42.217985,
+        "lng": 19.431273
+    },
+    {
+        "id": 375,
+        "name": "Xhamia Koplik i Siperm",
+        "city": "Koplik i Siperm Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.222923,
+        "lng": 19.468704
+    },
+    {
+        "id": 376,
+        "name": "Xhamia Mirahori",
+        "city": "Korçë",
+        "address": "Pazari i Vjeter, Rruga Asim Vokshi",
+        "lat": 40.615884,
+        "lng": 20.775455
+    },
+    {
+        "id": 377,
+        "name": "Xhamia e Medresese Korçë",
+        "city": "Korçë",
+        "address": "Rruga Gjon Mili, tek medreseja",
+        "lat": 40.610477,
+        "lng": 20.778995
+    },
+    {
+        "id": 378,
+        "name": "Xhamia Kordhoc",
+        "city": "Kordhoc Gjirokastër",
+        "address": "Rruge fshati, qender",
+        "lat": 40.050825,
+        "lng": 20.172395
+    },
+    {
+        "id": 379,
+        "name": "Xhamia Korre",
+        "city": "Korre Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.245902,
+        "lng": 20.044940
+    },
+    {
+        "id": 380,
+        "name": "Xhamia Kosmac",
+        "city": "Kosmac Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.996812,
+        "lng": 19.549464
+    },
+    {
+        "id": 381,
+        "name": "Xhamia Kotodesh",
+        "city": "Kotodesh Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.052921,
+        "lng": 20.578541
+    },
+    {
+        "id": 382,
+        "name": "Xhamia Kovashice",
+        "city": "Kovashice Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.597959,
+        "lng": 20.451013
+    },
+    {
+        "id": 383,
+        "name": "Xhamia Kovashice",
+        "city": "Kovashice Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.567322,
+        "lng": 20.396283
+    },
+    {
+        "id": 384,
+        "name": "Xhamia Krahes",
+        "city": "Krahes Tepelenë",
+        "address": "Rruga e fshatit Krahes",
+        "lat": 40.447935,
+        "lng": 19.873760
+    },
+    {
+        "id": 385,
+        "name": "Xhamia Kraj Rec",
+        "city": "Kraj Rec Dibër",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 41.840651,
+        "lng": 20.330630
+    },
+    {
+        "id": 386,
+        "name": "Xhamia Krrabe",
+        "city": "Krrabë Tiranë",
+        "address": "Rruge Lagjeje",
+        "lat": 41.217042,
+        "lng": 19.970402
+    },
+    {
+        "id": 387,
+        "name": "Xhamia Murad Bey, Krujë",
+        "city": "Krujë",
+        "address": "Rruga Albanopolis",
+        "lat": 41.509646,
+        "lng": 19.794577
+    },
+    {
+        "id": 388,
+        "name": "Xhamia e Fatih Sulltan Mehmetit",
+        "city": "Krujë",
+        "address": "Rruga Kala",
+        "lat": 41.507221,
+        "lng": 19.793674
+    },
+    {
+        "id": 389,
+        "name": "Xhamia Arrameras Fush Krujë",
+        "city": "Krujë",
+        "address": "Rruga Arrameras",
+        "lat": 41.470962,
+        "lng": 19.720323
+    },
+    {
+        "id": 390,
+        "name": "Xhamia Fush Krujë",
+        "city": "Krujë",
+        "address": "Rruga e Laçit",
+        "lat": 41.487587,
+        "lng": 19.726567
+    },
+    {
+        "id": 391,
+        "name": "Xhamia Krume",
+        "city": "Krumë Has",
+        "address": "Rruga Pecak",
+        "lat": 42.197124,
+        "lng": 20.414573
+    },
+    {
+        "id": 392,
+        "name": "Xhamia Krye Bushat",
+        "city": "Krye Bushat Shkodër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.971623,
+        "lng": 19.542617
+    },
+    {
+        "id": 393,
+        "name": "Xhamia Kryekuq",
+        "city": "Kryekuq Lushnjë",
+        "address": "Rruge fshati",
+        "lat": 40.924416,
+        "lng": 19.539729
+    },
+    {
+        "id": 394,
+        "name": "Xhamia Kryeluz",
+        "city": "Kryeluz Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.145779,
+        "lng": 19.598069
+    },
+    {
+        "id": 395,
+        "name": "Xhamia Kryemedhenj",
+        "city": "Kryemedhenj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.259299,
+        "lng": 19.544484
+    },
+    {
+        "id": 396,
+        "name": "Xhamia Kryevidh",
+        "city": "Kryevidh Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.093769,
+        "lng": 19.530142
+    },
+    {
+        "id": 397,
+        "name": "Xhamia e vjeter Kryezi",
+        "city": "Kryezi Pukë",
+        "address": "Rruge fshati",
+        "lat": 42.111638,
+        "lng": 20.057191
+    },
+    {
+        "id": 398,
+        "name": "Xhamia Kryezi",
+        "city": "Kryezi Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.221469,
+        "lng": 19.630426
+    },
+    {
+        "id": 399,
+        "name": "Xhamia Kasamil",
+        "city": "Ksamil Sarandë",
+        "address": "Plazhi i Ksamilit",
+        "lat": 39.771460,
+        "lng": 20.001155
+    },
+    {
+        "id": 400,
+        "name": "Xhamia Kuc",
+        "city": "Kuc Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.039547,
+        "lng": 19.523979
+    },
+    {
+        "id": 401,
+        "name": "Xhamia Kuçovë",
+        "city": "Kuçovë",
+        "address": "Rruga Zef Leka, prane Gjimnazit 28 Nëntori",
+        "lat": 40.803836,
+        "lng": 19.913206
+    },
+    {
+        "id": 402,
+        "name": "Xhamia Kukes",
+        "city": "Kukës",
+        "address": "Rruga Eksod 99",
+        "lat": 42.073465,
+        "lng": 20.419420
+    },
+    {
+        "id": 403,
+        "name": "Xhamia Kukes e re",
+        "city": "Kukës",
+        "address": "Rruga Mezhduni",
+        "lat": 42.076853,
+        "lng": 20.426556
+    },
+    {
+        "id": 404,
+        "name": "Xhamia Kullaj",
+        "city": "Kullaj Shkodër",
+        "address": "Rruge fshati, koder",
+        "lat": 42.130044,
+        "lng": 19.554644
+    },
+    {
+        "id": 405,
+        "name": "Xhamia Kulle",
+        "city": "Kulle Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.428268,
+        "lng": 19.561798
+    },
+    {
+        "id": 406,
+        "name": "Xhamia Kurcaj",
+        "city": "Kurcaj Krujë",
+        "address": "Rruge fshati, tek varrezat",
+        "lat": 41.461909,
+        "lng": 19.819299
+    },
+    {
+        "id": 407,
+        "name": "Xhamia Kurdari",
+        "city": "Kurdari Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.581638,
+        "lng": 20.094583
+    },
+    {
+        "id": 408,
+        "name": "Xhamia Kurtaj",
+        "city": "Kurtaj Malësi e Madhe",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.195037,
+        "lng": 19.564537
+    },
+    {
+        "id": 409,
+        "name": "Xhamia Kus",
+        "city": "Kus Tiranë",
+        "address": "Rruga Abaz Bekteshi",
+        "lat": 41.331925,
+        "lng": 19.688263
+    },
+    {
+        "id": 410,
+        "name": "Xhamia Istikame Pobrat / Kutalli",
+        "city": "Kutalli Berat",
+        "address": "Rruge fshati, veri",
+        "lat": 40.771735,
+        "lng": 19.781530
+    },
+    {
+        "id": 411,
+        "name": "Xhamia Kuturman",
+        "city": "Kuturman Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.229380,
+        "lng": 20.261199
+    },
+    {
+        "id": 412,
+        "name": "Xhamia Labinot Katund",
+        "city": "Labinot Katund Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.173839,
+        "lng": 20.157329
+    },
+    {
+        "id": 413,
+        "name": "Xhamia Labinot Mal",
+        "city": "Labinot Mal Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.202056,
+        "lng": 20.150335
+    },
+    {
+        "id": 414,
+        "name": "Xhamia Laces",
+        "city": "Laces Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.736818,
+        "lng": 20.342305
+    },
+    {
+        "id": 415,
+        "name": "Xhamia e vjeter Lajthize",
+        "city": "Lajthize Pukë",
+        "address": "Rruge fshati",
+        "lat": 42.064877,
+        "lng": 19.888211
+    },
+    {
+        "id": 416,
+        "name": "Xhamia Lalz",
+        "city": "Lalz Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.531388,
+        "lng": 19.567219
+    },
+    {
+        "id": 417,
+        "name": "Xhamia Lamoll",
+        "city": "Lamoll Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.175283,
+        "lng": 20.170552
+    },
+    {
+        "id": 418,
+        "name": "Xhamia Lanabregas",
+        "city": "Lanabregas Tiranë",
+        "address": "Rruga Shkozë - Lanabregas, tek varrezat e fshatit",
+        "lat": 41.344721,
+        "lng": 19.894002
+    },
+    {
+        "id": 419,
+        "name": "Xhamia Lapardha",
+        "city": "Lapardha Berat",
+        "address": "Rruge fshati, qender",
+        "lat": 40.757201,
+        "lng": 19.945747
+    },
+    {
+        "id": 420,
+        "name": "Xhamia Lapurake",
+        "city": "Lapurake Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.528596,
+        "lng": 20.299665
+    },
+    {
+        "id": 421,
+        "name": "Xhamia Lashkize",
+        "city": "Lashkize Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.814448,
+        "lng": 20.296566
+    },
+    {
+        "id": 422,
+        "name": "Xhamia Lavdar",
+        "city": "Lavdar Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.601456,
+        "lng": 20.654560
+    },
+    {
+        "id": 423,
+        "name": "Xhamia Lazarat",
+        "city": "Lazarat Gjirokastër",
+        "address": "Rruge fshati, qender",
+        "lat": 40.046024,
+        "lng": 20.147171
+    },
+    {
+        "id": 424,
+        "name": "Xhamia Lejcan",
+        "city": "Lejcan Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.427807,
+        "lng": 20.434508
+    },
+    {
+        "id": 425,
+        "name": "Xhamia Lekaj",
+        "city": "Lekaj Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.113841,
+        "lng": 19.609560
+    },
+    {
+        "id": 426,
+        "name": "Xhamia e vjeter Lekurtaj",
+        "city": "Lekurtaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.311784,
+        "lng": 20.035131
+    },
+    {
+        "id": 427,
+        "name": "Xhamia Leshnice",
+        "city": "Leshnice Pogradec",
+        "address": "Rruge fshati, Veri",
+        "lat": 40.854118,
+        "lng": 20.702775
+    },
+    {
+        "id": 428,
+        "name": "Xhamia Leskovik",
+        "city": "Leskovik Kolonjë",
+        "address": "Rruga Kryesore",
+        "lat": 40.151415,
+        "lng": 20.596775
+    },
+    {
+        "id": 429,
+        "name": "Xhamia Letaj",
+        "city": "Letaj Has",
+        "address": "Rruga nacionale SH23",
+        "lat": 42.291262,
+        "lng": 20.383878
+    },
+    {
+        "id": 430,
+        "name": "Xhamia Letem",
+        "city": "Letem Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.248013,
+        "lng": 20.338411
+    },
+    {
+        "id": 431,
+        "name": "Xhamia Lezhë",
+        "city": "Lezhë",
+        "address": "Rruga Luigj Gurakuqi",
+        "lat": 41.777331,
+        "lng": 19.644362
+    },
+    {
+        "id": 432,
+        "name": "Xhamia Libohove",
+        "city": "Libohove Gjirokastër",
+        "address": "Rruge fshati, qender",
+        "lat": 40.028950,
+        "lng": 20.263002
+    },
+    {
+        "id": 433,
+        "name": "Xhamia Librazhd",
+        "city": "Librazhd",
+        "address": "Rruga Jakup Bicaku",
+        "lat": 41.179793,
+        "lng": 20.315869
+    },
+    {
+        "id": 434,
+        "name": "Xhamia Librazhd Katund",
+        "city": "Librazhd Katund Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.210331,
+        "lng": 20.360803
+    },
+    {
+        "id": 435,
+        "name": "Xhamia \"Hoxhe Cota\"",
+        "city": "Librazhd Qender Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.197476,
+        "lng": 20.338601
+    },
+    {
+        "id": 436,
+        "name": "Xhamia Limjan",
+        "city": "Limjan Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.737761,
+        "lng": 20.409883
+    },
+    {
+        "id": 437,
+        "name": "Xhamia Lin",
+        "city": "Lin Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 41.066193,
+        "lng": 20.642738
+    },
+    {
+        "id": 438,
+        "name": "Xhamia Linaj",
+        "city": "Linaj Malësi e Madhe",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.180106,
+        "lng": 19.543076
+    },
+    {
+        "id": 439,
+        "name": "Xhamia Linas",
+        "city": "Linas Elbasan",
+        "address": "Rruge fshati",
+        "lat": 40.908331,
+        "lng": 19.994220
+    },
+    {
+        "id": 440,
+        "name": "Xhamia Bereqeti",
+        "city": "Linze Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.354783,
+        "lng": 19.876460
+    },
+    {
+        "id": 441,
+        "name": "Xhamia Lis",
+        "city": "Lis Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.627476,
+        "lng": 20.091966
+    },
+    {
+        "id": 442,
+        "name": "Xhamia Lladomerice",
+        "city": "Lladomerice Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.464068,
+        "lng": 20.502322
+    },
+    {
+        "id": 443,
+        "name": "Xhamia Llakatund",
+        "city": "Llakatund Vlorë",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.537575,
+        "lng": 19.533618
+    },
+    {
+        "id": 444,
+        "name": "Xhamia Lleshan",
+        "city": "Lleshan Elbasan",
+        "address": "Rruge Nacionale SH88",
+        "lat": 41.045586,
+        "lng": 20.165704
+    },
+    {
+        "id": 445,
+        "name": "Xhamia Llugaj",
+        "city": "Llugaj Tropojë",
+        "address": "Rruge fshati, qender",
+        "lat": 42.338683,
+        "lng": 20.108548
+    },
+    {
+        "id": 446,
+        "name": "Xhamia Lojme",
+        "city": "Lojme Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.032694,
+        "lng": 20.510167
+    },
+    {
+        "id": 447,
+        "name": "Xhamia Luarze Velipoje",
+        "city": "Luarze Velipoje Shkodër",
+        "address": "Rruge fshati",
+        "lat": 41.922309,
+        "lng": 19.394277
+    },
+    {
+        "id": 448,
+        "name": "Xhamia Lubalesh",
+        "city": "Lubalesh Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.476122,
+        "lng": 20.425686
+    },
+    {
+        "id": 449,
+        "name": "Xhamia Lukan",
+        "city": "Lukan Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.641363,
+        "lng": 20.248226
+    },
+    {
+        "id": 450,
+        "name": "Xhamia Lume",
+        "city": "Lume Kukës",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.072173,
+        "lng": 20.442282
+    },
+    {
+        "id": 451,
+        "name": "Xhamia Lunik",
+        "city": "Lunik Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.291068,
+        "lng": 20.324757
+    },
+    {
+        "id": 452,
+        "name": "Xhamia Lure",
+        "city": "Lure Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.809167,
+        "lng": 20.223178
+    },
+    {
+        "id": 453,
+        "name": "Xhamia Lusen",
+        "city": "Lusen Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.913087,
+        "lng": 20.410046
+    },
+    {
+        "id": 454,
+        "name": "Xhamia Lushnje",
+        "city": "Lushnje Lushnjë",
+        "address": "Tek Bashkia e Lushnjes",
+        "lat": 40.942510,
+        "lng": 19.708004
+    },
+    {
+        "id": 455,
+        "name": "Xhamia Luz i Madh",
+        "city": "Luz i Madh Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.111136,
+        "lng": 19.578933
+    },
+    {
+        "id": 456,
+        "name": "Xhamia Luz i Vogel",
+        "city": "Luz i Vogel Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.127726,
+        "lng": 19.574564
+    },
+    {
+        "id": 457,
+        "name": "Xhamia Luzni",
+        "city": "Luzni Dibër",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 41.634802,
+        "lng": 20.367894
+    },
+    {
+        "id": 458,
+        "name": "Xhamia Majtare",
+        "city": "Majtare Dibër",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.572242,
+        "lng": 20.482492
+    },
+    {
+        "id": 459,
+        "name": "Xhamia Mal i Bardhe Milot",
+        "city": "Mal i Bardhe Kurbin",
+        "address": "Rruge fshati",
+        "lat": 41.667063,
+        "lng": 19.702886
+    },
+    {
+        "id": 460,
+        "name": "Xhamia Mal vilz",
+        "city": "Mal vilz Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.465999,
+        "lng": 19.970895
+    },
+    {
+        "id": 461,
+        "name": "Xhamia Malavec",
+        "city": "Malavec Korçë",
+        "address": "Rruge fshati, lindje",
+        "lat": 40.657799,
+        "lng": 20.801636
+    },
+    {
+        "id": 462,
+        "name": "Xhamia Maliq",
+        "city": "Maliq Korçë",
+        "address": "Qender, tek Bashkia Maliq",
+        "lat": 40.708230,
+        "lng": 20.699378
+    },
+    {
+        "id": 463,
+        "name": "Xhamia Mamel",
+        "city": "Mamel Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.177894,
+        "lng": 19.975589
+    },
+    {
+        "id": 464,
+        "name": "Xhamia Mamez",
+        "city": "Mamez Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.061413,
+        "lng": 20.370578
+    },
+    {
+        "id": 465,
+        "name": "Xhamia Mamurras",
+        "city": "Mamurras Kurbin",
+        "address": "Ruga Iliria",
+        "lat": 41.577836,
+        "lng": 19.695588
+    },
+    {
+        "id": 466,
+        "name": "Xhamia Fushë Mamurras",
+        "city": "Mamurras Kurbin",
+        "address": "Rruga kryesore, qender",
+        "lat": 41.569183,
+        "lng": 19.681352
+    },
+    {
+        "id": 467,
+        "name": "Xhamia Mancurisht",
+        "city": "Mancurisht Devoll",
+        "address": "Rruge fshati, Jug",
+        "lat": 40.701405,
+        "lng": 20.932575
+    },
+    {
+        "id": 468,
+        "name": "Xhamia Manez",
+        "city": "Manez Durrës",
+        "address": "Rruga Ali Beqja",
+        "lat": 41.441275,
+        "lng": 19.584854
+    },
+    {
+        "id": 469,
+        "name": "Xhamia Maqellare",
+        "city": "Maqellare Dibër",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.588327,
+        "lng": 20.486546
+    },
+    {
+        "id": 470,
+        "name": "Xhamia e Re Maqellare",
+        "city": "Maqellare Dibër",
+        "address": "Rruge fshati, perendim",
+        "lat": 41.589107,
+        "lng": 20.479967
+    },
+    {
+        "id": 471,
+        "name": "Xhamia Marikaj",
+        "city": "Marikaj Tiranë",
+        "address": "Rruga Marikaj",
+        "lat": 41.374365,
+        "lng": 19.625057
+    },
+    {
+        "id": 472,
+        "name": "Xhamia e vjeter Markaj",
+        "city": "Markaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.351912,
+        "lng": 20.056842
+    },
+    {
+        "id": 473,
+        "name": "Xhamia Marqinet",
+        "city": "Marqinet Tiranë",
+        "address": "Rruga Bashkimi Europian",
+        "lat": 41.405352,
+        "lng": 19.653077
+    },
+    {
+        "id": 474,
+        "name": "Xhamia Mashkullore",
+        "city": "Mashkullore Gjirokastër",
+        "address": "Rruge fshati, qender",
+        "lat": 40.117713,
+        "lng": 20.090414
+    },
+    {
+        "id": 475,
+        "name": "Xhamia Mazhë e vogel",
+        "city": "Mazhë e vogel Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.489420,
+        "lng": 19.635903
+    },
+    {
+        "id": 476,
+        "name": "Xhamia Mazrek",
+        "city": "Mazrek Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.352422,
+        "lng": 19.679946
+    },
+    {
+        "id": 477,
+        "name": "Xhamia Mborje",
+        "city": "Mborje Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.603161,
+        "lng": 20.804396
+    },
+    {
+        "id": 478,
+        "name": "Xhamia Melan",
+        "city": "Melan Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.654588,
+        "lng": 20.464832
+    },
+    {
+        "id": 479,
+        "name": "Xhamia Melgushe",
+        "city": "Melgushe Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.988547,
+        "lng": 19.521517
+    },
+    {
+        "id": 480,
+        "name": "Xhamia Memaliaj",
+        "city": "Memaliajt Tepelenë",
+        "address": "Rruga Kastriot Lika",
+        "lat": 40.349986,
+        "lng": 19.984769
+    },
+    {
+        "id": 481,
+        "name": "Xhamia Memelisht",
+        "city": "Memelisht Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.937214,
+        "lng": 20.634760
+    },
+    {
+        "id": 482,
+        "name": "Xhamia Memzotaj",
+        "city": "Memzotaj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.154969,
+        "lng": 19.608793
+    },
+    {
+        "id": 483,
+        "name": "Xhamia Mengaj",
+        "city": "Mengaj Kavajë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.197302,
+        "lng": 19.641659
+    },
+    {
+        "id": 484,
+        "name": "Xhamia e Teqes",
+        "city": "Mengel Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.124476,
+        "lng": 20.107276
+    },
+    {
+        "id": 485,
+        "name": "Xhamia Al Noor",
+        "city": "Mengel Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.124114,
+        "lng": 20.121155
+    },
+    {
+        "id": 486,
+        "name": "Xhamia Menik",
+        "city": "Menik Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.291179,
+        "lng": 19.706855
+    },
+    {
+        "id": 487,
+        "name": "Xhamia Menik fushe",
+        "city": "Menik fushe Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.293384,
+        "lng": 19.717501
+    },
+    {
+        "id": 488,
+        "name": "Xhamia Mes-Myselim",
+        "city": "Mes - Myselim Shkodër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.101777,
+        "lng": 19.566538
+    },
+    {
+        "id": 489,
+        "name": "Xhamia Milan-Rrasek",
+        "city": "Milan - Rrasek Shkodër",
+        "address": "Rruga Milan",
+        "lat": 42.126873,
+        "lng": 19.588071
+    },
+    {
+        "id": 490,
+        "name": "Xhamia Mirake Gjevac",
+        "city": "Mirake Gjevac Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.166975,
+        "lng": 20.226375
+    },
+    {
+        "id": 491,
+        "name": "Xhamia Mirake Katund",
+        "city": "Mirake Katund Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.179890,
+        "lng": 20.244515
+    },
+    {
+        "id": 492,
+        "name": "Xhamia Mjede",
+        "city": "Mjede Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.002248,
+        "lng": 19.615485
+    },
+    {
+        "id": 493,
+        "name": "Xhamia e vjeter Mjede",
+        "city": "Mjede Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.001329,
+        "lng": 19.610953
+    },
+    {
+        "id": 494,
+        "name": "Xhamia Mner i siperm",
+        "city": "Mner i siperm Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.475296,
+        "lng": 19.921414
+    },
+    {
+        "id": 495,
+        "name": "Xhamia Mollagjesh",
+        "city": "Mollagjesh Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.220990,
+        "lng": 20.031452
+    },
+    {
+        "id": 496,
+        "name": "Xhamia Mollaj / Dvoran",
+        "city": "Mollaj / Dvoran Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.561106,
+        "lng": 20.741189
+    },
+    {
+        "id": 497,
+        "name": "Xhamia Mollas",
+        "city": "Mollas Elbasan",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 40.924927,
+        "lng": 19.998530
+    },
+    {
+        "id": 498,
+        "name": "Xhamia Momel",
+        "city": "Momel Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.187359,
+        "lng": 19.584917
+    },
+    {
+        "id": 499,
+        "name": "Xhamia Morine",
+        "city": "Morinë Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.143952,
+        "lng": 20.533366
+    },
+    {
+        "id": 500,
+        "name": "Xhamia Mucan",
+        "city": "Mucan Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.010447,
+        "lng": 20.089686
+    },
+    {
+        "id": 501,
+        "name": "Xhamia Muhurr",
+        "city": "Muhurr Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.693928,
+        "lng": 20.324499
+    },
+    {
+        "id": 502,
+        "name": "Xhamia Mullet",
+        "city": "Mullet Tiranë",
+        "address": "Mullet, tek varrezat e fshatit",
+        "lat": 41.267208,
+        "lng": 19.875543
+    },
+    {
+        "id": 503,
+        "name": "Xhamia Muriqan",
+        "city": "Muriqan Shkodër",
+        "address": "Tek Varrezat e fshatit Muriqan",
+        "lat": 42.016134,
+        "lng": 19.396895
+    },
+    {
+        "id": 504,
+        "name": "Xhamia Muriqan",
+        "city": "Muriqan Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.051734,
+        "lng": 20.002490
+    },
+    {
+        "id": 505,
+        "name": "Xhamia Murre",
+        "city": "Murre Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.634473,
+        "lng": 20.206036
+    },
+    {
+        "id": 506,
+        "name": "Xhamia Mushqete",
+        "city": "Mushqete Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.215694,
+        "lng": 19.951738
+    },
+    {
+        "id": 507,
+        "name": "Xhamia Mustafaj - Bicaj",
+        "city": "Mustafaj Kukës",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.988961,
+        "lng": 20.421739
+    },
+    {
+        "id": 508,
+        "name": "Xhamia Nange",
+        "city": "Nange Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.010473,
+        "lng": 20.418355
+    },
+    {
+        "id": 509,
+        "name": "Xhamia Ndroq",
+        "city": "Ndroq Tiranë",
+        "address": "Rruga Nacionale SH56",
+        "lat": 41.264926,
+        "lng": 19.654042
+    },
+    {
+        "id": 510,
+        "name": "Xhamia Nepravishte",
+        "city": "Nepravishte Gjirokastër",
+        "address": "Rruge fshati, Lagjja e Poshtëme",
+        "lat": 40.003487,
+        "lng": 20.273139
+    },
+    {
+        "id": 511,
+        "name": "Xhamia Neshte",
+        "city": "Neshte Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.304685,
+        "lng": 20.268395
+    },
+    {
+        "id": 512,
+        "name": "Xhamia Nevecisht",
+        "city": "Nevecisht Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.659794,
+        "lng": 20.826426
+    },
+    {
+        "id": 513,
+        "name": "Xhamia Nikël",
+        "city": "Nikël Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.444081,
+        "lng": 19.741591
+    },
+    {
+        "id": 514,
+        "name": "Xhamia Nikoliq",
+        "city": "Nikoliq Has",
+        "address": "Rruge fshati, qender",
+        "lat": 42.240701,
+        "lng": 20.406776
+    },
+    {
+        "id": 515,
+        "name": "Xhamia Novosele",
+        "city": "Novosele Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.983101,
+        "lng": 20.587441
+    },
+    {
+        "id": 516,
+        "name": "Xhamia Oblike",
+        "city": "Oblike Shkodër",
+        "address": "Qender Oblike, Rruga Nacionale SH41",
+        "lat": 42.015021,
+        "lng": 19.440814
+    },
+    {
+        "id": 517,
+        "name": "Xhamia Oblike e Siperme - Dramosh",
+        "city": "Oblike e Siperme - Dramosh Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.047083,
+        "lng": 19.437004
+    },
+    {
+        "id": 518,
+        "name": "Xhamia Okshtun",
+        "city": "Okshtun Kavajë",
+        "address": "Rruge fshati, buze liqenit",
+        "lat": 41.124896,
+        "lng": 19.648834
+    },
+    {
+        "id": 519,
+        "name": "Xhamia Omaraj",
+        "city": "Omaraj Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.131033,
+        "lng": 19.625545
+    },
+    {
+        "id": 520,
+        "name": "Xhamia Orenj",
+        "city": "Orenj Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.286341,
+        "lng": 20.212103
+    },
+    {
+        "id": 521,
+        "name": "Xhamia Oreshke",
+        "city": "Oreshke Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.012995,
+        "lng": 20.561845
+    },
+    {
+        "id": 522,
+        "name": "Xhamia Orgjost",
+        "city": "Orgjost Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.042999,
+        "lng": 20.576490
+    },
+    {
+        "id": 523,
+        "name": "Xhamia Orman",
+        "city": "Orman Korçë",
+        "address": "Rruge fshati, qender, buze lumit",
+        "lat": 40.734609,
+        "lng": 20.786103
+    },
+    {
+        "id": 524,
+        "name": "Xhamia Ostren i Madh",
+        "city": "Ostren i Madh Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.430854,
+        "lng": 20.456951
+    },
+    {
+        "id": 525,
+        "name": "Xhamia Ostren i Vogel",
+        "city": "Ostren i Vogel Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.428955,
+        "lng": 20.495683
+    },
+    {
+        "id": 526,
+        "name": "Xhamia Pac",
+        "city": "Pac Tropojë",
+        "address": "Rruge fshati, qender",
+        "lat": 42.289085,
+        "lng": 20.210583
+    },
+    {
+        "id": 527,
+        "name": "Xhamia Pajove",
+        "city": "Pajove Peqin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.067367,
+        "lng": 19.832068
+    },
+    {
+        "id": 528,
+        "name": "Xhamia Palavli",
+        "city": "Palavli Delvinë",
+        "address": "Rruge fshati, qender",
+        "lat": 39.976445,
+        "lng": 20.032982
+    },
+    {
+        "id": 529,
+        "name": "Xhamia Palushe",
+        "city": "Palushe Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.863412,
+        "lng": 20.418968
+    },
+    {
+        "id": 530,
+        "name": "Xhamia Panaja",
+        "city": "Panaja Vlorë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.535756,
+        "lng": 19.469912
+    },
+    {
+        "id": 531,
+        "name": "Xhamia Paper",
+        "city": "Paper Elbasan",
+        "address": "Rruge fshati, buze Lumit",
+        "lat": 41.057752,
+        "lng": 19.952174
+    },
+    {
+        "id": 532,
+        "name": "Xhamia Pashkashehs",
+        "city": "Pashkashehs Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.244087,
+        "lng": 19.986230
+    },
+    {
+        "id": 533,
+        "name": "Xhamia Patos",
+        "city": "Patos Fier",
+        "address": "Shetitorja Republika",
+        "lat": 40.680812,
+        "lng": 19.625829
+    },
+    {
+        "id": 534,
+        "name": "Xhamia Pellumbas",
+        "city": "Pellumbas Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.243744,
+        "lng": 19.954094
+    },
+    {
+        "id": 535,
+        "name": "Xhamia \"Abdurrahman Pasha\"",
+        "city": "Peqin",
+        "address": "Bulevardi Mustafa Gjinishi",
+        "lat": 41.045863,
+        "lng": 19.750546
+    },
+    {
+        "id": 536,
+        "name": "Xhamia Perbreg - Rruga e Kombit",
+        "city": "Perbreg Kukës",
+        "address": "Rruga e Kombit",
+        "lat": 42.077881,
+        "lng": 20.470660
+    },
+    {
+        "id": 537,
+        "name": "Xhamia Perlat",
+        "city": "Perlat Durrës",
+        "address": "Rruga Hamallaj-Perlat, tek varrezat e fshatit",
+        "lat": 41.443556,
+        "lng": 19.539533
+    },
+    {
+        "id": 538,
+        "name": "Xhamia Permet",
+        "city": "Permet Përmet",
+        "address": "Shëtitorja Mentor Xhemali",
+        "lat": 40.235529,
+        "lng": 20.352065
+    },
+    {
+        "id": 539,
+        "name": "Xhamia Perparim",
+        "city": "Perparim Peqin",
+        "address": "Rruge fshati",
+        "lat": 41.047008,
+        "lng": 19.799060
+    },
+    {
+        "id": 540,
+        "name": "Xhamia Peshkopi",
+        "city": "Peshkopi Dibër",
+        "address": "Rruga Shehat Shehu",
+        "lat": 41.684581,
+        "lng": 20.432358
+    },
+    {
+        "id": 541,
+        "name": "Xhamia Peshkopi e Vjeter",
+        "city": "Peshkopi Dibër",
+        "address": "Rruga e Llixhave",
+        "lat": 41.684955,
+        "lng": 20.435188
+    },
+    {
+        "id": 542,
+        "name": "Xhamia Peshtan i Madh",
+        "city": "Peshtan i Madh Fier",
+        "address": "Rruge fshati, qender",
+        "lat": 40.656058,
+        "lng": 19.536269
+    },
+    {
+        "id": 543,
+        "name": "Xhamia E drites petrele",
+        "city": "Petrele Tiranë",
+        "address": "Rruga Petreles",
+        "lat": 41.254561,
+        "lng": 19.857840
+    },
+    {
+        "id": 544,
+        "name": "Xhamia Petresh",
+        "city": "Petresh Elbasan",
+        "address": "Rruga Nacionale SH3, tek varrezat",
+        "lat": 41.111844,
+        "lng": 20.006068
+    },
+    {
+        "id": 545,
+        "name": "Xhamia Petrushe",
+        "city": "Petrushe Pogradec",
+        "address": "Rruge fshati, lindje, pran shkolles",
+        "lat": 40.817605,
+        "lng": 20.733986
+    },
+    {
+        "id": 546,
+        "name": "Xhamia e Hadmit Peze",
+        "city": "Peze Tiranë",
+        "address": "Rruga Nacionale SH56",
+        "lat": 41.260756,
+        "lng": 19.689628
+    },
+    {
+        "id": 547,
+        "name": "Xhamia Peze e vogel",
+        "city": "Peze e vogel Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.272720,
+        "lng": 19.709101
+    },
+    {
+        "id": 548,
+        "name": "Xhamia Picalle",
+        "city": "Picalle Tiranë",
+        "address": "Rruga Picalle",
+        "lat": 41.273737,
+        "lng": 19.819096
+    },
+    {
+        "id": 549,
+        "name": "Xhamia Picar",
+        "city": "Picar Gjirokastër",
+        "address": "Rruge fshati, Jug",
+        "lat": 40.168071,
+        "lng": 20.051622
+    },
+    {
+        "id": 550,
+        "name": "Xhamia Pilaf",
+        "city": "Pilaf Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.693226,
+        "lng": 20.412555
+    },
+    {
+        "id": 551,
+        "name": "Xhamia Pilur",
+        "city": "Pilur Devoll",
+        "address": "Rruge fshati",
+        "lat": 40.664191,
+        "lng": 20.916609
+    },
+    {
+        "id": 552,
+        "name": "Xhamia Pinet",
+        "city": "Pinet Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.282805,
+        "lng": 19.633233
+    },
+    {
+        "id": 553,
+        "name": "Xhamia Pirg",
+        "city": "Pirg Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.786003,
+        "lng": 20.709633
+    },
+    {
+        "id": 554,
+        "name": "Xhamia Pjeke",
+        "city": "Pjeke Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.639160,
+        "lng": 20.434055
+    },
+    {
+        "id": 555,
+        "name": "Xhamia Pjeze",
+        "city": "Pjeze Durrës",
+        "address": "Rruge SH55, tek varrezat e fshatit",
+        "lat": 41.312533,
+        "lng": 19.560079
+    },
+    {
+        "id": 556,
+        "name": "Xhamia Plasë",
+        "city": "Plasë Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.686574,
+        "lng": 20.845651
+    },
+    {
+        "id": 557,
+        "name": "Xhamia Ploshtan",
+        "city": "Ploshtan Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.843544,
+        "lng": 20.455627
+    },
+    {
+        "id": 558,
+        "name": "Xhamia Plug",
+        "city": "Plug Lushnjë",
+        "address": "Rruga 5 Shtatori",
+        "lat": 40.948746,
+        "lng": 19.665894
+    },
+    {
+        "id": 559,
+        "name": "Xhamia Plyk",
+        "city": "Plyk Fier",
+        "address": "Rruga Kryesore",
+        "lat": 40.684450,
+        "lng": 19.569938
+    },
+    {
+        "id": 560,
+        "name": "Xhamia Pobrat",
+        "city": "Pobrat Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.036316,
+        "lng": 20.139092
+    },
+    {
+        "id": 561,
+        "name": "Xhamia Pocest",
+        "city": "Pocest Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.591543,
+        "lng": 20.499299
+    },
+    {
+        "id": 562,
+        "name": "Xhamia Podgorc",
+        "city": "Podgorc Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.568162,
+        "lng": 20.451978
+    },
+    {
+        "id": 563,
+        "name": "Xhamia Podgorie",
+        "city": "Podgorie Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.813547,
+        "lng": 20.796600
+    },
+    {
+        "id": 564,
+        "name": "Xhamia Ebu Beker Pogradec",
+        "city": "Pogradec",
+        "address": "Rruga Andon Xoxa",
+        "lat": 40.902653,
+        "lng": 20.655541
+    },
+    {
+        "id": 565,
+        "name": "Xhamia Bilal Pogradec",
+        "city": "Pogradec",
+        "address": "Rruga e Xhamise, Unaza Perendimore",
+        "lat": 40.902068,
+        "lng": 20.648849
+    },
+    {
+        "id": 566,
+        "name": "Xhamia Pojan",
+        "city": "Pojan Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.726653,
+        "lng": 20.837225
+    },
+    {
+        "id": 567,
+        "name": "Xhamia Polican",
+        "city": "Poliçan Skrapar",
+        "address": "Sheshi Tomorri",
+        "lat": 40.612611,
+        "lng": 20.099584
+    },
+    {
+        "id": 568,
+        "name": "Xhamia Polis Gostim",
+        "city": "Polis Gostim Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.147172,
+        "lng": 20.235796
+    },
+    {
+        "id": 569,
+        "name": "Xhamia Polis i Vogel",
+        "city": "Polis i Vogel Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.141948,
+        "lng": 20.178556
+    },
+    {
+        "id": 570,
+        "name": "Xhamia Porodinë",
+        "city": "Porodinë Korçë",
+        "address": "Rruge fshati",
+        "lat": 40.636376,
+        "lng": 20.716114
+    },
+    {
+        "id": 571,
+        "name": "Xhamia Preze",
+        "city": "Preze Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.431291,
+        "lng": 19.672712
+    },
+    {
+        "id": 572,
+        "name": "Xhamia Prisk e vogel",
+        "city": "Prisk e Vogel Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.414114,
+        "lng": 19.854578
+    },
+    {
+        "id": 573,
+        "name": "Xhamia Prisk e madhe",
+        "city": "Prisk e madhe Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.318372,
+        "lng": 19.921128
+    },
+    {
+        "id": 574,
+        "name": "Xhamia Proger",
+        "city": "Proger Devoll",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.695365,
+        "lng": 20.938719
+    },
+    {
+        "id": 575,
+        "name": "Xhamia Prrenjas",
+        "city": "Prrenjas Librazhd",
+        "address": "Shetitorja Kryesore",
+        "lat": 41.069920,
+        "lng": 20.549598
+    },
+    {
+        "id": 576,
+        "name": "Xhamia Prush",
+        "city": "Prush Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.321427,
+        "lng": 19.739698
+    },
+    {
+        "id": 577,
+        "name": "Xhamia Puke",
+        "city": "Pukë",
+        "address": "Sheshi Tërbuni",
+        "lat": 42.043741,
+        "lng": 19.899214
+    },
+    {
+        "id": 578,
+        "name": "Xhamia Koder Hani, Puke",
+        "city": "Pukë",
+        "address": "Rruga nacionale SH5, tek varrezat e qytetit",
+        "lat": 42.042375,
+        "lng": 19.894847
+    },
+    {
+        "id": 579,
+        "name": "Xhamia Pulahë",
+        "city": "Pulahë Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.534605,
+        "lng": 20.695899
+    },
+    {
+        "id": 580,
+        "name": "Xhamia Qafe",
+        "city": "Qafe Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.227081,
+        "lng": 20.165180
+    },
+    {
+        "id": 581,
+        "name": "Xhamia Qafë Gradë",
+        "city": "Qafë Gradë Malësi e Madhe",
+        "address": "Rruga Marshej, tek varrezat e fshatit",
+        "lat": 42.240467,
+        "lng": 19.544532
+    },
+    {
+        "id": 582,
+        "name": "Xhamia Qarrishte",
+        "city": "Qarrishte Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.268538,
+        "lng": 20.440218
+    },
+    {
+        "id": 583,
+        "name": "Xhamia Qatrom",
+        "city": "Qatrom Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.585389,
+        "lng": 20.743552
+    },
+    {
+        "id": 584,
+        "name": "Xhamia Qeha shytaj",
+        "city": "Qeha shytaj Tiranë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.256478,
+        "lng": 19.906065
+    },
+    {
+        "id": 585,
+        "name": "Xhamia Qerekë",
+        "city": "Qerekë Krujë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.410883,
+        "lng": 19.731727
+    },
+    {
+        "id": 586,
+        "name": "Xhamia Qerret",
+        "city": "Qerret Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.392973,
+        "lng": 19.492185
+    },
+    {
+        "id": 587,
+        "name": "Xhamia Qerret",
+        "city": "Qerret Pukë",
+        "address": "Rruge fshati, veri",
+        "lat": 42.052509,
+        "lng": 19.836929
+    },
+    {
+        "id": 588,
+        "name": "Xhamia Qerret",
+        "city": "Qerret Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.211535,
+        "lng": 19.525915
+    },
+    {
+        "id": 589,
+        "name": "Xhamia Qerret",
+        "city": "Qerret Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.222221,
+        "lng": 20.194263
+    },
+    {
+        "id": 590,
+        "name": "Xhamia Qinam",
+        "city": "Qinam Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.429060,
+        "lng": 19.812852
+    },
+    {
+        "id": 591,
+        "name": "Xhamia Qinamak",
+        "city": "Qinamak Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.017257,
+        "lng": 20.363005
+    },
+    {
+        "id": 592,
+        "name": "Xhamia e Vjeter Qinamak",
+        "city": "Qinamak Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.015574,
+        "lng": 20.368712
+    },
+    {
+        "id": 593,
+        "name": "Xhamia Qukes shkumbin",
+        "city": "Qukes shkumbin Librazhd",
+        "address": "Rruge fshati, qender",
+        "lat": 41.091607,
+        "lng": 20.460519
+    },
+    {
+        "id": 594,
+        "name": "Xhamia Rabdisht",
+        "city": "Rabdisht Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.684020,
+        "lng": 20.496303
+    },
+    {
+        "id": 595,
+        "name": "Xhamia Rade",
+        "city": "Rade Durrës",
+        "address": "Rruga Lalëzit, tek varrezat e fshatit",
+        "lat": 41.408976,
+        "lng": 19.599860
+    },
+    {
+        "id": 596,
+        "name": "Xhamia Radomire",
+        "city": "Radomire Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.815735,
+        "lng": 20.482765
+    },
+    {
+        "id": 597,
+        "name": "Xhamia e Re Radomire",
+        "city": "Radomire Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.815984,
+        "lng": 20.484723
+    },
+    {
+        "id": 598,
+        "name": "Xhamia Radoniste",
+        "city": "Radoniste Fier",
+        "address": "Rruge fshati, qender, prane shkolles",
+        "lat": 40.730325,
+        "lng": 19.506389
+    },
+    {
+        "id": 599,
+        "name": "Xhamia Radovesh",
+        "city": "Radovesh Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.447251,
+        "lng": 20.472122
+    },
+    {
+        "id": 600,
+        "name": "Xhamia Rashnapoje",
+        "city": "Rashnapoje Dibër",
+        "address": "Rruga Isuf Bej Karasani",
+        "lat": 41.686954,
+        "lng": 20.411101
+    },
+    {
+        "id": 601,
+        "name": "Xhamia Reç",
+        "city": "Reç Malësi e Madhe",
+        "address": "Rruga Deshmoret e Reçit, qender",
+        "lat": 42.236111,
+        "lng": 19.528160
+    },
+    {
+        "id": 602,
+        "name": "Xhamia Remenje",
+        "city": "Remenje Pogradec",
+        "address": "Rruge fshati, Perendim",
+        "lat": 40.879642,
+        "lng": 20.661283
+    },
+    {
+        "id": 603,
+        "name": "Xhamia Fshat i Ri",
+        "city": "Ri Shkodër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 42.112753,
+        "lng": 19.562812
+    },
+    {
+        "id": 604,
+        "name": "Xhamia Rinas",
+        "city": "Rinas Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.422826,
+        "lng": 19.706205
+    },
+    {
+        "id": 605,
+        "name": "Xhamia Rinia",
+        "city": "Rinia Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.397432,
+        "lng": 19.445648
+    },
+    {
+        "id": 606,
+        "name": "Xhamia Romanat",
+        "city": "Romanat Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.283826,
+        "lng": 19.594793
+    },
+    {
+        "id": 607,
+        "name": "Xhamia Roshnik",
+        "city": "Roshnik Berat",
+        "address": "Rruge fshati, qender",
+        "lat": 40.730734,
+        "lng": 20.041253
+    },
+    {
+        "id": 608,
+        "name": "Xhamia Roskovec",
+        "city": "Roskovec Fier",
+        "address": "Rruga e Kurjanit",
+        "lat": 40.736316,
+        "lng": 19.704365
+    },
+    {
+        "id": 609,
+        "name": "Xhamia Rragam",
+        "city": "Rragam Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.061595,
+        "lng": 19.599593
+    },
+    {
+        "id": 610,
+        "name": "Xhamia Rrajce",
+        "city": "Rrajce Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.081666,
+        "lng": 20.578594
+    },
+    {
+        "id": 611,
+        "name": "Xhamia Rrajce Sutaj",
+        "city": "Rrajce Sutaj Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.099181,
+        "lng": 20.574068
+    },
+    {
+        "id": 612,
+        "name": "Xhamia Rrakull",
+        "city": "Rrakull Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.194095,
+        "lng": 19.529750
+    },
+    {
+        "id": 613,
+        "name": "Xhamia Rranzë",
+        "city": "Rranzë Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.466808,
+        "lng": 19.860746
+    },
+    {
+        "id": 614,
+        "name": "Xhamia Rrases",
+        "city": "Rrases Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 40.964020,
+        "lng": 19.821881
+    },
+    {
+        "id": 615,
+        "name": "Xhamia Rrash Hysaj",
+        "city": "Rrash Hysaj Malësi e Madhe",
+        "address": "Rruge fshati",
+        "lat": 42.143844,
+        "lng": 19.546877
+    },
+    {
+        "id": 616,
+        "name": "Xhamia Rrash Kullaj",
+        "city": "Rrash Kullaj Malësi e Madhe",
+        "address": "Rruga Hilmi Hasanaj",
+        "lat": 42.141945,
+        "lng": 19.524412
+    },
+    {
+        "id": 617,
+        "name": "Xhamia El Harkan Rrashbull",
+        "city": "Rrashbull Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.332009,
+        "lng": 19.510209
+    },
+    {
+        "id": 618,
+        "name": "Xhamia Koder Rrashbull",
+        "city": "Rrashbull Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.317172,
+        "lng": 19.522857
+    },
+    {
+        "id": 619,
+        "name": "Xhamia Rremull",
+        "city": "Rremull Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.674772,
+        "lng": 20.033952
+    },
+    {
+        "id": 620,
+        "name": "Xhamia Rrenz",
+        "city": "Rrenz Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.753060,
+        "lng": 20.389281
+    },
+    {
+        "id": 621,
+        "name": "Xhamia Rreth - Kale",
+        "city": "Rreth - Kale Dibër",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.690026,
+        "lng": 20.342630
+    },
+    {
+        "id": 622,
+        "name": "Xhamia Rreth Libofshe",
+        "city": "Rreth Libofshe Fier",
+        "address": "Rruge fshati, qender",
+        "lat": 40.805956,
+        "lng": 19.565485
+    },
+    {
+        "id": 623,
+        "name": "Xhamia Rrikaj",
+        "city": "Rrikaj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.157573,
+        "lng": 19.522134
+    },
+    {
+        "id": 624,
+        "name": "Xhamia Rripe",
+        "city": "Rripe Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.548693,
+        "lng": 20.021374
+    },
+    {
+        "id": 625,
+        "name": "Xhamia Rrogozhine",
+        "city": "Rrogozhinë Kavajë",
+        "address": "Bulevardi kryesor",
+        "lat": 41.076031,
+        "lng": 19.665513
+    },
+    {
+        "id": 626,
+        "name": "Xhamia \"Nur\" Rrogozhine",
+        "city": "Rrogozhinë Kavajë",
+        "address": "Rruga e Xhamise, tek varrezat e qytetit",
+        "lat": 41.079201,
+        "lng": 19.671069
+    },
+    {
+        "id": 627,
+        "name": "Xhamia Rrotull-Domje",
+        "city": "Rrotull-Domje, Gjiri i Lalzit Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.499272,
+        "lng": 19.543451
+    },
+    {
+        "id": 628,
+        "name": "Xhamia Rrushkull",
+        "city": "Rrushkull Durrës",
+        "address": "Rruge fshati, qender, tek varrezat e fshatit",
+        "lat": 41.430046,
+        "lng": 19.527488
+    },
+    {
+        "id": 629,
+        "name": "Xhamia e Re Rrushkull - Belaj",
+        "city": "Rrushkull - Belaj Shkodër",
+        "address": "Rruge fshati",
+        "lat": 41.978410,
+        "lng": 19.393790
+    },
+    {
+        "id": 630,
+        "name": "Xhamia Rubjeke",
+        "city": "Rubjeke Durrës",
+        "address": "Rruga Lalëzit",
+        "lat": 41.394138,
+        "lng": 19.597280
+    },
+    {
+        "id": 631,
+        "name": "Xhamia e \"Gjin Aleksit\" Rusan",
+        "city": "Rusan Delvinë",
+        "address": "Rruga Rusan",
+        "lat": 39.951835,
+        "lng": 20.076355
+    },
+    {
+        "id": 632,
+        "name": "Xhamia Sallmone",
+        "city": "Sallmone Durrës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.354976,
+        "lng": 19.549423
+    },
+    {
+        "id": 633,
+        "name": "Xhamia e vjeter Samirisht",
+        "city": "Samirisht - Rrushkull - Belaj Shkodër",
+        "address": "Rruge fshati",
+        "lat": 41.980101,
+        "lng": 19.386724
+    },
+    {
+        "id": 634,
+        "name": "Xhamia Sanxhak",
+        "city": "Sanxhak Kurbin",
+        "address": "Rruge fshati, qender",
+        "lat": 41.619395,
+        "lng": 19.710914
+    },
+    {
+        "id": 635,
+        "name": "Xhamia Sarandë",
+        "city": "Sarandë",
+        "address": "Rruga Skënderbeu",
+        "lat": 39.874573,
+        "lng": 20.005774
+    },
+    {
+        "id": 636,
+        "name": "Xhamia Qaf Gjashtë",
+        "city": "Sarandë",
+        "address": "Lagja Gjashte, qender",
+        "lat": 39.873932,
+        "lng": 20.024370
+    },
+    {
+        "id": 637,
+        "name": "Xhamia Sauqet",
+        "city": "Sauqet Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.303604,
+        "lng": 19.655642
+    },
+    {
+        "id": 638,
+        "name": "Xhamia Sebishte",
+        "city": "Sebishte Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.385279,
+        "lng": 20.407625
+    },
+    {
+        "id": 639,
+        "name": "Xhamia Seferaj",
+        "city": "Seferaj Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.250190,
+        "lng": 19.575653
+    },
+    {
+        "id": 640,
+        "name": "Xhamia Selane",
+        "city": "Selane Dibër",
+        "address": "Rruge fshati, jug",
+        "lat": 41.643656,
+        "lng": 20.415030
+    },
+    {
+        "id": 641,
+        "name": "Xhamia Selbe",
+        "city": "Selbe Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.293126,
+        "lng": 19.964940
+    },
+    {
+        "id": 642,
+        "name": "Xhamia e vjeter Selimaj",
+        "city": "Selimaj Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.307857,
+        "lng": 20.025018
+    },
+    {
+        "id": 643,
+        "name": "Xhamia Selishte",
+        "city": "Selishte Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.623115,
+        "lng": 20.277310
+    },
+    {
+        "id": 644,
+        "name": "Xhamia Selite",
+        "city": "Selite Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 40.887994,
+        "lng": 19.976982
+    },
+    {
+        "id": 645,
+        "name": "Xhamia Serice",
+        "city": "Serice Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.188243,
+        "lng": 20.175474
+    },
+    {
+        "id": 646,
+        "name": "Xhamia Serice -Xibrake",
+        "city": "Serice - Xibrake Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.188874,
+        "lng": 20.186188
+    },
+    {
+        "id": 647,
+        "name": "Xhamia Shales",
+        "city": "Shales Elbasan",
+        "address": "Rruga e Elbasanit, tek varrezat e fshatit",
+        "lat": 40.995644,
+        "lng": 19.940276
+    },
+    {
+        "id": 648,
+        "name": "Xhamia Shalës",
+        "city": "Shalës Sarandë",
+        "address": "Rruge fshati, qender",
+        "lat": 39.716761,
+        "lng": 20.158499
+    },
+    {
+        "id": 649,
+        "name": "Xhamia Sharke",
+        "city": "Sharke Tiranë",
+        "address": "Rruga Sharge",
+        "lat": 41.407333,
+        "lng": 19.671538
+    },
+    {
+        "id": 650,
+        "name": "Xhamia Shegas",
+        "city": "Shegas Lushnjë",
+        "address": "Rruge fshati, Jug",
+        "lat": 40.979803,
+        "lng": 19.701488
+    },
+    {
+        "id": 651,
+        "name": "Xhamia Shegune",
+        "city": "Shegune Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.140469,
+        "lng": 20.086434
+    },
+    {
+        "id": 652,
+        "name": "Xhamia e vjeter Shengjergj",
+        "city": "Shengjergj Tiranë",
+        "address": "Rruge fshati, koder",
+        "lat": 41.332564,
+        "lng": 20.106636
+    },
+    {
+        "id": 653,
+        "name": "Xhamia Shengjergj e re",
+        "city": "Shengjin i Madh Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.322523,
+        "lng": 20.069611
+    },
+    {
+        "id": 654,
+        "name": "Xhamia Shenmeri",
+        "city": "Shenmeri Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.100939,
+        "lng": 20.232615
+    },
+    {
+        "id": 655,
+        "name": "Xhamia Sherishte",
+        "city": "Sherishte Vlorë",
+        "address": "Rruge fshati, Lindje",
+        "lat": 40.463265,
+        "lng": 19.547910
+    },
+    {
+        "id": 656,
+        "name": "Xhamia Shesh",
+        "city": "Shesh Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.298114,
+        "lng": 19.667736
+    },
+    {
+        "id": 657,
+        "name": "Xhamia Shetaj",
+        "city": "Shetaj Durrës",
+        "address": "Rruge fshati, koder",
+        "lat": 41.556209,
+        "lng": 19.492264
+    },
+    {
+        "id": 658,
+        "name": "Xhamia Shikaj",
+        "city": "Shikaj Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.142541,
+        "lng": 20.272218
+    },
+    {
+        "id": 659,
+        "name": "Xhamia Shilbater",
+        "city": "Shilbater Elbasan",
+        "address": "Rruge fshati, koder",
+        "lat": 41.028507,
+        "lng": 20.111484
+    },
+    {
+        "id": 660,
+        "name": "Xhamia Shimcan",
+        "city": "Shimcan Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.710999,
+        "lng": 20.435865
+    },
+    {
+        "id": 661,
+        "name": "Xhamia Shiroke",
+        "city": "Shiroke Shkodër",
+        "address": "Rruga e Shtregullave",
+        "lat": 42.057160,
+        "lng": 19.456505
+    },
+    {
+        "id": 662,
+        "name": "Xhamia Shirq - Mushan",
+        "city": "Shirq - Mushan Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.982215,
+        "lng": 19.442584
+    },
+    {
+        "id": 663,
+        "name": "Xhamia Shishtavec",
+        "city": "Shishtavec Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.980165,
+        "lng": 20.605374
+    },
+    {
+        "id": 664,
+        "name": "Xhamia Shkafane",
+        "city": "Shkafane Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.482215,
+        "lng": 19.564374
+    },
+    {
+        "id": 665,
+        "name": "Xhamia Shkalle",
+        "city": "Shkalle Mat",
+        "address": "Rruge fshati",
+        "lat": 41.478972,
+        "lng": 20.062054
+    },
+    {
+        "id": 666,
+        "name": "Xhamia Shkallnur",
+        "city": "Shkallnur Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.291929,
+        "lng": 19.520402
+    },
+    {
+        "id": 667,
+        "name": "Xhamia Shkinak",
+        "city": "Shkinak Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.891304,
+        "lng": 20.469337
+    },
+    {
+        "id": 668,
+        "name": "Xhamia Shkjeze",
+        "city": "Shkjeze Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.954373,
+        "lng": 19.542340
+    },
+    {
+        "id": 669,
+        "name": "Xhamia Ebu Beker",
+        "city": "Shkodër",
+        "address": "Qender, Rruga Fushë Celë",
+        "lat": 42.067812,
+        "lng": 19.514078
+    },
+    {
+        "id": 670,
+        "name": "Xhamia Parruces",
+        "city": "Shkodër",
+        "address": "Parruce, Rruga Studenti",
+        "lat": 42.065455,
+        "lng": 19.508695
+    },
+    {
+        "id": 671,
+        "name": "Xhamia Rusit",
+        "city": "Shkodër",
+        "address": "Rruga Lek Dukagjini",
+        "lat": 42.072362,
+        "lng": 19.513999
+    },
+    {
+        "id": 672,
+        "name": "Xhamia Dergut",
+        "city": "Shkodër",
+        "address": "Sheshi Dergut",
+        "lat": 42.073678,
+        "lng": 19.507967
+    },
+    {
+        "id": 673,
+        "name": "Xhamia Kiras",
+        "city": "Shkodër",
+        "address": "Rruga Ibrahim Rugova",
+        "lat": 42.075884,
+        "lng": 19.503805
+    },
+    {
+        "id": 674,
+        "name": "Xhamia Dudas",
+        "city": "Shkodër",
+        "address": "Rruga Brojej",
+        "lat": 42.071299,
+        "lng": 19.502488
+    },
+    {
+        "id": 675,
+        "name": "Xhamia Dy Vajzave",
+        "city": "Shkodër",
+        "address": "Rruga Vllazërit Frashëri",
+        "lat": 42.061735,
+        "lng": 19.500500
+    },
+    {
+        "id": 676,
+        "name": "Xhamia Tophanes",
+        "city": "Shkodër",
+        "address": "Rruga Haxhi Idriz Boksi",
+        "lat": 42.060194,
+        "lng": 19.502513
+    },
+    {
+        "id": 677,
+        "name": "Xhamia Medreses",
+        "city": "Shkodër",
+        "address": "Sheshi Balshaj",
+        "lat": 42.056831,
+        "lng": 19.502116
+    },
+    {
+        "id": 678,
+        "name": "Xhamia Perash",
+        "city": "Shkodër",
+        "address": "Bulevardi Mehmet Pash Plaku",
+        "lat": 42.059484,
+        "lng": 19.509139
+    },
+    {
+        "id": 679,
+        "name": "Xhamia Dracin",
+        "city": "Shkodër",
+        "address": "Rruga Dracin",
+        "lat": 42.055380,
+        "lng": 19.511223
+    },
+    {
+        "id": 680,
+        "name": "Xhamia Tepes",
+        "city": "Shkodër",
+        "address": "Rruga Ali Demi",
+        "lat": 42.051462,
+        "lng": 19.515927
+    },
+    {
+        "id": 681,
+        "name": "Xhamia Ajasem",
+        "city": "Shkodër",
+        "address": "Rruga e Ajasmës",
+        "lat": 42.047683,
+        "lng": 19.507435
+    },
+    {
+        "id": 682,
+        "name": "Xhamia Plumbit",
+        "city": "Shkodër",
+        "address": "Rruga e Tabakëve",
+        "lat": 42.046462,
+        "lng": 19.499528
+    },
+    {
+        "id": 683,
+        "name": "Xhamia Tabakut",
+        "city": "Shkodër",
+        "address": "Rruga e Tabakëve",
+        "lat": 42.045854,
+        "lng": 19.497824
+    },
+    {
+        "id": 684,
+        "name": "Xhamia Mehmet Fatih ne Kala",
+        "city": "Shkodër",
+        "address": "Kalaja e Rozafez",
+        "lat": 42.046515,
+        "lng": 19.493116
+    },
+    {
+        "id": 685,
+        "name": "Xhamia e Ures se Bunes",
+        "city": "Shkodër",
+        "address": "Ura e Vjetër e Bunës",
+        "lat": 42.051015,
+        "lng": 19.490045
+    },
+    {
+        "id": 686,
+        "name": "Xhamia Shkoze",
+        "city": "Shkoze Tiranë",
+        "address": "Rruga Theodhori Bej",
+        "lat": 41.334762,
+        "lng": 19.879209
+    },
+    {
+        "id": 687,
+        "name": "Xhamia Shkozet",
+        "city": "Shkozet Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.101243,
+        "lng": 19.573162
+    },
+    {
+        "id": 688,
+        "name": "Xhamia Shtepanje",
+        "city": "Shtepanje Elbasan",
+        "address": "Rruge fshati, koder",
+        "lat": 40.982582,
+        "lng": 20.054478
+    },
+    {
+        "id": 689,
+        "name": "Xhamia Aeroportit",
+        "city": "Shtiqen Kukës",
+        "address": "Kukes Airport, Rruga Bacionale SH31",
+        "lat": 42.035667,
+        "lng": 20.419227
+    },
+    {
+        "id": 690,
+        "name": "Xhamia Shtiqen",
+        "city": "Shtiqen Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 42.039836,
+        "lng": 20.434966
+    },
+    {
+        "id": 691,
+        "name": "Xhamia Shtith",
+        "city": "Shtith Elbasan",
+        "address": "Rruga Elezaj",
+        "lat": 40.977729,
+        "lng": 19.924760
+    },
+    {
+        "id": 692,
+        "name": "Xhamia e Bilalit",
+        "city": "Shtodhër Kavajë",
+        "address": "Rruga Kodrës",
+        "lat": 41.166353,
+        "lng": 19.576652
+    },
+    {
+        "id": 693,
+        "name": "Xhamia Shtoj i Ri",
+        "city": "Shtoj i Ri Shkodër",
+        "address": "Rruga Xhamia, qender",
+        "lat": 42.106247,
+        "lng": 19.508060
+    },
+    {
+        "id": 694,
+        "name": "Xhamia Shtoj i Vjeter",
+        "city": "Shtoj i Vjeter Shkodër",
+        "address": "Rruga Shtojit, qender",
+        "lat": 42.121013,
+        "lng": 19.505517
+    },
+    {
+        "id": 695,
+        "name": "Xhamia e vjeter Shtuf",
+        "city": "Shtuf Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.025116,
+        "lng": 19.375613
+    },
+    {
+        "id": 696,
+        "name": "Xhamia e re Shtuf - Dodaj",
+        "city": "Shtuf - Dodaj Shkodër",
+        "address": "Dodaj, Rruga Nacionale SH41",
+        "lat": 42.021354,
+        "lng": 19.378447
+    },
+    {
+        "id": 697,
+        "name": "Xhamia Shumbat",
+        "city": "Shumbat Dibër",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.766659,
+        "lng": 20.385629
+    },
+    {
+        "id": 698,
+        "name": "Xhamia Shupal",
+        "city": "Shupal Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.416156,
+        "lng": 19.931161
+    },
+    {
+        "id": 699,
+        "name": "Xhamia Shupenze",
+        "city": "Shupenze Bulqizë",
+        "address": "Rruga Nacionale",
+        "lat": 41.533014,
+        "lng": 20.423074
+    },
+    {
+        "id": 700,
+        "name": "Xhamia e vjeter Shushan",
+        "city": "Shushan Tropojë",
+        "address": "Rruge fshati",
+        "lat": 42.383551,
+        "lng": 20.090430
+    },
+    {
+        "id": 701,
+        "name": "Xhamia Shushice",
+        "city": "Shushice Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.101222,
+        "lng": 20.137295
+    },
+    {
+        "id": 702,
+        "name": "Xhamia Shyqyrk",
+        "city": "Shyqyrk Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.440428,
+        "lng": 19.920319
+    },
+    {
+        "id": 703,
+        "name": "Xhamia Sinaballaj",
+        "city": "Sinaballaj Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.064243,
+        "lng": 19.699788
+    },
+    {
+        "id": 704,
+        "name": "Xhamia Sine",
+        "city": "Sine Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.729705,
+        "lng": 20.294823
+    },
+    {
+        "id": 705,
+        "name": "Xhamia Skrapar",
+        "city": "Skrapar",
+        "address": "Rruga Pasho Hysi",
+        "lat": 40.504145,
+        "lng": 20.223512
+    },
+    {
+        "id": 706,
+        "name": "Xhamia Skroske",
+        "city": "Skroske Librazhd",
+        "address": "Rruge fshati, prane Shkolles",
+        "lat": 41.095239,
+        "lng": 20.480117
+    },
+    {
+        "id": 707,
+        "name": "Xhamia Sllatine",
+        "city": "Sllatine Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.784731,
+        "lng": 20.418163
+    },
+    {
+        "id": 708,
+        "name": "Xhamia Sllove",
+        "city": "Sllove Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.800862,
+        "lng": 20.406164
+    },
+    {
+        "id": 709,
+        "name": "Xhamia e vjete Smollik",
+        "city": "Smollik Bulqizë",
+        "address": "Rruge fshati",
+        "lat": 41.443683,
+        "lng": 20.408796
+    },
+    {
+        "id": 710,
+        "name": "Xhamia Sohodoll i Madh",
+        "city": "Sohodoll i Madh Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.721187,
+        "lng": 20.393440
+    },
+    {
+        "id": 711,
+        "name": "Xhamia Sohodoll i Vogel",
+        "city": "Sohodoll i Vogel Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.724374,
+        "lng": 20.391661
+    },
+    {
+        "id": 712,
+        "name": "Xhamia Sopot",
+        "city": "Sopot Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.494844,
+        "lng": 20.390394
+    },
+    {
+        "id": 713,
+        "name": "Xhamia Sovjan",
+        "city": "Sovjan Korçë",
+        "address": "Rruge fshati, pran rruges Nacionale SH3",
+        "lat": 40.743050,
+        "lng": 20.718732
+    },
+    {
+        "id": 714,
+        "name": "Xhamia Spathare",
+        "city": "Spathare Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.158949,
+        "lng": 20.330086
+    },
+    {
+        "id": 715,
+        "name": "Xhamia Spathare Rafje",
+        "city": "Spathare Rafje Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.148554,
+        "lng": 20.329387
+    },
+    {
+        "id": 716,
+        "name": "Xhamia \"Hafiz Ali Korça\"",
+        "city": "Spille Kavajë",
+        "address": "Rruge fshati, koder",
+        "lat": 41.097697,
+        "lng": 19.475059
+    },
+    {
+        "id": 717,
+        "name": "Xhamia Splajn",
+        "city": "Splajn Mat",
+        "address": "Rruge fshati",
+        "lat": 41.481875,
+        "lng": 20.044187
+    },
+    {
+        "id": 718,
+        "name": "Xhamia Staravec",
+        "city": "Staravec Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.693695,
+        "lng": 20.440044
+    },
+    {
+        "id": 719,
+        "name": "Xhamia Sterbeg",
+        "city": "Sterbeg Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.107155,
+        "lng": 19.520341
+    },
+    {
+        "id": 720,
+        "name": "Xhamia Sterbleve",
+        "city": "Sterbleve Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.339060,
+        "lng": 20.469506
+    },
+    {
+        "id": 721,
+        "name": "Xhamia Stropcke",
+        "city": "Stropcke Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.852394,
+        "lng": 20.684836
+    },
+    {
+        "id": 722,
+        "name": "Xhamia Suç",
+        "city": "Suç Mat",
+        "address": "Rruge fshati, qender",
+        "lat": 41.574682,
+        "lng": 20.048800
+    },
+    {
+        "id": 723,
+        "name": "Xhamia Suk Strum",
+        "city": "Suk Fier",
+        "address": "Rruga Strumë - Marinëz",
+        "lat": 40.783733,
+        "lng": 19.709263
+    },
+    {
+        "id": 724,
+        "name": "Xhamia Sukth",
+        "city": "Sukth Durrës",
+        "address": "Rruga e varrezave",
+        "lat": 41.376340,
+        "lng": 19.536946
+    },
+    {
+        "id": 725,
+        "name": "Xhamia Sukth i Ri",
+        "city": "Sukth i Ri Durrës",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.374305,
+        "lng": 19.543701
+    },
+    {
+        "id": 726,
+        "name": "Xhamia Sukth Vendas",
+        "city": "Sukth Vendas Krujë",
+        "address": "Rruge fshati, perendim",
+        "lat": 41.526514,
+        "lng": 19.620387
+    },
+    {
+        "id": 727,
+        "name": "Xhamia Sul",
+        "city": "Sul Devoll",
+        "address": "Rruge fshati, qender",
+        "lat": 40.542350,
+        "lng": 20.924079
+    },
+    {
+        "id": 728,
+        "name": "Xhamia Sulaj",
+        "city": "Sulaj Fier",
+        "address": "Rruge fshati",
+        "lat": 40.758875,
+        "lng": 19.506018
+    },
+    {
+        "id": 729,
+        "name": "Xhamia Surroj",
+        "city": "Surroj Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.986906,
+        "lng": 20.345527
+    },
+    {
+        "id": 730,
+        "name": "Xhamia Symizë",
+        "city": "Symizë Korçë",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 40.733016,
+        "lng": 20.702700
+    },
+    {
+        "id": 731,
+        "name": "Xhamia Synej",
+        "city": "Synej Kavajë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.180918,
+        "lng": 19.541647
+    },
+    {
+        "id": 732,
+        "name": "Xhamia Tapizë",
+        "city": "Tapizë Krujë",
+        "address": "Rruge fshati",
+        "lat": 41.420455,
+        "lng": 19.741569
+    },
+    {
+        "id": 733,
+        "name": "Xhamia Tepelene",
+        "city": "Tepelenë",
+        "address": "Rruga Shullaz",
+        "lat": 40.296738,
+        "lng": 20.016854
+    },
+    {
+        "id": 734,
+        "name": "Xhamia Tergan",
+        "city": "Tergan Elbasan",
+        "address": "Rruge fshati, tek varrezat e fshatit Kycyk",
+        "lat": 41.020926,
+        "lng": 20.077740
+    },
+    {
+        "id": 735,
+        "name": "Xhamia Thumanë",
+        "city": "Thumanë Krujë",
+        "address": "Rruge lagjeje, qender",
+        "lat": 41.547753,
+        "lng": 19.678119
+    },
+    {
+        "id": 736,
+        "name": "Xhamia Xhura",
+        "city": "Tiranë",
+        "address": "Rruga Belul Hatibi",
+        "lat": 41.343536,
+        "lng": 19.842898
+    },
+    {
+        "id": 737,
+        "name": "Xhamia Nura",
+        "city": "Tiranë",
+        "address": "Rruga Hamdi Cullhaj",
+        "lat": 41.315931,
+        "lng": 19.777111
+    },
+    {
+        "id": 738,
+        "name": "Xhamia Kokonozi",
+        "city": "Tiranë",
+        "address": "Rruga Shemsi Haka",
+        "lat": 41.330091,
+        "lng": 19.824992
+    },
+    {
+        "id": 739,
+        "name": "Xhamia Ali Demi",
+        "city": "Tiranë",
+        "address": "Rruga Idriz Dollaku, Lagja Ali Demi",
+        "lat": 41.326347,
+        "lng": 19.843529
+    },
+    {
+        "id": 740,
+        "name": "Xhamia Laprake",
+        "city": "Tiranë",
+        "address": "Rruga Dritan Hoxha",
+        "lat": 41.337687,
+        "lng": 19.787741
+    },
+    {
+        "id": 741,
+        "name": "Xhamia Dine Hoxha",
+        "city": "Tiranë",
+        "address": "Rruga e Kavajës",
+        "lat": 41.328581,
+        "lng": 19.812257
+    },
+    {
+        "id": 742,
+        "name": "Xhamia Yzberisht",
+        "city": "Tiranë",
+        "address": "Rruga e Xhamise",
+        "lat": 41.327465,
+        "lng": 19.771983
+    },
+    {
+        "id": 743,
+        "name": "Xhamia Ethem Bej",
+        "city": "Tiranë",
+        "address": "Sheshi Skenderbej",
+        "lat": 41.327793,
+        "lng": 19.819346
+    },
+    {
+        "id": 744,
+        "name": "Xhamia Tabakeve",
+        "city": "Tiranë",
+        "address": "Rruga Shyqyri Ishmi",
+        "lat": 41.326755,
+        "lng": 19.828097
+    },
+    {
+        "id": 745,
+        "name": "Xhamia Medreses",
+        "city": "Tiranë",
+        "address": "Sheshi Hafiz Ibrahim Dalliu",
+        "lat": 41.339024,
+        "lng": 19.826359
+    },
+    {
+        "id": 746,
+        "name": "Xhamia Namazgjah",
+        "city": "Tiranë",
+        "address": "Rruga George W. Bush",
+        "lat": 41.325785,
+        "lng": 19.824345
+    },
+    {
+        "id": 747,
+        "name": "Xhamia \"Agimi Islam\" Brrakë",
+        "city": "Tiranë",
+        "address": "Rruga Albanopoli",
+        "lat": 41.342550,
+        "lng": 19.805631
+    },
+    {
+        "id": 748,
+        "name": "Xhamia e Arte",
+        "city": "Tiranë",
+        "address": "Rruga Dalip Topi",
+        "lat": 41.342994,
+        "lng": 19.860327
+    },
+    {
+        "id": 749,
+        "name": "Xhamia Freskut",
+        "city": "Tiranë",
+        "address": "Rruga Muhamet Deliu",
+        "lat": 41.350381,
+        "lng": 19.869282
+    },
+    {
+        "id": 750,
+        "name": "Xhamia Babrru",
+        "city": "Tiranë",
+        "address": "Rruga Skenderbeu",
+        "lat": 41.354662,
+"lng": 19.827860
+    },
+    {
+        "id": 751,
+        "name": "Xhamia Paskuqan",
+        "city": "Tiranë",
+        "address": "Rruga Lidhja e Prizrenit",
+        "lat": 41.355623,
+        "lng": 19.807304
+    },
+    {
+        "id": 752,
+        "name": "Xhamia Blu",
+        "city": "Tiranë",
+        "address": "Rruga Drini",
+        "lat": 41.357020,
+        "lng": 19.785322
+    },
+    {
+        "id": 753,
+        "name": "Xhamia Bleta",
+        "city": "Tiranë",
+        "address": "Rruga Hali Xhuzi",
+        "lat": 41.355370,
+        "lng": 19.777264
+    },
+    {
+        "id": 754,
+        "name": "Xhamia Mezez",
+        "city": "Tiranë",
+        "address": "Rruga Sokrat Miho",
+        "lat": 41.337290,
+        "lng": 19.774244
+    },
+    {
+        "id": 755,
+        "name": "Xhamia Unaza e re",
+        "city": "Tiranë",
+        "address": "Rruga Feizi Himzo",
+        "lat": 41.329966,
+        "lng": 19.786815
+    },
+    {
+        "id": 756,
+        "name": "Xhamia Selite",
+        "city": "Tiranë",
+        "address": "Rruga David Selenica",
+        "lat": 41.316571,
+        "lng": 19.791393
+    },
+    {
+        "id": 757,
+        "name": "Xhamia selite (kopshti botanik)",
+        "city": "Tiranë",
+        "address": "Rruga Selita e Vjeter",
+        "lat": 41.307631,
+        "lng": 19.807184
+    },
+    {
+        "id": 758,
+        "name": "Xhamia Kombinat",
+        "city": "Tiranë",
+        "address": "Rruga Bedri Çullhaj",
+        "lat": 41.310298,
+        "lng": 19.769302
+    },
+    {
+        "id": 759,
+        "name": "Xhamia Kombinat e re",
+        "city": "Tiranë",
+        "address": "Rruge Lagjeje",
+        "lat": 41.307575,
+        "lng": 19.779814
+    },
+    {
+        "id": 760,
+        "name": "Xhamia Sauk i vjeter",
+        "city": "Tiranë",
+        "address": "Rruga Gjon Krisli",
+        "lat": 41.299552,
+        "lng": 19.835073
+    },
+    {
+        "id": 761,
+        "name": "Xhamia Sauk i ri",
+        "city": "Tiranë",
+        "address": "Rruga Hamide Dalipi",
+        "lat": 41.300636,
+        "lng": 19.847523
+    },
+    {
+        "id": 762,
+        "name": "Xhamia Sanatariumit",
+        "city": "Tiranë",
+        "address": "Rruga Grigor Cilka",
+        "lat": 41.310007,
+        "lng": 19.847023
+    },
+    {
+        "id": 763,
+        "name": "Xhamia Farke e vogel",
+        "city": "Tiranë",
+        "address": "Rruga Daxhit",
+        "lat": 41.309696,
+        "lng": 19.869243
+    },
+    {
+        "id": 764,
+        "name": "Xhamia Farke",
+        "city": "Tiranë",
+        "address": "Rruga Agallareve",
+        "lat": 41.298500,
+        "lng": 19.872900
+    },
+    {
+        "id": 765,
+        "name": "Xhamia Farke e madhe",
+        "city": "Tiranë",
+        "address": "Unaza Lindore",
+        "lat": 41.314211,
+        "lng": 19.879829
+    },
+    {
+        "id": 766,
+        "name": "Xhamia Fushe mezez",
+        "city": "Tiranë",
+        "address": "Rruge Lagjeje",
+        "lat": 41.353528,
+        "lng": 19.763558
+    },
+    {
+        "id": 767,
+        "name": "Xhamia Ismail ndroqi",
+        "city": "Tiranë",
+        "address": "Rruga Osumi",
+        "lat": 41.360831,
+        "lng": 19.757380
+    },
+    {
+        "id": 768,
+        "name": "Xhamia Laknas",
+        "city": "Tiranë",
+        "address": "Rruga Skënderbeu",
+        "lat": 41.374771,
+        "lng": 19.745806
+    },
+    {
+        "id": 769,
+        "name": "Xhamia Fush laknas",
+        "city": "Tiranë",
+        "address": "Rruga Sarande",
+        "lat": 41.375825,
+        "lng": 19.726849
+    },
+    {
+        "id": 770,
+        "name": "Xhamia Qytet studenti",
+        "city": "Tiranë",
+        "address": "Rruga Pjetër Budi",
+        "lat": 41.320866,
+        "lng": 19.854355
+    },
+    {
+        "id": 771,
+        "name": "Xhamia Ish Restoant Durresi",
+        "city": "Tiranë",
+        "address": "Rruga Ferit Xhajko",
+        "lat": 41.339174,
+        "lng": 19.822680
+    },
+    {
+        "id": 772,
+        "name": "Xhamia Tomin",
+        "city": "Tomin Dibër",
+        "address": "Rruga Nazmie Pasholli",
+        "lat": 41.689733,
+        "lng": 20.420642
+    },
+    {
+        "id": 773,
+        "name": "Xhamia Topojan",
+        "city": "Topojan Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.983431,
+        "lng": 20.524146
+    },
+    {
+        "id": 774,
+        "name": "Xhamia Tpla",
+        "city": "Tpla Tropojë",
+        "address": "Rruge fshati, qender",
+        "lat": 42.286359,
+        "lng": 20.086968
+    },
+    {
+        "id": 775,
+        "name": "Xhamia Trebishte",
+        "city": "Trebishte Bulqizë",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.410830,
+        "lng": 20.540362
+    },
+    {
+        "id": 776,
+        "name": "Xhamia E Re Trebishte",
+        "city": "Trebishte Bulqizë",
+        "address": "Rruge fshati, perendim",
+        "lat": 41.412746,
+        "lng": 20.534953
+    },
+    {
+        "id": 777,
+        "name": "Xhamia Tregtan",
+        "city": "Tregtan Has",
+        "address": "Rruga nacionale SH23",
+        "lat": 42.137342,
+        "lng": 20.346410
+    },
+    {
+        "id": 778,
+        "name": "Xhamia Tren",
+        "city": "Tren Devoll",
+        "address": "Rruge fshati, qender",
+        "lat": 40.665126,
+        "lng": 20.998335
+    },
+    {
+        "id": 779,
+        "name": "Xhamia Trene",
+        "city": "Trene Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.655214,
+        "lng": 20.433358
+    },
+    {
+        "id": 780,
+        "name": "Xhamia Trepce",
+        "city": "Trepce Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.641161,
+        "lng": 20.467442
+    },
+    {
+        "id": 781,
+        "name": "Xhamia Trevellezer",
+        "city": "Trevellezer Vlorë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.579863,
+        "lng": 19.512231
+    },
+    {
+        "id": 782,
+        "name": "Xhamia Tropoje",
+        "city": "Tropoje Tropojë",
+        "address": "Rruge fshati, qender",
+        "lat": 42.403065,
+        "lng": 20.167224
+    },
+    {
+        "id": 783,
+        "name": "Xhamia Trush",
+        "city": "Trush Shkodër",
+        "address": "Qender Trush, tek Varrezat",
+        "lat": 41.979984,
+        "lng": 19.483827
+    },
+    {
+        "id": 784,
+        "name": "Xhamia Mexhid Ali Kuka",
+        "city": "Tufine Tiranë",
+        "address": "Rruga e Arbrit",
+        "lat": 41.366962,
+        "lng": 19.853556
+    },
+    {
+        "id": 785,
+        "name": "Xhamia Shish tufine",
+        "city": "Tufine Tiranë",
+        "address": "Rruge fshati, koder",
+        "lat": 41.369963,
+        "lng": 19.871633
+    },
+    {
+        "id": 786,
+        "name": "Xhamia Tujan",
+        "city": "Tujan Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.380303,
+        "lng": 19.882242
+    },
+    {
+        "id": 787,
+        "name": "Xhamia Melqene Ujmisht",
+        "city": "Ujmisht Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.927829,
+        "lng": 20.375067
+    },
+    {
+        "id": 788,
+        "name": "Xhamia Ujmisht e Vjeter",
+        "city": "Ujmisht Kukës",
+        "address": "Rruge fshati",
+        "lat": 41.936680,
+        "lng": 20.362897
+    },
+    {
+        "id": 789,
+        "name": "Xhamia Ura e Shtrejte",
+        "city": "Ura e Shtrejte Shkodër",
+        "address": "Rruga Mesit Postribe, tek varrezat e fshatit",
+        "lat": 42.146030,
+        "lng": 19.657592
+    },
+    {
+        "id": 790,
+        "name": "Xhamia Urake",
+        "city": "Urake Librazhd",
+        "address": "Rruge fshati, lindje",
+        "lat": 41.067619,
+        "lng": 20.586458
+    },
+    {
+        "id": 791,
+        "name": "Xhamia e vjeter Ure",
+        "city": "Ure Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.318424,
+        "lng": 20.108031
+    },
+    {
+        "id": 792,
+        "name": "Xhamia Ushtelence",
+        "city": "Ushtelence Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.679807,
+        "lng": 20.390665
+    },
+    {
+        "id": 793,
+        "name": "Xhamia Vadardhe",
+        "city": "Vadardhe Durrës",
+        "address": "Rruge fshati",
+        "lat": 41.396065,
+        "lng": 19.543509
+    },
+    {
+        "id": 794,
+        "name": "Xhamia Vakuf Kishavec",
+        "city": "Vakuf Kishavec Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.701858,
+        "lng": 20.353027
+    },
+    {
+        "id": 795,
+        "name": "Xhamia Valare",
+        "city": "Valare Gjirokastër",
+        "address": "Rruge fshati, Jug",
+        "lat": 40.122393,
+        "lng": 20.139888
+    },
+    {
+        "id": 796,
+        "name": "Xhamia Valas",
+        "city": "Valas Elbasan",
+        "address": "Rruge fshati, qender",
+        "lat": 41.046652,
+        "lng": 19.950058
+    },
+    {
+        "id": 797,
+        "name": "Xhamia Valias 1",
+        "city": "Valias, Kamez Tiranë",
+        "address": "Rruga Kukësi",
+        "lat": 41.396552,
+        "lng": 19.748858
+    },
+    {
+        "id": 798,
+        "name": "Xhamia Valias 2",
+        "city": "Valias, Kamez Tiranë",
+        "address": "Rruga Mati",
+        "lat": 41.393798,
+        "lng": 19.737188
+    },
+    {
+        "id": 799,
+        "name": "Xhamia Vallas",
+        "city": "Vallas Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.050804,
+        "lng": 19.416086
+    },
+    {
+        "id": 800,
+        "name": "Xhamia Vaqarr",
+        "city": "Vaqarr Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.301141,
+        "lng": 19.744740
+    },
+    {
+        "id": 801,
+        "name": "Xhamia Vashtëmi",
+        "city": "Vashtëmi Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.676609,
+        "lng": 20.740974
+    },
+    {
+        "id": 802,
+        "name": "Xhamia Vehcan",
+        "city": "Vehcan Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.122338,
+        "lng": 20.439668
+    },
+    {
+        "id": 803,
+        "name": "Xhamia Velabisht",
+        "city": "Velabisht Berat",
+        "address": "Rruge fshati, prane shkolles",
+        "lat": 40.703127,
+        "lng": 19.930452
+    },
+    {
+        "id": 804,
+        "name": "Xhamia Velçan",
+        "city": "Velçan Pogradec",
+        "address": "Rruge fshati, qender",
+        "lat": 40.953571,
+        "lng": 20.461881
+    },
+
+    {
+        "id": 805,
+        "name": "Xhamia Velinaj",
+        "city": "Velinaj Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.020122,
+        "lng": 19.419911
+    },
+    {
+        "id": 806,
+        "name": "Xhamia Veliternë",
+        "city": "Veliternë Korçë",
+        "address": "Rruge fshati, veri, ne koder",
+        "lat": 40.806185,
+        "lng": 20.732682
+    },
+    {
+        "id": 807,
+        "name": "Xhamia Venisht",
+        "city": "Venisht Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.771352,
+        "lng": 20.414467
+    },
+    {
+        "id": 808,
+        "name": "Xhamia Verdove",
+        "city": "Verdove Pogradec",
+        "address": "Rruge fshati, Perendim",
+        "lat": 40.888251,
+        "lng": 20.653840
+    },
+    {
+        "id": 809,
+        "name": "Xhamia Vergo",
+        "city": "Vergo Delvinë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.006097,
+        "lng": 20.009479
+    },
+    {
+        "id": 810,
+        "name": "Xhamia Verri",
+        "city": "Verri Pogradec",
+        "address": "Rruge fshati",
+        "lat": 41.003959,
+        "lng": 20.506598
+    },
+    {
+        "id": 811,
+        "name": "Xhamia Vidhas",
+        "city": "Vidhas Elbasan",
+        "address": "Rruge fshati, tek Uzina e Ferrokromit",
+        "lat": 41.083747,
+        "lng": 19.997323
+    },
+    {
+        "id": 812,
+        "name": "Xhamia Vidohove",
+        "city": "Vidohove Devoll",
+        "address": "Rruge fshati",
+        "lat": 40.478320,
+        "lng": 20.934072
+    },
+    {
+        "id": 813,
+        "name": "Xhamia Vile",
+        "city": "Vile Kukës",
+        "address": "Rruge fshati, qender",
+        "lat": 41.884789,
+        "lng": 20.370965
+    },
+    {
+        "id": 814,
+        "name": "Xhamia Vilz",
+        "city": "Vilz Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.454763,
+        "lng": 19.954453
+    },
+    {
+        "id": 815,
+        "name": "Xhamia Vilze",
+        "city": "Vilze Shkodër",
+        "address": "Rruge fshati, koder",
+        "lat": 42.112558,
+        "lng": 19.644114
+    },
+    {
+        "id": 816,
+        "name": "Xhamia Vlahen",
+        "city": "Vlahen Has",
+        "address": "Rruge fshati, qender",
+        "lat": 42.235703,
+        "lng": 20.458467
+    },
+    {
+        "id": 817,
+        "name": "Xhamia Vlashaj",
+        "city": "Vlashaj Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.532144,
+        "lng": 20.407420
+    },
+    {
+        "id": 818,
+        "name": "Xhamia Vleshe",
+        "city": "Vleshe Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.812022,
+        "lng": 20.427194
+    },
+    {
+        "id": 819,
+        "name": "Xhamia Vllahat",
+        "city": "Vllahat Delvinë",
+        "address": "Rruge fshati, qender",
+        "lat": 39.941448,
+        "lng": 20.083007
+    },
+    {
+        "id": 820,
+        "name": "Xhamia Vlocisht",
+        "city": "Vlocisht Korçë",
+        "address": "Rruge fshati, Veri",
+        "lat": 40.697388,
+        "lng": 20.731400
+    },
+    {
+        "id": 821,
+        "name": "Xhamia e Muradies Vlore",
+        "city": "Vlorë",
+        "address": "Rruga Ismail Qemali",
+        "lat": 40.469099,
+        "lng": 19.490894
+    },
+    {
+        "id": 822,
+        "name": "Xhamia \"Neshat Pashai\" Vlore",
+        "city": "Vlorë",
+        "address": "Rruga Dervish Hima",
+        "lat": 40.471568,
+        "lng": 19.492800
+    },
+    {
+        "id": 823,
+        "name": "Xhamia Vodice",
+        "city": "Vodice Berat",
+        "address": "Rruge fshati, qender",
+        "lat": 40.676600,
+        "lng": 20.012887
+    },
+    {
+        "id": 824,
+        "name": "Xhamia Vojnik",
+        "city": "Vojnik Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.581436,
+        "lng": 20.455480
+    },
+    {
+        "id": 825,
+        "name": "Xhamia e vjeter Vokopolë",
+        "city": "Vokopole Berat",
+        "address": "Rruge fshati",
+        "lat": 40.514678,
+        "lng": 20.070466
+    },
+    {
+        "id": 826,
+        "name": "Xhamia Vore",
+        "city": "Vore Tiranë",
+        "address": "Rruga Bashkia",
+        "lat": 41.391960,
+        "lng": 19.658269
+    },
+    {
+        "id": 827,
+        "name": "Xhamia Vorf",
+        "city": "Vorf Malësi e Madhe",
+        "address": "Rruge fshati, qender",
+        "lat": 42.155946,
+        "lng": 19.558068
+    },
+    {
+        "id": 828,
+        "name": "Xhamia Vorrozen 1",
+        "city": "Vorrozen Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.148135,
+        "lng": 19.565693
+    },
+    {
+        "id": 829,
+        "name": "Xhamia Vorrozen 2",
+        "city": "Vorrozen Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.139612,
+        "lng": 19.559132
+    },
+    {
+        "id": 830,
+        "name": "Xhamia Voskop",
+        "city": "Voskop Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.609619,
+        "lng": 20.689636
+    },
+    {
+        "id": 831,
+        "name": "Xhamia Vranisht",
+        "city": "Vranisht Has",
+        "address": "Rruge fshati",
+        "lat": 42.169425,
+        "lng": 20.380941
+    },
+    {
+        "id": 832,
+        "name": "Xhamia Vranisht",
+        "city": "Vranisht Devoll",
+        "address": "Rruge fshati",
+        "lat": 40.664964,
+        "lng": 20.908876
+    },
+    {
+        "id": 833,
+        "name": "Xhamia Vrenjt",
+        "city": "Vrenjt Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.734698,
+        "lng": 20.426328
+    },
+    {
+        "id": 834,
+        "name": "Xhamia e vjeter Vukatane",
+        "city": "Vukatane Shkodër",
+        "address": "Rruge fshati",
+        "lat": 42.027208,
+        "lng": 19.549945
+    },
+    {
+        "id": 835,
+        "name": "Xhamia Vukatane",
+        "city": "Vukatane Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.029248,
+        "lng": 19.549497
+    },
+    {
+        "id": 836,
+        "name": "Xhamia Vulcan",
+        "city": "Vulcan Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.130167,
+        "lng": 20.408385
+    },
+    {
+        "id": 837,
+        "name": "Xhamia Xarrë",
+        "city": "Xarrë Sarandë",
+        "address": "Rruga Arberia, Jug",
+        "lat": 39.723423,
+        "lng": 20.062229
+    },
+    {
+        "id": 838,
+        "name": "Xhamia Varrezat Monumentale Çame",
+        "city": "Xarrë Sarandë",
+        "address": "Rruga Nacionale SH98",
+        "lat": 39.724521,
+        "lng": 20.070883
+    },
+    {
+        "id": 839,
+        "name": "Xhamia Xhaferaj",
+        "city": "Xhaferaj Shkodër",
+        "address": "Rruge fshati, qender",
+        "lat": 42.026461,
+        "lng": 19.445276
+    },
+    {
+        "id": 840,
+        "name": "Xhamia Xhafzotaj",
+        "city": "Xhafzotaj Durrës",
+        "address": "Rruge fshati, tek varrezat e fshatit",
+        "lat": 41.350404,
+        "lng": 19.553006
+    },
+    {
+        "id": 841,
+        "name": "Xhamia Xhyre",
+        "city": "Xhyre Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.112832,
+        "lng": 20.406124
+    },
+    {
+        "id": 842,
+        "name": "Xhamia Tejlum Xiber",
+        "city": "Xiber Mat",
+        "address": "Rruge fshati",
+        "lat": 41.480958,
+        "lng": 20.030393
+    },
+    {
+        "id": 843,
+        "name": "Xhamia Vanar Xiber",
+        "city": "Xiber Mat",
+        "address": "Rruga e Arbrit",
+        "lat": 41.453463,
+        "lng": 20.025563
+    },
+    {
+        "id": 844,
+        "name": "Xhamia tek Rrapi Xiber Hane",
+        "city": "Xiber Hane Mat",
+        "address": "Rruge fshati",
+        "lat": 41.471749,
+        "lng": 20.025885
+    },
+    {
+        "id": 845,
+        "name": "Xhamia Xiber Murrize",
+        "city": "Xiber Murrize Mat",
+        "address": "Rruge fshati",
+        "lat": 41.461376,
+        "lng": 20.040751
+    },
+    {
+        "id": 846,
+        "name": "Xhamia Xibrake 1",
+        "city": "Xibrake Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.167527,
+        "lng": 20.199630
+    },
+    {
+        "id": 847,
+        "name": "Xhamia Xibrake 2",
+        "city": "Xibrake Elbasan",
+        "address": "Rruge fshati",
+        "lat": 41.182345,
+        "lng": 20.204520
+    },
+    {
+        "id": 848,
+        "name": "Xhamia Xibrek belsh",
+        "city": "Xibreke Belsh Elbasan",
+        "address": "Rruge fshati, Jug",
+        "lat": 41.018749,
+        "lng": 19.919553
+    },
+    {
+        "id": 849,
+        "name": "Xhamia Yrshek",
+        "city": "Yrshek Tiranë",
+        "address": "Rruga Nozllaku",
+        "lat": 41.349330,
+        "lng": 19.743287
+    },
+    {
+        "id": 850,
+        "name": "Xhamia Zabzun",
+        "city": "Zabzun Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.339079,
+        "lng": 20.409828
+    },
+    {
+        "id": 851,
+        "name": "Xhamia Zagore",
+        "city": "Zagore Malësi e Madhe",
+        "address": "Rruga e Memajve",
+        "lat": 42.285908,
+        "lng": 19.500618
+    },
+    {
+        "id": 852,
+        "name": "Xhamia Zall Bastar",
+        "city": "Zall Bastar Tiranë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.429440,
+        "lng": 19.934349
+    },
+    {
+        "id": 853,
+        "name": "Xhamia Zall Herr",
+        "city": "Zall herr Tiranë",
+        "address": "Rruge fshati, tek Shkolla",
+        "lat": 41.397756,
+        "lng": 19.830075
+    },
+    {
+        "id": 854,
+        "name": "Xhamia Zall Rec",
+        "city": "Zall Rec Dibër",
+        "address": "Rruge fshati, tek shkolla",
+        "lat": 41.874158,
+        "lng": 20.318986
+    },
+    {
+        "id": 855,
+        "name": "Xhamia Zapod",
+        "city": "Zapod Kukës",
+        "address": "Rruge fshati",
+        "lat": 42.050635,
+        "lng": 20.553290
+    },
+    {
+        "id": 856,
+        "name": "Xhamia Zdojan",
+        "city": "Zdojan Dibër",
+        "address": "Rruge fshati, qender",
+        "lat": 41.687710,
+        "lng": 20.380101
+    },
+    {
+        "id": 857,
+        "name": "Xhamia Zdrajsh",
+        "city": "Zdrajsh Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.281163,
+        "lng": 20.253588
+    },
+    {
+        "id": 858,
+        "name": "Xhamia Zemblak",
+        "city": "Zemblak Korçë",
+        "address": "Rruge fshati, qender, pran shkolles",
+        "lat": 40.694302,
+        "lng": 20.876596
+    },
+    {
+        "id": 859,
+        "name": "Xhamia Zerqan",
+        "city": "Zerqan Bulqizë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.503645,
+        "lng": 20.356944
+    },
+    {
+        "id": 860,
+        "name": "Xhamia Zgafnor",
+        "city": "Zgafnor Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.389349,
+        "lng": 19.796229
+    },
+    {
+        "id": 861,
+        "name": "Xhamia Zgafnor 2",
+        "city": "Zgafnor Tiranë",
+        "address": "Rruge fshati",
+        "lat": 41.390883,
+        "lng": 19.799690
+    },
+    {
+        "id": 862,
+        "name": "Xhamia Zgosht",
+        "city": "Zgosht Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.244121,
+        "lng": 20.316188
+    },
+    {
+        "id": 863,
+        "name": "Xhamia Zgosht e vjeter",
+        "city": "Zgosht e vjeter Librazhd",
+        "address": "Rruge fshati",
+        "lat": 41.251393,
+        "lng": 20.319985
+    },
+    {
+        "id": 864,
+        "name": "Xhamia Zhabjak",
+        "city": "Zhabjak Kavajë",
+        "address": "Rruge fshati",
+        "lat": 41.078215,
+        "lng": 19.560837
+    },
+    {
+        "id": 865,
+        "name": "Xhamia Zhame Sektor",
+        "city": "Zhame Sektor Lushnjë",
+        "address": "Rruge fshati, qender",
+        "lat": 41.043414,
+        "lng": 19.658181
+    },
+    {
+        "id": 866,
+        "name": "Xhamia Zimur",
+        "city": "Zimur Dibër",
+        "address": "Rruge fshati",
+        "lat": 41.720679,
+        "lng": 20.447246
+    },
+    {
+        "id": 867,
+        "name": "Xhamia Zogaj",
+        "city": "Zogaj Shkodër",
+        "address": "Rruga Zogaj",
+        "lat": 42.072069,
+        "lng": 19.397721
+    },
+    {
+        "id": 868,
+        "name": "Xhamia Zus",
+        "city": "Zus Shkodër",
+        "address": "Zus, Rruga Nacionale SH41",
+        "lat": 42.032023,
+        "lng": 19.475850
+    },
+    {
+        "id": 869,
+        "name": "Xhamia Zvezdë",
+        "city": "Zvezdë Korçë",
+        "address": "Rruge fshati, qender",
+        "lat": 40.730369,
+        "lng": 20.863489
+    }
+]
