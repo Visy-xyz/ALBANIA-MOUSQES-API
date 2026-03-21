@@ -1,106 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Xhamia API — Documentation</title>
+  <title>Balkan Mosques API — Documentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #ffffff; --bg2: #f7f6f3; --bg3: #f0efe9;
-      --text: #1a1a18; --muted: #6b6a65; --accent: #185fa5;
-      --green: #3b6d11; --green-bg: #eaf3de;
-      --amber: #854f0b; --amber-bg: #faeeda;
-      --red: #a32d2d; --red-bg: #fcebeb;
-      --border: rgba(0,0,0,0.10);
-      --radius: 8px; --mono: 'Courier New', monospace;
+      --ink: #0f0e0c;
+      --paper: #f5f2eb;
+      --paper2: #ede9e0;
+      --paper3: #e4dfd4;
+      --gold: #b8943f;
+      --gold-light: #f5edd8;
+      --green: #2d5a1b;
+      --green-bg: #e8f0e4;
+      --red: #7a1f1f;
+      --red-bg: #f5e4e4;
+      --amber: #6b4c10;
+      --amber-bg: #faf0dc;
+      --muted: #7a7670;
+      --border: rgba(15,14,12,0.12);
+      --mono: 'DM Mono', monospace;
+      --serif: 'Instrument Serif', Georgia, serif;
+      --sans: 'DM Sans', sans-serif;
     }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #1a1a18; --bg2: #242420; --bg3: #2c2c2a;
-        --text: #e8e6de; --muted: #9c9a92; --accent: #85b7eb;
-        --green: #c0dd97; --green-bg: #173404;
-        --amber: #fac775; --amber-bg: #412402;
-        --red: #f09595; --red-bg: #501313;
-        --border: rgba(255,255,255,0.10);
-      }
+    body {
+      font-family: var(--sans);
+      background: var(--paper);
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.75;
     }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 16px; }
     .layout { display: flex; min-height: 100vh; }
-    nav { width: 220px; flex-shrink: 0; background: var(--bg2); border-right: 1px solid var(--border); padding: 32px 0; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
-    nav h2 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); padding: 0 24px; margin-bottom: 8px; }
-    nav a { display: block; padding: 6px 24px; font-size: 14px; color: var(--muted); text-decoration: none; border-radius: 0; }
-    nav a:hover { color: var(--text); background: var(--bg3); }
-    nav .logo { font-size: 16px; font-weight: 600; color: var(--text); padding: 0 24px 24px; border-bottom: 1px solid var(--border); margin-bottom: 24px; }
-    main { flex: 1; max-width: 760px; padding: 48px 48px; }
-    h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
-    h2 { font-size: 22px; font-weight: 600; margin: 48px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); }
-    h3 { font-size: 16px; font-weight: 600; margin: 28px 0 10px; }
-    p { color: var(--muted); margin-bottom: 14px; }
-    a { color: var(--accent); }
-    code { font-family: var(--mono); font-size: 13px; background: var(--bg3); padding: 2px 6px; border-radius: 4px; color: var(--text); }
-    pre { background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; overflow-x: auto; margin: 16px 0 24px; }
-    pre code { background: none; padding: 0; font-size: 13px; line-height: 1.6; }
-    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
-    th { text-align: left; font-weight: 600; padding: 10px 14px; background: var(--bg2); border: 1px solid var(--border); }
-    td { padding: 10px 14px; border: 1px solid var(--border); color: var(--muted); vertical-align: top; }
-    td code { color: var(--text); }
-    .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; letter-spacing: .04em; margin-right: 6px; font-family: var(--mono); }
-    .get  { background: var(--green-bg); color: var(--green); }
-    .err  { background: var(--red-bg);   color: var(--red); }
-    .note { background: var(--amber-bg); color: var(--amber); border-radius: var(--radius); padding: 12px 16px; font-size: 14px; margin: 16px 0; }
-    .endpoint { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; font-family: var(--mono); font-size: 14px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-    .subtitle { font-size: 18px; color: var(--muted); margin-bottom: 32px; }
+
+    /* ── SIDEBAR ── */
+    aside {
+      width: 240px;
+      flex-shrink: 0;
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .aside-brand {
+      padding: 28px 28px 24px;
+      border-bottom: 1px solid rgba(245,242,235,0.08);
+    }
+    .aside-brand .eyebrow {
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: .16em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .aside-brand .title {
+      font-family: var(--serif);
+      font-size: 20px;
+      line-height: 1.2;
+      color: var(--paper);
+    }
+    .aside-brand .title em { color: var(--gold); font-style: italic; }
+    .aside-brand .by {
+      font-size: 11px;
+      color: rgba(245,242,235,0.4);
+      margin-top: 6px;
+      font-weight: 300;
+    }
+    .nav-section {
+      padding: 20px 0 0;
+    }
+    .nav-label {
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(245,242,235,0.3);
+      padding: 0 28px;
+      margin-bottom: 4px;
+    }
+    aside a {
+      display: block;
+      padding: 7px 28px;
+      font-size: 13px;
+      color: rgba(245,242,235,0.55);
+      text-decoration: none;
+      transition: color .12s;
+      font-weight: 300;
+    }
+    aside a:hover { color: var(--paper); }
+    .aside-footer {
+      margin-top: auto;
+      padding: 20px 28px;
+      border-top: 1px solid rgba(245,242,235,0.08);
+    }
+    .aside-footer p {
+      font-size: 11px;
+      color: rgba(245,242,235,0.25);
+      line-height: 1.6;
+      font-family: var(--mono);
+    }
+
+    /* ── MAIN CONTENT ── */
+    main {
+      flex: 1;
+      max-width: 800px;
+      padding: 64px 64px;
+    }
+
+    /* HERO */
+    .hero {
+      margin-bottom: 64px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-eyebrow {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .hero h1 em { font-style: italic; color: var(--gold); }
+    .hero-sub {
+      font-size: 16px;
+      color: var(--muted);
+      font-weight: 300;
+      margin-bottom: 24px;
+      max-width: 520px;
+    }
+    .hero-meta {
+      display: flex;
+      gap: 24px;
+    }
+    .hero-chip {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      background: var(--paper2);
+      border: 1px solid var(--border);
+      padding: 5px 12px;
+      border-radius: 2px;
+    }
+    .hero-chip span { color: var(--ink); font-weight: 500; }
+
+    /* SECTIONS */
+    .doc-section {
+      margin-bottom: 56px;
+    }
+    .doc-section h2 {
+      font-family: var(--serif);
+      font-size: 26px;
+      font-weight: 400;
+      margin-bottom: 14px;
+    }
+    .doc-section h3 {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 24px 0 10px;
+    }
+    .doc-section p {
+      color: var(--muted);
+      margin-bottom: 14px;
+      font-weight: 300;
+    }
+    .doc-section a { color: var(--gold); }
+
+    /* ENDPOINT PILL */
+    .endpoint-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 3px;
+      padding: 12px 18px;
+      margin-bottom: 20px;
+      font-family: var(--mono);
+      font-size: 13px;
+    }
+    .method {
+      background: var(--gold);
+      color: var(--ink);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      padding: 3px 9px;
+      border-radius: 2px;
+    }
+    .method.base {
+      background: rgba(245,242,235,0.15);
+      color: var(--paper);
+    }
+
+    /* CODE BLOCKS */
+    pre {
+      background: var(--ink);
+      color: #d4cfc4;
+      border-radius: 3px;
+      padding: 20px 22px;
+      overflow-x: auto;
+      margin: 12px 0 20px;
+      font-family: var(--mono);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+    code {
+      font-family: var(--mono);
+      font-size: 12px;
+      background: var(--paper2);
+      padding: 2px 7px;
+      border-radius: 2px;
+      color: var(--ink);
+    }
+    pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+
+    /* TABLES */
+    .doc-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 24px;
+      font-size: 13px;
+    }
+    .doc-table th {
+      text-align: left;
+      padding: 9px 14px;
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: var(--paper2);
+      border: 1px solid var(--border);
+      font-weight: 400;
+    }
+    .doc-table td {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      vertical-align: top;
+      font-weight: 300;
+    }
+    .doc-table td code { color: var(--ink); }
+
+    /* NOTE BOX */
+    .note {
+      background: var(--amber-bg);
+      border-left: 3px solid var(--gold);
+      padding: 14px 18px;
+      border-radius: 0 3px 3px 0;
+      font-size: 13px;
+      color: var(--amber);
+      margin: 16px 0 20px;
+      font-weight: 300;
+    }
+
+    /* STATUS BADGES */
+    .status-ok { color: var(--green); font-family: var(--mono); font-size: 12px; }
+    .status-err { color: var(--red); font-family: var(--mono); font-size: 12px; }
+
+    /* DIVIDER */
+    hr { border: none; border-top: 1px solid var(--border); margin: 48px 0; }
   </style>
 </head>
 <body>
 <div class="layout">
-  <nav>
-    <div class="logo">🕌 Xhamia API</div>
-    <h2>Getting Started</h2>
-    <a href="#overview">Overview</a>
-    <a href="#auth">Authentication</a>
-    <a href="#base-url">Base URL</a>
-    <h2 style="font-size:11px;padding:0 24px;margin:16px 0 8px;">Endpoints</h2>
-    <a href="#list">List mosques</a>
-    <a href="#single">Get by ID</a>
-    <a href="#filter-city">Filter by city</a>
-    <a href="#filter-name">Filter by name</a>
-    <a href="#pagination">Pagination</a>
-    <h2 style="font-size:11px;padding:0 24px;margin:16px 0 8px;">Reference</h2>
-    <a href="#response">Response format</a>
-    <a href="#errors">Error codes</a>
-    <a href="#object">Mosque object</a>
-  </nav>
+
+  <!-- SIDEBAR -->
+  <aside>
+    <div class="aside-brand">
+      <div class="eyebrow">API Documentation</div>
+      <div class="title">Balkan <em>Mosques</em></div>
+      <div class="by">by Ervis Cela</div>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Getting Started</div>
+      <a href="#overview">Overview</a>
+      <a href="#auth">Authentication</a>
+      <a href="#base-url">Base URL</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Endpoints</div>
+      <a href="#list">List mosques</a>
+      <a href="#single">Get by ID</a>
+      <a href="#filter-city">Filter by city</a>
+      <a href="#filter-name">Filter by name</a>
+      <a href="#pagination">Pagination</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Reference</div>
+      <a href="#response">Response format</a>
+      <a href="#errors">Error codes</a>
+      <a href="#object">Mosque object</a>
+    </div>
+    <div class="aside-footer">
+      <p>Balkan Mosques API<br>by Ervis Cela<br>v2.0 · 2025</p>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
   <main>
-    <h1>Xhamia API</h1>
-    <p class="subtitle">REST API for mosque locations across Albania — 869 records.</p>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-eyebrow">REST API — v2.0</div>
+      <h1>Balkan <em>Mosques</em><br>API</h1>
+      <p class="hero-sub">Structured data for mosque locations across Albania, Kosovo and North Macedonia — curated and maintained by Ervis Cela.</p>
+      <div class="hero-meta">
+        <div class="hero-chip"><span>2,600+</span> mosques</div>
+        <div class="hero-chip"><span>3</span> countries</div>
+        <div class="hero-chip"><span>JSON</span> format</div>
+        <div class="hero-chip"><span>GPS</span> coordinates</div>
+      </div>
+    </div>
 
     <!-- OVERVIEW -->
-    <h2 id="overview">Overview</h2>
-    <p>This API provides structured data about mosques across Albania, including name, city, address, and GPS coordinates. All requests require an API key passed in the request header.</p>
+    <div class="doc-section" id="overview">
+      <h2>Overview</h2>
+      <p>The Balkan Mosques API provides structured location data for mosques across the Balkan region. Every record includes the mosque name, city, address, and GPS coordinates (latitude and longitude) for use in maps and mobile applications.</p>
+      <p>All endpoints are read-only and require an API key passed in the request header. Keys are issued and managed by the API author.</p>
+    </div>
+
+    <hr>
 
     <!-- AUTH -->
-    <h2 id="auth">Authentication</h2>
-    <p>Every request must include your API key in the <code>x-api-key</code> header. Requests without a valid key return <code>401 Unauthorized</code>.</p>
-    <pre><code>GET /api/mosques
-x-api-key: YOUR_SECRET_KEY</code></pre>
-    <div class="note">⚠️ Never expose your API key in client-side JavaScript. Always route requests through your own backend or use environment variables.</div>
+    <div class="doc-section" id="auth">
+      <h2>Authentication</h2>
+      <p>Every request must include your API key in the <code>x-api-key</code> request header. Requests with a missing or invalid key receive a <code>401</code> response.</p>
+      <pre><code>GET /api/mosques
+Host: xhamia-api.vercel.app
+x-api-key: xhamia_live_your_key_here</code></pre>
+      <div class="note">⚠️ API keys are personal — do not share or expose them in client-side code. If you are building a Flutter or web app, route all API calls through your own backend and store the key in an environment variable.</div>
+      <p>To request an API key, contact the author directly.</p>
+    </div>
+
+    <hr>
 
     <!-- BASE URL -->
-    <h2 id="base-url">Base URL</h2>
-    <div class="endpoint"><span class="badge get">BASE</span>https://your-project.vercel.app</div>
-    <p>Replace <code>your-project</code> with your Vercel project name after deploying.</p>
+    <div class="doc-section" id="base-url">
+      <h2>Base URL</h2>
+      <div class="endpoint-bar">
+        <span class="method base">BASE</span>
+        https://xhamia-api.vercel.app
+      </div>
+      <p>All endpoints are relative to this base URL. The API is served over HTTPS only.</p>
+    </div>
+
+    <hr>
 
     <!-- LIST -->
-    <h2 id="list">List all mosques</h2>
-    <div class="endpoint"><span class="badge get">GET</span>/api/mosques</div>
-    <p>Returns a paginated list of all mosques. Defaults to 50 results per page.</p>
-    <h3>Example request</h3>
-    <pre><code>curl https://your-project.vercel.app/api/mosques \
-  -H "x-api-key: YOUR_SECRET_KEY"</code></pre>
-    <h3>Example response</h3>
-    <pre><code>{
+    <div class="doc-section" id="list">
+      <h2>List mosques</h2>
+      <div class="endpoint-bar">
+        <span class="method">GET</span>
+        /api/mosques
+      </div>
+      <p>Returns a paginated list of all mosques. Defaults to 50 results per page.</p>
+      <h3>Example request</h3>
+      <pre><code>curl https://xhamia-api.vercel.app/api/mosques \
+  -H "x-api-key: xhamia_live_your_key_here"</code></pre>
+      <h3>Example response</h3>
+      <pre><code>{
   "success": true,
   "meta": {
     "total": 869,
@@ -116,25 +395,31 @@ x-api-key: YOUR_SECRET_KEY</code></pre>
       "address": "Rruge fshati, qender",
       "lat": 41.433916,
       "lng": 19.682254
-    },
-    ...
+    }
   ]
 }</code></pre>
+    </div>
+
+    <hr>
 
     <!-- SINGLE -->
-    <h2 id="single">Get mosque by ID</h2>
-    <div class="endpoint"><span class="badge get">GET</span>/api/mosques?id=050</div>
-    <p>Returns a single mosque matching the given <code>id</code>.</p>
-    <h3>Parameters</h3>
-    <table>
-      <tr><th>Parameter</th><th>Type</th><th>Description</th></tr>
-      <tr><td><code>id</code></td><td>string</td><td>The mosque ID (e.g. <code>001</code>, <code>743</code>)</td></tr>
-    </table>
-    <h3>Example request</h3>
-    <pre><code>curl "https://your-project.vercel.app/api/mosques?id=743" \
-  -H "x-api-key: YOUR_SECRET_KEY"</code></pre>
-    <h3>Example response</h3>
-    <pre><code>{
+    <div class="doc-section" id="single">
+      <h2>Get mosque by ID</h2>
+      <div class="endpoint-bar">
+        <span class="method">GET</span>
+        /api/mosques?id=743
+      </div>
+      <p>Returns a single mosque matching the given <code>id</code>.</p>
+      <h3>Parameters</h3>
+      <table class="doc-table">
+        <tr><th>Parameter</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>id</code></td><td>string</td><td>Mosque ID — e.g. <code>001</code>, <code>743</code></td></tr>
+      </table>
+      <h3>Example request</h3>
+      <pre><code>curl "https://xhamia-api.vercel.app/api/mosques?id=743" \
+  -H "x-api-key: xhamia_live_your_key_here"</code></pre>
+      <h3>Example response</h3>
+      <pre><code>{
   "success": true,
   "data": {
     "id": 743,
@@ -145,59 +430,92 @@ x-api-key: YOUR_SECRET_KEY</code></pre>
     "lng": 19.819346
   }
 }</code></pre>
+    </div>
+
+    <hr>
 
     <!-- FILTER CITY -->
-    <h2 id="filter-city">Filter by city</h2>
-    <div class="endpoint"><span class="badge get">GET</span>/api/mosques?city=Tiranë</div>
-    <p>Returns mosques in the specified city. The match is <strong>case-insensitive</strong> and <strong>partial</strong> — searching <code>tiran</code> will match <code>Tiranë</code>.</p>
-    <h3>Example request</h3>
-    <pre><code>curl "https://your-project.vercel.app/api/mosques?city=Shkodër" \
-  -H "x-api-key: YOUR_SECRET_KEY"</code></pre>
+    <div class="doc-section" id="filter-city">
+      <h2>Filter by city</h2>
+      <div class="endpoint-bar">
+        <span class="method">GET</span>
+        /api/mosques?city=Tiranë
+      </div>
+      <p>Returns all mosques in a given city. The match is case-insensitive and partial — searching <code>tiran</code> will match <code>Tiranë</code>.</p>
+      <h3>Example request</h3>
+      <pre><code>curl "https://xhamia-api.vercel.app/api/mosques?city=Shkodër" \
+  -H "x-api-key: xhamia_live_your_key_here"</code></pre>
+    </div>
+
+    <hr>
 
     <!-- FILTER NAME -->
-    <h2 id="filter-name">Filter by name</h2>
-    <div class="endpoint"><span class="badge get">GET</span>/api/mosques?name=Ethem</div>
-    <p>Returns mosques whose name contains the given string. Case-insensitive partial match.</p>
-    <h3>Example request</h3>
-    <pre><code>curl "https://your-project.vercel.app/api/mosques?name=Plumbit" \
-  -H "x-api-key: YOUR_SECRET_KEY"</code></pre>
+    <div class="doc-section" id="filter-name">
+      <h2>Filter by name</h2>
+      <div class="endpoint-bar">
+        <span class="method">GET</span>
+        /api/mosques?name=Ethem
+      </div>
+      <p>Returns mosques whose name contains the given string. Case-insensitive partial match.</p>
+      <h3>Example request</h3>
+      <pre><code>curl "https://xhamia-api.vercel.app/api/mosques?name=Plumbit" \
+  -H "x-api-key: xhamia_live_your_key_here"</code></pre>
+    </div>
+
+    <hr>
 
     <!-- PAGINATION -->
-    <h2 id="pagination">Pagination</h2>
-    <p>All list endpoints support pagination via <code>page</code> and <code>limit</code> query parameters.</p>
-    <table>
-      <tr><th>Parameter</th><th>Default</th><th>Max</th><th>Description</th></tr>
-      <tr><td><code>page</code></td><td>1</td><td>—</td><td>Page number</td></tr>
-      <tr><td><code>limit</code></td><td>50</td><td>100</td><td>Results per page</td></tr>
-    </table>
-    <h3>Example</h3>
-    <pre><code>GET /api/mosques?city=Tiranë&page=2&limit=20</code></pre>
+    <div class="doc-section" id="pagination">
+      <h2>Pagination</h2>
+      <p>All list endpoints support pagination using the <code>page</code> and <code>limit</code> query parameters.</p>
+      <table class="doc-table">
+        <tr><th>Parameter</th><th>Default</th><th>Maximum</th><th>Description</th></tr>
+        <tr><td><code>page</code></td><td>1</td><td>—</td><td>Page number to return</td></tr>
+        <tr><td><code>limit</code></td><td>50</td><td>100</td><td>Number of results per page</td></tr>
+      </table>
+      <h3>Example</h3>
+      <pre><code>GET /api/mosques?city=Tiranë&page=2&limit=20</code></pre>
+    </div>
+
+    <hr>
 
     <!-- RESPONSE FORMAT -->
-    <h2 id="response">Response format</h2>
-    <p>All responses are JSON. Successful responses include <code>"success": true</code>. Error responses include <code>"success": false</code> and an <code>"error"</code> message.</p>
+    <div class="doc-section" id="response">
+      <h2>Response format</h2>
+      <p>All responses are JSON. Successful responses always include <code>"success": true</code> and a <code>data</code> field. List responses additionally include a <code>meta</code> object with pagination details. Error responses include <code>"success": false</code> and an <code>error</code> string describing the problem.</p>
+    </div>
+
+    <hr>
 
     <!-- ERRORS -->
-    <h2 id="errors">Error codes</h2>
-    <table>
-      <tr><th>Status</th><th>Meaning</th></tr>
-      <tr><td><code>200</code></td><td>OK — request successful</td></tr>
-      <tr><td><code>401</code></td><td>Unauthorized — missing or invalid <code>x-api-key</code></td></tr>
-      <tr><td><code>404</code></td><td>Not found — no mosque matches the given ID</td></tr>
-      <tr><td><code>405</code></td><td>Method not allowed — only GET is supported</td></tr>
-    </table>
+    <div class="doc-section" id="errors">
+      <h2>Error codes</h2>
+      <table class="doc-table">
+        <tr><th>Status</th><th>Meaning</th></tr>
+        <tr><td><span class="status-ok">200</span></td><td>OK — request successful</td></tr>
+        <tr><td><span class="status-err">401</span></td><td>Unauthorized — missing or invalid <code>x-api-key</code></td></tr>
+        <tr><td><span class="status-err">404</span></td><td>Not found — no mosque matches the given ID</td></tr>
+        <tr><td><span class="status-err">405</span></td><td>Method not allowed — only GET requests are supported</td></tr>
+        <tr><td><span class="status-err">429</span></td><td>Rate limit exceeded — too many requests this hour</td></tr>
+      </table>
+    </div>
+
+    <hr>
 
     <!-- OBJECT -->
-    <h2 id="object">Mosque object</h2>
-    <table>
-      <tr><th>Field</th><th>Type</th><th>Description</th></tr>
-      <tr><td><code>id</code></td><td>string / number</td><td>Unique identifier</td></tr>
-      <tr><td><code>name</code></td><td>string</td><td>Full name of the mosque</td></tr>
-      <tr><td><code>city</code></td><td>string</td><td>City and region</td></tr>
-      <tr><td><code>address</code></td><td>string</td><td>Street address</td></tr>
-      <tr><td><code>lat</code></td><td>number</td><td>Latitude (WGS84)</td></tr>
-      <tr><td><code>lng</code></td><td>number</td><td>Longitude (WGS84)</td></tr>
-    </table>
+    <div class="doc-section" id="object">
+      <h2>Mosque object</h2>
+      <table class="doc-table">
+        <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>id</code></td><td>string / number</td><td>Unique identifier</td></tr>
+        <tr><td><code>name</code></td><td>string</td><td>Full name of the mosque</td></tr>
+        <tr><td><code>city</code></td><td>string</td><td>City and region</td></tr>
+        <tr><td><code>address</code></td><td>string</td><td>Street address</td></tr>
+        <tr><td><code>lat</code></td><td>number</td><td>Latitude — WGS84 decimal degrees</td></tr>
+        <tr><td><code>lng</code></td><td>number</td><td>Longitude — WGS84 decimal degrees</td></tr>
+      </table>
+    </div>
+
   </main>
 </div>
 </body>
