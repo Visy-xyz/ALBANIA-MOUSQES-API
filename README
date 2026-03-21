@@ -1,90 +1,117 @@
-# 🕌 Xhamia API
+# 🕌 Xhamia API v2 (Firebase)
 
-REST API for mosque locations across Albania — **869 records** with name, city, address, and GPS coordinates.
+REST API for mosque locations across Albania, Kosovo and North Macedonia.
+Multi-key auth, rate limiting, and admin dashboard — powered by Firebase Firestore.
 
-## Quick start
-
-### 1. Clone and set up the project
-
-```bash
-git clone https://github.com/YOUR_USERNAME/xhamia-api.git
-cd xhamia-api
-npm install -g vercel
-```
-
-### 2. Add your data
-
-Copy your `mosques.json` file into the `data/` folder:
+## Project structure
 
 ```
 xhamia-api/
 ├── api/
-│   └── mosques.js      ← API handler
+│   ├── mosques.js        ← public API endpoint
+│   └── admin.js          ← admin CRUD API
+├── lib/
+│   ├── firebase.js       ← Firebase Admin client
+│   ├── auth.js           ← key validation + rate limiting
+│   └── keygen.js         ← API key generator
 ├── data/
-│   └── mosques.json    ← your JSON data (add this)
+│   └── mosques.json      ← your mosque data (add this)
 ├── public/
-│   └── index.html      ← API documentation page
+│   ├── index.html        ← API documentation
+│   └── admin.html        ← admin dashboard
 ├── vercel.json
 ├── package.json
-└── README.md
+└── .gitignore
 ```
 
-### 3. Deploy to Vercel
+---
 
-```bash
-vercel
-```
+## Setup guide
 
-Follow the prompts. When asked about settings, press Enter to accept defaults.
+### Step 1 — Firebase project
 
-### 4. Set your secret API key
+1. Go to [console.firebase.google.com](https://console.firebase.google.com)
+2. Create a new project (or use existing one)
+3. Go to **Firestore Database** → **Create database** → start in **production mode**
+4. Choose a region close to you (e.g. `europe-west1`)
 
-After deploy, go to your [Vercel dashboard](https://vercel.com) → Project → Settings → Environment Variables.
+### Step 2 — Firestore indexes
 
-Add:
+Go to **Firestore → Indexes → Composite** and add this index:
+
+| Collection | Field 1 | Field 2 | Query scope |
+|------------|---------|---------|-------------|
+| `request_logs` | `api_key` (Ascending) | `created_at` (Ascending) | Collection |
+
+This is required for the rate limit query to work.
+
+### Step 3 — Service account key
+
+1. Go to **Project Settings → Service accounts**
+2. Click **Generate new private key** → download the JSON file
+3. Open the JSON file — you need 3 values from it:
+
+| Vercel env var | JSON field |
+|---------------|-----------|
+| `FIREBASE_PROJECT_ID` | `project_id` |
+| `FIREBASE_CLIENT_EMAIL` | `client_email` |
+| `FIREBASE_PRIVATE_KEY` | `private_key` (the whole long string including `-----BEGIN...`) |
+
+⚠️ Never commit this JSON file to GitHub. It's in `.gitignore`.
+
+### Step 4 — Vercel environment variables
+
+Add these in Vercel → Settings → Environment Variables:
 
 | Key | Value |
 |-----|-------|
-| `API_KEY` | `any-strong-secret-you-choose` |
+| `FIREBASE_PROJECT_ID` | from service account JSON |
+| `FIREBASE_CLIENT_EMAIL` | from service account JSON |
+| `FIREBASE_PRIVATE_KEY` | from service account JSON |
+| `ADMIN_PASSWORD` | any strong password you choose |
 
-Then redeploy:
+### Step 5 — Deploy
 
 ```bash
-vercel --prod
+git add .
+git commit -m "v2 firebase auth + admin dashboard"
+git push
 ```
+
+### Step 6 — Create your first API key
+
+Go to `https://xhamia-api.vercel.app/admin`, sign in with your `ADMIN_PASSWORD`, and create a key.
 
 ---
 
-## API reference
+## Firestore collections (auto-created)
 
-See the full docs at `https://your-project.vercel.app` after deploying.
-
-### Endpoints
-
-| Method | Path | Description |
-|--------|------|-------------|
-| GET | `/api/mosques` | List all (paginated) |
-| GET | `/api/mosques?id=007` | Get by ID |
-| GET | `/api/mosques?city=Tiranë` | Filter by city |
-| GET | `/api/mosques?name=Ethem` | Filter by name |
-
-### Authentication
-
-Pass your key in the request header:
-
-```
-x-api-key: YOUR_SECRET_KEY
-```
-
-### Example
-
-```bash
-curl "https://your-project.vercel.app/api/mosques?city=Shkodër&limit=10" \
-  -H "x-api-key: YOUR_SECRET_KEY"
-```
+| Collection | What's stored |
+|------------|--------------|
+| `api_keys` | One doc per key, doc ID = the key itself |
+| `request_logs` | One doc per API call, used for rate limiting |
 
 ---
 
-## Why the repo can be public
+## API usage
 
-Your API key **never appears in the code**. It lives only in Vercel's encrypted environment variables. Even if someone reads the source, they cannot call the API without the key.
+```bash
+curl "https://xhamia-api.vercel.app/api/mosques?city=Tiranë" \
+  -H "x-api-key: xhamia_live_..."
+```
+
+| Param | Example | Description |
+|-------|---------|-------------|
+| `id` | `?id=743` | Single mosque by ID |
+| `city` | `?city=Tiranë` | Filter by city |
+| `name` | `?name=Ethem` | Filter by name |
+| `page` | `?page=2` | Pagination |
+| `limit` | `?limit=20` | Results per page (max 100) |
+
+## Admin dashboard
+
+```
+https://xhamia-api.vercel.app/admin
+```
+
+Create keys, deactivate/delete them, and see live usage stats per key.

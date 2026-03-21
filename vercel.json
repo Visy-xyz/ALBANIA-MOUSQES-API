@@ -1,9 +1,9 @@
 {
   "version": 2,
   "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/mosques.js"
-    }
+    { "src": "/api/admin(.*)", "dest": "/api/admin.js" },
+    { "src": "/api/mosques(.*)", "dest": "/api/mosques.js" },
+    { "src": "/admin", "dest": "/public/admin.html" },
+    { "src": "/", "dest": "/public/index.html" }
   ]
 }
