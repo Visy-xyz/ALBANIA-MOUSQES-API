@@ -26,27 +26,19 @@
       }
     }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; min-height: 100vh; }
-
-    /* LOGIN */
     #login-screen { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
     .login-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 40px; width: 340px; }
     .login-card h1 { font-size: 22px; margin-bottom: 6px; }
     .login-card p { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
     .login-error { color: var(--red); font-size: 13px; margin-top: 10px; display: none; }
-
-    /* MAIN LAYOUT */
     #app { display: none; }
     header { background: var(--bg2); border-bottom: 1px solid var(--border); padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 10; }
     header h1 { font-size: 17px; font-weight: 600; }
     .main { padding: 32px; max-width: 1100px; margin: 0 auto; }
-
-    /* STATS CARDS */
     .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 32px; }
     .stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; }
     .stat-card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
     .stat-card .value { font-size: 32px; font-weight: 700; }
-
-    /* TABLE SECTION */
     .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
     .section-header h2 { font-size: 17px; font-weight: 600; }
     table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -55,13 +47,9 @@
     tbody tr:last-child td { border-bottom: none; }
     tbody tr:hover { background: var(--bg2); }
     .table-wrap { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-
-    /* BADGES */
     .badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; }
     .badge-active { background: var(--green-bg); color: var(--green); }
     .badge-inactive { background: var(--red-bg); color: var(--red); }
-
-    /* BUTTONS */
     .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; border: 1px solid var(--border); background: var(--bg2); color: var(--text); transition: background .15s; text-decoration: none; }
     .btn:hover { background: var(--bg3); }
     .btn-primary { background: var(--accent); color: #fff; border-color: transparent; }
@@ -69,34 +57,23 @@
     .btn-danger { background: var(--red-bg); color: var(--red); border-color: transparent; font-size: 12px; padding: 5px 10px; }
     .btn-toggle { font-size: 12px; padding: 5px 10px; }
     .btn-copy { font-size: 12px; padding: 5px 10px; }
-
-    /* FORM INPUTS */
     input, select { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 14px; padding: 9px 13px; width: 100%; outline: none; font-family: inherit; }
     input:focus, select:focus { border-color: var(--accent); }
     label { font-size: 13px; font-weight: 500; display: block; margin-bottom: 5px; color: var(--muted); }
     .form-group { margin-bottom: 16px; }
-
-    /* MODAL */
     .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; z-index: 100; display: none; }
     .modal { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 32px; width: 420px; max-width: 95vw; }
     .modal h3 { font-size: 18px; margin-bottom: 20px; }
     .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 24px; }
-
-    /* KEY DISPLAY */
     .key-cell { font-family: var(--mono); font-size: 12px; color: var(--muted); }
     .key-full { font-family: var(--mono); font-size: 12px; background: var(--bg3); padding: 10px 14px; border-radius: 8px; word-break: break-all; margin: 12px 0; color: var(--text); }
     .new-key-banner { background: var(--green-bg); border: 1px solid var(--green); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; font-size: 13px; color: var(--green); }
-
-    /* EMPTY STATE */
     .empty { text-align: center; padding: 48px; color: var(--muted); }
-
-    /* LOADING */
     .loading { color: var(--muted); font-size: 14px; padding: 32px; text-align: center; }
   </style>
 </head>
 <body>
 
-<!-- LOGIN -->
 <div id="login-screen">
   <div class="login-card">
     <h1>🕌 Xhamia Admin</h1>
@@ -110,7 +87,6 @@
   </div>
 </div>
 
-<!-- MAIN APP -->
 <div id="app">
   <header>
     <h1>🕌 Xhamia API — Admin Dashboard</h1>
@@ -120,9 +96,7 @@
       <button class="btn" onclick="logout()">Sign out</button>
     </div>
   </header>
-
   <div class="main">
-    <!-- Stats -->
     <div class="stats-grid">
       <div class="stat-card">
         <div class="label">Total API keys</div>
@@ -137,8 +111,6 @@
         <div class="value" id="stat-1h">—</div>
       </div>
     </div>
-
-    <!-- Keys table -->
     <div class="section-header">
       <h2>API Keys</h2>
       <button class="btn btn-primary" onclick="openCreateModal()">+ New key</button>
@@ -149,7 +121,6 @@
   </div>
 </div>
 
-<!-- CREATE KEY MODAL -->
 <div class="modal-bg" id="create-modal">
   <div class="modal">
     <h3>Create new API key</h3>
@@ -191,11 +162,10 @@
   let allKeys = [];
   let usageMap = {};
 
-  // ── Auth ──
   async function login() {
     const pwd = document.getElementById('pwd-input').value.trim();
     if (!pwd) return;
-    const res = await fetch(`${BASE}/api/admin?action=ping`, {
+    const res = await fetch(BASE + '/api/admin?action=ping', {
       headers: { 'x-admin-password': pwd }
     });
     if (res.ok) {
@@ -217,11 +187,9 @@
     document.getElementById('pwd-input').value = '';
   }
 
-  // ── Load all data ──
   async function loadAll() {
     await Promise.all([loadStats(), loadKeys()]);
-    document.getElementById('last-refresh').textContent =
-      'Updated ' + new Date().toLocaleTimeString();
+    document.getElementById('last-refresh').textContent = 'Updated ' + new Date().toLocaleTimeString();
   }
 
   async function loadStats() {
@@ -249,57 +217,54 @@
       container.innerHTML = '<div class="empty">No API keys yet. Create one above.</div>';
       return;
     }
-    const rows = allKeys.map(k => {
-      const short = k.key.slice(0, 20) + '…';
-      const usage24h = usageMap[k.key] || 0;
-      const lastUsed = k.last_used_at
-        ? new Date(k.last_used_at).toLocaleDateString()
-        : 'Never';
-      const created = new Date(k.created_at).toLocaleDateString();
-      const statusBadge = k.is_active
+    const rows = allKeys.map(function(k) {
+      var keyStr = k.id || '';
+      var short = keyStr.slice(0, 24) + '…';
+      var usage24h = usageMap[keyStr] || 0;
+      var lastUsed = k.last_used_at ? new Date(k.last_used_at).toLocaleDateString() : 'Never';
+      var created = k.created_at ? new Date(k.created_at).toLocaleDateString() : '—';
+      var statusBadge = k.is_active
         ? '<span class="badge badge-active">Active</span>'
         : '<span class="badge badge-inactive">Inactive</span>';
-      const toggleLabel = k.is_active ? 'Deactivate' : 'Activate';
-      return `<tr>
-        <td><strong>${escHtml(k.owner)}</strong><br><span style="color:var(--muted);font-size:12px">${escHtml(k.description||'')}</span></td>
-        <td><span class="key-cell">${short}</span> <button class="btn btn-copy" onclick="copyKey('${k.key}')">Copy</button></td>
-        <td>${statusBadge}</td>
-        <td>${k.rate_limit_per_hour}/hr</td>
-        <td>${usage24h.toLocaleString()}</td>
-        <td>${lastUsed}</td>
-        <td>${created}</td>
-        <td style="display:flex;gap:6px;flex-wrap:wrap">
-          <button class="btn btn-toggle" onclick="toggleKey('${k.id}')">${toggleLabel}</button>
-          <button class="btn btn-danger" onclick="deleteKey('${k.id}', '${escHtml(k.owner)}')">Delete</button>
-        </td>
-      </tr>`;
+      var toggleLabel = k.is_active ? 'Deactivate' : 'Activate';
+      var safeKey = escHtml(keyStr);
+      var safeOwner = escHtml(k.owner || '');
+      return '<tr>'
+        + '<td><strong>' + safeOwner + '</strong><br>'
+        + '<span style="color:var(--muted);font-size:12px">' + escHtml(k.description || '') + '</span></td>'
+        + '<td><span class="key-cell">' + short + '</span> '
+        + '<button class="btn btn-copy" onclick="copyKey(\'' + safeKey + '\')">Copy</button></td>'
+        + '<td>' + statusBadge + '</td>'
+        + '<td>' + k.rate_limit_per_hour + '/hr</td>'
+        + '<td>' + usage24h.toLocaleString() + '</td>'
+        + '<td>' + lastUsed + '</td>'
+        + '<td>' + created + '</td>'
+        + '<td style="display:flex;gap:6px;flex-wrap:wrap">'
+        + '<button class="btn btn-toggle" onclick="toggleKey(\'' + safeKey + '\')">' + toggleLabel + '</button>'
+        + '<button class="btn btn-danger" onclick="deleteKey(\'' + safeKey + '\',\'' + safeOwner + '\')">Delete</button>'
+        + '</td></tr>';
     }).join('');
 
-    container.innerHTML = `<table>
-      <thead><tr>
-        <th>Owner</th><th>Key</th><th>Status</th>
-        <th>Rate limit</th><th>Req (24h)</th>
-        <th>Last used</th><th>Created</th><th>Actions</th>
-      </tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
+    container.innerHTML = '<table><thead><tr>'
+      + '<th>Owner</th><th>Key</th><th>Status</th>'
+      + '<th>Rate limit</th><th>Req (24h)</th>'
+      + '<th>Last used</th><th>Created</th><th>Actions</th>'
+      + '</tr></thead><tbody>' + rows + '</tbody></table>';
   }
 
-  // ── Key actions ──
   async function toggleKey(id) {
-    const res = await apiCall('PATCH', `toggle&id=${id}`);
+    var res = await apiCall('PATCH', 'toggle&id=' + id);
     if (res.success) await loadAll();
     else alert('Error: ' + res.error);
   }
 
   async function deleteKey(id, owner) {
-    if (!confirm(`Delete key for "${owner}"? This cannot be undone.`)) return;
-    const res = await apiCall('DELETE', `delete&id=${id}`);
+    if (!confirm('Delete key for "' + owner + '"? This cannot be undone.')) return;
+    var res = await apiCall('DELETE', 'delete&id=' + id);
     if (res.success) await loadAll();
     else alert('Error: ' + res.error);
   }
 
-  // ── Create modal ──
   function openCreateModal() {
     document.getElementById('create-modal').style.display = 'flex';
     document.getElementById('new-key-result').style.display = 'none';
@@ -316,56 +281,58 @@
   }
 
   async function createKey() {
-    const owner = document.getElementById('f-owner').value.trim();
-    const description = document.getElementById('f-desc').value.trim();
-    const rate_limit_per_hour = document.getElementById('f-rate').value;
-    const errEl = document.getElementById('create-error');
+    var owner = document.getElementById('f-owner').value.trim();
+    var description = document.getElementById('f-desc').value.trim();
+    var rate_limit_per_hour = document.getElementById('f-rate').value;
+    var errEl = document.getElementById('create-error');
 
     if (!owner) { errEl.textContent = 'Owner name is required'; errEl.style.display = 'block'; return; }
     errEl.style.display = 'none';
 
-    const btn = document.getElementById('create-btn');
+    var btn = document.getElementById('create-btn');
     btn.textContent = 'Creating…'; btn.disabled = true;
 
-    const res = await apiCall('POST', 'create', { owner, description, rate_limit_per_hour });
+    var res = await apiCall('POST', 'create', { owner: owner, description: description, rate_limit_per_hour: rate_limit_per_hour });
     btn.textContent = 'Create key'; btn.disabled = false;
 
     if (!res.success) { errEl.textContent = res.error; errEl.style.display = 'block'; return; }
 
-    document.getElementById('new-key-value').textContent = res.data.key;
+    var newKey = (res.data && (res.data.id || res.data.key)) || '';
+    document.getElementById('new-key-value').textContent = newKey;
     document.getElementById('create-form').style.display = 'none';
     document.getElementById('new-key-result').style.display = 'block';
     document.getElementById('create-btn').style.display = 'none';
   }
 
   function copyNewKey() {
-    const key = document.getElementById('new-key-value').textContent;
-    navigator.clipboard.writeText(key).then(() => alert('Copied!'));
+    var key = document.getElementById('new-key-value').textContent;
+    navigator.clipboard.writeText(key).then(function() { alert('Copied!'); });
   }
 
   function copyKey(key) {
-    navigator.clipboard.writeText(key).then(() => {
-      alert('Key copied to clipboard');
-    });
+    navigator.clipboard.writeText(key).then(function() { alert('Key copied to clipboard'); });
   }
 
-  // ── Helpers ──
   async function apiCall(method, action, body) {
-    const opts = {
-      method,
-      headers: { 'x-admin-password': adminPassword, 'Content-Type': 'application/json' },
+    var opts = {
+      method: method,
+      headers: { 'x-admin-password': adminPassword, 'Content-Type': 'application/json' }
     };
     if (body) opts.body = JSON.stringify(body);
-    const res = await fetch(`${BASE}/api/admin?action=${action}`, opts);
+    var res = await fetch(BASE + '/api/admin?action=' + action, opts);
     return res.json();
   }
 
   function escHtml(str) {
-    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
-  // ── Auto-login if session exists ──
-  const saved = sessionStorage.getItem('admin_pwd');
+  var saved = sessionStorage.getItem('admin_pwd');
   if (saved) {
     adminPassword = saved;
     document.getElementById('login-screen').style.display = 'none';
