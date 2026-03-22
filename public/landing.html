@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Balkan Mosques API — by Ervis Cela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --void: #080705; --deep: #0e0c0a; --surface: #161410; --surface2: #1e1b16;
+      --gold: #c9a84c; --gold2: #e8c97a; --gold-dim: rgba(201,168,76,0.15);
+      --gold-line: rgba(201,168,76,0.2); --paper: #f0ead8; --muted: #6b6558;
+      --text: #c8bfa8; --border: rgba(201,168,76,0.12);
+      --serif: 'Instrument Serif', Georgia, serif;
+      --mono: 'DM Mono', monospace; --sans: 'Sora', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--void); color: var(--text); font-size: 15px; line-height: 1.7; overflow-x: hidden; }
+
+    /* NAV */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 0 64px; height: 60px; display: flex; align-items: center; justify-content: space-between; background: rgba(8,7,5,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    .nav-brand { font-family: var(--serif); font-size: 17px; color: var(--paper); }
+    .nav-brand em { color: var(--gold); font-style: italic; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .15s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold); color: var(--void) !important; padding: 7px 18px; border-radius: 2px; font-weight: 500 !important; }
+
+    /* HERO */
+    .hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 120px 40px 80px; position: relative; overflow: hidden; }
+    .geo-bg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+    .geo-bg svg { width: 900px; height: 900px; opacity: .06; animation: slowspin 80s linear infinite; }
+    @keyframes slowspin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 50% at 50% 40%, rgba(201,168,76,0.07) 0%, transparent 70%); pointer-events: none; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; position: relative; display: flex; align-items: center; gap: 12px; }
+    .hero-eyebrow::before, .hero-eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--gold-line); }
+    .hero h1 { font-family: var(--serif); font-size: clamp(52px, 8vw, 96px); font-weight: 400; line-height: 1.0; color: var(--paper); margin-bottom: 8px; position: relative; }
+    .hero h1 em { font-style: italic; color: var(--gold); }
+    .hero-sub-title { font-family: var(--serif); font-size: clamp(28px, 4vw, 52px); font-weight: 400; font-style: italic; color: var(--gold); margin-bottom: 28px; position: relative; }
+    .hero-desc { max-width: 540px; font-size: 16px; color: var(--muted); font-weight: 300; margin-bottom: 48px; position: relative; line-height: 1.8; }
+    .hero-desc strong { color: var(--text); font-weight: 400; }
+    .hero-actions { display: flex; gap: 14px; align-items: center; position: relative; }
+
+    /* BUTTONS */
+    .btn-primary { background: var(--gold); color: var(--void); border: none; border-radius: 2px; padding: 13px 28px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; cursor: pointer; text-decoration: none; display: inline-block; transition: opacity .15s, transform .15s; }
+    .btn-primary:hover { opacity: .85; transform: translateY(-1px); }
+    .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); border-radius: 2px; padding: 13px 28px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; text-decoration: none; display: inline-block; transition: border-color .15s, color .15s; }
+    .btn-ghost:hover { border-color: var(--gold-line); color: var(--gold); }
+
+    /* STATS */
+    .stats-bar { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); display: grid; grid-template-columns: repeat(4, 1fr); }
+    .stat-item { padding: 36px 40px; border-right: 1px solid var(--border); transition: background .2s; }
+    .stat-item:last-child { border-right: none; }
+    .stat-item:hover { background: var(--surface2); }
+    .stat-num { font-family: var(--serif); font-size: 48px; color: var(--gold2); line-height: 1; margin-bottom: 6px; }
+    .stat-label { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+    /* SECTIONS */
+    section { padding: 100px 80px; max-width: 1200px; margin: 0 auto; }
+    .section-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+    .section-title { font-family: var(--serif); font-size: clamp(32px, 4vw, 48px); font-weight: 400; color: var(--paper); line-height: 1.15; margin-bottom: 16px; }
+    .section-title em { font-style: italic; color: var(--gold); }
+    .section-desc { font-size: 15px; color: var(--muted); font-weight: 300; max-width: 540px; line-height: 1.8; margin-bottom: 60px; }
+
+    /* FEATURES */
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+    .feature-card { background: var(--surface); padding: 36px 32px; transition: background .2s; }
+    .feature-card:hover { background: var(--surface2); }
+    .feature-icon { width: 40px; height: 40px; background: var(--gold-dim); border: 1px solid var(--gold-line); border-radius: 3px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 18px; }
+    .feature-title { font-family: var(--serif); font-size: 20px; color: var(--paper); margin-bottom: 10px; }
+    .feature-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.8; }
+
+    /* CODE */
+    .code-section { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 100px 80px; }
+    .code-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .code-block { background: var(--void); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+    .code-topbar { background: var(--surface2); padding: 12px 18px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); }
+    .code-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--gold-dim); border: 1px solid var(--gold-line); }
+    .code-filename { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .08em; margin-left: 6px; }
+    pre { padding: 24px; font-family: var(--mono); font-size: 12px; line-height: 1.8; color: #a89880; overflow-x: auto; }
+    .c-gold { color: var(--gold2); } .c-green { color: #7aab6e; } .c-blue { color: #7ab0d4; } .c-muted { color: #5a5248; }
+
+    /* COUNTRIES */
+    .countries-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+    .country-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 32px; position: relative; overflow: hidden; transition: border-color .2s, transform .2s; }
+    .country-card:hover { border-color: var(--gold-line); transform: translateY(-3px); }
+    .country-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--gold) 0%, transparent 100%); }
+    .country-flag { font-size: 32px; margin-bottom: 14px; display: block; }
+    .country-name { font-family: var(--serif); font-size: 22px; color: var(--paper); margin-bottom: 6px; }
+    .country-count { font-family: var(--mono); font-size: 11px; color: var(--gold); letter-spacing: .1em; }
+    .country-desc { font-size: 12px; color: var(--muted); margin-top: 10px; font-weight: 300; line-height: 1.7; }
+
+    /* TEAM */
+    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .team-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 32px; transition: border-color .2s; }
+    .team-card:hover { border-color: var(--gold-line); }
+    .team-avatar { width: 52px; height: 52px; border-radius: 50%; background: var(--gold-dim); border: 1px solid var(--gold-line); display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 20px; color: var(--gold); margin-bottom: 18px; font-style: italic; }
+    .team-name { font-family: var(--serif); font-size: 18px; color: var(--paper); margin-bottom: 4px; }
+    .team-role { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+    .team-desc { font-size: 12px; color: var(--muted); font-weight: 300; line-height: 1.8; }
+    .team-founder { grid-column: span 3; display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; background: var(--surface); border: 1px solid var(--gold-line); border-radius: 4px; padding: 36px; position: relative; overflow: hidden; }
+    .team-founder::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 2px; background: var(--gold); }
+    .founder-avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--gold-dim); border: 1px solid var(--gold-line); display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 28px; color: var(--gold2); font-style: italic; flex-shrink: 0; }
+
+    /* CTA */
+    .cta-section { text-align: center; padding: 120px 80px; position: relative; overflow: hidden; background: var(--surface); border-top: 1px solid var(--border); }
+    .cta-section::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 50% 60% at 50% 50%, rgba(201,168,76,0.06) 0%, transparent 70%); }
+    .cta-geo { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; opacity: .04; }
+    .cta-geo svg { width: 600px; height: 600px; }
+
+    /* MODAL */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(8,7,5,0.85); z-index: 200; display: none; align-items: center; justify-content: center; backdrop-filter: blur(8px); }
+    .modal-box { background: var(--surface); border: 1px solid var(--gold-line); border-radius: 4px; padding: 48px; width: 480px; max-width: 95vw; position: relative; }
+    .modal-close { position: absolute; top: 16px; right: 20px; background: none; border: none; color: var(--muted); font-size: 22px; cursor: pointer; line-height: 1; transition: color .15s; }
+    .modal-close:hover { color: var(--gold); }
+    .modal-eyebrow { font-family: var(--mono); font-size: 9px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+    .modal-title { font-family: var(--serif); font-size: 30px; color: var(--paper); margin-bottom: 12px; }
+    .modal-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.8; margin-bottom: 20px; }
+    .pricing-box { background: var(--void); border: 1px solid var(--border); border-radius: 3px; padding: 16px 20px; margin-bottom: 20px; }
+    .pricing-label { font-family: var(--mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .pricing-row { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 300; margin-bottom: 8px; }
+    .pricing-row:last-child { margin-bottom: 0; }
+    .email-display { background: var(--void); border: 1px solid var(--border); border-radius: 3px; padding: 14px 18px; margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .email-text { font-family: var(--mono); font-size: 14px; color: var(--gold2); }
+    .email-copy { background: none; border: 1px solid var(--border); border-radius: 2px; color: var(--muted); font-family: var(--mono); font-size: 9px; letter-spacing: .08em; padding: 5px 10px; cursor: pointer; transition: all .15s; white-space: nowrap; }
+    .email-copy:hover { border-color: var(--gold-line); color: var(--gold); }
+    .modal-footer { display: flex; gap: 10px; justify-content: flex-end; }
+    .btn-cancel { background: none; border: 1px solid var(--border); border-radius: 2px; color: var(--muted); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; padding: 10px 20px; cursor: pointer; }
+
+    /* FOOTER */
+    footer { background: var(--void); border-top: 1px solid var(--border); padding: 32px 80px; display: flex; align-items: center; justify-content: space-between; }
+    .footer-brand { font-family: var(--serif); font-size: 15px; color: var(--muted); }
+    .footer-brand em { color: var(--gold); font-style: italic; }
+    .footer-right { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .08em; }
+
+    @media (max-width: 900px) {
+      nav { padding: 0 24px; }
+      nav .nav-links { display: none; }
+      section { padding: 64px 24px; }
+      .features-grid, .countries-row, .team-grid { grid-template-columns: 1fr; }
+      .team-founder { grid-column: span 1; grid-template-columns: 1fr; }
+      .code-inner { grid-template-columns: 1fr; }
+      .stats-bar { grid-template-columns: 1fr 1fr; }
+      footer { flex-direction: column; gap: 12px; text-align: center; padding: 32px 24px; }
+      .code-section { padding: 64px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Balkan <em>Mosques</em></div>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#coverage">Coverage</a>
+    <a href="#team">Team</a>
+    <a href="/docs">Docs</a>
+    <a href="#" class="nav-cta" onclick="openModal(event)">Request Access</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="geo-bg">
+    <svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#c9a84c" stroke-width="0.5">
+        <polygon points="400,60 430,180 540,140 460,240 580,270 460,320 520,440 400,380 280,440 340,320 220,270 340,240 260,140 370,180" opacity="0.6"/>
+        <polygon points="400,120 422,200 500,172 444,232 520,254 444,284 488,360 400,316 312,360 356,284 280,254 356,232 300,172 378,200" opacity="0.4"/>
+        <circle cx="400" cy="400" r="320" opacity="0.15"/><circle cx="400" cy="400" r="280" opacity="0.12"/>
+        <circle cx="400" cy="400" r="240" opacity="0.1"/><circle cx="400" cy="400" r="200" opacity="0.08"/>
+        <circle cx="400" cy="400" r="160" opacity="0.08"/>
+        <polygon points="400,30 440,200 600,120 480,260 660,280 500,360 580,520 400,420 220,520 300,360 140,280 320,260 200,120 360,200" opacity="0.3"/>
+        <line x1="400" y1="30" x2="400" y2="770" opacity="0.08"/>
+        <line x1="30" y1="400" x2="770" y2="400" opacity="0.08"/>
+        <line x1="85" y1="85" x2="715" y2="715" opacity="0.08"/>
+        <line x1="715" y1="85" x2="85" y2="715" opacity="0.08"/>
+        <polygon points="400,100 572,200 572,400 400,500 228,400 228,200" opacity="0.1"/>
+        <circle cx="400" cy="400" r="60" opacity="0.15"/>
+        <circle cx="400" cy="400" r="380" opacity="0.06"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-eyebrow">Open Data Initiative</div>
+  <h1>Balkan</h1>
+  <div class="hero-sub-title">Mosques API</div>
+  <p class="hero-desc">The most comprehensive geospatial dataset of Islamic places of worship across the Western Balkans and beyond. <strong>Built for developers. Curated with precision.</strong></p>
+  <div class="hero-actions">
+    <a href="#" class="btn-primary" onclick="openModal(event)">Request API Access</a>
+    <a href="/docs" class="btn-ghost">View Documentation</a>
+  </div>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-num" id="cnt-mosques">2,600+</div>
+    <div class="stat-label">Mosque records</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num" id="cnt-countries">6</div>
+    <div class="stat-label">Countries covered</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num" id="cnt-cities">200+</div>
+    <div class="stat-label">Cities mapped</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">99%</div>
+    <div class="stat-label">Regional coverage</div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="section-eyebrow">What it offers</div>
+  <div class="section-title">Everything a developer<br><em>needs to build</em></div>
+  <p class="section-desc">A clean, well-structured REST API designed for mobile and web applications that need accurate, reliable mosque location data.</p>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">📍</div>
+      <div class="feature-title">GPS Coordinates</div>
+      <p class="feature-desc">Every mosque includes precise latitude and longitude in WGS84 format — ready for Flutter Map, Google Maps, or Mapbox.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔍</div>
+      <div class="feature-title">Smart Filtering</div>
+      <p class="feature-desc">Filter by city, search by name, or fetch a single record by ID. Case-insensitive partial matching makes integration effortless.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-title">Fast Responses</div>
+      <p class="feature-desc">Deployed on Vercel's global edge network. Sub-100ms response times from anywhere in the Balkan region and beyond.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔐</div>
+      <div class="feature-title">Key-Based Auth</div>
+      <p class="feature-desc">Access is controlled through individual API keys. Each partner gets their own key with configurable rate limits and live usage monitoring.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📄</div>
+      <div class="feature-title">Clean JSON</div>
+      <p class="feature-desc">Predictable, consistent JSON responses with full pagination support. No surprises — just data you can trust and parse in any language.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📊</div>
+      <div class="feature-title">Paginated Results</div>
+      <p class="feature-desc">Retrieve up to 100 records per page with built-in metadata — total count, current page, and total pages.</p>
+    </div>
+  </div>
+</section>
+
+<div class="code-section">
+  <div class="code-inner">
+    <div>
+      <div class="section-eyebrow">Simple integration</div>
+      <div class="section-title">Works in any<br><em>language or framework</em></div>
+      <p class="section-desc" style="margin-bottom:0">One endpoint, one header. Whether you're building in Flutter, React, Swift or Python — integration takes minutes.</p>
+    </div>
+    <div>
+      <div class="code-block">
+        <div class="code-topbar">
+          <div class="code-dot"></div><div class="code-dot"></div><div class="code-dot"></div>
+          <span class="code-filename">flutter_example.dart</span>
+        </div>
+        <pre><span class="c-muted">// Fetch mosques in Tirana</span>
+<span class="c-blue">final</span> response = <span class="c-blue">await</span> http.get(
+  Uri.parse(
+    <span class="c-green">'https://xhamia-api.vercel.app'</span>
+    <span class="c-green">'/api/mosques?city=Tiran%C3%AB'</span>
+  ),
+  headers: {
+    <span class="c-green">'x-api-key'</span>: <span class="c-green">'xhamia_live_...'</span>
+  },
+);
+
+<span class="c-blue">final</span> data = jsonDecode(response.body);
+<span class="c-muted">// data['meta']['total'] → 87</span>
+<span class="c-muted">// data['data'] → List of mosques</span></pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="coverage">
+  <div class="section-eyebrow">Geographic coverage</div>
+  <div class="section-title">Six countries,<br><em>one unified dataset</em></div>
+  <p class="section-desc">Covering 99% of all mosques across the Balkan region and Mediterranean — from Albania to Italy. The most complete Islamic geodataset ever compiled for this territory.</p>
+  <div class="countries-row">
+    <div class="country-card">
+      <span class="country-flag">🇦🇱</span>
+      <div class="country-name">Albania</div>
+      <div class="country-count">869+ mosques · Live</div>
+      <p class="country-desc">Complete coverage across all regions — Tirana, Shkodër, Durrës, Elbasan, Korçë and every rural village from north to south.</p>
+    </div>
+    <div class="country-card">
+      <span class="country-flag">🇽🇰</span>
+      <div class="country-name">Kosovo</div>
+      <div class="country-count">~900 mosques · In progress</div>
+      <p class="country-desc">Active mapping underway. Pristina, Prizren, Peja and surrounding regions being verified and added to the live dataset.</p>
+    </div>
+    <div class="country-card">
+      <span class="country-flag">🇲🇰</span>
+      <div class="country-name">North Macedonia</div>
+      <div class="country-count">~700 mosques · Planned</div>
+      <p class="country-desc">Skopje, Tetovo, Gostivar and the western regions scheduled for the next expansion phase of the project.</p>
+    </div>
+    <div class="country-card">
+      <span class="country-flag">🇲🇪</span>
+      <div class="country-name">Montenegro</div>
+      <div class="country-count">~250 mosques · Planned</div>
+      <p class="country-desc">Podgorica, Bar, Ulcinj and the coastal and northern regions with significant Muslim communities to be mapped.</p>
+    </div>
+    <div class="country-card">
+      <span class="country-flag">🇬🇷</span>
+      <div class="country-name">Greece</div>
+      <div class="country-count">~350 mosques · Planned</div>
+      <p class="country-desc">Western Thrace and major Greek cities with established Muslim populations, including the Mufti regions of Xanthi and Komotini.</p>
+    </div>
+    <div class="country-card">
+      <span class="country-flag">🇮🇹</span>
+      <div class="country-name">Italy</div>
+      <div class="country-count">~500 mosques · Planned</div>
+      <p class="country-desc">Beyond the Balkans — Italian mosques and Islamic centres included for the large Albanian and Balkan diaspora communities.</p>
+    </div>
+  </div>
+</section>
+
+<section id="team" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);max-width:100%;padding:100px 80px;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="section-eyebrow">The team</div>
+    <div class="section-title">Built by people who<br><em>know the region</em></div>
+    <p class="section-desc">A small, dedicated team combining local knowledge with technical expertise to build the most complete mosque dataset in the Western Balkans.</p>
+    <div class="team-grid">
+      <div class="team-founder">
+        <div class="founder-avatar">E</div>
+        <div>
+          <div class="team-name" style="font-family:var(--serif);font-size:22px;color:var(--paper);margin-bottom:4px;">Ervis Cela</div>
+          <div class="team-role">Founder · Lead Developer · Data Architect</div>
+          <p class="team-desc">Conceived, designed and built the Balkan Mosques API from the ground up. Responsible for the data collection strategy, API architecture, authentication system, and ongoing maintenance. Based in Albania.</p>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">I</div>
+        <div class="team-name">Ilir Cela</div>
+        <div class="team-role">Co-contributor · Data Verification</div>
+        <p class="team-desc">Core contributor responsible for field verification, ground-truth data collection and accuracy checks across Albanian regions. Ensures the dataset reflects real-world conditions.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">M</div>
+        <div class="team-name">Mahmud Juba</div>
+        <div class="team-role">Co-contributor · Regional Coverage</div>
+        <p class="team-desc">Key contributor expanding coverage across Balkan territories. Responsible for sourcing, verifying and submitting mosque records from regions across the dataset.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">C</div>
+        <div class="team-name">Community</div>
+        <div class="team-role">Reporting & Growth</div>
+        <p class="team-desc">Muslim communities across the Balkans who report missing locations, incorrect data, and newly built mosques to keep the dataset current and accurate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-section">
+  <div class="cta-geo">
+    <svg viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#c9a84c" stroke-width="0.5">
+        <polygon points="300,40 330,160 440,120 360,210 470,240 360,280 420,390 300,330 180,390 240,280 130,240 240,210 160,120 270,160" opacity="0.8"/>
+        <circle cx="300" cy="300" r="250" opacity="0.2"/><circle cx="300" cy="300" r="200" opacity="0.15"/>
+        <circle cx="300" cy="300" r="150" opacity="0.15"/>
+      </g>
+    </svg>
+  </div>
+  <div style="position:relative;">
+    <div class="section-eyebrow" style="margin-bottom:16px;">Get started today</div>
+    <div class="section-title" style="margin-bottom:16px;max-width:600px;margin-left:auto;margin-right:auto;">Ready to build<br>with <em>Balkan Mosques</em>?</div>
+    <p class="section-desc" style="margin:0 auto 40px;text-align:center;max-width:520px;">API access is <strong style="color:var(--gold2);font-weight:400;">free for Islamic and community projects</strong>. A small symbolic fee applies to commercial projects to cover infrastructure and maintenance costs.</p>
+    <div style="display:flex;gap:14px;justify-content:center;align-items:center;">
+      <a href="#" class="btn-primary" onclick="openModal(event)">Request API Key</a>
+      <a href="/docs" class="btn-ghost">Read the Docs</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-brand">Balkan <em>Mosques</em> API — by Ervis Cela</div>
+  <div class="footer-right">v2.0 · Albania · Kosovo · North Macedonia · Montenegro · Greece · Italy</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="contact-modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">&#215;</button>
+    <div class="modal-eyebrow">API Access Request</div>
+    <div class="modal-title">Get your key</div>
+    <p class="modal-desc">Send an email to Ervis Cela with your name, project name, and how you plan to use the API. Keys are issued personally.</p>
+    <div class="pricing-box">
+      <div class="pricing-label">Pricing</div>
+      <div class="pricing-row"><span style="color:#7aab6e;font-size:15px;">&#10003;</span><span><strong style="color:var(--gold2);font-weight:400;">Free</strong> &mdash; Islamic, community &amp; non-profit projects</span></div>
+      <div class="pricing-row"><span style="color:#7aab6e;font-size:15px;">&#10003;</span><span><strong style="color:var(--gold2);font-weight:400;">Free</strong> &mdash; Large-scale apps serving the Muslim community</span></div>
+      <div class="pricing-row"><span style="color:var(--gold);font-size:15px;">&#9670;</span><span><strong style="color:var(--text);font-weight:400;">Symbolic fee</strong> &mdash; Commercial &amp; for-profit projects</span></div>
+    </div>
+    <div class="email-display">
+      <span class="email-text" id="email-addr">celaervis22 [at] gmail.com</span>
+      <button class="email-copy" onclick="copyEmail()">Copy</button>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <a id="email-link" href="#" class="btn-primary">Open Email App</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Build email at runtime to avoid Cloudflare scraping
+  var u = 'celaervis22';
+  var d = 'gmail.com';
+  var email = u + '@' + d;
+  document.getElementById('email-addr').textContent = email;
+  var subject = encodeURIComponent('API Key Request — Balkan Mosques API');
+  var body = encodeURIComponent('Hello Ervis,\n\nMy name is:\nProject / App name:\nCountry I am building for:\nHow I plan to use the API:\n\nThank you.');
+  document.getElementById('email-link').href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
+
+  function openModal(e) {
+    if (e) e.preventDefault();
+    var m = document.getElementById('contact-modal');
+    m.style.display = 'flex';
+    m.style.alignItems = 'center';
+    m.style.justifyContent = 'center';
+  }
+  function closeModal() {
+    document.getElementById('contact-modal').style.display = 'none';
+  }
+  function copyEmail() {
+    navigator.clipboard.writeText(email).then(function() {
+      var btn = document.querySelector('.email-copy');
+      btn.textContent = 'Copied!';
+      setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+    });
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeModal();
+  });
+</script>
+</body>
+</html>
