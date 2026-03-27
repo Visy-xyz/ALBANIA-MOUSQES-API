@@ -15,7 +15,10 @@ xhamia-api/
 │   ├── auth.js           ← key validation + rate limiting
 │   └── keygen.js         ← API key generator
 ├── data/
-│   └── mosques.json      ← your mosque data (add this)
+│   ├── albania.json      ← 869 mosque records
+│   ├── kosovo.json       ← 818 mosque records
+│   ├── macedonia.json    ← 613 mosque records
+│   └── maliizi.json      ← 72 mosque records (Montenegro)
 ├── public/
 │   ├── index.html        ← API documentation
 │   └── admin.html        ← admin dashboard

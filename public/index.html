@@ -82,12 +82,12 @@
     pre { padding: 24px; font-family: var(--mono); font-size: 12px; line-height: 1.8; color: #a89880; overflow-x: auto; }
     .c-gold { color: var(--gold2); } .c-green { color: #7aab6e; } .c-blue { color: #7ab0d4; } .c-muted { color: #5a5248; }
 
-    /* COUNTRIES */
-    .countries-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+    /* COUNTRIES — 2x2 grid for 4 countries */
+    .countries-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 48px; }
     .country-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 32px; position: relative; overflow: hidden; transition: border-color .2s, transform .2s; }
     .country-card:hover { border-color: var(--gold-line); transform: translateY(-3px); }
     .country-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--gold) 0%, transparent 100%); }
-    .country-flag { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; font-size: 32px; margin-bottom: 14px; display: block; line-height: 1; }
+    .country-flag { margin-bottom: 14px; display: block; line-height: 1; }
     .country-name { font-family: var(--serif); font-size: 22px; color: var(--paper); margin-bottom: 6px; }
     .country-count { font-family: var(--mono); font-size: 11px; color: var(--gold); letter-spacing: .1em; }
     .country-desc { font-size: 12px; color: var(--muted); margin-top: 10px; font-weight: 300; line-height: 1.7; }
@@ -193,15 +193,15 @@
 
 <div class="stats-bar">
   <div class="stat-item">
-    <div class="stat-num" id="cnt-mosques">2,600+</div>
+    <div class="stat-num">2,300+</div>
     <div class="stat-label">Mosque records</div>
   </div>
   <div class="stat-item">
-    <div class="stat-num" id="cnt-countries">3</div>
+    <div class="stat-num">4</div>
     <div class="stat-label">Countries covered</div>
   </div>
   <div class="stat-item">
-    <div class="stat-num" id="cnt-cities">200+</div>
+    <div class="stat-num">200+</div>
     <div class="stat-label">Cities mapped</div>
   </div>
   <div class="stat-item">
@@ -282,8 +282,8 @@
 
 <section id="coverage">
   <div class="section-eyebrow">Geographic coverage</div>
-  <div class="section-title">Three countries,<br><em>one unified dataset</em></div>
-  <p class="section-desc">Covering 99% of all mosques across the Balkan region — Albania, Kosovo, and North Macedonia. The most complete Islamic geodataset ever compiled for this territory.</p>
+  <div class="section-title">Four countries,<br><em>one unified dataset</em></div>
+  <p class="section-desc">Covering 99% of all mosques across the Balkan region — Albania, Kosovo, North Macedonia, and Montenegro. The most complete Islamic geodataset ever compiled for this territory.</p>
 
   <div class="countries-row">
 
@@ -292,32 +292,23 @@
       <span class="country-flag">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" style="display:block;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.4);">
           <rect width="60" height="40" fill="#E41E20"/>
-          <!-- Albanian double-headed eagle -->
-          <!-- Body -->
           <ellipse cx="30" cy="23" rx="5" ry="6" fill="#1a1a1a"/>
-          <!-- Left wing -->
           <path d="M25 20 C20 16 14 17 12 21 C14 20 18 21 20 23 C17 22 13 24 12 28 C15 26 19 26 22 27 C19 27 16 30 17 33 C19 30 23 29 25 29 Z" fill="#1a1a1a"/>
-          <!-- Right wing -->
           <path d="M35 20 C40 16 46 17 48 21 C46 20 42 21 40 23 C43 22 47 24 48 28 C45 26 41 26 38 27 C41 27 44 30 43 33 C41 30 37 29 35 29 Z" fill="#1a1a1a"/>
-          <!-- Left head -->
           <ellipse cx="24" cy="13" rx="4" ry="4.5" fill="#1a1a1a"/>
           <polygon points="20,10 18,7 22,9" fill="#1a1a1a"/>
           <polygon points="20,16 17,18 21,17" fill="#1a1a1a"/>
-          <!-- Left eye -->
           <circle cx="23" cy="12" r="1" fill="#E41E20"/>
-          <!-- Right head -->
           <ellipse cx="36" cy="13" rx="4" ry="4.5" fill="#1a1a1a"/>
           <polygon points="40,10 42,7 38,9" fill="#1a1a1a"/>
           <polygon points="40,16 43,18 39,17" fill="#1a1a1a"/>
-          <!-- Right eye -->
           <circle cx="37" cy="12" r="1" fill="#E41E20"/>
-          <!-- Claws -->
           <path d="M26 29 L24 34 M27 29 L26 34 M28 29 L28 34" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
           <path d="M34 29 L36 34 M33 29 L34 34 M32 29 L32 34" stroke="#1a1a1a" stroke-width="1.2" fill="none"/>
         </svg>
       </span>
       <div class="country-name">Albania</div>
-      <div class="country-count">869+ mosques · Live</div>
+      <div class="country-count">869 mosques · Live</div>
       <p class="country-desc">Complete coverage across all regions — Tirana, Shkodër, Durrës, Elbasan, Korçë and every rural village from north to south.</p>
     </div>
 
@@ -326,9 +317,7 @@
       <span class="country-flag">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" style="display:block;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.4);">
           <rect width="60" height="40" fill="#244AA5"/>
-          <!-- Kosovo map outline (simplified, centered) -->
           <path d="M22 14 L24 13 L27 13 L29 12 L32 12 L34 13 L37 13 L38 15 L38 18 L37 20 L36 21 L35 23 L33 25 L31 26 L30 27 L29 26 L27 24 L25 23 L23 21 L22 19 L21 17 Z" fill="#D4AF37"/>
-          <!-- 6 stars across the top -->
           <polygon points="15,7 15.6,8.8 17.5,8.8 16,9.9 16.6,11.7 15,10.6 13.4,11.7 14,9.9 12.5,8.8 14.4,8.8" fill="#D4AF37"/>
           <polygon points="21,5.5 21.6,7.3 23.5,7.3 22,8.4 22.6,10.2 21,9.1 19.4,10.2 20,8.4 18.5,7.3 20.4,7.3" fill="#D4AF37"/>
           <polygon points="27,4.5 27.6,6.3 29.5,6.3 28,7.4 28.6,9.2 27,8.1 25.4,9.2 26,7.4 24.5,6.3 26.4,6.3" fill="#D4AF37"/>
@@ -338,7 +327,7 @@
         </svg>
       </span>
       <div class="country-name">Kosovo</div>
-      <div class="country-count">821 mosques · In progress</div>
+      <div class="country-count">818 mosques · Live</div>
       <p class="country-desc">Active mapping underway. Pristina, Prizren, Peja and surrounding regions being verified and added to the live dataset.</p>
     </div>
 
@@ -347,8 +336,6 @@
       <span class="country-flag">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" style="display:block;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.4);">
           <rect width="60" height="40" fill="#CE2028"/>
-          <!-- Vergina Sun: 8 rays from center -->
-          <!-- Diagonal rays (long) -->
           <line x1="30" y1="20" x2="30" y2="3"  stroke="#F7D000" stroke-width="2.2"/>
           <line x1="30" y1="20" x2="30" y2="37" stroke="#F7D000" stroke-width="2.2"/>
           <line x1="30" y1="20" x2="4"  y2="20" stroke="#F7D000" stroke-width="2.2"/>
@@ -357,14 +344,49 @@
           <line x1="30" y1="20" x2="50" y2="36" stroke="#F7D000" stroke-width="2.2"/>
           <line x1="30" y1="20" x2="50" y2="4"  stroke="#F7D000" stroke-width="2.2"/>
           <line x1="30" y1="20" x2="10" y2="36" stroke="#F7D000" stroke-width="2.2"/>
-          <!-- Center circle -->
           <circle cx="30" cy="20" r="5.5" fill="#F7D000"/>
           <circle cx="30" cy="20" r="3"   fill="#CE2028"/>
         </svg>
       </span>
       <div class="country-name">North Macedonia</div>
-      <div class="country-count">631 mosques · Planned</div>
+      <div class="country-count">613 mosques · Live</div>
       <p class="country-desc">Skopje, Tetovo, Gostivar and the western regions scheduled for the next expansion phase of the project.</p>
+    </div>
+
+    <!-- MONTENEGRO -->
+    <div class="country-card">
+      <span class="country-flag">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" style="display:block;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.4);">
+          <!-- Gold outer border -->
+          <rect width="60" height="40" fill="#D4AF37"/>
+          <!-- Red field -->
+          <rect x="2.5" y="2.5" width="55" height="35" fill="#C8102E"/>
+          <!-- Eagle body -->
+          <ellipse cx="30" cy="24" rx="4" ry="5" fill="#D4AF37"/>
+          <!-- Left wing -->
+          <path d="M26 21 C22 17 15 18 13 22 C15 21 19 22 21 24 C18 23 14 25 13 29 C16 27 20 27 23 28 C20 28 18 31 19 33 C21 30 24 29 26 29 Z" fill="#D4AF37"/>
+          <!-- Right wing -->
+          <path d="M34 21 C38 17 45 18 47 22 C45 21 41 22 39 24 C42 23 46 25 47 29 C44 27 40 27 37 28 C40 28 42 31 41 33 C39 30 36 29 34 29 Z" fill="#D4AF37"/>
+          <!-- Left head -->
+          <ellipse cx="25" cy="14" rx="3.5" ry="4" fill="#D4AF37"/>
+          <polygon points="21.5,11 19.5,8.5 23,10" fill="#D4AF37"/>
+          <polygon points="21.5,17 19,19 22.5,17.5" fill="#D4AF37"/>
+          <circle cx="24" cy="13" r="0.9" fill="#C8102E"/>
+          <!-- Right head -->
+          <ellipse cx="35" cy="14" rx="3.5" ry="4" fill="#D4AF37"/>
+          <polygon points="38.5,11 40.5,8.5 37,10" fill="#D4AF37"/>
+          <polygon points="38.5,17 41,19 37.5,17.5" fill="#D4AF37"/>
+          <circle cx="36" cy="13" r="0.9" fill="#C8102E"/>
+          <!-- Shield on chest -->
+          <rect x="27.5" y="21" width="5" height="6" rx="1" fill="#C8102E" stroke="#D4AF37" stroke-width="0.5"/>
+          <!-- Claws -->
+          <path d="M27 29 L25 34 M28 29 L27 34 M29 29 L29 34" stroke="#D4AF37" stroke-width="1" fill="none"/>
+          <path d="M33 29 L35 34 M32 29 L33 34 M31 29 L31 34" stroke="#D4AF37" stroke-width="1" fill="none"/>
+        </svg>
+      </span>
+      <div class="country-name">Montenegro</div>
+      <div class="country-count">72 mosques · Live</div>
+      <p class="country-desc">Podgorica, Nikšić, Bar and the coastal regions are now included in the dataset — expanding full coverage of the Western Balkans.</p>
     </div>
 
   </div>
@@ -374,34 +396,59 @@
   <div style="max-width:1200px;margin:0 auto;">
     <div class="section-eyebrow">The team</div>
     <div class="section-title">Built by people who<br><em>know the region</em></div>
-    <p class="section-desc">A small, dedicated team combining local knowledge with technical expertise to build the most complete mosque dataset in the Western Balkans.</p>
+    <p class="section-desc">A growing team combining local expertise, technical depth and an unwavering commitment to documenting every place of worship across the Western Balkans.</p>
     <div class="team-grid">
+
+      <!-- FOUNDER — spans full row -->
       <div class="team-founder">
         <div class="founder-avatar">E</div>
         <div>
           <div class="team-name" style="font-family:var(--serif);font-size:22px;color:var(--paper);margin-bottom:4px;">Ervis Cela</div>
           <div class="team-role">Founder · Lead Developer · Data Architect</div>
-          <p class="team-desc">Conceived, designed and built the Balkan Mosques API from the ground up. Responsible for the data collection strategy, API architecture, authentication system, and ongoing maintenance. Based in Albania.</p>
+          <p class="team-desc">Conceived, designed and built the Balkan Mosques API from the ground up. Responsible for the data collection strategy, API architecture, authentication system, and ongoing maintenance. The vision, the code, and the conviction behind this project — all his. Based in Albania.</p>
         </div>
       </div>
+
+      <!-- ILIR -->
       <div class="team-card">
         <div class="team-avatar">I</div>
         <div class="team-name">Ilir Cela</div>
         <div class="team-role">Co-contributor · Data Verification</div>
-        <p class="team-desc">Core contributor responsible for field verification, ground-truth data collection and accuracy checks across Albanian regions. Ensures the dataset reflects real-world conditions.</p>
+        <p class="team-desc">The eyes on the ground. Ilir leads field verification, personally confirming GPS coordinates and mosque names across Albanian regions. Where others see a pin on a map, he sees a place he has stood in. Accuracy is not a goal — it is his baseline.</p>
       </div>
+
+      <!-- MAHMUD -->
       <div class="team-card">
         <div class="team-avatar">M</div>
         <div class="team-name">Mahmud Juba</div>
         <div class="team-role">Co-contributor · Regional Coverage</div>
-        <p class="team-desc">Key contributor expanding coverage across Balkan territories. Responsible for sourcing, verifying and submitting mosque records from regions across the dataset.</p>
+        <p class="team-desc">A connector and a builder. Mahmud bridges communities and data, sourcing mosque records from regions where official documentation barely exists. His deep network and quiet dedication have added hundreds of entries that would otherwise remain invisible.</p>
       </div>
+
+      <!-- LEDIO -->
+      <div class="team-card">
+        <div class="team-avatar">L</div>
+        <div class="team-name">Ledio Salliu</div>
+        <div class="team-role">Co-contributor · Data Expansion</div>
+        <p class="team-desc">Methodical, precise and relentlessly thorough. Ledio drives the push into new territories, cross-referencing satellite imagery, community sources and archival records to paint the most complete picture of Islamic heritage across the Balkans. Every record he touches is a record the community can trust.</p>
+      </div>
+
+      <!-- ENES -->
+      <div class="team-card">
+        <div class="team-avatar">E</div>
+        <div class="team-name">Enes Bytyqi</div>
+        <div class="team-role">Co-contributor · Kosovo Operations</div>
+        <p class="team-desc">Kosovo's dedicated custodian in the dataset. Enes knows the land, the mosques and the communities intimately — from Pristina's historic old bazaar to the remotest villages of the Rugova mountains. He ensures every one of Kosovo's 821+ entries meets the highest standard of truth on the ground.</p>
+      </div>
+
+      <!-- COMMUNITY -->
       <div class="team-card">
         <div class="team-avatar">C</div>
         <div class="team-name">Community</div>
-        <div class="team-role">Reporting & Growth</div>
-        <p class="team-desc">Muslim communities across the Balkans who report missing locations, incorrect data, and newly built mosques to keep the dataset current and accurate.</p>
+        <div class="team-role">Reporting &amp; Growth</div>
+        <p class="team-desc">Muslim communities across Albania, Kosovo, North Macedonia and Montenegro who report missing locations, flag incorrect data, and document newly built mosques — the living heartbeat that keeps this dataset honest, current, and truly alive.</p>
       </div>
+
     </div>
   </div>
 </section>
@@ -429,7 +476,7 @@
 
 <footer>
   <div class="footer-brand">Balkan <em>Mosques</em> API — by Ervis Cela</div>
-  <div class="footer-right">v2.0 · Albania · Kosovo · North Macedonia</div>
+  <div class="footer-right">v2.0 · Albania · Kosovo · North Macedonia · Montenegro</div>
 </footer>
 
 <!-- MODAL -->

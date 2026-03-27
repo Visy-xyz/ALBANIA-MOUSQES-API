@@ -1,0 +1,5519 @@
+[
+  {
+    "id": "001",
+    "name": "Xhamia Xhumali e Alikoçit",
+    "city": "Radovish",
+    "village": "Alikoç",
+    "address": "Fshati, Alikoç Radovish",
+    "lat": 41.679477,
+    "lng": 22.428525
+  },
+  {
+    "id": "002",
+    "name": "Xhamia e fshatit Allashec",
+    "city": "Kumanovë",
+    "village": "Allashec",
+    "address": "Fshati, Allashec Kumanovë",
+    "lat": 42.188189,
+    "lng": 21.592393
+  },
+  {
+    "id": "003",
+    "name": "Xhamia e fshatit Alldance",
+    "city": "Prilep",
+    "village": "Alldance",
+    "address": "Fshati, Alldance Prilep",
+    "lat": 41.368817,
+    "lng": 21.296915
+  },
+  {
+    "id": "004",
+    "name": "Xhamia e fshatit Alldincë",
+    "city": "Shkup",
+    "village": "Alldincë",
+    "address": "Fshati, Alldincë Shkup",
+    "lat": 41.802158,
+    "lng": 21.428980
+  },
+  {
+    "id": "005",
+    "name": "Xhamia e fshatit Ame",
+    "city": "Dibër",
+    "village": "Ame",
+    "address": "Fshati, Ame Dibër",
+    "lat": 41.551480,
+    "lng": 20.526810
+  },
+  {
+    "id": "006",
+    "name": "Xhamia e fshatit Aranjell",
+    "city": "Kërçovë",
+    "village": "Aranjell",
+    "address": "Fshati, Aranjell Kërçovë",
+    "lat": 41.594681,
+    "lng": 21.023687
+  },
+  {
+    "id": "007",
+    "name": "Xhamia e fshatit Arnaqi e Epërme",
+    "city": "Shkup",
+    "village": "Arnaqi e Epërme",
+    "address": "Fshati, Arnaqi e Epërme Shkup",
+    "lat": 41.986840,
+    "lng": 21.287609
+  },
+  {
+    "id": "008",
+    "name": "Xhamia e fshatit Arnaqi e Poshtme",
+    "city": "Shkup",
+    "village": "Arnaqi e Poshtme",
+    "address": "Fshati, Arnaqi e Poshtme Shkup",
+    "lat": 41.983863,
+    "lng": 21.270730
+  },
+  {
+    "id": "009",
+    "name": "Xhamia e Asamatit",
+    "city": "Resnjë",
+    "village": "Asmat",
+    "address": "Fshati, Asmat Resnjë",
+    "lat": 40.987571,
+    "lng": 21.053833
+  },
+  {
+    "id": "010",
+    "name": "Xhamia e fshatit Axhiefs",
+    "city": "Dibër",
+    "village": "Axhiefs",
+    "address": "Fshati, Axhiefs Dibër",
+    "lat": 41.587970,
+    "lng": 20.613459
+  },
+  {
+    "id": "011",
+    "name": "Xhamia Haxhi adem e Bahçebosit Valandovë",
+    "city": "Valandovë",
+    "village": "Bahçebos",
+    "address": "Fshati, Bahçebos Valandovë",
+    "lat": 41.308909,
+    "lng": 22.691960
+  },
+  {
+    "id": "012",
+    "name": "Xhamia e fshatit Bajnisht",
+    "city": "Dibër",
+    "village": "Bajnisht",
+    "address": "Fshati, Bajnisht Dibër",
+    "lat": 41.558356,
+    "lng": 20.528371
+  },
+  {
+    "id": "013",
+    "name": "Xhamia e Bajramaj",
+    "city": "Dibër",
+    "village": "Bajramaj",
+    "address": "Fshati, Bajramaj Dibër",
+    "lat": 41.480194,
+    "lng": 20.570666
+  },
+  {
+    "id": "014",
+    "name": "Xhamia e re e Balindolës",
+    "city": "Gostivar",
+    "village": "Balindoll",
+    "address": "Fshati, Balindoll Gostivar",
+    "lat": 41.795971,
+    "lng": 20.933388
+  },
+  {
+    "id": "015",
+    "name": "Xhamia e vjetër e Balindolës",
+    "city": "Gostivar",
+    "village": "Balindoll",
+    "address": "Fshati, Balindoll Gostivar",
+    "lat": 41.791086,
+    "lng": 20.937012
+  },
+  {
+    "id": "016",
+    "name": "Xhamia e Ballancës",
+    "city": "Dibër",
+    "village": "Ballancë",
+    "address": "Fshati, Ballancë Dibër",
+    "lat": 41.484077,
+    "lng": 20.552245
+  },
+  {
+    "id": "017",
+    "name": "Xhamia e Balldovicës së vjetër strumicë",
+    "city": "Strumicë",
+    "village": "Balldovicë e vjetër",
+    "address": "Fshati, Balldovicë e vjetër Strumicë",
+    "lat": 41.468357,
+    "lng": 22.751648
+  },
+  {
+    "id": "018",
+    "name": "Xhamia e Banjicës së Epërme",
+    "city": "Gostivar",
+    "village": "Banjicë e Epërme",
+    "address": "Fshati, Banjicë e Epërme Gostivar",
+    "lat": 41.780593,
+    "lng": 20.893718
+  },
+  {
+    "id": "019",
+    "name": "Xhamia e Banjicës së Poshtme",
+    "city": "Gostivar",
+    "village": "Banjicë e Poshtme",
+    "address": "Fshati, Banjicë e Poshtme Gostivar",
+    "lat": 41.784000,
+    "lng": 20.903217
+  },
+  {
+    "id": "020",
+    "name": "Xhamia Ahmed baba e banjskos Strumicë",
+    "city": "Strumicë",
+    "village": "Banjsko",
+    "address": "Fshati, Banjsko Strumicë",
+    "lat": 41.385584,
+    "lng": 22.745532
+  },
+  {
+    "id": "021",
+    "name": "Xhamia Karshiaka Batincë",
+    "city": "Shkup",
+    "village": "Batincë",
+    "address": "Fshati, Batincë Shkup",
+    "lat": 41.919009,
+    "lng": 21.464097
+  },
+  {
+    "id": "022",
+    "name": "Xhamia Haxhi Sabri Batincë",
+    "city": "Shkup",
+    "village": "Batincë",
+    "address": "Fshati, Batincë Shkup",
+    "lat": 41.915384,
+    "lng": 21.468650
+  },
+  {
+    "id": "023",
+    "name": "Xhamia Fatih Sulltan Mehmet f. Batincë",
+    "city": "Shkup",
+    "village": "Batincë",
+    "address": "Fshati, Batincë Shkup",
+    "lat": 41.918865,
+    "lng": 21.479524
+  },
+  {
+    "id": "024",
+    "name": "Xhamia e fshatit Baçishtë",
+    "city": "Kërçovë",
+    "village": "Baçishtë",
+    "address": "Fshati, Baçishtë Kërçovë",
+    "lat": 41.606061,
+    "lng": 20.905766
+  },
+  {
+    "id": "025",
+    "name": "Xhamia e fshatit Belic e epërme",
+    "city": "Strugë",
+    "village": "Belic e epërme",
+    "address": "Fshati, Belic e epërme Strugë",
+    "lat": 41.222506,
+    "lng": 20.552392
+  },
+  {
+    "id": "026",
+    "name": "Xhamia e fshatit Belic e poshtme",
+    "city": "Strugë",
+    "village": "Belic e poshtme",
+    "address": "Fshati, Belic e poshtme Strugë",
+    "lat": 41.214616,
+    "lng": 20.638037
+  },
+  {
+    "id": "027",
+    "name": "Xhamia e Bellacerke",
+    "city": "Resnjë",
+    "village": "Bellacerke",
+    "address": "Fshati, Bellacerke Resnjë",
+    "lat": 41.050679,
+    "lng": 21.027471
+  },
+  {
+    "id": "028",
+    "name": "Xhamia e fshatit Bellanoc",
+    "city": "Kumanovë",
+    "village": "Bellanoc",
+    "address": "Fshati, Bellanoc Kumanovë",
+    "lat": 42.237266,
+    "lng": 21.563284
+  },
+  {
+    "id": "029",
+    "name": "Xhamia Muhamed fshatit Bellushin",
+    "city": "Prilep",
+    "village": "Bellushin",
+    "address": "Fshati, Bellushin Prilep",
+    "lat": 41.436771,
+    "lng": 21.251511
+  },
+  {
+    "id": "030",
+    "name": "Xhamia e fshatit Berikovë",
+    "city": "Kërçovë",
+    "village": "Berikovë",
+    "address": "Fshati, Berikovë Kërçovë",
+    "lat": 41.641049,
+    "lng": 20.997365
+  },
+  {
+    "id": "031",
+    "name": "Dzamija Mehmet Beg-Berovo",
+    "city": "Berovë",
+    "village": "",
+    "address": "Zadarska, Berovë",
+    "lat": 41.708894,
+    "lng": 22.850861
+  },
+  {
+    "id": "032",
+    "name": "Xhamia e fshatit Bistrence",
+    "city": "Demir Kapija",
+    "village": "Bistrence",
+    "address": "Fshati, Bistrence Demir Kapija",
+    "lat": 41.448287,
+    "lng": 22.201442
+  },
+  {
+    "id": "033",
+    "name": "Xhamia e fshatit Bixhovë",
+    "city": "Strugë",
+    "village": "Bixhovë",
+    "address": "Fshati, Bixhovë Strugë",
+    "lat": 41.231333,
+    "lng": 20.698640
+  },
+  {
+    "id": "034",
+    "name": "Xhamia e Bardhit Bllaca e Poshtme",
+    "city": "Shkup",
+    "village": "Bllaca e Poshtme",
+    "address": "Fshati, Bllaca e Poshtme Shkup",
+    "lat": 42.141166,
+    "lng": 21.305337
+  },
+  {
+    "id": "035",
+    "name": "Xhamia Bllacë e Eperme",
+    "city": "Shkup",
+    "village": "Bllacë e Eperme",
+    "address": "Fshati, Bllacë e Eperme Shkup",
+    "lat": 42.151512,
+    "lng": 21.333636
+  },
+  {
+    "id": "036",
+    "name": "Xhamia e fshatit Bogovicë",
+    "city": "Strugë",
+    "village": "Bogovicë",
+    "address": "Fshati, Bogovicë Strugë",
+    "lat": 41.288042,
+    "lng": 20.670329
+  },
+  {
+    "id": "037",
+    "name": "Xhamia e Re Bogovinë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Re e fshatit Bogovinë, Fshati",
+    "lat": 41.923954,
+    "lng": 20.916272
+  },
+  {
+    "id": "038",
+    "name": "Xhamia e Vjetër Bogovinë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Vjetër e fshatit Bogovinë, Fshati",
+    "lat": 41.925224,
+    "lng": 20.912151
+  },
+  {
+    "id": "039",
+    "name": "Xhamia e Fshatit Bojanë",
+    "city": "Shkup",
+    "village": "Bojanë",
+    "address": "Fshati, Bojanë Shkup",
+    "lat": 41.999654,
+    "lng": 21.193170
+  },
+  {
+    "id": "040",
+    "name": "Xhamia e fshatit Bomovë",
+    "city": "Dibër",
+    "village": "Bomovë",
+    "address": "Fshati, Bomovë Dibër",
+    "lat": 41.508434,
+    "lng": 20.497789
+  },
+  {
+    "id": "041",
+    "name": "Xhamia e Vjeter fshatit Borinë",
+    "city": "Prilep",
+    "village": "Borinë",
+    "address": "Fshati, Borinë Prilep",
+    "lat": 41.431299,
+    "lng": 21.279240
+  },
+  {
+    "id": "042",
+    "name": "Xhamia e Re e fshatit Borinë",
+    "city": "Prilep",
+    "village": "Borinë",
+    "address": "Fshati, Borinë Prilep",
+    "lat": 41.433164,
+    "lng": 21.277584
+  },
+  {
+    "id": "043",
+    "name": "Xhamia e fshatit Borovec",
+    "city": "Strugë",
+    "village": "Borovec",
+    "address": "Fshati, Borovec Strugë",
+    "lat": 41.289807,
+    "lng": 20.597788
+  },
+  {
+    "id": "044",
+    "name": "Xhamia Bozovcë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Bozovcë, Fshati",
+    "lat": 42.053785,
+    "lng": 20.827416
+  },
+  {
+    "id": "045",
+    "name": "Xhamia e Breshtanit",
+    "city": "Dibër",
+    "village": "Breshtani",
+    "address": "Fshati, Breshtani Dibër",
+    "lat": 41.456170,
+    "lng": 20.584868
+  },
+  {
+    "id": "046",
+    "name": "Xhamia e fshatit Brezë",
+    "city": "Shkup",
+    "village": "Brezë",
+    "address": "Fshati, Brezë Shkup",
+    "lat": 42.201134,
+    "lng": 21.506750
+  },
+  {
+    "id": "047",
+    "name": "Xhamia Brodec",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Brodec, Fshati",
+    "lat": 42.058650,
+    "lng": 20.891748
+  },
+  {
+    "id": "048",
+    "name": "Xhamia e Broshticës",
+    "city": "Dibër",
+    "village": "Broshticë",
+    "address": "Fshati, Broshticë Dibër",
+    "lat": 41.491676,
+    "lng": 20.584323
+  },
+  {
+    "id": "049",
+    "name": "Xhamia e Broshticës 2",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Broshticës, Fshati",
+    "lat": 41.491679,
+    "lng": 20.584338
+  },
+  {
+    "id": "050",
+    "name": "Xhamia e fsh. Budakovë",
+    "city": "Manastir",
+    "village": "Budakovë, Mogillë",
+    "address": "Fshati, Budakovë, Mogillë Manastir",
+    "lat": 41.140082,
+    "lng": 21.474100
+  },
+  {
+    "id": "051",
+    "name": "Xhamia Nur e fshatit Bukoviç",
+    "city": "Shkup",
+    "village": "Bukoviç",
+    "address": "Fshati, Bukoviç Shkup",
+    "lat": 41.973243,
+    "lng": 21.238654
+  },
+  {
+    "id": "052",
+    "name": "Xhamia Gazi Sinan Pasha Bukoviç",
+    "city": "Shkup",
+    "village": "Bukoviç",
+    "address": "Fshati, Bukoviç Shkup",
+    "lat": 41.967213,
+    "lng": 21.238149
+  },
+  {
+    "id": "053",
+    "name": "Xhamia Buzallkovë",
+    "city": "Veles",
+    "village": "Buzallkovë",
+    "address": "Fshati, Buzallkovë Veles",
+    "lat": 41.738794,
+    "lng": 21.675486
+  },
+  {
+    "id": "054",
+    "name": "Xhamia Buzallkovë 2",
+    "city": "Veles",
+    "village": "Buzallkovë",
+    "address": "Fshati, Buzallkovë Veles",
+    "lat": 41.738897,
+    "lng": 21.681121
+  },
+  {
+    "id": "055",
+    "name": "Xhamia e Buçimit",
+    "city": "Radovish",
+    "village": "Buçimi",
+    "address": "Fshati, Buçimi Radovish",
+    "lat": 41.670376,
+    "lng": 22.339560
+  },
+  {
+    "id": "056",
+    "name": "Xhamia e Carev Dvorit",
+    "city": "Resnjë",
+    "village": "Carev Dvor",
+    "address": "Fshati, Carev Dvor Resnjë",
+    "lat": 41.043078,
+    "lng": 21.005758
+  },
+  {
+    "id": "057",
+    "name": "Xhamia Cerovë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Cerovë, Fshati",
+    "lat": 41.991945,
+    "lng": 21.136747
+  },
+  {
+    "id": "058",
+    "name": "Xhamia Zaim aga e fshatit Çiflikit",
+    "city": "Shkup",
+    "village": "Ciflik",
+    "address": "Fshati, Ciflik Shkup",
+    "lat": 41.945926,
+    "lng": 21.352900
+  },
+  {
+    "id": "059",
+    "name": "Xhamia vjeter e fshatit Çiflikit",
+    "city": "Shkup",
+    "village": "Ciflik",
+    "address": "Fshati, Ciflik Shkup",
+    "lat": 41.948333,
+    "lng": 21.350993
+  },
+  {
+    "id": "060",
+    "name": "Xhamia e fshatit Crkfinë",
+    "city": "Veles",
+    "village": "Crkfinë",
+    "address": "Fshati, Crkfinë Veles",
+    "lat": 41.656580,
+    "lng": 21.796032
+  },
+  {
+    "id": "061",
+    "name": "Xhamia Gazi Avranos Crnik",
+    "city": "Peçevë",
+    "village": "Crnik",
+    "address": "Fshati, Crnik Peçevë",
+    "lat": 41.821782,
+    "lng": 22.880955
+  },
+  {
+    "id": "062",
+    "name": "Xhamia e Cvetovës",
+    "city": "Shkup",
+    "village": "Cvetovë",
+    "address": "Fshati, Cvetovë Shkup",
+    "lat": 41.858211,
+    "lng": 21.407753
+  },
+  {
+    "id": "063",
+    "name": "Xhamia Fetah Efendi e fshatit Cërni Vërv",
+    "city": "Shkup",
+    "village": "Cërni Vërv",
+    "address": "Fshati, Cërni Vërv Shkup",
+    "lat": 41.811876,
+    "lng": 21.378195
+  },
+  {
+    "id": "064",
+    "name": "Xhamia Bedër fshatit Cërnilisht",
+    "city": "Prilep",
+    "village": "Cërnilisht",
+    "address": "R2336, Cërnilisht Prilep",
+    "lat": 41.530180,
+    "lng": 21.414536
+  },
+  {
+    "id": "065",
+    "name": "Xhamia Osmanli fshatit Cërnilisht",
+    "city": "Prilep",
+    "village": "Cërnilisht",
+    "address": "Fshati, Cërnilisht Prilep",
+    "lat": 41.530767,
+    "lng": 21.412246
+  },
+  {
+    "id": "066",
+    "name": "Xhamia e Cërvenavodës",
+    "city": "Shkup",
+    "village": "Cërvenavodë",
+    "address": "Fshati, Cërvenavodë Shkup",
+    "lat": 41.857945,
+    "lng": 21.459128
+  },
+  {
+    "id": "067",
+    "name": "Xhamia e fshatit Cërvicë",
+    "city": "Kërçovë",
+    "village": "Cërvicë",
+    "address": "Fshati, Cërvicë Kërçovë",
+    "lat": 41.555086,
+    "lng": 20.982662
+  },
+  {
+    "id": "068",
+    "name": "Xhamia e Re e Debreshit",
+    "city": "Gostivar",
+    "village": "Debresh",
+    "address": "Fshati, Debresh Gostivar",
+    "lat": 41.817746,
+    "lng": 20.881958
+  },
+  {
+    "id": "069",
+    "name": "Xhamia e Vjetër e Debreshit",
+    "city": "Gostivar",
+    "village": "Debresh",
+    "address": "Fshati, Debresh Gostivar",
+    "lat": 41.818573,
+    "lng": 20.877806
+  },
+  {
+    "id": "070",
+    "name": "Xhamia Rabia në Debreshit",
+    "city": "Gostivar",
+    "village": "Debresh",
+    "address": "R1206, Debresh Gostivar",
+    "lat": 41.819178,
+    "lng": 20.887059
+  },
+  {
+    "id": "071",
+    "name": "Xhamia Te Bunari i Tafës në Debreshit",
+    "city": "Gostivar",
+    "village": "Debresh",
+    "address": "Fshati, Debresh Gostivar",
+    "lat": 41.806344,
+    "lng": 20.883517
+  },
+  {
+    "id": "072",
+    "name": "Xhamia Batalloska fshatit Debresht",
+    "city": "Prilep",
+    "village": "Debresht",
+    "address": "Fshati, Debresht Prilep",
+    "lat": 41.478140,
+    "lng": 21.314590
+  },
+  {
+    "id": "073",
+    "name": "Xhamia e poshtme fshatit Debresht",
+    "city": "Prilep",
+    "village": "Debresht",
+    "address": "R1303, Debresht Prilep",
+    "lat": 41.478028,
+    "lng": 21.328290
+  },
+  {
+    "id": "074",
+    "name": "Xhamia Izvor fshatit Debresht",
+    "city": "Prilep",
+    "village": "Debresht",
+    "address": "Fshati, Debresht Prilep",
+    "lat": 41.479536,
+    "lng": 21.317797
+  },
+  {
+    "id": "075",
+    "name": "Xhamia e Mesme fshatit Debresht",
+    "city": "Prilep",
+    "village": "Debresht",
+    "address": "Fshati, Debresht Prilep",
+    "lat": 41.479562,
+    "lng": 21.314936
+  },
+  {
+    "id": "076",
+    "name": "Xhamia Debërcë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Debërcë, Fshati",
+    "lat": 41.951586,
+    "lng": 21.087372
+  },
+  {
+    "id": "077",
+    "name": "Xhamia e Dedelisë Valandovë",
+    "city": "Valandovë",
+    "village": "Dedeli",
+    "address": "Fshati, Dedeli Valandovë",
+    "lat": 41.283708,
+    "lng": 22.605267
+  },
+  {
+    "id": "078",
+    "name": "Xhamia Sulltan Murat Dellçevë",
+    "city": "Dellçevë",
+    "village": "",
+    "address": "Selaniku, Dellçevë",
+    "lat": 41.965457,
+    "lng": 22.769271
+  },
+  {
+    "id": "079",
+    "name": "Xhamia e fsh. Suvodol",
+    "city": "Manastir",
+    "village": "Demir Hisari",
+    "address": "Fshati, Demir Hisari Manastir",
+    "lat": 41.209603,
+    "lng": 21.222918
+  },
+  {
+    "id": "080",
+    "name": "Xhamia e Derzhillovës",
+    "city": "Shkup",
+    "village": "Derzhillovë",
+    "address": "Fshati, Derzhillovë Shkup",
+    "lat": 41.850872,
+    "lng": 21.346936
+  },
+  {
+    "id": "081",
+    "name": "Xhamia e fshatit Desovë",
+    "city": "Prilep",
+    "village": "Desovë",
+    "address": "Fshati, Desovë Prilep",
+    "lat": 41.462779,
+    "lng": 21.490667
+  },
+  {
+    "id": "082",
+    "name": "Xhamia Hunqar",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.526417,
+    "lng": 20.525983
+  },
+  {
+    "id": "083",
+    "name": "Xhamia e Sahat Kullës",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.519850,
+    "lng": 20.525642
+  },
+  {
+    "id": "084",
+    "name": "Xhamia Teqe (Xhamia e re)",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.526759,
+    "lng": 20.527504
+  },
+  {
+    "id": "085",
+    "name": "Xhamia Bajram Beg",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.528276,
+    "lng": 20.523760
+  },
+  {
+    "id": "086",
+    "name": "Xhamia Namazjar",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.522114,
+    "lng": 20.529876
+  },
+  {
+    "id": "087",
+    "name": "Xhamia Konjare",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.521871,
+    "lng": 20.519443
+  },
+  {
+    "id": "088",
+    "name": "Xhamia Budullec",
+    "city": "Dibër",
+    "village": "",
+    "address": "Qytet, Dibër",
+    "lat": 41.529432,
+    "lng": 20.526996
+  },
+  {
+    "id": "089",
+    "name": "Xhamia e fshatit Dikavec",
+    "city": "Shkup",
+    "village": "Dikavec",
+    "address": "Fshati, Dikavec Shkup",
+    "lat": 41.791564,
+    "lng": 21.567109
+  },
+  {
+    "id": "090",
+    "name": "Xhamia e fshatit Dobovjan",
+    "city": "Strugë",
+    "village": "Dobovjan",
+    "address": "Fshati, Dobovjan Strugë",
+    "lat": 41.252429,
+    "lng": 20.654146
+  },
+  {
+    "id": "091",
+    "name": "Xhamia e fshatit Dobrinë",
+    "city": "Shkup",
+    "village": "Dobrinë",
+    "address": "Fshati, Dobrinë Shkup",
+    "lat": 41.798976,
+    "lng": 21.607939
+  },
+  {
+    "id": "092",
+    "name": "Xhamia e Dobroshincit Vasilevë",
+    "city": "Strumicë",
+    "village": "Dobroshinc",
+    "address": "Fshati, Dobroshinc Strumicë",
+    "lat": 41.525128,
+    "lng": 22.675200
+  },
+  {
+    "id": "093",
+    "name": "Xhamia e Poshtme Dobroshtë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Poshtme e fshatit Dobroshtë, Fshati",
+    "lat": 42.099496,
+    "lng": 21.076018
+  },
+  {
+    "id": "094",
+    "name": "Xhamia e Epërme Dobroshtë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Epërme e fshatit Dobroshtë, Fshati",
+    "lat": 42.105857,
+    "lng": 21.078494
+  },
+  {
+    "id": "095",
+    "name": "Xhamia e Vjetër - Dobërdoll",
+    "city": "Gostivar",
+    "village": "Dobërdoll",
+    "address": "Rr.Mehalla e Eperme, Dobërdoll Gostivar",
+    "lat": 41.866200,
+    "lng": 20.888000
+  },
+  {
+    "id": "096",
+    "name": "Xhamia Hamza e Dobërdollit",
+    "city": "Gostivar",
+    "village": "Dobërdoll",
+    "address": "R1206, Dobërdoll Gostivar",
+    "lat": 41.867063,
+    "lng": 20.892071
+  },
+  {
+    "id": "097",
+    "name": "Xhamia e fsh. Dolenckë",
+    "city": "Manastir",
+    "village": "Dolenckë",
+    "address": "Fshati, Dolenckë Manastir",
+    "lat": 41.084486,
+    "lng": 21.154825
+  },
+  {
+    "id": "098",
+    "name": "Xhamia e Dollgashës",
+    "city": "Dibër",
+    "village": "Dollgashë",
+    "address": "Fshati, Dollgashë Dibër",
+    "lat": 41.423427,
+    "lng": 20.587918
+  },
+  {
+    "id": "099",
+    "name": "Xhamia e fshatit Dollogozhdë",
+    "city": "Strugë",
+    "village": "Dollogozhdë",
+    "address": "Fshati, Dollogozhdë Strugë",
+    "lat": 41.257737,
+    "lng": 20.723192
+  },
+  {
+    "id": "100",
+    "name": "Xhamia Hamid Husein e Dorllombosit Strumicë",
+    "city": "Strumicë",
+    "village": "Dorllombos",
+    "address": "Fshati, Dorllombos Strumicë",
+    "lat": 41.338944,
+    "lng": 22.666758
+  },
+  {
+    "id": "101",
+    "name": "Xhamia e Drecavicës",
+    "city": "Shkup",
+    "village": "Dracevicë",
+    "address": "Fshati, Dracevicë Shkup",
+    "lat": 41.882380,
+    "lng": 21.442049
+  },
+  {
+    "id": "102",
+    "name": "Xhamia Dragomisht i Madh",
+    "city": "Kërçovë",
+    "village": "Dragomisht i Madh",
+    "address": "Fshati, Dragomisht i Madh Kërçovë",
+    "lat": 41.606234,
+    "lng": 20.966108
+  },
+  {
+    "id": "103",
+    "name": "Xhamia Dragomisht i Vogël",
+    "city": "Kërçovë",
+    "village": "Dragomisht i Vogël",
+    "address": "Fshati, Dragomisht i Vogël Kërçovë",
+    "lat": 41.592106,
+    "lng": 20.973664
+  },
+  {
+    "id": "104",
+    "name": "Xhamia e fshatit Drugovë",
+    "city": "Kërçovë",
+    "village": "Drugovë",
+    "address": "Fshati, Drugovë Kërçovë",
+    "lat": 41.484761,
+    "lng": 20.925486
+  },
+  {
+    "id": "105",
+    "name": "Xhamia e Dufit",
+    "city": "Gostivar",
+    "village": "Duf",
+    "address": "Fshati, Duf Gostivar",
+    "lat": 41.750116,
+    "lng": 20.767786
+  },
+  {
+    "id": "106",
+    "name": "Xhamia e fshatit Dvorcë",
+    "city": "Shkup",
+    "village": "Dvorcë",
+    "address": "Fshati, Dvorcë Shkup",
+    "lat": 42.099281,
+    "lng": 21.166351
+  },
+  {
+    "id": "107",
+    "name": "Xhamia e Elevcës",
+    "city": "Dibër",
+    "village": "Elevcë",
+    "address": "Fshati, Elevcë Dibër",
+    "lat": 41.420569,
+    "lng": 20.622317
+  },
+  {
+    "id": "108",
+    "name": "Xhamia Partall Daut e Ellovës",
+    "city": "Shkup",
+    "village": "Ellovë",
+    "address": "Fshati, Ellovë Shkup",
+    "lat": 41.841418,
+    "lng": 21.373183
+  },
+  {
+    "id": "109",
+    "name": "Xhamia e Re e Forinës",
+    "city": "Gostivar",
+    "village": "Forinë",
+    "address": "R2233, Forinë Gostivar",
+    "lat": 41.823353,
+    "lng": 20.963414
+  },
+  {
+    "id": "110",
+    "name": "Xhamia e Vjetër e Forinës",
+    "city": "Gostivar",
+    "village": "Forinë",
+    "address": "R2233, Forinë Gostivar",
+    "lat": 41.824421,
+    "lng": 20.964172
+  },
+  {
+    "id": "111",
+    "name": "Xhamia Bedër e Forinës",
+    "city": "Gostivar",
+    "village": "Forinë",
+    "address": "R2233, Forinë Gostivar",
+    "lat": 41.819886,
+    "lng": 20.955925
+  },
+  {
+    "id": "112",
+    "name": "Xhamia e fshatit Frëngovë",
+    "city": "Strugë",
+    "village": "Frëngovë",
+    "address": "Fshati, Frëngovë Strugë",
+    "lat": 41.144952,
+    "lng": 20.623555
+  },
+  {
+    "id": "113",
+    "name": "Xhamia e fshatit Gaber",
+    "city": "Shkup",
+    "village": "Gaber",
+    "address": "Fshati, Gaber Shkup",
+    "lat": 41.863876,
+    "lng": 21.519844
+  },
+  {
+    "id": "114",
+    "name": "Xhamia Gajre",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Gajre, Fshati",
+    "lat": 42.012185,
+    "lng": 20.944199
+  },
+  {
+    "id": "115",
+    "name": "Xhamia e fshatit Garanë",
+    "city": "Kërçovë",
+    "village": "Garanë",
+    "address": "Fshati, Garanë Kërçovë",
+    "lat": 41.543489,
+    "lng": 21.006722
+  },
+  {
+    "id": "116",
+    "name": "Xhamia e Gjenovicës",
+    "city": "Gostivar",
+    "village": "Gjenovicë",
+    "address": "Fshati, Gjenovicë Gostivar",
+    "lat": 41.717514,
+    "lng": 20.901447
+  },
+  {
+    "id": "117",
+    "name": "Xhamia Gjermë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Gjermë, Fshati",
+    "lat": 42.052787,
+    "lng": 20.968509
+  },
+  {
+    "id": "118",
+    "name": "Xhamia e Gjurgjevishtes",
+    "city": "Gostivar",
+    "village": "Gjurgjevisht",
+    "address": "Fshati, Gjurgjevisht Gostivar",
+    "lat": 41.894518,
+    "lng": 20.862270
+  },
+  {
+    "id": "119",
+    "name": "Xhamia Gllogjë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Gllogjë, Fshati",
+    "lat": 42.090075,
+    "lng": 21.063635
+  },
+  {
+    "id": "120",
+    "name": "Xhamia e fshatit Gllumovë",
+    "city": "Shkup",
+    "village": "Gllumovë",
+    "address": "Fshati, Gllumovë Shkup",
+    "lat": 41.979106,
+    "lng": 21.303418
+  },
+  {
+    "id": "121",
+    "name": "Xhamia e fshatit Gorenc",
+    "city": "Dibër",
+    "village": "Gorenc",
+    "address": "Fshati, Gorenc Dibër",
+    "lat": 41.502206,
+    "lng": 20.556139
+  },
+  {
+    "id": "122",
+    "name": "Xhamia Gorenc",
+    "city": "Ohër",
+    "village": "Gorenc",
+    "address": "Fshati, Gorenc Ohër",
+    "lat": 41.190670,
+    "lng": 20.760350
+  },
+  {
+    "id": "123",
+    "name": "Xhamia Haxhi Xhabir Gorenc",
+    "city": "Ohër",
+    "village": "Gorenc",
+    "address": "Fshati, Gorenc Ohër",
+    "lat": 41.190458,
+    "lng": 20.760436
+  },
+  {
+    "id": "124",
+    "name": "Xhamia e Gornjanit",
+    "city": "Gostivar",
+    "village": "Gornjan",
+    "address": "Fshati, Gornjan Gostivar",
+    "lat": 41.897678,
+    "lng": 20.880589
+  },
+  {
+    "id": "125",
+    "name": "Xhamia e fshatit Goshincë",
+    "city": "Kumanovë",
+    "village": "Goshincë",
+    "address": "Fshati, Goshincë Kumanovë",
+    "lat": 42.214748,
+    "lng": 21.517331
+  },
+  {
+    "id": "126",
+    "name": "Xhamia e fshatit Gostirazh",
+    "city": "Prilep",
+    "village": "Gostirazh",
+    "address": "Fshati, Gostirazh Prilep",
+    "lat": 41.552853,
+    "lng": 21.430397
+  },
+  {
+    "id": "127",
+    "name": "Xhamia e Sahatit",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Nikola Parapunov, Gostivar",
+    "lat": 41.795178,
+    "lng": 20.911029
+  },
+  {
+    "id": "128",
+    "name": "Xhamia e Mahallës",
+    "city": "Gostivar",
+    "village": "",
+    "address": "18 Nentori, Gostivar",
+    "lat": 41.796605,
+    "lng": 20.906865
+  },
+  {
+    "id": "129",
+    "name": "Xhamia e Lejthisë",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Drage Todoroski, Gostivar",
+    "lat": 41.788926,
+    "lng": 20.908095
+  },
+  {
+    "id": "130",
+    "name": "Xhamia e Kadrit",
+    "city": "Gostivar",
+    "village": "",
+    "address": "JNA, Gostivar",
+    "lat": 41.794406,
+    "lng": 20.893362
+  },
+  {
+    "id": "131",
+    "name": "Xhamia e Mezinit-Malësisë",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Boge Veljanoski, Gostivar",
+    "lat": 41.800857,
+    "lng": 20.917405
+  },
+  {
+    "id": "132",
+    "name": "Xhamia Turi Sina Mlaki",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Lagja Mllaki, R1206, Gostivar",
+    "lat": 41.808333,
+    "lng": 20.897349
+  },
+  {
+    "id": "133",
+    "name": "Xhamia e Fazanerisë",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Lagjja Fazaneri, Gostivar",
+    "lat": 41.777462,
+    "lng": 20.909239
+  },
+  {
+    "id": "134",
+    "name": "Xhamia e Rinisë",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Banjeshnica 1, Gostivar",
+    "lat": 41.785911,
+    "lng": 20.916178
+  },
+  {
+    "id": "135",
+    "name": "Xhamia Balindoll",
+    "city": "Gostivar",
+    "village": "",
+    "address": "Fshati, Gostivar",
+    "lat": 41.785454,
+    "lng": 20.920763
+  },
+  {
+    "id": "136",
+    "name": "Xhamia e Gradecit",
+    "city": "Gostivar",
+    "village": "Gradec",
+    "address": "R1206, Gradec Gostivar",
+    "lat": 41.897480,
+    "lng": 20.903155
+  },
+  {
+    "id": "137",
+    "name": "Xhamia Melek Rumeli e Gradoshorcit Strumicë",
+    "city": "Strumicë",
+    "village": "Gradoshorc",
+    "address": "Fshati, Gradoshorc Strumicë",
+    "lat": 41.480895,
+    "lng": 22.624022
+  },
+  {
+    "id": "138",
+    "name": "Xhamia e fshatit Gratskë",
+    "city": "Negotinë",
+    "village": "Gratskë",
+    "address": "Fshati, Gratskë Negotinë",
+    "lat": 41.570892,
+    "lng": 21.952883
+  },
+  {
+    "id": "139",
+    "name": "Xhamia e fshatit Graçan",
+    "city": "Shkup",
+    "village": "Graçan",
+    "address": "Fshati, Graçan Shkup",
+    "lat": 42.088455,
+    "lng": 21.292792
+  },
+  {
+    "id": "140",
+    "name": "Xhamia e fshatit Greshnicë 1",
+    "city": "Kërçovë",
+    "village": "Greshnicë",
+    "address": "Fshati, Greshnicë Kërçovë",
+    "lat": 41.573491,
+    "lng": 20.935652
+  },
+  {
+    "id": "141",
+    "name": "Xhamia e fshatit Greshnicë 2",
+    "city": "Kërçovë",
+    "village": "Greshnicë",
+    "address": "Fshati, Greshnicë Kërçovë",
+    "lat": 41.576147,
+    "lng": 20.927505
+  },
+  {
+    "id": "142",
+    "name": "Xhamia e Grnçarit",
+    "city": "Resnjë",
+    "village": "Grnçar",
+    "address": "Fshati, Grnçar Resnjë",
+    "lat": 41.018243,
+    "lng": 21.052834
+  },
+  {
+    "id": "143",
+    "name": "Xhamia Grupçin",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Grupçin, Fshati",
+    "lat": 41.967251,
+    "lng": 21.131717
+  },
+  {
+    "id": "144",
+    "name": "Xhamia Grushinë",
+    "city": "Shkup",
+    "village": "Grushinë",
+    "address": "Fshati, Grushinë Shkup",
+    "lat": 42.060168,
+    "lng": 21.619798
+  },
+  {
+    "id": "145",
+    "name": "Xhamia e fshatit Gumalevë",
+    "city": "Shkup",
+    "village": "Gumalevë",
+    "address": "Fshati, Gumalevë Shkup",
+    "lat": 41.834230,
+    "lng": 21.600969
+  },
+  {
+    "id": "146",
+    "name": "Xhamia Gurguricë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Gurguricë, Fshati",
+    "lat": 41.843466,
+    "lng": 21.105337
+  },
+  {
+    "id": "147",
+    "name": "Xhamia e fshatit Gërçec e Vjetër",
+    "city": "Shkup",
+    "village": "Gërçec",
+    "address": "Fshati, Gërçec Shkup",
+    "lat": 41.971823,
+    "lng": 21.334273
+  },
+  {
+    "id": "148",
+    "name": "Xhamia e Re e Gërçecit",
+    "city": "Shkup",
+    "village": "Gërçec",
+    "address": "Fshati, Gërçec Shkup",
+    "lat": 41.988534,
+    "lng": 21.331547
+  },
+  {
+    "id": "149",
+    "name": "Xhamia e Qendrore e Gërçecit",
+    "city": "Shkup",
+    "village": "Gërçec",
+    "address": "Fshati, Gërçec Shkup",
+    "lat": 41.991419,
+    "lng": 21.328527
+  },
+  {
+    "id": "150",
+    "name": "Xhamia e Stracincës",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.047339,
+    "lng": 21.532219
+  },
+  {
+    "id": "151",
+    "name": "Xhamia Qendrore Haraçinë",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.024759,
+    "lng": 21.565828
+  },
+  {
+    "id": "152",
+    "name": "Xhamia Rezistenca Haraçinë",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.028677,
+    "lng": 21.558720
+  },
+  {
+    "id": "153",
+    "name": "Xhamia Neda Haraçinë",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.021572,
+    "lng": 21.562398
+  },
+  {
+    "id": "154",
+    "name": "Xhamia e Dëshmorëve Haraçinë",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.030242,
+    "lng": 21.565756
+  },
+  {
+    "id": "155",
+    "name": "Xhamia Miraxh Haraçinë",
+    "city": "Shkup",
+    "village": "Haraçinë",
+    "address": "Fshati, Haraçinë Shkup",
+    "lat": 42.027107,
+    "lng": 21.575897
+  },
+  {
+    "id": "156",
+    "name": "Xhamia Hasanbeg Qendër",
+    "city": "Shkup",
+    "village": "Hasanbeg",
+    "address": "Fshati, Hasanbeg Shkup",
+    "lat": 42.018706,
+    "lng": 21.513490
+  },
+  {
+    "id": "157",
+    "name": "Xhamia e Dëshmorve Hasanbeg",
+    "city": "Shkup",
+    "village": "Hasanbeg",
+    "address": "Fshati, Hasanbeg Shkup",
+    "lat": 42.014910,
+    "lng": 21.514300
+  },
+  {
+    "id": "158",
+    "name": "Xhamia Mulla Murat Hotël",
+    "city": "Kumanovë",
+    "village": "Hotël",
+    "address": "Fshati, Hotël Kumanovë",
+    "lat": 42.144212,
+    "lng": 21.583378
+  },
+  {
+    "id": "159",
+    "name": "Xhamia e Bardhë Hotël",
+    "city": "Kumanovë",
+    "village": "Hotël",
+    "address": "Fshati, Hotël Kumanovë",
+    "lat": 42.143032,
+    "lng": 21.589301
+  },
+  {
+    "id": "160",
+    "name": "Xhamia e Idrizovës",
+    "city": "Shkup",
+    "village": "Idrizovë",
+    "address": "Fshati, Idrizovë Shkup",
+    "lat": 41.962293,
+    "lng": 21.576908
+  },
+  {
+    "id": "161",
+    "name": "Xhamia e Illovicës strumicë",
+    "city": "Strumicë",
+    "village": "Illovicë",
+    "address": "Fshati, Illovicë Strumicë",
+    "lat": 41.472422,
+    "lng": 22.803184
+  },
+  {
+    "id": "162",
+    "name": "Xhamia e Inxhikovës",
+    "city": "Shkup",
+    "village": "Inxhikov",
+    "address": "Fshati, Inxhikov Shkup",
+    "lat": 42.007237,
+    "lng": 21.517346
+  },
+  {
+    "id": "163",
+    "name": "Xhamia e fshatit Izhishte",
+    "city": "Kërçovë",
+    "village": "Izhishtë",
+    "address": "R1303, Izhishtë Kërçovë",
+    "lat": 41.479132,
+    "lng": 21.093224
+  },
+  {
+    "id": "164",
+    "name": "Xhamia e fshatit Izvor",
+    "city": "Kumanovë",
+    "village": "Izvor",
+    "address": "Fshati, Izvor Kumanovë",
+    "lat": 42.197636,
+    "lng": 21.579221
+  },
+  {
+    "id": "165",
+    "name": "Xhamia e fshatit Jabllanicë",
+    "city": "Strugë",
+    "village": "Jabllanicë",
+    "address": "Fshati, Jabllanicë Strugë",
+    "lat": 41.320868,
+    "lng": 20.577051
+  },
+  {
+    "id": "166",
+    "name": "Xhamia Jabollcisht i Poshtëm",
+    "city": "Veles",
+    "village": "Jabollcisht i Poshtëm",
+    "address": "Fshati, Jabollcisht i Poshtëm Veles",
+    "lat": 41.726879,
+    "lng": 21.514866
+  },
+  {
+    "id": "167",
+    "name": "Xhamia e Jabollcës",
+    "city": "Shkup",
+    "village": "Jabollcë",
+    "address": "Fshati, Jabollcë Shkup",
+    "lat": 41.894673,
+    "lng": 21.331369
+  },
+  {
+    "id": "168",
+    "name": "Xhamia Jabollçisht i Epërm",
+    "city": "Veles",
+    "village": "Jabollçisht i Epërm",
+    "address": "Fshati, Jabollçisht i Epërm Veles",
+    "lat": 41.724521,
+    "lng": 21.487259
+  },
+  {
+    "id": "169",
+    "name": "Xhamia e fshatit Jagoll",
+    "city": "Kërçovë",
+    "village": "Jagoll",
+    "address": "Fshati, Jagoll Kërçovë",
+    "lat": 41.626103,
+    "lng": 21.007172
+  },
+  {
+    "id": "170",
+    "name": "Xhamia e fshatit Jances",
+    "city": "Dibër",
+    "village": "Jances",
+    "address": "Fshati, Jances Dibër",
+    "lat": 41.587975,
+    "lng": 20.627276
+  },
+  {
+    "id": "171",
+    "name": "Xhamia e Vjeter e fshatit Jankrenovë",
+    "city": "Prilep",
+    "village": "Jankrenovë",
+    "address": "Fshati, Jankrenovë Prilep",
+    "lat": 41.447619,
+    "lng": 21.259020
+  },
+  {
+    "id": "172",
+    "name": "Xhamia e fshatit Jankrenovë",
+    "city": "Prilep",
+    "village": "Jankrenovë",
+    "address": "Fshati, Jankrenovë Prilep",
+    "lat": 41.447508,
+    "lng": 21.260586
+  },
+  {
+    "id": "173",
+    "name": "Xhamia Jazhincë",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Jazhincë, Fshati",
+    "lat": 42.163436,
+    "lng": 21.174696
+  },
+  {
+    "id": "174",
+    "name": "Xhamia e Jellovcës",
+    "city": "Gostivar",
+    "village": "Jellovcë",
+    "address": "Fshati, Jellovcë Gostivar",
+    "lat": 41.800613,
+    "lng": 20.836132
+  },
+  {
+    "id": "175",
+    "name": "Xhamia e Kalishtes",
+    "city": "Gostivar",
+    "village": "Kalishte",
+    "address": "Fshati, Kalishte Gostivar",
+    "lat": 41.879479,
+    "lng": 20.861191
+  },
+  {
+    "id": "176",
+    "name": "Xhamia e fshatit Kalishtë",
+    "city": "Strugë",
+    "village": "Kalishtë",
+    "address": "Fshati, Kalishtë Strugë",
+    "lat": 41.152834,
+    "lng": 20.649914
+  },
+  {
+    "id": "177",
+    "name": "Xhamia e Kallauzlisë Radovish",
+    "city": "Radovish",
+    "village": "Kallauzli",
+    "address": "Fshati, Kallauzli Radovish",
+    "lat": 41.669685,
+    "lng": 22.495171
+  },
+  {
+    "id": "178",
+    "name": "Xhamia Haxhi Salih e Kallkovës Valandovë",
+    "city": "Valandovë",
+    "village": "Kallkovë",
+    "address": "Fshati, Kallkovë Valandovë",
+    "lat": 41.342136,
+    "lng": 22.498120
+  },
+  {
+    "id": "179",
+    "name": "Xhamia e Vjetër Kallnik",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Vjetër e fshatit Kallnik, Fshati",
+    "lat": 41.977422,
+    "lng": 20.935371
+  },
+  {
+    "id": "180",
+    "name": "Xhamia e Re Kallnik",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Re e fshatit Kallnik, Fshati",
+    "lat": 41.976206,
+    "lng": 20.938401
+  },
+  {
+    "id": "181",
+    "name": "Xhamia e Kallugericës Radovish",
+    "city": "Radovish",
+    "village": "Kallugericë",
+    "address": "Fshati, Kallugericë Radovish",
+    "lat": 41.568020,
+    "lng": 22.512081
+  },
+  {
+    "id": "182",
+    "name": "Xhamia Umer Bin Abdulaziz - Kamenik",
+    "city": "Shkup",
+    "village": "Kamenik",
+    "address": "Fshati, Kamenik Shkup",
+    "lat": 42.019263,
+    "lng": 21.503303
+  },
+  {
+    "id": "183",
+    "name": "Xhamia e Re Kamjan",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Re e fshatit Kamjan, Fshati",
+    "lat": 41.948661,
+    "lng": 20.928263
+  },
+  {
+    "id": "184",
+    "name": "Xhamia e Vjetër Kamenjan",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e Vjetër e fshatit Kamenjan, Fshati",
+    "lat": 41.944796,
+    "lng": 20.924873
+  },
+  {
+    "id": "185",
+    "name": "Xhamia e fshatit Kanatllar",
+    "city": "Prilep",
+    "village": "Kanatllar",
+    "address": "Fshati, Kanatllar Prilep",
+    "lat": 41.211776,
+    "lng": 21.504603
+  },
+  {
+    "id": "186",
+    "name": "Xhamia Kapazhdoll",
+    "city": "E papërcaktuar",
+    "village": "",
+    "address": "Xhamia e fshatit Kapazhdoll, Fshati",
+    "lat": 41.957589,
+    "lng": 21.138091
+  },
+  {
+    "id": "187",
+    "name": "Xhamia Sulltan Pasha e fshatit Katllanovë",
+    "city": "Shkup",
+    "village": "Katllanovë",
+    "address": "Fshati, Katllanovë Shkup",
+    "lat": 41.896112,
+    "lng": 21.681565
+  },
+  {
+    "id": "188",
+    "name": "Xhamia Kavadarcë",
+    "city": "Kavadarcë",
+    "village": "",
+    "address": "Iljo Kostov, Kavadarcë",
+    "lat": 41.431159,
+    "lng": 22.013317
+  },
+  {
+    "id": "189",
+    "name": "Xhamia Haxhi Ibrahim e Kazandollit Valandovë",
+    "city": "Valandovë",
+    "village": "Kazandoll",
+    "address": "Fshati, Kazandoll Valandovë",
+    "lat": 41.276119,
+    "lng": 22.572677
+  },
+  {
+    "id": "190",
+    "name": "Xhamia e fsh. Kazhan",
+    "city": "Manastir",
+    "village": "Kazhan",
+    "address": "Ul 106, Kazhan Manastir",
+    "lat": 41.066363,
+    "lng": 21.149528
+  },
+  {
+    "id": "191",
+    "name": "Xhamia e 4 Halifeve",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Partizanski Odredi, Kërçovë",
+    "lat": 41.520516,
+    "lng": 20.951065
+  },
+  {
+    "id": "192",
+    "name": "Xhamia Sulltan Bejazid",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Goce Delchev, Kërçovë",
+    "lat": 41.514549,
+    "lng": 20.962922
+  },
+  {
+    "id": "193",
+    "name": "Xhamia Balla Mëhalla",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Isein Akioski, Kërçovë",
+    "lat": 41.518123,
+    "lng": 20.965855
+  },
+  {
+    "id": "194",
+    "name": "Xhamia Biçincë",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Biçincë, Kërçovë",
+    "lat": 41.513269,
+    "lng": 20.969698
+  },
+  {
+    "id": "195",
+    "name": "Xhamia Selim Teqja",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Isein Akioski, Kërçovë",
+    "lat": 41.515980,
+    "lng": 20.964093
+  },
+  {
+    "id": "196",
+    "name": "Xhamia Hayati Baba Teqe",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "11 Tetori, Kërçovë",
+    "lat": 41.513192,
+    "lng": 20.960961
+  },
+  {
+    "id": "197",
+    "name": "Xhamia Çulu Baba Teqe",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Stende Sterjoski, Kërçovë",
+    "lat": 41.512126,
+    "lng": 20.961764
+  },
+  {
+    "id": "198",
+    "name": "Xhamia Bella Kulla",
+    "city": "Kërçovë",
+    "village": "",
+    "address": "Marsal Tito, Kërçovë",
+    "lat": 41.518585,
+    "lng": 20.962642
+  },
+  {
+    "id": "199",
+    "name": "Xhamia e fsh. Këshavë",
+    "city": "Manastir",
+    "village": "Këshavë",
+    "address": "Fshati, Këshavë Manastir",
+    "lat": 40.888306,
+    "lng": 21.314641
+  },
+  {
+    "id": "200",
+    "name": "Xhamia Dudi Hatun Koçan",
+    "city": "Koçan",
+    "village": "",
+    "address": "Goce Delchev, Koçan",
+    "lat": 41.924485,
+    "lng": 22.410177
+  },
+  {
+    "id": "201",
+    "name": "Xhamia e fshatit Kocillarë",
+    "city": "Veles",
+    "village": "Kocillarë",
+    "address": "Fshati, Kocillarë Veles",
+    "lat": 41.664767,
+    "lng": 21.862106
+  },
+  {
+    "id": "202",
+    "name": "Xhamia Kodra e Diellit",
+    "city": "Tetovë",
+    "village": "Kodra e Diellit",
+    "address": "Fshati, Kodra e Diellit Tetovë",
+    "lat": 42.013327,
+    "lng": 20.885724
+  },
+  {
+    "id": "203",
+    "name": "Xhamia e fshatit Kolibarë",
+    "city": "Kërçovë",
+    "village": "Kolibarë",
+    "address": "Fshati, Kolibarë Kërçovë",
+    "lat": 41.572313,
+    "lng": 20.962512
+  },
+  {
+    "id": "204",
+    "name": "Xhamia e Koliçanit të Epërm",
+    "city": "Shkup",
+    "village": "Koliçani i Epër",
+    "address": "Fshati, Koliçani i Epër Shkup",
+    "lat": 41.879671,
+    "lng": 21.473031
+  },
+  {
+    "id": "205",
+    "name": "Xhamia e Koliçanit të Poshtëm",
+    "city": "Shkup",
+    "village": "Koliçani i Poshtëm",
+    "address": "Fshati, Koliçani i Poshtëm Shkup",
+    "lat": 41.886676,
+    "lng": 21.484954
+  },
+  {
+    "id": "206",
+    "name": "Xhamia e fshatit Kollare",
+    "city": "Kërçovë",
+    "village": "Kollare",
+    "address": "Fshati, Kollare Kërçovë",
+    "lat": 41.634537,
+    "lng": 20.914414
+  },
+  {
+    "id": "207",
+    "name": "Xhamia e Konçes Radovish",
+    "city": "Radovish",
+    "village": "Konçe",
+    "address": "Fshati, Konçe Radovish",
+    "lat": 41.494983,
+    "lng": 22.385637
+  },
+  {
+    "id": "208",
+    "name": "Xhamia e FSHI",
+    "city": "Shkup",
+    "village": "Kondovë",
+    "address": "Fshati, Kondovë Shkup",
+    "lat": 42.014231,
+    "lng": 21.300821
+  },
+  {
+    "id": "209",
+    "name": "Xhamia e Vjetër f. Kondovë",
+    "city": "Shkup",
+    "village": "Kondovë",
+    "address": "Fshati, Kondovë Shkup",
+    "lat": 42.012608,
+    "lng": 21.314013
+  },
+  {
+    "id": "210",
+    "name": "Xhamia Hixhri Kondovë",
+    "city": "Shkup",
+    "village": "Kondovë",
+    "address": "Fshati, Kondovë Shkup",
+    "lat": 42.009670,
+    "lng": 21.318775
+  },
+  {
+    "id": "211",
+    "name": "Xhamia Konjare e Mesme",
+    "city": "Shkup",
+    "village": "Konjare",
+    "address": "Fshati, Konjare Shkup",
+    "lat": 41.956671,
+    "lng": 21.713576
+  },
+  {
+    "id": "212",
+    "name": "Xhamia Konjare e Poshtme",
+    "city": "Shkup",
+    "village": "Konjare",
+    "address": "Fshati, Konjare Shkup",
+    "lat": 41.942592,
+    "lng": 21.709264
+  },
+  {
+    "id": "213",
+    "name": "Xhamia e fshatit Konjare",
+    "city": "Dibër",
+    "village": "Konjare",
+    "address": "Fshati, Konjare Dibër",
+    "lat": 41.522848,
+    "lng": 20.480755
+  },
+  {
+    "id": "214",
+    "name": "Xhamia e fshatit Konjare",
+    "city": "Kumanovë",
+    "village": "Konjare",
+    "address": "Fshati, Konjare Kumanovë",
+    "lat": 42.165701,
+    "lng": 21.712187
+  },
+  {
+    "id": "215",
+    "name": "Xhamia e Kopanicës- e vjetra",
+    "city": "Shkup",
+    "village": "Kopanicë",
+    "address": "Fshati, Kopanicë Shkup",
+    "lat": 42.008009,
+    "lng": 21.238028
+  },
+  {
+    "id": "216",
+    "name": "Xhamia e Lejletul Kadr f. Kopanicë",
+    "city": "Shkup",
+    "village": "Kopanicë",
+    "address": "Fshati, Kopanicë Shkup",
+    "lat": 42.011654,
+    "lng": 21.232617
+  },
+  {
+    "id": "217",
+    "name": "Xhamia e Bardhë Kopanicë",
+    "city": "Tetovë",
+    "village": "Kopanicë",
+    "address": "Fshati, Kopanicë Tetovë",
+    "lat": 42.044442,
+    "lng": 21.135858
+  },
+  {
+    "id": "218",
+    "name": "Xhamia e Re Kopanicë",
+    "city": "Tetovë",
+    "village": "Kopanicë",
+    "address": "Fshati, Kopanicë Tetovë",
+    "lat": 42.047832,
+    "lng": 21.136939
+  },
+  {
+    "id": "219",
+    "name": "Xhamia e fshatit Koreshnicë",
+    "city": "Demir Kapija",
+    "village": "Koreshnicë",
+    "address": "Fshati, Koreshnicë Demir Kapija",
+    "lat": 41.433563,
+    "lng": 22.240558
+  },
+  {
+    "id": "220",
+    "name": "Xhamia e Koritës",
+    "city": "Gostivar",
+    "village": "Koritë",
+    "address": "Fshati, Koritë Gostivar",
+    "lat": 41.805692,
+    "lng": 21.026627
+  },
+  {
+    "id": "221",
+    "name": "Xhamia e fshatit Koroshishtë",
+    "city": "Strugë",
+    "village": "Koroshishtë",
+    "address": "Fshati, Koroshishtë Strugë",
+    "lat": 41.248449,
+    "lng": 20.746330
+  },
+  {
+    "id": "222",
+    "name": "Xhamia Kosovrasti i epërm",
+    "city": "Dibër",
+    "village": "Kosovrast",
+    "address": "Fshati, Kosovrast Dibër",
+    "lat": 41.547585,
+    "lng": 20.574973
+  },
+  {
+    "id": "223",
+    "name": "Xhamia Kosovrastit i poshtëm",
+    "city": "Dibër",
+    "village": "Kosovrast",
+    "address": "Fshati, Kosovrast Dibër",
+    "lat": 41.538451,
+    "lng": 20.585285
+  },
+  {
+    "id": "224",
+    "name": "Xhamia e fshatit Kosturnik",
+    "city": "Kumanovë",
+    "village": "Kosturnik",
+    "address": "Fshati, Kosturnik Kumanovë",
+    "lat": 42.191327,
+    "lng": 21.710251
+  },
+  {
+    "id": "225",
+    "name": "Xhamia Hafiz Salih e Koxhalit në Radovish",
+    "city": "Radovish",
+    "village": "Koxhali",
+    "address": "Fshati, Koxhali Radovish",
+    "lat": 41.688848,
+    "lng": 22.419157
+  },
+  {
+    "id": "226",
+    "name": "Xhamia e Koxhaxhikut",
+    "city": "Dibër",
+    "village": "Koxhaxhik",
+    "address": "Fshati, Koxhaxhik Dibër",
+    "lat": 41.441129,
+    "lng": 20.598158
+  },
+  {
+    "id": "227",
+    "name": "Xhamia e Kozjaçkës",
+    "city": "Resnjë",
+    "village": "Kozjaçkë",
+    "address": "Fshati, Kozjaçkë Resnjë",
+    "lat": 41.058542,
+    "lng": 21.041383
+  },
+  {
+    "id": "228",
+    "name": "Xhamia e fsh. Kramenic",
+    "city": "Manastir",
+    "village": "Kramenic",
+    "address": "Fshati, Kramenic Manastir",
+    "lat": 40.925022,
+    "lng": 21.461139
+  },
+  {
+    "id": "229",
+    "name": "Xhamia e Kranit",
+    "city": "Resnjë",
+    "village": "Kran",
+    "address": "Fshati, Kran Resnjë",
+    "lat": 40.941437,
+    "lng": 21.110892
+  },
+  {
+    "id": "230",
+    "name": "Xhamia Krifses",
+    "city": "Dibër",
+    "village": "Krifse",
+    "address": "Fshati, Krifse Dibër",
+    "lat": 41.545448,
+    "lng": 20.520475
+  },
+  {
+    "id": "231",
+    "name": "Xhamia e fshatit Krivollakë",
+    "city": "Negotinë",
+    "village": "Krivollakë",
+    "address": "Fshati, Krivollakë Negotinë",
+    "lat": 41.524123,
+    "lng": 22.116088
+  },
+  {
+    "id": "232",
+    "name": "Xhamia e fshatit Krushopekë i Poshtëm",
+    "city": "Shkup",
+    "village": "Krushopekë",
+    "address": "Fshati, Krushopekë Shkup",
+    "lat": 41.995051,
+    "lng": 21.342071
+  },
+  {
+    "id": "233",
+    "name": "Xhamia e Vjetër f. Krushopekë të Epërme",
+    "city": "Shkup",
+    "village": "Krushopekë",
+    "address": "Fshati, Krushopekë Shkup",
+    "lat": 41.976653,
+    "lng": 21.354697
+  },
+  {
+    "id": "234",
+    "name": "Xhamia e Kuçicës",
+    "city": "Shtip",
+    "village": "Kuçicë",
+    "address": "Fshati, Kuçicë Shtip",
+    "lat": 41.741308,
+    "lng": 22.381445
+  },
+  {
+    "id": "235",
+    "name": "Xhamia Tatar Sinan Pasha",
+    "city": "Kumanovë",
+    "village": "",
+    "address": "Bratstvo Edinstvo, Kumanovë",
+    "lat": 42.137451,
+    "lng": 21.714712
+  },
+  {
+    "id": "236",
+    "name": "Xhamia e Re",
+    "city": "Kumanovë",
+    "village": "",
+    "address": "Tode Mendol, Kumanovë",
+    "lat": 42.126615,
+    "lng": 21.708904
+  },
+  {
+    "id": "237",
+    "name": "Xhaminë Haxhi Shefket",
+    "city": "Kumanovë",
+    "village": "",
+    "address": "Jakup Asipi, Kumanovë",
+    "lat": 42.120083,
+    "lng": 21.706409
+  },
+  {
+    "id": "238",
+    "name": "Xhamia Elez Hoxha e Kurthamzalisë Gjevgjeli",
+    "city": "Gjevgjeli",
+    "village": "Kurthamzali",
+    "address": "Fshati, Kurthamzali Gjevgjeli",
+    "lat": 41.294983,
+    "lng": 22.694595
+  },
+  {
+    "id": "239",
+    "name": "Xhamia Bashkimi Ladorishtë",
+    "city": "Strugë",
+    "village": "Ladorishtë",
+    "address": "Fshati, Ladorishtë Strugë",
+    "lat": 41.163853,
+    "lng": 20.622704
+  },
+  {
+    "id": "240",
+    "name": "Xhamia e fsh. Lerë",
+    "city": "Manastir",
+    "village": "Lerë",
+    "address": "Fshati, Lerë Manastir",
+    "lat": 41.098668,
+    "lng": 21.172182
+  },
+  {
+    "id": "241",
+    "name": "Xhamia e Epërme Leshnicë",
+    "city": "Tetovë",
+    "village": "Leshnicë",
+    "address": "Fshati, Leshnicë Tetovë",
+    "lat": 41.928350,
+    "lng": 21.063274
+  },
+  {
+    "id": "242",
+    "name": "Xhamia e Poshtme Leshnicë",
+    "city": "Tetovë",
+    "village": "Leshnicë",
+    "address": "Fshati, Leshnicë Tetovë",
+    "lat": 41.956621,
+    "lng": 21.061126
+  },
+  {
+    "id": "243",
+    "name": "Xhamia e fshatit Leshnicë",
+    "city": "Kërçovë",
+    "village": "Leshnicë",
+    "address": "Fshati, Leshnicë Kërçovë",
+    "lat": 41.571502,
+    "lng": 20.910196
+  },
+  {
+    "id": "244",
+    "name": "Xhamia Jusuf Efendi Likovë",
+    "city": "Kumanovë",
+    "village": "Likovë",
+    "address": "Fshati, Likovë Kumanovë",
+    "lat": 42.157055,
+    "lng": 21.585264
+  },
+  {
+    "id": "245",
+    "name": "Xhamia e Re Likovë",
+    "city": "Kumanovë",
+    "village": "Likovë",
+    "address": "R2133, Likovë Kumanovë",
+    "lat": 42.152066,
+    "lng": 21.595566
+  },
+  {
+    "id": "246",
+    "name": "Xhamia Lisec",
+    "city": "Tetovë",
+    "village": "Lisec",
+    "address": "Fshati, Lisec Tetovë",
+    "lat": 42.003960,
+    "lng": 20.925086
+  },
+  {
+    "id": "247",
+    "name": "Xhamia e fshatit Lisiçan",
+    "city": "Kërçovë",
+    "village": "Lisiçan",
+    "address": "Fshati, Lisiçan Kërçovë",
+    "lat": 41.461616,
+    "lng": 21.052964
+  },
+  {
+    "id": "248",
+    "name": "Xhamia e fshatit Livadhi",
+    "city": "Strugë",
+    "village": "Livadhi",
+    "address": "Fshati, Livadhi Strugë",
+    "lat": 41.231677,
+    "lng": 20.724833
+  },
+  {
+    "id": "249",
+    "name": "Xhamia e Poshtme Llabunishtë",
+    "city": "Strugë",
+    "village": "Llabunishtë",
+    "address": "Fshati, Llabunishtë Strugë",
+    "lat": 41.269205,
+    "lng": 20.595752
+  },
+  {
+    "id": "250",
+    "name": "Xhamia Salahudin Ejub Llabunishtë",
+    "city": "Strugë",
+    "village": "Llabunishtë",
+    "address": "Fshati, Llabunishtë Strugë",
+    "lat": 41.269857,
+    "lng": 20.601992
+  },
+  {
+    "id": "251",
+    "name": "Xhamia e Llakavicës",
+    "city": "Gostivar",
+    "village": "Llakavicë",
+    "address": "Fshati, Llakavicë Gostivar",
+    "lat": 41.745307,
+    "lng": 20.923505
+  },
+  {
+    "id": "252",
+    "name": "Xhamia e fshatit Llapkindoll",
+    "city": "Kërçovë",
+    "village": "Llapkindoll",
+    "address": "E65, Llapkindoll Kërçovë",
+    "lat": 41.568692,
+    "lng": 20.957093
+  },
+  {
+    "id": "253",
+    "name": "Xhamia e Lapushnikut",
+    "city": "Gostivar",
+    "village": "Llapushnik",
+    "address": "Fshati, Llapushnik Gostivar",
+    "lat": 41.772324,
+    "lng": 20.932844
+  },
+  {
+    "id": "254",
+    "name": "Xhamia e fshatit Llaskarcë",
+    "city": "Shkup",
+    "village": "Llaskarcë",
+    "address": "Fshati, Llaskarcë Shkup",
+    "lat": 41.972773,
+    "lng": 21.209348
+  },
+  {
+    "id": "255",
+    "name": "Xhamia e Re f. Llaskarcë",
+    "city": "Shkup",
+    "village": "Llaskarcë",
+    "address": "Fshati, Llaskarcë Shkup",
+    "lat": 41.976705,
+    "lng": 21.214412
+  },
+  {
+    "id": "256",
+    "name": "Xhamia e Llavcit",
+    "city": "Resnjë",
+    "village": "Llavcit",
+    "address": "Fshati, Llavcit Resnjë",
+    "lat": 41.043169,
+    "lng": 20.965149
+  },
+  {
+    "id": "257",
+    "name": "Xhamia Jajoska fshatit Llazhan",
+    "city": "Prilep",
+    "village": "Llazhan",
+    "address": "Fshati, Llazhan Prilep",
+    "lat": 41.443777,
+    "lng": 21.316047
+  },
+  {
+    "id": "258",
+    "name": "Xhamia Braoska fshatit Llazhan",
+    "city": "Prilep",
+    "village": "Llazhan",
+    "address": "Ul 512, Llazhan Prilep",
+    "lat": 41.441516,
+    "lng": 21.314935
+  },
+  {
+    "id": "259",
+    "name": "Xhamia Llërcë",
+    "city": "Tetovë",
+    "village": "Llërcë",
+    "address": "Fshati, Llërcë Tetovë",
+    "lat": 41.933038,
+    "lng": 21.125793
+  },
+  {
+    "id": "260",
+    "name": "Xhamia Haxhi Hesat Llojan",
+    "city": "Kumanovë",
+    "village": "Llojan",
+    "address": "Fshati, Llojan Kumanovë",
+    "lat": 42.232458,
+    "lng": 21.664384
+  },
+  {
+    "id": "261",
+    "name": "Xhamia e fshatit Llokë",
+    "city": "Shkup",
+    "village": "Llokë",
+    "address": "Fshati, Llokë Shkup",
+    "lat": 41.997591,
+    "lng": 21.366240
+  },
+  {
+    "id": "262",
+    "name": "Xhamia e fshatit Llokven",
+    "city": "Prilep",
+    "village": "Llokven",
+    "address": "Ul 512, Llokven Prilep",
+    "lat": 41.398542,
+    "lng": 21.308075
+  },
+  {
+    "id": "263",
+    "name": "Xhamia e Llomnicës",
+    "city": "Gostivar",
+    "village": "Llomnicë",
+    "address": "Fshati, Llomnicë Gostivar",
+    "lat": 41.895732,
+    "lng": 20.833207
+  },
+  {
+    "id": "264",
+    "name": "Xhamia Osman Bylykbash Llopat",
+    "city": "Kumanovë",
+    "village": "Llopat",
+    "address": "Fshati, Llopat Kumanovë",
+    "lat": 42.148026,
+    "lng": 21.663751
+  },
+  {
+    "id": "265",
+    "name": "Xhamia e fshatit Llukare",
+    "city": "Kumanovë",
+    "village": "Llukare",
+    "address": "Fshati, Llukare Kumanovë",
+    "lat": 42.232444,
+    "lng": 21.497796
+  },
+  {
+    "id": "266",
+    "name": "Xhamia e fshatit Lubin e Vjetër",
+    "city": "Shkup",
+    "village": "Lubin",
+    "address": "Fshati, Lubin Shkup",
+    "lat": 42.002537,
+    "lng": 21.307746
+  },
+  {
+    "id": "267",
+    "name": "Xhamia Mulla Hysen Saiti",
+    "city": "Shkup",
+    "village": "Lubin",
+    "address": "Fshati, Lubin Shkup",
+    "lat": 41.99730,
+    "lng": 21.31191
+  },
+  {
+    "id": "268",
+    "name": "Xhamia Sanxhak e fshatit Lubosh",
+    "city": "Shkup",
+    "village": "Lubosh",
+    "address": "Fshati, Lubosh Shkup",
+    "lat": 41.923052,
+    "lng": 21.488825
+  },
+  {
+    "id": "269",
+    "name": "Xhamia e Lubotenit me dy minare",
+    "city": "Shkup",
+    "village": "Luboten",
+    "address": "Fshati, Luboten Shkup",
+    "lat": 42.095119,
+    "lng": 21.472205
+  },
+  {
+    "id": "270",
+    "name": "Xhamia Luboten Haxhi Imer",
+    "city": "Shkup",
+    "village": "Luboten",
+    "address": "Fshati, Luboten Shkup",
+    "lat": 42.095893,
+    "lng": 21.469470
+  },
+  {
+    "id": "271",
+    "name": "Xhamia e Vjetër Luboten",
+    "city": "Shkup",
+    "village": "Luboten",
+    "address": "Fshati, Luboten Shkup",
+    "lat": 42.097137,
+    "lng": 21.471358
+  },
+  {
+    "id": "272",
+    "name": "Xhamia e mahallës së epërme vasilevë",
+    "city": "Strumicë",
+    "village": "Mahalla e Eperme",
+    "address": "Fshati, Mahalla e Eperme Strumicë",
+    "lat": 41.555386,
+    "lng": 22.683784
+  },
+  {
+    "id": "273",
+    "name": "Xhamia e Mahallës së re Vasilevë",
+    "city": "Strumicë",
+    "village": "Mahalla e Re",
+    "address": "Fshati, Mahalla e Re Strumicë",
+    "lat": 41.528359,
+    "lng": 22.698873
+  },
+  {
+    "id": "274",
+    "name": "Xhamia e fshatit Mahmude",
+    "city": "Kërçovë",
+    "village": "Mahmude",
+    "address": "Fshati, Mahmude Kërçovë",
+    "lat": 41.530381,
+    "lng": 20.985946
+  },
+  {
+    "id": "275",
+    "name": "Xhamia e Malinës e Vjetra",
+    "city": "Shkup",
+    "village": "Malinë",
+    "address": "Fshati, Malinë Shkup",
+    "lat": 42.224346,
+    "lng": 21.462418
+  },
+  {
+    "id": "276",
+    "name": "Xhamia e Malinës e Re",
+    "city": "Shkup",
+    "village": "Malinë",
+    "address": "Fshati, Malinë Shkup",
+    "lat": 42.224944,
+    "lng": 21.472487
+  },
+  {
+    "id": "277",
+    "name": "Xhamia e Malla Rekës",
+    "city": "Shkup",
+    "village": "Malla Rekë",
+    "address": "Fshati, Malla Rekë Shkup",
+    "lat": 41.801576,
+    "lng": 21.467465
+  },
+  {
+    "id": "278",
+    "name": "Xhamia e Isak Çelebiut",
+    "city": "Manastir",
+    "village": "",
+    "address": "Bulevardi 1 Maj, Manastir",
+    "lat": 41.032062,
+    "lng": 21.333998
+  },
+  {
+    "id": "279",
+    "name": "Yeni Xhamia",
+    "city": "Manastir",
+    "village": "",
+    "address": "Bulevardi 1 Maj, Manastir",
+    "lat": 41.030735,
+    "lng": 21.334953
+  },
+  {
+    "id": "280",
+    "name": "Xhamia Haxhi Mahmud Bej",
+    "city": "Manastir",
+    "village": "",
+    "address": "Veleshka, Manastir",
+    "lat": 41.031835,
+    "lng": 21.338348
+  },
+  {
+    "id": "281",
+    "name": "Xhamia Hajdar Kadi",
+    "city": "Manastir",
+    "village": "",
+    "address": "Tsane Vasilev, Manastir",
+    "lat": 41.035001,
+    "lng": 21.338509
+  },
+  {
+    "id": "282",
+    "name": "Xhamia Hamza Bej",
+    "city": "Manastir",
+    "village": "",
+    "address": "Peco Bozhinovski, Manastir",
+    "lat": 41.026579,
+    "lng": 21.324928
+  },
+  {
+    "id": "283",
+    "name": "Xhamia Hatunije",
+    "city": "Manastir",
+    "village": "",
+    "address": "Klenovec, Manastir",
+    "lat": 41.028962,
+    "lng": 21.323426
+  },
+  {
+    "id": "284",
+    "name": "Xhamia Isa Fakih",
+    "city": "Manastir",
+    "village": "",
+    "address": "Kole Lacheto, Manastir",
+    "lat": 41.033873,
+    "lng": 21.331972
+  },
+  {
+    "id": "285",
+    "name": "Xhamia Hasan Baba",
+    "city": "Manastir",
+    "village": "",
+    "address": "Sterjovski Gjorgj, Manastir",
+    "lat": 41.030537,
+    "lng": 21.319302
+  },
+  {
+    "id": "286",
+    "name": "Xhamia Paftali",
+    "city": "Manastir",
+    "village": "",
+    "address": "Karaorman 11, Manastir",
+    "lat": 41.035603,
+    "lng": 21.330193
+  },
+  {
+    "id": "287",
+    "name": "Xhamia e fshatit Masllçishtë",
+    "city": "Shkup",
+    "village": "Masllçishtë",
+    "address": "Fshati, Masllçishtë Shkup",
+    "lat": 41.879932,
+    "lng": 21.390582
+  },
+  {
+    "id": "288",
+    "name": "Xhamia e fshatit Mateç",
+    "city": "Kumanovë",
+    "village": "Mateç",
+    "address": "R2133, Mateç Kumanovë",
+    "lat": 42.125909,
+    "lng": 21.596825
+  },
+  {
+    "id": "289",
+    "name": "Xhamia e fshatit Matkë",
+    "city": "Shkup",
+    "village": "Matkë",
+    "address": "Fshati, Matkë Shkup",
+    "lat": 41.968998,
+    "lng": 21.285652
+  },
+  {
+    "id": "290",
+    "name": "Xhamia e fshatit Mellnicë",
+    "city": "Veles",
+    "village": "Mellnicë",
+    "address": "Fshati, Mellnicë Veles",
+    "lat": 41.643068,
+    "lng": 21.593137
+  },
+  {
+    "id": "291",
+    "name": "Xhamia Merovë",
+    "city": "Tetovë",
+    "village": "Merovë",
+    "address": "Fshati, Merovë Tetovë",
+    "lat": 41.937609,
+    "lng": 21.174068
+  },
+  {
+    "id": "292",
+    "name": "Xhamia e fshatit Mesnicë",
+    "city": "Shkup",
+    "village": "Mesnicë",
+    "address": "Fshati, Mesnicë Shkup",
+    "lat": 41.844224,
+    "lng": 21.624327
+  },
+  {
+    "id": "293",
+    "name": "Xhamia e fsh. Mexhitli",
+    "city": "Manastir",
+    "village": "Mexhitli",
+    "address": "Fshati, Mexhitli Manastir",
+    "lat": 40.927075,
+    "lng": 21.429413
+  },
+  {
+    "id": "294",
+    "name": "Xhamia Miletinë",
+    "city": "Tetovë",
+    "village": "Miletinë",
+    "address": "Fshati, Miletinë Tetovë",
+    "lat": 41.907849,
+    "lng": 21.017252
+  },
+  {
+    "id": "295",
+    "name": "Xhamia e Re e Mirditës",
+    "city": "Gostivar",
+    "village": "Mirditë",
+    "address": "Fshati, Mirditë Gostivar",
+    "lat": 41.777738,
+    "lng": 20.863941
+  },
+  {
+    "id": "296",
+    "name": "Xhamia e fshatit Misllodezhdë",
+    "city": "Strugë",
+    "village": "Misllodezhdë",
+    "address": "Fshati, Misllodezhdë Strugë",
+    "lat": 41.299888,
+    "lng": 20.694423
+  },
+  {
+    "id": "297",
+    "name": "Xhamia e Mogorçës",
+    "city": "Dibër",
+    "village": "Mogorçë",
+    "address": "Fshati, Mogorçë Dibër",
+    "lat": 41.531215,
+    "lng": 20.624201
+  },
+  {
+    "id": "298",
+    "name": "Xhamia e Mojances",
+    "city": "Shkup",
+    "village": "Mojance",
+    "address": "Fshati, Mojance Shkup",
+    "lat": 42.048069,
+    "lng": 21.572037
+  },
+  {
+    "id": "299",
+    "name": "Xhamia e Moranës",
+    "city": "Shkup",
+    "village": "Morane",
+    "address": "Fshati, Morane Shkup",
+    "lat": 41.909325,
+    "lng": 21.550168
+  },
+  {
+    "id": "300",
+    "name": "Xhamia e Ndërmen",
+    "city": "Resnjë",
+    "village": "Ndërmen",
+    "address": "Fshati, Ndërmen Resnjë",
+    "lat": 41.032250,
+    "lng": 20.999650
+  },
+  {
+    "id": "301",
+    "name": "Xhamia Qëndrore e Negotinës",
+    "city": "Gostivar",
+    "village": "Negotinë",
+    "address": "Fshati, Negotinë Gostivar",
+    "lat": 41.875702,
+    "lng": 20.890857
+  },
+  {
+    "id": "302",
+    "name": "Xhamia e Hixhrit e Negotinës",
+    "city": "Gostivar",
+    "village": "Negotinë",
+    "address": "Fshati, Negotinë Gostivar",
+    "lat": 41.879229,
+    "lng": 20.882511
+  },
+  {
+    "id": "303",
+    "name": "Xhamia e Nakolecit",
+    "city": "Resnjë",
+    "village": "Nekolec",
+    "address": "Fshati, Nekolec Resnjë",
+    "lat": 40.892095,
+    "lng": 21.104466
+  },
+  {
+    "id": "304",
+    "name": "Xhamia Neproshten",
+    "city": "Tetovë",
+    "village": "Neproshten",
+    "address": "Fshati, Neproshten Tetovë",
+    "lat": 42.053714,
+    "lng": 21.020611
+  },
+  {
+    "id": "305",
+    "name": "Xhamia e Vjetër Nerashtë",
+    "city": "Tetovë",
+    "village": "Nerashtë",
+    "address": "Fshati, Nerashtë Tetovë",
+    "lat": 42.107160,
+    "lng": 21.108753
+  },
+  {
+    "id": "306",
+    "name": "Xhamia e Re Nerashtë",
+    "city": "Tetovë",
+    "village": "Nerashtë",
+    "address": "Fshati, Nerashtë Tetovë",
+    "lat": 42.103177,
+    "lng": 21.113203
+  },
+  {
+    "id": "307",
+    "name": "Xhamia e Nerezit të Epërm",
+    "city": "Shkup",
+    "village": "Nerez i Epërm",
+    "address": "Fshati, Nerez i Epërm Shkup",
+    "lat": 41.978252,
+    "lng": 21.374263
+  },
+  {
+    "id": "308",
+    "name": "Xhamia e Nerezit të Mesëm",
+    "city": "Shkup",
+    "village": "Nerez i Mesëm",
+    "address": "Fshati, Nerez i Mesëm Shkup",
+    "lat": 41.992737,
+    "lng": 21.376112
+  },
+  {
+    "id": "309",
+    "name": "Xhamia e Nerezt te Poshtëm",
+    "city": "Shkup",
+    "village": "Nerez i Poshtëm",
+    "address": "Demir Trajkov, Nerez i Poshtëm Shkup",
+    "lat": 42.003131,
+    "lng": 21.383455
+  },
+  {
+    "id": "310",
+    "name": "Xhamia e Niçpurit",
+    "city": "Gostivar",
+    "village": "Niçpur",
+    "address": "Fshati, Niçpur Gostivar",
+    "lat": 41.744182,
+    "lng": 20.674198
+  },
+  {
+    "id": "311",
+    "name": "Xhamia e fshatit Nikishtan",
+    "city": "Shkup",
+    "village": "Nikishtan",
+    "address": "Fshati, Nikishtan Shkup",
+    "lat": 42.066107,
+    "lng": 21.335740
+  },
+  {
+    "id": "312",
+    "name": "Xhamia Nalt e fshatit Nikushtak",
+    "city": "Kumanovë",
+    "village": "Nikushtak",
+    "address": "Fshati, Nikushtak Kumanovë",
+    "lat": 42.078914,
+    "lng": 21.580552
+  },
+  {
+    "id": "313",
+    "name": "Xhamia e Bardhë Nikushtak",
+    "city": "Kumanovë",
+    "village": "Nikushtak",
+    "address": "Fshati, Nikushtak Kumanovë",
+    "lat": 42.082523,
+    "lng": 21.594264
+  },
+  {
+    "id": "314",
+    "name": "Xhamia e Nistrovit",
+    "city": "Gostivar",
+    "village": "Nistrove",
+    "address": "Fshati, Nistrove Gostivar",
+    "lat": 41.733251,
+    "lng": 20.637023
+  },
+  {
+    "id": "315",
+    "name": "Xhamia e fshatit Norov",
+    "city": "Prilep",
+    "village": "Norov",
+    "address": "Fshati, Norov Prilep",
+    "lat": 41.398735,
+    "lng": 21.275622
+  },
+  {
+    "id": "316",
+    "name": "Xhamia Novak",
+    "city": "Tetovë",
+    "village": "Novak",
+    "address": "Fshati, Novak Tetovë",
+    "lat": 41.959961,
+    "lng": 20.914458
+  },
+  {
+    "id": "317",
+    "name": "Xhamia e Novakut",
+    "city": "Dibër",
+    "village": "Novaku",
+    "address": "Fshati, Novaku Dibër",
+    "lat": 41.436852,
+    "lng": 20.618359
+  },
+  {
+    "id": "318",
+    "name": "Xhamia Novoselë",
+    "city": "Tetovë",
+    "village": "Novosele",
+    "address": "Fshati, Novosele Tetovë",
+    "lat": 41.963612,
+    "lng": 21.159855
+  },
+  {
+    "id": "319",
+    "name": "Xhamia Novosellë",
+    "city": "Tetovë",
+    "village": "Novoselle",
+    "address": "Fshati, Novoselle Tetovë",
+    "lat": 41.943846,
+    "lng": 20.861830
+  },
+  {
+    "id": "320",
+    "name": "Xhamia e fshatit Novosellë",
+    "city": "Kërçovë",
+    "village": "Novosellë",
+    "address": "Fshati, Novosellë Kërçovë",
+    "lat": 41.586021,
+    "lng": 21.051732
+  },
+  {
+    "id": "321",
+    "name": "Xhamia e fshatit Novosellë",
+    "city": "Strugë",
+    "village": "Novosellë",
+    "address": "Fshati, Novosellë Strugë",
+    "lat": 41.239172,
+    "lng": 20.698501
+  },
+  {
+    "id": "322",
+    "name": "Xhamia e fsh. Obednik",
+    "city": "Manastir",
+    "village": "Obednik",
+    "address": "Fshati, Obednik Manastir",
+    "lat": 41.159850,
+    "lng": 21.158855
+  },
+  {
+    "id": "323",
+    "name": "Xhamia Odër",
+    "city": "Tetovë",
+    "village": "Odër",
+    "address": "Fshati, Odër Tetovë",
+    "lat": 42.125482,
+    "lng": 21.088367
+  },
+  {
+    "id": "324",
+    "name": "Xhamia Aga Sadik Ognjancë",
+    "city": "Shkup",
+    "village": "Ognjancë",
+    "address": "Fshati, Ognjancë Shkup",
+    "lat": 41.924521,
+    "lng": 21.584897
+  },
+  {
+    "id": "325",
+    "name": "Xhamia Ali Pasha Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Sveti Kliment Ohridski, Ohër",
+    "lat": 41.115485,
+    "lng": 20.800534
+  },
+  {
+    "id": "326",
+    "name": "Xhamia Zejnel Abedin Pasha Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Goce Delcev 19, Ohër",
+    "lat": 41.116480,
+    "lng": 20.800158
+  },
+  {
+    "id": "327",
+    "name": "Xhamia Taushanllë",
+    "city": "Ohër",
+    "village": "",
+    "address": "Dame Gruev, Ohër",
+    "lat": 41.115503,
+    "lng": 20.807661
+  },
+  {
+    "id": "328",
+    "name": "Xhamia Haxhi Durgut Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Marko Nestoroski, Ohër",
+    "lat": 41.118683,
+    "lng": 20.805617
+  },
+  {
+    "id": "329",
+    "name": "Xhamia Gjurgji Bej Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Vasil Stefoski 26, Ohër",
+    "lat": 41.118953,
+    "lng": 20.786227
+  },
+  {
+    "id": "330",
+    "name": "Xhamia Kul Ogllu",
+    "city": "Ohër",
+    "village": "",
+    "address": "Goce Delcev 246, Ohër",
+    "lat": 41.119645,
+    "lng": 20.789631
+  },
+  {
+    "id": "331",
+    "name": "Xhamia Hajdar Pasha Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Goce Delcev 361, Ohër",
+    "lat": 41.122646,
+    "lng": 20.784548
+  },
+  {
+    "id": "332",
+    "name": "Xhamia Keshanllë",
+    "city": "Ohër",
+    "village": "",
+    "address": "Marko Nestoroski, Ohër",
+    "lat": 41.119993,
+    "lng": 20.811147
+  },
+  {
+    "id": "333",
+    "name": "Xhamia Haxhi Hamza Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Goce Delchev, Ohër",
+    "lat": 41.116770,
+    "lng": 20.798399
+  },
+  {
+    "id": "334",
+    "name": "Xhamia Emin Mahmud Ohër",
+    "city": "Ohër",
+    "village": "",
+    "address": "Goce Delcev 186, Ohër",
+    "lat": 41.117892,
+    "lng": 20.792150
+  },
+  {
+    "id": "335",
+    "name": "Xhamia e Epërme Oktisi",
+    "city": "Strugë",
+    "village": "Oktisi",
+    "address": "Fshati, Oktisi Strugë",
+    "lat": 41.233302,
+    "lng": 20.605351
+  },
+  {
+    "id": "336",
+    "name": "Xhamia e Poshtme Oktisi",
+    "city": "Strugë",
+    "village": "Oktisi",
+    "address": "Fshati, Oktisi Strugë",
+    "lat": 41.231868,
+    "lng": 20.609900
+  },
+  {
+    "id": "337",
+    "name": "Xhamia Ollovjan",
+    "city": "Tetovë",
+    "village": "Ollovjan",
+    "address": "Fshati, Ollovjan Tetovë",
+    "lat": 41.959519,
+    "lng": 20.893101
+  },
+  {
+    "id": "338",
+    "name": "Haxhi Ademi Opajë Kumanovë",
+    "city": "Kumanovë",
+    "village": "Opaj",
+    "address": "R2133, Opaj Kumanovë",
+    "lat": 42.158818,
+    "lng": 21.657281
+  },
+  {
+    "id": "339",
+    "name": "Xhamia e Re Opaj",
+    "city": "Kumanovë",
+    "village": "Opaj",
+    "address": "Fshati, Opaj Kumanovë",
+    "lat": 42.162671,
+    "lng": 21.655810
+  },
+  {
+    "id": "340",
+    "name": "Xhamia Orashë e Epërme",
+    "city": "Tetovë",
+    "village": "Orashë e Eperme",
+    "address": "Fshati, Orashë e Eperme Tetovë",
+    "lat": 42.129276,
+    "lng": 21.136458
+  },
+  {
+    "id": "341",
+    "name": "Xhamia Orashë e Poshtme",
+    "city": "Tetovë",
+    "village": "Orashë e Poshtme",
+    "address": "Fshati, Orashë e Poshtme Tetovë",
+    "lat": 42.102279,
+    "lng": 21.163817
+  },
+  {
+    "id": "342",
+    "name": "Xhamia e fshatit Oreshan",
+    "city": "Shkup",
+    "village": "Oreshan",
+    "address": "Fshati, Oreshan Shkup",
+    "lat": 41.902567,
+    "lng": 21.601990
+  },
+  {
+    "id": "343",
+    "name": "Xhamia e fshatit Orizare",
+    "city": "Kumanovë",
+    "village": "Orizare",
+    "address": "R2133, Orizare Kumanovë",
+    "lat": 42.161641,
+    "lng": 21.619467
+  },
+  {
+    "id": "344",
+    "name": "Xhamia e fshatit Orizare",
+    "city": "Veles",
+    "village": "Orizare",
+    "address": "Fshati, Orizare Veles",
+    "lat": 41.710505,
+    "lng": 21.786212
+  },
+  {
+    "id": "345",
+    "name": "Xhamia e fshatit Orkoc",
+    "city": "Kumanovë",
+    "village": "Orkoc",
+    "address": "Fshati, Orkoc Kumanovë",
+    "lat": 42.172716,
+    "lng": 21.546625
+  },
+  {
+    "id": "346",
+    "name": "Xhamia Orllancë",
+    "city": "Shkup",
+    "village": "Orllancë",
+    "address": "Fshati, Orllancë Shkup",
+    "lat": 42.048295,
+    "lng": 21.591662
+  },
+  {
+    "id": "347",
+    "name": "Xhamia e Orqushës",
+    "city": "Gostivar",
+    "village": "Orqushë",
+    "address": "Fshati, Orqushë Gostivar",
+    "lat": 41.743355,
+    "lng": 20.802441
+  },
+  {
+    "id": "348",
+    "name": "Xhamia e fsh. Ostrecë",
+    "city": "Manastir",
+    "village": "Ostrecë",
+    "address": "Fshati, Ostrecë Manastir",
+    "lat": 40.929852,
+    "lng": 21.300318
+  },
+  {
+    "id": "349",
+    "name": "Xhamia e fshatit Otishan i Epërm",
+    "city": "Dibër",
+    "village": "Otishan i Epërm",
+    "address": "Fshati, Otishan i Epërm Dibër",
+    "lat": 41.444175,
+    "lng": 20.518111
+  },
+  {
+    "id": "350",
+    "name": "Xhamia e fshatit Otishan i Poshtëm",
+    "city": "Dibër",
+    "village": "Otishan i Poshtëm",
+    "address": "Fshati, Otishan i Poshtëm Dibër",
+    "lat": 41.448076,
+    "lng": 20.515499
+  },
+  {
+    "id": "351",
+    "name": "Xhamia e Pagarushës",
+    "city": "Shkup",
+    "village": "Pagarushë",
+    "address": "Fshati, Pagarushë Shkup",
+    "lat": 41.885298,
+    "lng": 21.496106
+  },
+  {
+    "id": "352",
+    "name": "Xhamia e fshatit Paligrad",
+    "city": "Shkup",
+    "village": "Paligrad",
+    "address": "Fshati, Paligrad Shkup",
+    "lat": 41.825703,
+    "lng": 21.495655
+  },
+  {
+    "id": "353",
+    "name": "Xhamia e Vjetër Pallaticë",
+    "city": "Tetovë",
+    "village": "Pallaticë",
+    "address": "Fshati, Pallaticë Tetovë",
+    "lat": 42.005123,
+    "lng": 21.057251
+  },
+  {
+    "id": "354",
+    "name": "Xhamia e Re Pallaticë",
+    "city": "Tetovë",
+    "village": "Pallaticë",
+    "address": "Fshati, Pallaticë Tetovë",
+    "lat": 42.006260,
+    "lng": 21.062487
+  },
+  {
+    "id": "355",
+    "name": "Xhamia e Poshtme Pallçisht",
+    "city": "Tetovë",
+    "village": "Pallçisht",
+    "address": "Fshati, Pallçisht Tetovë",
+    "lat": 41.966735,
+    "lng": 20.933343
+  },
+  {
+    "id": "356",
+    "name": "Xhamia e Epërme Pallçisht",
+    "city": "Tetovë",
+    "village": "Pallçisht",
+    "address": "Fshati, Pallçisht Tetovë",
+    "lat": 41.966489,
+    "lng": 20.924031
+  },
+  {
+    "id": "357",
+    "name": "Xhamia Qendrore Pallçishtë",
+    "city": "Tetovë",
+    "village": "Pallçisht",
+    "address": "Fshati, Pallçisht Tetovë",
+    "lat": 41.969145,
+    "lng": 20.926569
+  },
+  {
+    "id": "358",
+    "name": "Xhamia Pallçisht i Epërm",
+    "city": "Tetovë",
+    "village": "Pallçisht i Epërm",
+    "address": "Fshati, Pallçisht i Epërm Tetovë",
+    "lat": 41.980166,
+    "lng": 20.920809
+  },
+  {
+    "id": "359",
+    "name": "Xhamia e fshatit Paniçar",
+    "city": "Shkup",
+    "village": "Paniçar",
+    "address": "Fshati, Paniçar Shkup",
+    "lat": 41.953870,
+    "lng": 21.211273
+  },
+  {
+    "id": "360",
+    "name": "Xhamia e Papradishtes",
+    "city": "Gostivar",
+    "village": "Papradisht",
+    "address": "Fshati, Papradisht Gostivar",
+    "lat": 41.655451,
+    "lng": 21.020989
+  },
+  {
+    "id": "361",
+    "name": "Xhamia Papraniku i madh",
+    "city": "Dibër",
+    "village": "Papranik",
+    "address": "Fshati, Papranik Dibër",
+    "lat": 41.477071,
+    "lng": 20.545276
+  },
+  {
+    "id": "362",
+    "name": "Xhamia Papranik i Vogël",
+    "city": "Dibër",
+    "village": "Papranik",
+    "address": "Fshati, Papranik Dibër",
+    "lat": 41.472638,
+    "lng": 20.548915
+  },
+  {
+    "id": "363",
+    "name": "Xhamia e Patalishtes",
+    "city": "Gostivar",
+    "village": "Patalishte",
+    "address": "Fshati, Patalishte Gostivar",
+    "lat": 41.683141,
+    "lng": 20.981201
+  },
+  {
+    "id": "364",
+    "name": "Xhamia Patishka Rekë",
+    "city": "Shkup",
+    "village": "Patishka Rekë",
+    "address": "Fshati, Patishka Rekë Shkup",
+    "lat": 41.800141,
+    "lng": 21.316400
+  },
+  {
+    "id": "365",
+    "name": "Xhamia e fshatit Pepelishtë",
+    "city": "Negotinë",
+    "village": "Pepelishtë",
+    "address": "Fshati, Pepelishtë Negotinë",
+    "lat": 41.515741,
+    "lng": 22.132568
+  },
+  {
+    "id": "366",
+    "name": "Xhamia Përc",
+    "city": "Tetovë",
+    "village": "Përc",
+    "address": "Fshati, Përc Tetovë",
+    "lat": 42.127010,
+    "lng": 21.075988
+  },
+  {
+    "id": "367",
+    "name": "Xhamia Përshevcë",
+    "city": "Tetovë",
+    "village": "Përshevcë",
+    "address": "Fshati, Përshevcë Tetovë",
+    "lat": 42.083879,
+    "lng": 21.058704
+  },
+  {
+    "id": "368",
+    "name": "Xhamia e Vjeter e fshatit Peshtalovë",
+    "city": "Prilep",
+    "village": "Peshtalovë",
+    "address": "Fshati, Peshtalovë Prilep",
+    "lat": 41.461407,
+    "lng": 21.396851
+  },
+  {
+    "id": "369",
+    "name": "Xhamia e fshatit Peshtalovë",
+    "city": "Prilep",
+    "village": "Peshtalovë",
+    "address": "R2336, Peshtalovë Prilep",
+    "lat": 41.463683,
+    "lng": 21.395921
+  },
+  {
+    "id": "370",
+    "name": "Xhamia Pirok",
+    "city": "Tetovë",
+    "village": "Pirok",
+    "address": "Fshati, Pirok Tetovë",
+    "lat": 41.909989,
+    "lng": 20.910875
+  },
+  {
+    "id": "371",
+    "name": "Xhamia e fshatit Pllasnicë 1",
+    "city": "Kërçovë",
+    "village": "Pllasnicë",
+    "address": "Fshati, Pllasnicë Kërçovë",
+    "lat": 41.466594,
+    "lng": 21.124265
+  },
+  {
+    "id": "372",
+    "name": "Xhamia e fshatit Pllasnicë 2",
+    "city": "Kërçovë",
+    "village": "Pllasnicë",
+    "address": "Fshati, Pllasnicë Kërçovë",
+    "lat": 41.481091,
+    "lng": 21.118349
+  },
+  {
+    "id": "373",
+    "name": "Xhamia e fshatit Podgorcë",
+    "city": "Strugë",
+    "village": "Podgorcë",
+    "address": "Fshati, Podgorcë Strugë",
+    "lat": 41.258863,
+    "lng": 20.597353
+  },
+  {
+    "id": "374",
+    "name": "Xhamia e Re e fshatit Podgorcë",
+    "city": "Strugë",
+    "village": "Podgorcë",
+    "address": "Fshati, Podgorcë Strugë",
+    "lat": 41.261011,
+    "lng": 20.601078
+  },
+  {
+    "id": "375",
+    "name": "Xhamia e fshatit Pohum",
+    "city": "Strugë",
+    "village": "Pohum",
+    "address": "Fshati, Pohum Strugë",
+    "lat": 41.280732,
+    "lng": 20.712045
+  },
+  {
+    "id": "376",
+    "name": "Xhamia e vjeter e fshatit Popojan",
+    "city": "Kërçovë",
+    "village": "Popojan",
+    "address": "Fshati, Popojan Kërçovë",
+    "lat": 41.613936,
+    "lng": 21.007275
+  },
+  {
+    "id": "377",
+    "name": "Xhamia e fshatit Popojan",
+    "city": "Kërçovë",
+    "village": "Popojan",
+    "address": "Fshati, Popojan Kërçovë",
+    "lat": 41.615005,
+    "lng": 21.007640
+  },
+  {
+    "id": "378",
+    "name": "Xhamia Poroj",
+    "city": "Tetovë",
+    "village": "Poroj",
+    "address": "Fshati, Poroj Tetovë",
+    "lat": 42.031241,
+    "lng": 20.994663
+  },
+  {
+    "id": "379",
+    "name": "Xhamia e Pozharanës",
+    "city": "Gostivar",
+    "village": "Pozharanë",
+    "address": "Fshati, Pozharanë Gostivar",
+    "lat": 41.853571,
+    "lng": 20.862865
+  },
+  {
+    "id": "380",
+    "name": "Xhamia e fshatit Pralanik",
+    "city": "Dibër",
+    "village": "Pralanik",
+    "address": "Fshati, Pralanik Dibër",
+    "lat": 41.458811,
+    "lng": 20.547821
+  },
+  {
+    "id": "381",
+    "name": "Xhamia e fshatit Prapadishtë",
+    "city": "Kërçovë",
+    "village": "Prapadishtë",
+    "address": "Fshati, Prapadishtë Kërçovë",
+    "lat": 41.648425,
+    "lng": 21.026212
+  },
+  {
+    "id": "382",
+    "name": "Xhamia e fshatit Pregllovë 1",
+    "city": "Kërçovë",
+    "village": "Pregllovë",
+    "address": "Fshati, Pregllovë Kërçovë",
+    "lat": 41.464794,
+    "lng": 21.119729
+  },
+  {
+    "id": "383",
+    "name": "Xhamia e fshatit Pregllovë 2",
+    "city": "Kërçovë",
+    "village": "Pregllovë",
+    "address": "Fshati, Pregllovë Kërçovë",
+    "lat": 41.469000,
+    "lng": 21.110320
+  },
+  {
+    "id": "384",
+    "name": "Xhamia Prelubisht",
+    "city": "Tetovë",
+    "village": "Prelubisht",
+    "address": "Fshati, Prelubisht Tetovë",
+    "lat": 42.035475,
+    "lng": 21.098334
+  },
+  {
+    "id": "385",
+    "name": "Xhamia e fshatit Premkë",
+    "city": "Kërçovë",
+    "village": "Premkë",
+    "address": "Fshati, Premkë Kërçovë",
+    "lat": 41.550990,
+    "lng": 21.031970
+  },
+  {
+    "id": "386",
+    "name": "Xhamia e fshatit Presill",
+    "city": "Prilep",
+    "village": "Presill",
+    "address": "Fshati, Presill Prilep",
+    "lat": 41.296454,
+    "lng": 21.313548
+  },
+  {
+    "id": "387",
+    "name": "Xhamia e fshatit Presnica",
+    "city": "Kumanovë",
+    "village": "Presnica",
+    "address": "Fshati, Presnica Kumanovë",
+    "lat": 42.182861,
+    "lng": 21.543917
+  },
+  {
+    "id": "388",
+    "name": "Xhamia Çarshi",
+    "city": "Prilep",
+    "village": "",
+    "address": "Heroj Karposh, Prilep",
+    "lat": 41.345495,
+    "lng": 21.555321
+  },
+  {
+    "id": "389",
+    "name": "Xhamia Qendrore e Prilepit",
+    "city": "Prilep",
+    "village": "",
+    "address": "Trizla, Prilep",
+    "lat": 41.356466,
+    "lng": 21.554715
+  },
+  {
+    "id": "390",
+    "name": "Xhamia e fshatit Pristojnica Haxhi Demir",
+    "city": "Dibër",
+    "village": "Pristojnica",
+    "address": "Fshati, Pristojnica Dibër",
+    "lat": 41.578816,
+    "lng": 20.610565
+  },
+  {
+    "id": "391",
+    "name": "Xhamia e Prnalisë",
+    "city": "Shtip",
+    "village": "Prnali",
+    "address": "Fshati, Prnali Shtip",
+    "lat": 41.756092,
+    "lng": 22.390739
+  },
+  {
+    "id": "392",
+    "name": "Xhamia e Prnalisë Radovish",
+    "city": "Radovish",
+    "village": "Prnali",
+    "address": "Fshati, Prnali Radovish",
+    "lat": 41.661158,
+    "lng": 22.413552
+  },
+  {
+    "id": "393",
+    "name": "Xhamia Haxhi Salih e Prstenit Valandovë",
+    "city": "Valandovë",
+    "village": "Prsten",
+    "address": "Fshati, Prsten Valandovë",
+    "lat": 41.316052,
+    "lng": 22.661440
+  },
+  {
+    "id": "394",
+    "name": "Xhamia e fshatit Qafë",
+    "city": "Kërçovë",
+    "village": "Qafë",
+    "address": "Fshati, Qafë Kërçovë",
+    "lat": 41.655198,
+    "lng": 21.021001
+  },
+  {
+    "id": "395",
+    "name": "Xhamia në Qendrën e Zhupës",
+    "city": "Dibër",
+    "village": "Qendra e Zhupës",
+    "address": "Fshati, Qendra e Zhupës Dibër",
+    "lat": 41.478573,
+    "lng": 20.555908
+  },
+  {
+    "id": "396",
+    "name": "Xhamia e Radanjes - Karbinci",
+    "city": "Shtip",
+    "village": "Radanje",
+    "address": "Fshati, Radanje Shtip",
+    "lat": 41.777618,
+    "lng": 22.276454
+  },
+  {
+    "id": "397",
+    "name": "Xhamia Radiovcë",
+    "city": "Tetovë",
+    "village": "Radiovcë",
+    "address": "Fshati, Radiovcë Tetovë",
+    "lat": 41.907467,
+    "lng": 20.965142
+  },
+  {
+    "id": "398",
+    "name": "Jeni Xhamia Radovish",
+    "city": "Radovish",
+    "village": "",
+    "address": "Shain Maale, Radovish",
+    "lat": 41.643123,
+    "lng": 22.468892
+  },
+  {
+    "id": "399",
+    "name": "Xhamia Bulbul Dere Radovish",
+    "city": "Radovish",
+    "village": "",
+    "address": "Plachkovica, Radovish",
+    "lat": 41.643923,
+    "lng": 22.463669
+  },
+  {
+    "id": "400",
+    "name": "Xhamia e fshatit Radushë",
+    "city": "Shkup",
+    "village": "Radushë",
+    "address": "Fshati, Radushë Shkup",
+    "lat": 42.083256,
+    "lng": 21.212997
+  },
+  {
+    "id": "401",
+    "name": "Xhamia e fshatit Rahmanli",
+    "city": "Kumanovë",
+    "village": "Rahmanli",
+    "address": "Fshati, Rahmanli Kumanovë",
+    "lat": 42.088492,
+    "lng": 21.692283
+  },
+  {
+    "id": "402",
+    "name": "Xhamia Rakovec",
+    "city": "Tetovë",
+    "village": "Rakovec",
+    "address": "Fshati, Rakovec Tetovë",
+    "lat": 41.921325,
+    "lng": 20.899394
+  },
+  {
+    "id": "403",
+    "name": "Xhamia e fshatit Raoviç",
+    "city": "Shkup",
+    "village": "Raoviç",
+    "address": "Fshati, Raoviç Shkup",
+    "lat": 41.943614,
+    "lng": 21.217541
+  },
+  {
+    "id": "404",
+    "name": "Xhamia Rasadishtë",
+    "city": "Tetovë",
+    "village": "Rasadishtë",
+    "address": "Fshati, Rasadishtë Tetovë",
+    "lat": 41.997532,
+    "lng": 20.939693
+  },
+  {
+    "id": "405",
+    "name": "Xhamia Dudije Rashçe",
+    "city": "Shkup",
+    "village": "Rashçe",
+    "address": "Fshati, Rashçe Shkup",
+    "lat": 42.022166,
+    "lng": 21.247395
+  },
+  {
+    "id": "406",
+    "name": "Xhamia e Poshtme Rashçe",
+    "city": "Shkup",
+    "village": "Rashçe",
+    "address": "Fshati, Rashçe Shkup",
+    "lat": 42.021995,
+    "lng": 21.254944
+  },
+  {
+    "id": "407",
+    "name": "Xhamia Haxhi Nazif Vreshtat e Reshtakut",
+    "city": "Shkup",
+    "village": "Rashtak",
+    "address": "Fshati, Rashtak Shkup",
+    "lat": 42.044187,
+    "lng": 21.466442
+  },
+  {
+    "id": "408",
+    "name": "Xhamia e Re e Ravenit",
+    "city": "Gostivar",
+    "village": "Raven",
+    "address": "Fshati, Raven Gostivar",
+    "lat": 41.780153,
+    "lng": 20.857205
+  },
+  {
+    "id": "409",
+    "name": "Xhamia e Vjetër e Ravenit",
+    "city": "Gostivar",
+    "village": "Raven",
+    "address": "Fshati, Raven Gostivar",
+    "lat": 41.782160,
+    "lng": 20.852832
+  },
+  {
+    "id": "410",
+    "name": "Xhamia e Reçanit",
+    "city": "Gostivar",
+    "village": "Reçan",
+    "address": "Fshati, Reçan Gostivar",
+    "lat": 41.753924,
+    "lng": 20.828665
+  },
+  {
+    "id": "411",
+    "name": "Xhamia e fshatit Reçan",
+    "city": "Kërçovë",
+    "village": "Reçan",
+    "address": "Fshati, Reçan Kërçovë",
+    "lat": 41.586767,
+    "lng": 20.914229
+  },
+  {
+    "id": "412",
+    "name": "Xhamia e Epërme Reçicë e Madhe",
+    "city": "Tetovë",
+    "village": "Reçicë e Madhe",
+    "address": "Fshati, Reçicë e Madhe Tetovë",
+    "lat": 41.989518,
+    "lng": 20.941698
+  },
+  {
+    "id": "413",
+    "name": "Xhamia e Madhe Reçicë e Madhe",
+    "city": "Tetovë",
+    "village": "Reçicë e Madhe",
+    "address": "Fshati, Reçicë e Madhe Tetovë",
+    "lat": 41.989893,
+    "lng": 20.944225
+  },
+  {
+    "id": "414",
+    "name": "Xhamia e Re Reçicë e Madhe",
+    "city": "Tetovë",
+    "village": "Reçicë e Madhe",
+    "address": "Fshati, Reçicë e Madhe Tetovë",
+    "lat": 41.981828,
+    "lng": 20.942310
+  },
+  {
+    "id": "415",
+    "name": "Xhamia Kadi Çeshma",
+    "city": "Tetovë",
+    "village": "Reçicë e Vogël",
+    "address": "Fshati, Reçicë e Vogël Tetovë",
+    "lat": 41.999097,
+    "lng": 20.953030
+  },
+  {
+    "id": "416",
+    "name": "Xhamia e Hz. Omerit",
+    "city": "Tetovë",
+    "village": "Reçicë e Vogël",
+    "address": "Fshati, Reçicë e Vogël Tetovë",
+    "lat": 41.991873,
+    "lng": 20.957004
+  },
+  {
+    "id": "417",
+    "name": "Xhamia Haxhi Murat Resnjë",
+    "city": "Resnjë",
+    "village": "",
+    "address": "E65, Resnjë",
+    "lat": 41.092778,
+    "lng": 21.011337
+  },
+  {
+    "id": "418",
+    "name": "Xhamia Haxhi Ramadan Resnjë",
+    "city": "Resnjë",
+    "village": "",
+    "address": "Tashe Miloshevski, Resnjë",
+    "lat": 41.090146,
+    "lng": 21.011560
+  },
+  {
+    "id": "419",
+    "name": "Xhamia e Rimincës",
+    "city": "Gostivar",
+    "village": "Rimincë",
+    "address": "Fshati, Rimincë Gostivar",
+    "lat": 41.720008,
+    "lng": 20.601219
+  },
+  {
+    "id": "420",
+    "name": "Xhamia Rogle",
+    "city": "Tetovë",
+    "village": "Rogle",
+    "address": "Fshati, Rogle Tetovë",
+    "lat": 41.967701,
+    "lng": 21.164588
+  },
+  {
+    "id": "421",
+    "name": "Xhamia e Vjetër Ropalcë",
+    "city": "Kumanovë",
+    "village": "Ropalcë",
+    "address": "R2133, Ropalcë Kumanovë",
+    "lat": 42.110424,
+    "lng": 21.618181
+  },
+  {
+    "id": "422",
+    "name": "Xhamia e Re Ropalcë",
+    "city": "Kumanovë",
+    "village": "Ropalcë",
+    "address": "R2133, Ropalcë Kumanovë",
+    "lat": 42.110223,
+    "lng": 21.617674
+  },
+  {
+    "id": "423",
+    "name": "Xhamia e fshatit Rostushe e Re",
+    "city": "Dibër",
+    "village": "Rostushe",
+    "address": "Fshati, Rostushe Dibër",
+    "lat": 41.609503,
+    "lng": 20.600032
+  },
+  {
+    "id": "424",
+    "name": "Xhamia e fshatit Rostushe e Vjetër",
+    "city": "Dibër",
+    "village": "Rostushe",
+    "address": "Fshati, Rostushe Dibër",
+    "lat": 41.607329,
+    "lng": 20.601416
+  },
+  {
+    "id": "425",
+    "name": "Xhamia Ahmet Bylikbash fshatit Runice",
+    "city": "Kumanovë",
+    "village": "Runice",
+    "address": "Fshati, Runice Kumanovë",
+    "lat": 42.215596,
+    "lng": 21.611933
+  },
+  {
+    "id": "426",
+    "name": "Xhamia Nur fshatit Sadzhevë",
+    "city": "Prilep",
+    "village": "Sadzhevë",
+    "address": "Fshati, Sadzhevë Prilep",
+    "lat": 41.452996,
+    "lng": 21.271690
+  },
+  {
+    "id": "427",
+    "name": "Xhamia e Sanakosës",
+    "city": "Gostivar",
+    "village": "Sanakosë",
+    "address": "Naim Frasheri, Sanakosë Gostivar",
+    "lat": 41.881965,
+    "lng": 20.890839
+  },
+  {
+    "id": "428",
+    "name": "Xhamia Husein Shah Saraj",
+    "city": "Shkup",
+    "village": "Saraj",
+    "address": "Fshati, Saraj Shkup",
+    "lat": 42.001736,
+    "lng": 21.331122
+  },
+  {
+    "id": "429",
+    "name": "Xhamia me Dy Minare Saraj",
+    "city": "Shkup",
+    "village": "Saraj",
+    "address": "Fshati, Saraj Shkup",
+    "lat": 42.000815,
+    "lng": 21.320151
+  },
+  {
+    "id": "430",
+    "name": "Xhamia Ikre Saraj",
+    "city": "Shkup",
+    "village": "Saraj",
+    "address": "Fshati, Saraj Shkup",
+    "lat": 42.003720,
+    "lng": 21.320772
+  },
+  {
+    "id": "431",
+    "name": "Xhamia Saraqinë",
+    "city": "Tetovë",
+    "village": "Saraqinë",
+    "address": "Fshati, Saraqinë Tetovë",
+    "lat": 41.984185,
+    "lng": 21.037581
+  },
+  {
+    "id": "432",
+    "name": "Xhamia Sedllarevë",
+    "city": "Tetovë",
+    "village": "Sedllarevë",
+    "address": "Fshati, Sedllarevë Tetovë",
+    "lat": 41.882587,
+    "lng": 21.127397
+  },
+  {
+    "id": "433",
+    "name": "Xhamia Selca e Keçe",
+    "city": "Tetovë",
+    "village": "Selca e Keçe",
+    "address": "Fshati, Selca e Keçe Tetovë",
+    "lat": 41.939298,
+    "lng": 20.877072
+  },
+  {
+    "id": "434",
+    "name": "Xhamia Sellarcë e Epërme",
+    "city": "Tetovë",
+    "village": "Sellarcë e Epërme",
+    "address": "Fshati, Sellarcë e Epërme Tetovë",
+    "lat": 41.937436,
+    "lng": 20.945263
+  },
+  {
+    "id": "435",
+    "name": "Xhamia Sellcë",
+    "city": "Tetovë",
+    "village": "Sellcë",
+    "address": "Fshati, Sellcë Tetovë",
+    "lat": 42.035169,
+    "lng": 20.941061
+  },
+  {
+    "id": "436",
+    "name": "Xhamia e fshatit Semenisht e Poshtme",
+    "city": "Shkup",
+    "village": "Semenisht e Poshtme",
+    "address": "Fshati, Semenisht e Poshtme Shkup",
+    "lat": 41.973607,
+    "lng": 21.255625
+  },
+  {
+    "id": "437",
+    "name": "Xhamia e fshatit Semenishtë e Epërme",
+    "city": "Shkup",
+    "village": "Semenishtë e Epërme",
+    "address": "Fshati, Semenishtë e Epërme Shkup",
+    "lat": 41.967257,
+    "lng": 21.261783
+  },
+  {
+    "id": "438",
+    "name": "Xhamia e Sencës",
+    "city": "Gostivar",
+    "village": "Sencë",
+    "address": "Fshati, Sencë Gostivar",
+    "lat": 41.682543,
+    "lng": 20.656458
+  },
+  {
+    "id": "439",
+    "name": "Xhamia e fshatit Sërbicë",
+    "city": "Kërçovë",
+    "village": "Sërbicë",
+    "address": "Fshati, Sërbicë Kërçovë",
+    "lat": 41.587728,
+    "lng": 21.031533
+  },
+  {
+    "id": "440",
+    "name": "Xhamia e fshatit Sërbjan",
+    "city": "Kërçovë",
+    "village": "Sërbjan",
+    "address": "Fshati, Sërbjan Kërçovë",
+    "lat": 41.486135,
+    "lng": 20.950830
+  },
+  {
+    "id": "441",
+    "name": "Xhamia e Sërmnovës",
+    "city": "Gostivar",
+    "village": "Sërmnovë",
+    "address": "Fshati, Sërmnovë Gostivar",
+    "lat": 41.706640,
+    "lng": 20.961254
+  },
+  {
+    "id": "442",
+    "name": "Xhamia Reshadije Sfeta Petkë",
+    "city": "Shkup",
+    "village": "Sfeta Petkë",
+    "address": "Fshati, Sfeta Petkë Shkup",
+    "lat": 41.940187,
+    "lng": 21.334231
+  },
+  {
+    "id": "443",
+    "name": "Xhamia Shemshovë",
+    "city": "Tetovë",
+    "village": "Shemshovë",
+    "address": "Fshati, Shemshovë Tetovë",
+    "lat": 42.023244,
+    "lng": 21.079291
+  },
+  {
+    "id": "444",
+    "name": "Xhamia e Poshtme Shipkovicë",
+    "city": "Tetovë",
+    "village": "Shipkovicë",
+    "address": "Fshati, Shipkovicë Tetovë",
+    "lat": 42.034404,
+    "lng": 20.916812
+  },
+  {
+    "id": "445",
+    "name": "Xhamia e Epërme Shipkovicë",
+    "city": "Tetovë",
+    "village": "Shipkovicë",
+    "address": "Fshati, Shipkovicë Tetovë",
+    "lat": 42.035330,
+    "lng": 20.915338
+  },
+  {
+    "id": "446",
+    "name": "Xhamia e fshatit Shishovë",
+    "city": "Shkup",
+    "village": "Shishovë",
+    "address": "Fshati, Shishovë Shkup",
+    "lat": 41.972456,
+    "lng": 21.310521
+  },
+  {
+    "id": "447",
+    "name": "Xhamia Kapixhi Hamza",
+    "city": "Shkup",
+    "village": "",
+    "address": "Brigada e 7 shqiptare, Shkup",
+    "lat": 42.005395,
+    "lng": 21.444663
+  },
+  {
+    "id": "448",
+    "name": "Xhamia Sulltan Murat",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vasil Anxhelarski, Shkup",
+    "lat": 42.001585,
+    "lng": 21.441567
+  },
+  {
+    "id": "449",
+    "name": "Xhamia Isa Beg",
+    "city": "Shkup",
+    "village": "",
+    "address": "Rruga Otokar Kershovan, Shkup",
+    "lat": 42.003276,
+    "lng": 21.441825
+  },
+  {
+    "id": "450",
+    "name": "Xhamia Allaxha",
+    "city": "Shkup",
+    "village": "",
+    "address": "Bulevardi Nikolla Karev, Shkup",
+    "lat": 42.004655,
+    "lng": 21.439807
+  },
+  {
+    "id": "451",
+    "name": "Xhamia Murat Pasha",
+    "city": "Shkup",
+    "village": "",
+    "address": "Arhiepiskop Angelarij, Shkup",
+    "lat": 42.000820,
+    "lng": 21.437429
+  },
+  {
+    "id": "452",
+    "name": "Xhamia Mustafë Pasha",
+    "city": "Shkup",
+    "village": "",
+    "address": "Svekarska, Shkup",
+    "lat": 42.002056,
+    "lng": 21.435558
+  },
+  {
+    "id": "453",
+    "name": "Xhamia Arasta",
+    "city": "Shkup",
+    "village": "",
+    "address": "Bozhidar Adzija, Shkup",
+    "lat": 42.001965,
+    "lng": 21.436996
+  },
+  {
+    "id": "454",
+    "name": "Xhamia Haxhi Ballaban",
+    "city": "Shkup",
+    "village": "",
+    "address": "Bozhidar Adzija, Shkup",
+    "lat": 42.001384,
+    "lng": 21.437449
+  },
+  {
+    "id": "455",
+    "name": "Xhamia Muslihudin Abdulgani - Duqanxhik",
+    "city": "Shkup",
+    "village": "",
+    "address": "Slavej Planina, Shkup",
+    "lat": 42.006052,
+    "lng": 21.435622
+  },
+  {
+    "id": "456",
+    "name": "Xhamia Jahja Pasha",
+    "city": "Shkup",
+    "village": "",
+    "address": "Solunska, Shkup",
+    "lat": 42.007563,
+    "lng": 21.442309
+  },
+  {
+    "id": "457",
+    "name": "Xhamia Haxhi Jonuz",
+    "city": "Shkup",
+    "village": "",
+    "address": "Ordan Copella, Shkup",
+    "lat": 42.009020,
+    "lng": 21.445661
+  },
+  {
+    "id": "458",
+    "name": "Xhamia Hatunxhik",
+    "city": "Shkup",
+    "village": "",
+    "address": "Cairska, Shkup",
+    "lat": 42.006258,
+    "lng": 21.442669
+  },
+  {
+    "id": "459",
+    "name": "Xhamia Haxhi Qazim",
+    "city": "Shkup",
+    "village": "",
+    "address": "Rruga Cellopek, Shkup",
+    "lat": 42.003655,
+    "lng": 21.445249
+  },
+  {
+    "id": "460",
+    "name": "Xhamia Tutun Suz",
+    "city": "Shkup",
+    "village": "",
+    "address": "Ordan Copela, Shkup",
+    "lat": 42.002505,
+    "lng": 21.448269
+  },
+  {
+    "id": "461",
+    "name": "Xhamia Kasim Beu",
+    "city": "Shkup",
+    "village": "",
+    "address": "Petre Georgiev, Shkup",
+    "lat": 42.002340,
+    "lng": 21.445367
+  },
+  {
+    "id": "462",
+    "name": "Xhamia Kebir Mehmet Qelebi",
+    "city": "Shkup",
+    "village": "",
+    "address": "Grigor Përlicev, Shkup",
+    "lat": 41.999315,
+    "lng": 21.445234
+  },
+  {
+    "id": "463",
+    "name": "Xhamia Xhedid Isa Beg",
+    "city": "Shkup",
+    "village": "",
+    "address": "7 Korriku, Shkup",
+    "lat": 42.009206,
+    "lng": 21.438337
+  },
+  {
+    "id": "464",
+    "name": "Xhamia Haxhi Hajredin - Serovë",
+    "city": "Shkup",
+    "village": "",
+    "address": "Krimska, Shkup",
+    "lat": 42.010008,
+    "lng": 21.437477
+  },
+  {
+    "id": "465",
+    "name": "Xhamia Haxhi Muhjidin - Serovë",
+    "city": "Shkup",
+    "village": "",
+    "address": "Isamail Kadare, Shkup",
+    "lat": 42.008963,
+    "lng": 21.438538
+  },
+  {
+    "id": "466",
+    "name": "Xhamia Hudaverdi",
+    "city": "Shkup",
+    "village": "",
+    "address": "Atanas Babata, Shkup",
+    "lat": 42.003798,
+    "lng": 21.437561
+  },
+  {
+    "id": "467",
+    "name": "Xhamia Qose Kadi",
+    "city": "Shkup",
+    "village": "",
+    "address": "Salih Asim, Shkup",
+    "lat": 42.001171,
+    "lng": 21.436867
+  },
+  {
+    "id": "468",
+    "name": "Xhamia Bujar Shabani",
+    "city": "Shkup",
+    "village": "",
+    "address": "Maksut Sadikj, Shkup",
+    "lat": 42.01170668878043,
+    "lng": 21.433698353276952
+  },
+  {
+    "id": "469",
+    "name": "Xhamia e Re Cair",
+    "city": "Shkup",
+    "village": "",
+    "address": "Dobri Daskalov, Shkup",
+    "lat": 42.018899,
+    "lng": 21.445377
+  },
+  {
+    "id": "470",
+    "name": "Xhamia Uhud",
+    "city": "Shkup",
+    "village": "",
+    "address": "Dizhonska 13, Shkup",
+    "lat": 42.018638,
+    "lng": 21.438462
+  },
+  {
+    "id": "471",
+    "name": "Xhamia Abdulfetah Efendi",
+    "city": "Shkup",
+    "village": "",
+    "address": "Hristijan Todorvski Karposh, Shkup",
+    "lat": 42.024017893358796,
+    "lng": 21.45103538211392
+  },
+  {
+    "id": "472",
+    "name": "Xhamia Beder",
+    "city": "Shkup",
+    "village": "",
+    "address": "Cetinjska, Shkup",
+    "lat": 42.028744,
+    "lng": 21.442529
+  },
+  {
+    "id": "473",
+    "name": "Xhamia Hamdi Pasha",
+    "city": "Shkup",
+    "village": "",
+    "address": "Hadzhi Jovan Shishkov, Shkup",
+    "lat": 42.037125,
+    "lng": 21.425515
+  },
+  {
+    "id": "474",
+    "name": "Xhamia Othman Bin Afan",
+    "city": "Shkup",
+    "village": "",
+    "address": "Boulevard Slovenia, Shkup",
+    "lat": 42.028343,
+    "lng": 21.421546
+  },
+  {
+    "id": "475",
+    "name": "Xhamia Ebu Bekër",
+    "city": "Shkup",
+    "village": "",
+    "address": "Gvadalahara, Shkup",
+    "lat": 42.036915,
+    "lng": 21.432084
+  },
+  {
+    "id": "476",
+    "name": "Xhamia me dy minare Vizbeg",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vizbeg, Shkup",
+    "lat": 42.03282711275302,
+    "lng": 21.418064626295862
+  },
+  {
+    "id": "477",
+    "name": "Xhamia Vizbeg",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vizbeg, Shkup",
+    "lat": 42.028328,
+    "lng": 21.425992
+  },
+  {
+    "id": "478",
+    "name": "Xhamia Haxhi Azem",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vizbeg, Shkup",
+    "lat": 42.032765,
+    "lng": 21.428178
+  },
+  {
+    "id": "479",
+    "name": "Xhamia Mehmet Efendi Sadik",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vizbeg, Shkup",
+    "lat": 42.039060,
+    "lng": 21.415788
+  },
+  {
+    "id": "480",
+    "name": "Xhamia Nexhat Shahini Vizbeg",
+    "city": "Shkup",
+    "village": "",
+    "address": "Vizbeg, Shkup",
+    "lat": 42.03950931101237,
+    "lng": 21.402316068623676
+  },
+  {
+    "id": "481",
+    "name": "Xhamia Bilal Habeshi",
+    "city": "Shkup",
+    "village": "",
+    "address": "Shuto Orizare, Shkup",
+    "lat": 42.040388,
+    "lng": 21.423362
+  },
+  {
+    "id": "482",
+    "name": "Xhamia Mëshira - Tophane",
+    "city": "Shkup",
+    "village": "",
+    "address": "Metodija Mitevski, Shkup",
+    "lat": 42.020771,
+    "lng": 21.432396
+  },
+  {
+    "id": "483",
+    "name": "Xhamia Mesxhidi Tempo",
+    "city": "Shkup",
+    "village": "",
+    "address": "Shkup, Shkup",
+    "lat": 42.039990,
+    "lng": 21.396735
+  },
+  {
+    "id": "484",
+    "name": "Xhamia Spitali Shtetërorë",
+    "city": "Shkup",
+    "village": "",
+    "address": "Shkup, Shkup",
+    "lat": 41.987769,
+    "lng": 21.421143
+  },
+  {
+    "id": "485",
+    "name": "Xhamia Abdulkadër Arnauti",
+    "city": "Shkup",
+    "village": "",
+    "address": "Emin Duraku 1000, Shkup",
+    "lat": 42.01771918859941,
+    "lng": 21.444715334224373
+  },
+  {
+    "id": "486",
+    "name": "Xhamia Husamedin Mehdi Pasha",
+    "city": "Shtip",
+    "village": "",
+    "address": "Leninova, Shtip",
+    "lat": 41.735661,
+    "lng": 22.195482
+  },
+  {
+    "id": "487",
+    "name": "Xhamia Kadan Ana",
+    "city": "Shtip",
+    "village": "",
+    "address": "Mihajlo Apostolski 18, Shtip",
+    "lat": 41.737833,
+    "lng": 22.197925
+  },
+  {
+    "id": "488",
+    "name": "Xhamia e fshatit Shum",
+    "city": "Strugë",
+    "village": "Shum",
+    "address": "Fshati, Shum Strugë",
+    "lat": 41.184551,
+    "lng": 20.635086
+  },
+  {
+    "id": "489",
+    "name": "Xhamia e fshatit Shutovë",
+    "city": "Kërçovë",
+    "village": "Shutovë",
+    "address": "Fshati, Shutovë Kërçovë",
+    "lat": 41.548180,
+    "lng": 21.024168
+  },
+  {
+    "id": "490",
+    "name": "Xhamia e Vjetër e Simnicës",
+    "city": "Gostivar",
+    "village": "Simnicë",
+    "address": "Fshati, Simnicë Gostivar",
+    "lat": 41.720207,
+    "lng": 20.878476
+  },
+  {
+    "id": "491",
+    "name": "Xhamia e Re e Simnicës",
+    "city": "Gostivar",
+    "village": "Simnicë",
+    "address": "Fshati, Simnicë Gostivar",
+    "lat": 41.719410,
+    "lng": 20.881843
+  },
+  {
+    "id": "492",
+    "name": "Xhamia Siniçan",
+    "city": "Tetovë",
+    "village": "Siniçan",
+    "address": "Fshati, Siniçan Tetovë",
+    "lat": 41.937994,
+    "lng": 20.925420
+  },
+  {
+    "id": "493",
+    "name": "Xhamia Siniçan i Epërm",
+    "city": "Tetovë",
+    "village": "Siniçan i Epërm",
+    "address": "Fshati, Siniçan i Epërm Tetovë",
+    "lat": 41.939894,
+    "lng": 20.916643
+  },
+  {
+    "id": "494",
+    "name": "Xhamia e fshatit Skudrinje",
+    "city": "Dibër",
+    "village": "Skudrinje",
+    "address": "Fshati, Skudrinje Dibër",
+    "lat": 41.565388,
+    "lng": 20.610130
+  },
+  {
+    "id": "495",
+    "name": "Xhamia e fshatit Slivnik",
+    "city": "Veles",
+    "village": "Slivnik",
+    "address": "Fshati, Slivnik Veles",
+    "lat": 41.717052,
+    "lng": 21.671255
+  },
+  {
+    "id": "496",
+    "name": "Xhamia Qendrore Sllatinë",
+    "city": "Tetovë",
+    "village": "Sllatinë",
+    "address": "Fshati, Sllatinë Tetovë",
+    "lat": 42.067276,
+    "lng": 21.036256
+  },
+  {
+    "id": "497",
+    "name": "Xhamia e Re Sllatinë",
+    "city": "Tetovë",
+    "village": "Sllatinë",
+    "address": "Fshati, Sllatinë Tetovë",
+    "lat": 42.069630,
+    "lng": 21.046804
+  },
+  {
+    "id": "498",
+    "name": "Xhamia Halid Efendi Sllupçan",
+    "city": "Kumanovë",
+    "village": "Sllupçan",
+    "address": "Fshati, Sllupçan Kumanovë",
+    "lat": 42.175172144392185,
+    "lng": 21.626959710959962
+  },
+  {
+    "id": "499",
+    "name": "Xhamia Mulla Sadik Sllupçan",
+    "city": "Kumanovë",
+    "village": "Sllupçan",
+    "address": "Fshati, Sllupçan Kumanovë",
+    "lat": 42.17218550973764,
+    "lng": 21.632371722597096
+  },
+  {
+    "id": "500",
+    "name": "Xhamia e fshatit Sokollic",
+    "city": "Dibër",
+    "village": "Sokollic",
+    "address": "Fshati, Sokollic Dibër",
+    "lat": 41.535801,
+    "lng": 20.487503
+  },
+  {
+    "id": "501",
+    "name": "Xhamia e fshatit Sopot",
+    "city": "Kumanovë",
+    "village": "Sopot",
+    "address": "Fshati, Sopot Kumanovë",
+    "lat": 42.243443,
+    "lng": 21.729124
+  },
+  {
+    "id": "502",
+    "name": "Xhamia e Sopotskës",
+    "city": "Resnjë",
+    "village": "Sopotskë",
+    "address": "Fshati, Sopotskë Resnjë",
+    "lat": 41.085121,
+    "lng": 21.066360
+  },
+  {
+    "id": "503",
+    "name": "Xhamia e fshatit Spas",
+    "city": "Dibër",
+    "village": "Spas",
+    "address": "Fshati, Spas Dibër",
+    "lat": 41.550073,
+    "lng": 20.481430
+  },
+  {
+    "id": "504",
+    "name": "Xhamia e Strajanit",
+    "city": "Gostivar",
+    "village": "Strajani",
+    "address": "Fshati, Strajani Gostivar",
+    "lat": 41.722169,
+    "lng": 20.999014
+  },
+  {
+    "id": "505",
+    "name": "Xhamia e fshatit Strellcë",
+    "city": "Kërçovë",
+    "village": "Strellcë",
+    "address": "Fshati, Strellcë Kërçovë",
+    "lat": 41.535820,
+    "lng": 21.008900
+  },
+  {
+    "id": "506",
+    "name": "Xhamia e fshatit Strima",
+    "city": "Kumanovë",
+    "village": "Strima",
+    "address": "Fshati, Strima Kumanovë",
+    "lat": 42.158893,
+    "lng": 21.524404
+  },
+  {
+    "id": "507",
+    "name": "Xhamia e Poshtme Strimnicë",
+    "city": "Tetovë",
+    "village": "Strimnicë",
+    "address": "Fshati, Strimnicë Tetovë",
+    "lat": 41.971450,
+    "lng": 21.027824
+  },
+  {
+    "id": "508",
+    "name": "Xhamia Qendrore Strimnicë",
+    "city": "Tetovë",
+    "village": "Strimnicë",
+    "address": "Fshati, Strimnicë Tetovë",
+    "lat": 41.966986,
+    "lng": 21.035275
+  },
+  {
+    "id": "509",
+    "name": "Xhamia Mustafa Çelebi Strugë",
+    "city": "Strugë",
+    "village": "",
+    "address": "Turistichka, Strugë",
+    "lat": 41.178516948826555,
+    "lng": 20.681079109042443
+  },
+  {
+    "id": "510",
+    "name": "Xhamia Lulishte Strugë",
+    "city": "Strugë",
+    "village": "",
+    "address": "E852, Strugë",
+    "lat": 41.175280683218226,
+    "lng": 20.660673495550988
+  },
+  {
+    "id": "511",
+    "name": "Xhamia Sulejman Arap Strugë",
+    "city": "Strugë",
+    "village": "",
+    "address": "Boro Shain, Strugë",
+    "lat": 41.17491928410937,
+    "lng": 20.67973291274995
+  },
+  {
+    "id": "512",
+    "name": "Xhamia Halveti Teqe Strugë",
+    "city": "Strugë",
+    "village": "",
+    "address": "Turistichka, Strugë",
+    "lat": 41.177895,
+    "lng": 20.683536
+  },
+  {
+    "id": "513",
+    "name": "Xhamia e Strugodicës",
+    "city": "Shkup",
+    "village": "Strugodicë",
+    "address": "Fshati, Strugodicë Shkup",
+    "lat": 41.860252,
+    "lng": 21.606930
+  },
+  {
+    "id": "514",
+    "name": "Xhamia Orta Mahahalle Strumicë",
+    "city": "Strumicë",
+    "village": "",
+    "address": "Josif Josifovski Sveshator, Strumicë",
+    "lat": 41.435767,
+    "lng": 22.634842
+  },
+  {
+    "id": "515",
+    "name": "Xhamia Sejid Nur el Arabi Strumicë",
+    "city": "Strumicë",
+    "village": "",
+    "address": "Ul 7, Strumicë",
+    "lat": 41.429095,
+    "lng": 22.640999
+  },
+  {
+    "id": "516",
+    "name": "Xhamia Fatih Sulltan Mehmet Studeniçan",
+    "city": "Shkup",
+    "village": "Studeniçan",
+    "address": "Fshati, Studeniçan Shkup",
+    "lat": 41.914984,
+    "lng": 21.529087
+  },
+  {
+    "id": "517",
+    "name": "Xhamia Medah Studeniçan",
+    "city": "Shkup",
+    "village": "Studeniçan",
+    "address": "Fshati, Studeniçan Shkup",
+    "lat": 41.920119,
+    "lng": 21.535421
+  },
+  {
+    "id": "518",
+    "name": "Xhamia Hafëz Xhavit Efendi Ibrahimi Studeniçan",
+    "city": "Shkup",
+    "village": "Studeniçan",
+    "address": "Fshati, Studeniçan Shkup",
+    "lat": 41.925579,
+    "lng": 21.530586
+  },
+  {
+    "id": "519",
+    "name": "Xhamia Ataullah Studeniçan",
+    "city": "Shkup",
+    "village": "Studeniçan",
+    "address": "Fshati, Studeniçan Shkup",
+    "lat": 41.913987,
+    "lng": 21.530177
+  },
+  {
+    "id": "520",
+    "name": "Xhamia e Supurgës Radovish",
+    "city": "Radovish",
+    "village": "Supurg",
+    "address": "Fshati, Supurg Radovish",
+    "lat": 41.678442,
+    "lng": 22.401764
+  },
+  {
+    "id": "521",
+    "name": "Xhamia e fshatit Svillare e Epërme",
+    "city": "Shkup",
+    "village": "Svillarë",
+    "address": "Fshati, Svillarë Shkup",
+    "lat": 42.042504,
+    "lng": 21.279963
+  },
+  {
+    "id": "522",
+    "name": "Xhamia e fshatit Svillare e Poshtme",
+    "city": "Shkup",
+    "village": "Svillarë",
+    "address": "Fshati, Svillarë Shkup",
+    "lat": 42.028022,
+    "lng": 21.286044
+  },
+  {
+    "id": "523",
+    "name": "Xhamia Koca Mehmet Bej Tabanoca",
+    "city": "Kumanovë",
+    "village": "Tabanovc",
+    "address": "E75, Tabanovc Kumanovë",
+    "lat": 42.223592,
+    "lng": 21.700343
+  },
+  {
+    "id": "524",
+    "name": "Xhamia e Tanushës",
+    "city": "Gostivar",
+    "village": "Tanushë",
+    "address": "Fshati, Tanushë Gostivar",
+    "lat": 41.721965,
+    "lng": 20.572235
+  },
+  {
+    "id": "525",
+    "name": "Xhamia e Vjetër Tanushë",
+    "city": "Shkup",
+    "village": "Tanushë",
+    "address": "Fshati, Tanushë Shkup",
+    "lat": 42.238584,
+    "lng": 21.400664
+  },
+  {
+    "id": "526",
+    "name": "Xhamia e Re Tanushë",
+    "city": "Shkup",
+    "village": "Tanushë",
+    "address": "Fshati, Tanushë Shkup",
+    "lat": 42.242784,
+    "lng": 21.392114
+  },
+  {
+    "id": "527",
+    "name": "Xhamia e fshatit Tatesh i epërm",
+    "city": "Strugë",
+    "village": "Tatesh i Epërm",
+    "address": "Fshati, Tatesh i Epërm Strugë",
+    "lat": 41.260574,
+    "lng": 20.676505
+  },
+  {
+    "id": "528",
+    "name": "Xhamia e fshatit Tatesh i poshtëm",
+    "city": "Strugë",
+    "village": "Tatesh i Poshtëm",
+    "address": "Fshati, Tatesh i Poshtëm Strugë",
+    "lat": 41.258649,
+    "lng": 20.689580
+  },
+  {
+    "id": "529",
+    "name": "Xhamia e Re Tearcë",
+    "city": "Tetovë",
+    "village": "Tearcë",
+    "address": "Fshati, Tearcë Tetovë",
+    "lat": 42.07537781469245,
+    "lng": 21.052304910805326
+  },
+  {
+    "id": "530",
+    "name": "Xhamia e Epërme Tearcë",
+    "city": "Tetovë",
+    "village": "Tearcë",
+    "address": "Fshati, Tearcë Tetovë",
+    "lat": 42.079707,
+    "lng": 21.055580
+  },
+  {
+    "id": "531",
+    "name": "Xhamia e fshatit Teferic",
+    "city": "Strugë",
+    "village": "Teferic",
+    "address": "Fshati, Teferic Strugë",
+    "lat": 41.171577,
+    "lng": 20.644335
+  },
+  {
+    "id": "532",
+    "name": "Xhamia e Epërme Tenovë",
+    "city": "Tetovë",
+    "village": "Tenovë",
+    "address": "Fshati, Tenovë Tetovë",
+    "lat": 41.894976,
+    "lng": 20.984459
+  },
+  {
+    "id": "533",
+    "name": "Xhamia e Poshtme Tenovë",
+    "city": "Tetovë",
+    "village": "Tenovë",
+    "address": "Fshati, Tenovë Tetovë",
+    "lat": 41.892135,
+    "lng": 20.978587
+  },
+  {
+    "id": "534",
+    "name": "Xhamia e Tërnovës",
+    "city": "Gostivar",
+    "village": "Tërnovë",
+    "address": "Fshati, Tërnovë Gostivar",
+    "lat": 41.736645,
+    "lng": 20.987859
+  },
+  {
+    "id": "535",
+    "name": "Xhamia e Pashës",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Vellezerit Milladinovi, Tetovë",
+    "lat": 42.005751,
+    "lng": 20.966783
+  },
+  {
+    "id": "536",
+    "name": "Xhamia e Banjës",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Banjë, Tetovë",
+    "lat": 42.025407,
+    "lng": 20.943588
+  },
+  {
+    "id": "537",
+    "name": "Xhamia f. Llacë",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Fshati Llacë, Tetovë",
+    "lat": 42.025729,
+    "lng": 20.956339
+  },
+  {
+    "id": "538",
+    "name": "Xhamia e Epërme Reçicë e Vogël",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Fshati, Tetovë",
+    "lat": 41.992570,
+    "lng": 20.945375
+  },
+  {
+    "id": "539",
+    "name": "Xhamia e Rinisë",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Vardarskë, Tetovë",
+    "lat": 41.998945,
+    "lng": 20.965492
+  },
+  {
+    "id": "540",
+    "name": "Xhamia Eski",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Probishtipska, Tetovë",
+    "lat": 42.011148,
+    "lng": 20.973612
+  },
+  {
+    "id": "541",
+    "name": "Xhamia Gam-Gam",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Rruga e Butiqeve, Tetovë",
+    "lat": 42.008431,
+    "lng": 20.967948
+  },
+  {
+    "id": "542",
+    "name": "Xhamia Muharemçe",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Çarshia e Epërme, Tetovë",
+    "lat": 42.009260,
+    "lng": 20.961938
+  },
+  {
+    "id": "543",
+    "name": "Xhamia e Vjetër Drenovec",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Drenovec, Tetovë",
+    "lat": 42.022188,
+    "lng": 20.985658
+  },
+  {
+    "id": "544",
+    "name": "Xhamia e Re Drenovec",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Drenovec, Tetovë",
+    "lat": 42.020147,
+    "lng": 20.979703
+  },
+  {
+    "id": "545",
+    "name": "Xhamia e Dardanisë",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Dardani, Tetovë",
+    "lat": 41.998129,
+    "lng": 20.980885
+  },
+  {
+    "id": "546",
+    "name": "Xhamia e Sahatit",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Todor Cipovski - Merdjan, Tetovë",
+    "lat": 42.011430,
+    "lng": 20.969166
+  },
+  {
+    "id": "547",
+    "name": "Xhamia e Re Teqe",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Teqe, Tetovë",
+    "lat": 42.000119,
+    "lng": 20.958221
+  },
+  {
+    "id": "548",
+    "name": "Xhamia e Tabhanes",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Mirçe Acev, Tetovë",
+    "lat": 42.013725,
+    "lng": 20.974646
+  },
+  {
+    "id": "549",
+    "name": "Xhamia Arabati",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Teqe, Tetovë",
+    "lat": 42.003537,
+    "lng": 20.956490
+  },
+  {
+    "id": "550",
+    "name": "Xhamia e Madhe",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Çarshia e Epërme, Tetovë",
+    "lat": 42.009992,
+    "lng": 20.963227
+  },
+  {
+    "id": "551",
+    "name": "Xhamia Firdeus",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Van Vardarskë, Tetovë",
+    "lat": 41.990080,
+    "lng": 20.965077
+  },
+  {
+    "id": "552",
+    "name": "Xhamia e Kalimtarëve",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Pagesa Rrugore, Tetovë",
+    "lat": 41.976183,
+    "lng": 20.956055
+  },
+  {
+    "id": "553",
+    "name": "Myftinia e Tetovës",
+    "city": "Tetovë",
+    "village": "",
+    "address": "Gjorçe Petrov Nr. 68, Tetovë",
+    "lat": 42.006655,
+    "lng": 20.963714
+  },
+  {
+    "id": "554",
+    "name": "Xhamia e fshatit Tisovicë",
+    "city": "Shkup",
+    "village": "Tisovicë",
+    "address": "Fshati, Tisovicë Shkup",
+    "lat": 41.820885,
+    "lng": 21.538634
+  },
+  {
+    "id": "555",
+    "name": "Xhamia e Vjetër e Toplicës",
+    "city": "Gostivar",
+    "village": "Toplicë",
+    "address": "Fshati, Toplicë Gostivar",
+    "lat": 41.858931,
+    "lng": 20.886491
+  },
+  {
+    "id": "556",
+    "name": "Xhamia e Re e Toplicës",
+    "city": "Gostivar",
+    "village": "Toplicë",
+    "address": "R1206, Toplicë Gostivar",
+    "lat": 41.858158,
+    "lng": 20.889708
+  },
+  {
+    "id": "557",
+    "name": "Xhamia e Toplinicës",
+    "city": "Radovish",
+    "village": "Toplinicë",
+    "address": "Fshati, Toplinicë Radovish",
+    "lat": 41.656869,
+    "lng": 22.377698
+  },
+  {
+    "id": "558",
+    "name": "Xhamia e fshatit Trapçindoll",
+    "city": "Kërçovë",
+    "village": "Trapçindoll",
+    "address": "E65, Trapçindoll Kërçovë",
+    "lat": 41.558718,
+    "lng": 20.963327
+  },
+  {
+    "id": "559",
+    "name": "Xhamia e fshatit Trebisht e Re",
+    "city": "Dibër",
+    "village": "Trebisht",
+    "address": "Fshati, Trebisht Dibër",
+    "lat": 41.627862,
+    "lng": 20.590462
+  },
+  {
+    "id": "560",
+    "name": "Xhamia e fshatit Trebisht e Vjetër",
+    "city": "Dibër",
+    "village": "Trebisht",
+    "address": "Fshati, Trebisht Dibër",
+    "lat": 41.628337,
+    "lng": 20.588492
+  },
+  {
+    "id": "561",
+    "name": "Xhamia Trebosh",
+    "city": "Tetovë",
+    "village": "Trebosh",
+    "address": "Fshati, Trebosh Tetovë",
+    "lat": 42.013344,
+    "lng": 21.032837
+  },
+  {
+    "id": "562",
+    "name": "Xhamia e fshatit Tuhin",
+    "city": "Kërçovë",
+    "village": "Tuhin",
+    "address": "Fshati, Tuhin Kërçovë",
+    "lat": 41.618410,
+    "lng": 21.044699
+  },
+  {
+    "id": "563",
+    "name": "Xhamia e Turçanit Madh",
+    "city": "Gostivar",
+    "village": "Turçan i Madh",
+    "address": "Fshati, Turçan i Madh Gostivar",
+    "lat": 41.772988,
+    "lng": 20.935531
+  },
+  {
+    "id": "564",
+    "name": "Xhamia e Re e Turçanit të Vogël",
+    "city": "Gostivar",
+    "village": "Turçan i Vogël",
+    "address": "Fshati, Turçan i Vogël Gostivar",
+    "lat": 41.786680,
+    "lng": 20.937372
+  },
+  {
+    "id": "565",
+    "name": "Xhamia e Vjetër e Turçanit të Vogël",
+    "city": "Gostivar",
+    "village": "Turçan i Vogël",
+    "address": "Fshati, Turçan i Vogël Gostivar",
+    "lat": 41.786883,
+    "lng": 20.930930
+  },
+  {
+    "id": "566",
+    "name": "Xhamia Urviç",
+    "city": "Tetovë",
+    "village": "Urviç",
+    "address": "Fshati, Urviç Tetovë",
+    "lat": 41.948528,
+    "lng": 20.894400
+  },
+  {
+    "id": "567",
+    "name": "Xhamia Uzurmisht",
+    "city": "Tetovë",
+    "village": "Uzurmisht",
+    "address": "Fshati, Uzurmisht Tetovë",
+    "lat": 42.014133,
+    "lng": 21.069920
+  },
+  {
+    "id": "568",
+    "name": "Xhamia e fshatit Vaksincë",
+    "city": "Kumanovë",
+    "village": "Vaksincë",
+    "address": "Fshati, Vaksincë Kumanovë",
+    "lat": 42.207872,
+    "lng": 21.660424
+  },
+  {
+    "id": "569",
+    "name": "Xhamia Vejcë",
+    "city": "Tetovë",
+    "village": "Vejcë",
+    "address": "Fshati, Vejcë Tetovë",
+    "lat": 42.082100,
+    "lng": 20.923892
+  },
+  {
+    "id": "570",
+    "name": "Xhamia e fshatit Velebrod",
+    "city": "Dibër",
+    "village": "Velebrod",
+    "address": "Fshati, Velebrod Dibër",
+    "lat": 41.616762,
+    "lng": 20.598215
+  },
+  {
+    "id": "571",
+    "name": "Xhamia Veles",
+    "city": "Veles",
+    "village": "",
+    "address": "Kole Cvetkov, Veles",
+    "lat": 41.710505,
+    "lng": 21.786212
+  },
+  {
+    "id": "572",
+    "name": "Xhamia Qendrore Veleshtë",
+    "city": "Strugë",
+    "village": "Veleshtë",
+    "address": "Fshati, Veleshtë Strugë",
+    "lat": 41.24053650251658,
+    "lng": 20.64151521141313
+  },
+  {
+    "id": "573",
+    "name": "Xhamia Teqe Veleshtë",
+    "city": "Strugë",
+    "village": "Veleshtë",
+    "address": "Fshati, Veleshtë Strugë",
+    "lat": 41.24281150755691,
+    "lng": 20.64266319689502
+  },
+  {
+    "id": "574",
+    "name": "Xhamia e Re e Vërbjanës",
+    "city": "Gostivar",
+    "village": "Vërbjan",
+    "address": "Fshati, Vërbjan Gostivar",
+    "lat": 41.684754,
+    "lng": 20.633520
+  },
+  {
+    "id": "575",
+    "name": "Xhamia e Vjetër e Vërbjanës",
+    "city": "Gostivar",
+    "village": "Vërbjan",
+    "address": "Fshati, Vërbjan Gostivar",
+    "lat": 41.684032,
+    "lng": 20.635719
+  },
+  {
+    "id": "576",
+    "name": "Xhamia e Vërtekicës",
+    "city": "Shkup",
+    "village": "Vërtekicë",
+    "address": "Fshati, Vërtekicë Shkup",
+    "lat": 41.885667,
+    "lng": 21.510611
+  },
+  {
+    "id": "577",
+    "name": "Xhamia e Vërtokut",
+    "city": "Gostivar",
+    "village": "Vërtok",
+    "address": "Fshati, Vërtok Gostivar",
+    "lat": 41.767419,
+    "lng": 20.838382
+  },
+  {
+    "id": "578",
+    "name": "Xhamia Veshallë",
+    "city": "Tetovë",
+    "village": "Veshallë",
+    "address": "Fshati, Veshallë Tetovë",
+    "lat": 42.061947,
+    "lng": 20.847210
+  },
+  {
+    "id": "579",
+    "name": "Xhamia e fshatit Vidushe",
+    "city": "Dibër",
+    "village": "Vidushe",
+    "address": "Fshati, Vidushe Dibër",
+    "lat": 41.657990,
+    "lng": 20.589765
+  },
+  {
+    "id": "580",
+    "name": "Xhamia Sefer Baba Vinicë",
+    "city": "Vinicë",
+    "village": "",
+    "address": "Ivo Lola Ribar, Vinicë",
+    "lat": 41.879228,
+    "lng": 22.506228
+  },
+  {
+    "id": "581",
+    "name": "Xhamia e fshatit Vishticë",
+    "city": "Kumanovë",
+    "village": "Vishticë",
+    "address": "Fshati, Vishticë Kumanovë",
+    "lat": 42.099454,
+    "lng": 21.591643
+  },
+  {
+    "id": "582",
+    "name": "Xhamia e fshatit Vodovratë",
+    "city": "Negotinë",
+    "village": "Vodovratë",
+    "address": "Fshati, Vodovratë Negotinë",
+    "lat": 41.582740,
+    "lng": 21.879491
+  },
+  {
+    "id": "583",
+    "name": "Xhamia e fshatit Vojnoviç",
+    "city": "Kumanovë",
+    "village": "Vojnoviç",
+    "address": "R1104, Vojnoviç Kumanovë",
+    "lat": 42.227886,
+    "lng": 21.716445
+  },
+  {
+    "id": "584",
+    "name": "Xhamia e Vranjovcës",
+    "city": "Gostivar",
+    "village": "Vranjovc",
+    "address": "Fshati, Vranjovc Gostivar",
+    "lat": 41.825669,
+    "lng": 20.868635
+  },
+  {
+    "id": "585",
+    "name": "Xhamia e fshatit Vranjovcë",
+    "city": "Veles",
+    "village": "Vranjovcë",
+    "address": "Fshati, Vranjovcë Veles",
+    "lat": 41.681127,
+    "lng": 21.555952
+  },
+  {
+    "id": "586",
+    "name": "Xhamia Jeni e Vrapçishtes",
+    "city": "Gostivar",
+    "village": "Vrapçisht",
+    "address": "R1206, Vrapçisht Gostivar",
+    "lat": 41.837038,
+    "lng": 20.883760
+  },
+  {
+    "id": "587",
+    "name": "Xhamia Eski e Vrapçishtes",
+    "city": "Gostivar",
+    "village": "Vrapçisht",
+    "address": "Fshati, Vrapçisht Gostivar",
+    "lat": 41.835311,
+    "lng": 20.886086
+  },
+  {
+    "id": "588",
+    "name": "Xhamia Haxhi Ahmet e Vrapçishtës",
+    "city": "Gostivar",
+    "village": "Vrapçisht",
+    "address": "R1206, Vrapçisht Gostivar",
+    "lat": 41.832310,
+    "lng": 20.883375
+  },
+  {
+    "id": "589",
+    "name": "Xhamia e Vrezhallës",
+    "city": "Shkup",
+    "village": "Vrezhallë",
+    "address": "Fshati, Vrezhallë Shkup",
+    "lat": 41.882229,
+    "lng": 21.558092
+  },
+  {
+    "id": "590",
+    "name": "Xhamia Xhepçisht",
+    "city": "Tetovë",
+    "village": "Xhepçisht",
+    "address": "Fshati, Xhepçisht Tetovë",
+    "lat": 42.032267,
+    "lng": 20.997778
+  },
+  {
+    "id": "591",
+    "name": "Xhamia e fshatit Xhepisht",
+    "city": "Dibër",
+    "village": "Xhepisht",
+    "address": "Fshati, Xhepisht Dibër",
+    "lat": 41.443235,
+    "lng": 20.531875
+  },
+  {
+    "id": "592",
+    "name": "Xhamia e Vjeter e fshatit Zagraçan",
+    "city": "Strugë",
+    "village": "Zagraçan",
+    "address": "Fshati, Zagraçan Strugë",
+    "lat": 41.191434,
+    "lng": 20.626733
+  },
+  {
+    "id": "593",
+    "name": "Xhamia e fshatit Zagraçan",
+    "city": "Strugë",
+    "village": "Zagraçan",
+    "address": "Fshati, Zagraçan Strugë",
+    "lat": 41.189908,
+    "lng": 20.629608
+  },
+  {
+    "id": "594",
+    "name": "Xhamia Ukaj e fshatit Zajaz",
+    "city": "Kërçovë",
+    "village": "Zajaz",
+    "address": "Fshati, Zajaz Kërçovë",
+    "lat": 41.617413,
+    "lng": 20.939768
+  },
+  {
+    "id": "595",
+    "name": "Xhamia Celikaj e fshatit Zajaz",
+    "city": "Kërçovë",
+    "village": "Zajaz",
+    "address": "Fshati, Zajaz Kërçovë",
+    "lat": 41.613467,
+    "lng": 20.948310
+  },
+  {
+    "id": "596",
+    "name": "Xhamia Xhuma e fshatit Zajaz",
+    "city": "Kërçovë",
+    "village": "Zajaz",
+    "address": "Fshati, Zajaz Kërçovë",
+    "lat": 41.607708,
+    "lng": 20.938391
+  },
+  {
+    "id": "597",
+    "name": "Xhamia Dumaj e fshatit Zajaz",
+    "city": "Kërçovë",
+    "village": "Zajaz",
+    "address": "Fshati, Zajaz Kërçovë",
+    "lat": 41.599848,
+    "lng": 20.934624
+  },
+  {
+    "id": "598",
+    "name": "Xhamia Teqe e fshatit Zajaz",
+    "city": "Kërçovë",
+    "village": "Zajaz",
+    "address": "Fshati, Zajaz Kërçovë",
+    "lat": 41.594597,
+    "lng": 20.940063
+  },
+  {
+    "id": "599",
+    "name": "Xhamia e Zdunjës",
+    "city": "Gostivar",
+    "village": "Zdunjë",
+    "address": "Fshati, Zdunjë Gostivar",
+    "lat": 41.794375,
+    "lng": 20.876000
+  },
+  {
+    "id": "600",
+    "name": "Xhamia e Zelenikovës",
+    "city": "Shkup",
+    "village": "Zelenikovë",
+    "address": "Fshati, Zelenikovë Shkup",
+    "lat": 41.869448,
+    "lng": 21.608480
+  },
+  {
+    "id": "601",
+    "name": "Xhamia Qendrore Zhelinë",
+    "city": "Tetovë",
+    "village": "Zhelinë",
+    "address": "Fshati, Zhelinë Tetovë",
+    "lat": 41.982909,
+    "lng": 21.062879
+  },
+  {
+    "id": "602",
+    "name": "Xhamia e Epërme Zhelinë",
+    "city": "Tetovë",
+    "village": "Zhelinë",
+    "address": "Fshati, Zhelinë Tetovë",
+    "lat": 41.978274,
+    "lng": 21.063634
+  },
+  {
+    "id": "603",
+    "name": "Xhamia e fshatit Zhepin",
+    "city": "Strugë",
+    "village": "Zhepin",
+    "address": "Fshati, Zhepin Strugë",
+    "lat": 41.249811,
+    "lng": 20.739346
+  },
+  {
+    "id": "604",
+    "name": "Xhamia Zherovjan",
+    "city": "Tetovë",
+    "village": "Zherovjan",
+    "address": "Fshati, Zherovjan Tetovë",
+    "lat": 41.915627,
+    "lng": 20.947432
+  },
+  {
+    "id": "605",
+    "name": "Xhamia e fshatit Zhirovnic mahalla e Poshtme",
+    "city": "Dibër",
+    "village": "Zhirovnic",
+    "address": "Fshati, Zhirovnic Dibër",
+    "lat": 41.673689,
+    "lng": 20.590790
+  },
+  {
+    "id": "606",
+    "name": "Xhamia e fshatit Zhirovnic Qendër",
+    "city": "Dibër",
+    "village": "Zhirovnic",
+    "address": "Fshati, Zhirovnic Dibër",
+    "lat": 41.673757,
+    "lng": 20.586077
+  },
+  {
+    "id": "607",
+    "name": "Xhamia e fshatit Zhirovnic e Epërme",
+    "city": "Dibër",
+    "village": "Zhirovnic",
+    "address": "Fshati, Zhirovnic Dibër",
+    "lat": 41.676038,
+    "lng": 20.583986
+  },
+  {
+    "id": "608",
+    "name": "Xhamia e Zhitinenës",
+    "city": "Dibër",
+    "village": "Zhitinenë",
+    "address": "Fshati, Zhitinenë Dibër",
+    "lat": 41.470406,
+    "lng": 20.572789
+  },
+  {
+    "id": "609",
+    "name": "Xhamia e fshatit Zhitoshe",
+    "city": "Prilep",
+    "village": "Zhitoshe",
+    "address": "Fshati, Zhitoshe Prilep",
+    "lat": 41.419837,
+    "lng": 21.292532
+  },
+  {
+    "id": "610",
+    "name": "Xhamia e Epërme fshatit Zhitoshe",
+    "city": "Prilep",
+    "village": "Zhitoshe",
+    "address": "Ul 512, Zhitoshe Prilep",
+    "lat": 41.421544,
+    "lng": 21.281566
+  },
+  {
+    "id": "611",
+    "name": "Xhamia e Poshtme fshatit Zhitoshe",
+    "city": "Prilep",
+    "village": "Zhitoshe",
+    "address": "Ul 512, Zhitoshe Prilep",
+    "lat": 41.415286,
+    "lng": 21.299508
+  },
+  {
+    "id": "612",
+    "name": "Xhamia e fshatit Zhubrinë",
+    "city": "Kërçovë",
+    "village": "Zhubrinë",
+    "address": "Fshati, Zhubrinë Kërçovë",
+    "lat": 41.587614,
+    "lng": 21.009041
+  },
+  {
+    "id": "613",
+    "name": "Xhamia e fshatit Zllakuçan",
+    "city": "Kumanovë",
+    "village": "Zllakuçan",
+    "address": "Fshati, Zllakuçan Kumanovë",
+    "lat": 42.248425,
+    "lng": 21.545006
+  }
+]
